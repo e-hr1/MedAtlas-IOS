@@ -1,349 +1,225 @@
 
 <!DOCTYPE html>
-<html lang="ar">
+<html lang="ar" dir="rtl">
 <head>
-  <base href="/">
-
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080d20">
 
-  <meta name="theme-color" content="#10172d">
-  <meta name="description" content="MedAtlas - موسوعة الأجهزة الطبية الشاملة">
-
-  <meta name="mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-title" content="MedAtlas">
+  <title>MedAtlas | موسوعة الأجهزة الطبية</title>
 
   <link rel="icon" type="image/png" href="favicon.png">
-  <link rel="apple-touch-icon" href="icons/Icon-192.png">
-  <link rel="manifest" href="manifest.json">
+  <link rel="apple-touch-icon" href="favicon.png">
 
-  <title>MedAtlas</title>
+  <!-- Vercel -->
+  <base href="/">
+
+  <!-- Android Redirect Only -->
+  <script>
+    (function () {
+      const ua = navigator.userAgent || navigator.vendor || "";
+
+      const androidLink =
+        "https://play.google.com/store/apps/details?id=com.my.ElectroPro2024";
+
+      if (/Android/i.test(ua)) {
+        window.location.replace(androidLink);
+      }
+    })();
+  </script>
 
   <style>
     * {
+      margin: 0;
+      padding: 0;
       box-sizing: border-box;
     }
 
-    html, body {
-      margin: 0;
-      width: 100%;
-      height: 100%;
-      overflow: hidden;
+    body {
       font-family: Arial, sans-serif;
-      background: #10172d;
+      background: #080d20;
+      color: white;
+      overflow: hidden;
     }
 
     #loading-screen {
       position: fixed;
       inset: 0;
-      z-index: 99999;
+      z-index: 9999;
       display: flex;
       align-items: center;
       justify-content: center;
-      overflow: hidden;
+
       background:
-        radial-gradient(ellipse at 15% 20%, #344e9b 0%, transparent 45%),
-        radial-gradient(ellipse at 85% 75%, #593c91 0%, transparent 45%),
-        linear-gradient(145deg, #10172d, #172c55 55%, #251d48);
-      opacity: 1;
-      visibility: visible;
-      transition: opacity .65s ease, visibility .65s ease;
+        radial-gradient(circle at 20% 20%, #243d75 0%, transparent 40%),
+        radial-gradient(circle at 80% 80%, #35266d 0%, transparent 45%),
+        linear-gradient(135deg, #080d20, #111a35);
+
+      transition: opacity .7s ease, visibility .7s ease;
     }
 
-    #loading-screen.hide {
-      opacity: 0;
-      visibility: hidden;
-      pointer-events: none;
+    .glass-card {
+      width: min(88%, 390px);
+      padding: 42px 25px;
+      text-align: center;
+
+      border: 1px solid rgba(255,255,255,.16);
+      border-radius: 30px;
+
+      background: rgba(255,255,255,.08);
+
+      backdrop-filter: blur(25px);
+      -webkit-backdrop-filter: blur(25px);
+
+      box-shadow: 0 20px 70px rgba(0,0,0,.35);
+
+      animation: appear 1s ease;
     }
 
-    /* الإضاءات الخلفية */
+    .logo {
+      width: 100px;
+      height: 100px;
+      object-fit: contain;
+      border-radius: 25px;
+      margin-bottom: 20px;
 
-    .orb {
-      position: absolute;
-      border-radius: 50%;
-      filter: blur(2px);
-      pointer-events: none;
-      animation: float 8s ease-in-out infinite;
+      filter: drop-shadow(0 0 20px rgba(90,121,248,.4));
+
+      animation: float 3s ease-in-out infinite;
     }
 
-    .orb-one {
-      width: 220px;
-      height: 220px;
-      top: 8%;
-      left: -90px;
-      background: radial-gradient(circle, #6b9cff66, transparent 70%);
+    h1 {
+      font-size: 32px;
+      letter-spacing: 1px;
+      margin-bottom: 12px;
     }
 
-    .orb-two {
-      width: 280px;
-      height: 280px;
-      bottom: 5%;
-      right: -110px;
-      background: radial-gradient(circle, #b68aff55, transparent 70%);
-      animation-delay: -3s;
+    .subtitle {
+      font-size: 14px;
+      color: #c5d0ed;
+      line-height: 1.9;
+      margin-bottom: 30px;
     }
 
-    .orb-three {
-      width: 130px;
-      height: 130px;
-      top: 55%;
-      left: 12%;
-      background: radial-gradient(circle, #60d7ff35, transparent 70%);
-      animation-delay: -5s;
+    .loader {
+      width: 100%;
+      height: 5px;
+      background: rgba(255,255,255,.12);
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .loader span {
+      display: block;
+      width: 35%;
+      height: 100%;
+      border-radius: 20px;
+
+      background: linear-gradient(90deg, #5a79f8, #9b8cff);
+
+      animation: loading 2s ease-in-out infinite;
+    }
+
+    .loading-text {
+      margin-top: 15px;
+      font-size: 12px;
+      color: #aab8df;
+    }
+
+    @keyframes loading {
+      0% {
+        transform: translateX(250%);
+      }
+
+      100% {
+        transform: translateX(-350%);
+      }
     }
 
     @keyframes float {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-25px); }
-    }
+      0%, 100% {
+        transform: translateY(0);
+      }
 
-    /* المحتوى */
-
-    .content {
-      position: relative;
-      z-index: 2;
-      width: min(88%, 380px);
-      padding: 38px 25px;
-      display: flex;
-      align-items: center;
-      flex-direction: column;
-      text-align: center;
-
-      background: rgba(255, 255, 255, .075);
-      border: 1px solid rgba(255, 255, 255, .19);
-      border-radius: 34px;
-
-      backdrop-filter: blur(28px);
-      -webkit-backdrop-filter: blur(28px);
-
-      box-shadow:
-        0 25px 70px rgba(0, 0, 0, .25),
-        inset 0 1px 1px rgba(255, 255, 255, .25);
-
-      animation: appear 1s ease both;
+      50% {
+        transform: translateY(-10px);
+      }
     }
 
     @keyframes appear {
       from {
         opacity: 0;
-        transform: translateY(25px) scale(.94);
+        transform: translateY(20px) scale(.96);
       }
+
       to {
         opacity: 1;
         transform: translateY(0) scale(1);
       }
     }
 
-    /* أيقونة التطبيق */
-
-    .logo-glass {
-      width: 112px;
-      height: 112px;
-      padding: 10px;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      border-radius: 30px;
-      background: linear-gradient(
-        145deg,
-        rgba(255,255,255,.28),
-        rgba(255,255,255,.06)
-      );
-
-      border: 1px solid rgba(255,255,255,.4);
-
-      box-shadow:
-        0 12px 35px rgba(0,0,0,.2),
-        inset 0 2px 8px rgba(255,255,255,.2);
-
-      animation: logoFloat 4s ease-in-out infinite;
-    }
-
-    .logo-glass img {
-      width: 100%;
-      height: 100%;
-      object-fit: contain;
-      border-radius: 22px;
-    }
-
-    @keyframes logoFloat {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-9px); }
-    }
-
-    /* اسم التطبيق */
-
-    .app-title {
-      margin-top: 27px;
-      color: #fff;
-      font-size: 32px;
-      font-weight: 800;
-      letter-spacing: 1px;
-      text-shadow: 0 4px 20px #75a7ff55;
-    }
-
-    .app-description {
-      margin-top: 10px;
-      color: rgba(255,255,255,.72);
-      font-size: 13px;
-      line-height: 1.9;
-    }
-
-    .divider {
-      width: 55px;
-      height: 3px;
-      border-radius: 10px;
-      margin: 23px 0;
-      background: linear-gradient(90deg, #75caff, #a68cff);
-      box-shadow: 0 0 15px #75aaff88;
-    }
-
-    /* مؤشر التحميل */
-
-    .loading-box {
-      width: 100%;
-      padding: 14px;
-      border-radius: 18px;
-
-      background: rgba(255,255,255,.075);
-      border: 1px solid rgba(255,255,255,.13);
-
-      backdrop-filter: blur(15px);
-      -webkit-backdrop-filter: blur(15px);
-    }
-
-    .loading-track {
-      width: 100%;
-      height: 5px;
-      overflow: hidden;
-      border-radius: 20px;
-      background: rgba(255,255,255,.14);
-    }
-
-    .loading-bar {
-      width: 35%;
-      height: 100%;
-      border-radius: 20px;
-      background: linear-gradient(90deg, #68caff, #a58bff);
-      box-shadow: 0 0 15px #8caaff;
-      animation: progress 1.5s ease-in-out infinite;
-    }
-
-    @keyframes progress {
-      0% { transform: translateX(-110%); }
-      100% { transform: translateX(310%); }
-    }
-
-    .loading-text {
-      margin-top: 13px;
-      color: rgba(255,255,255,.8);
-      font-size: 12px;
-      letter-spacing: .2px;
-    }
-
-    .footer {
-      margin-top: 27px;
-      color: rgba(255,255,255,.42);
-      font-size: 10px;
-      letter-spacing: 1px;
-    }
-
-    /* الهواتف الصغيرة */
-
-    @media(max-height: 600px) {
-      .content {
-        padding: 20px;
-      }
-
-      .logo-glass {
-        width: 75px;
-        height: 75px;
-        border-radius: 22px;
-      }
-
-      .app-title {
-        margin-top: 14px;
-        font-size: 25px;
-      }
-
-      .divider {
-        margin: 13px 0;
-      }
-
-      .footer {
-        margin-top: 15px;
-      }
-    }
-
-    @media(prefers-reduced-motion: reduce) {
-      *, *::before, *::after {
-        animation-duration: .01ms !important;
-        animation-iteration-count: 1 !important;
-      }
+    #loading-screen.hide {
+      opacity: 0;
+      visibility: hidden;
     }
   </style>
 </head>
 
 <body>
 
+  <!-- Liquid Glass Loading Screen -->
   <div id="loading-screen">
 
-    <div class="orb orb-one"></div>
-    <div class="orb orb-two"></div>
-    <div class="orb orb-three"></div>
+    <div class="glass-card">
 
-    <div class="content">
+      <img
+        src="favicon.png"
+        alt="MedAtlas Logo"
+        class="logo"
+      >
 
-      <div class="logo-glass">
-        <img src="favicon.png" alt="MedAtlas Logo">
-      </div>
+      <h1>MedAtlas</h1>
 
-      <div class="app-title">MedAtlas</div>
-
-      <div class="app-description">
+      <p class="subtitle">
         موسوعة الأجهزة الطبية الشاملة
         <br>
-        Medical Equipment Knowledge Platform
+        تعلّم، اكتشف، ووسّع معرفتك الطبية
+      </p>
+
+      <div class="loader">
+        <span></span>
       </div>
 
-      <div class="divider"></div>
-
-      <div class="loading-box">
-
-        <div class="loading-track">
-          <div class="loading-bar"></div>
-        </div>
-
-        <div class="loading-text">
-          جاري تجهيز التطبيق...
-        </div>
-
-      </div>
-
-      <div class="footer">
-        KNOWLEDGE • TECHNOLOGY • MEDICAL ENGINEERING
-      </div>
+      <p class="loading-text">
+        جاري تجهيز التطبيق...
+      </p>
 
     </div>
+
   </div>
 
+  <!-- Flutter Application -->
+  <script src="flutter_bootstrap.js" async></script>
+
+  <!-- Hide Loading Screen After Flutter First Frame -->
   <script>
-    window.addEventListener('flutter-first-frame', function () {
-      const screen = document.getElementById('loading-screen');
+    window.addEventListener("flutter-first-frame", function () {
+
+      const screen = document.getElementById("loading-screen");
 
       if (screen) {
-        screen.classList.add('hide');
+
+        screen.classList.add("hide");
 
         setTimeout(function () {
           screen.remove();
-        }, 700);
+          document.body.style.overflow = "auto";
+        }, 750);
+
       }
+
     });
   </script>
-
-  <script src="flutter_bootstrap.js" async></script>
 
 </body>
 </html>
