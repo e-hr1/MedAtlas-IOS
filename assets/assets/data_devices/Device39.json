@@ -1,0 +1,296 @@
+{
+  "id": 39,
+  "name": {
+    "ar": "جهاز التصوير المقطعي المحوسب",
+    "en": "CT Scanner (Computed Tomography)"
+  },
+  "category": "radiology",
+  "icon": "sync-alt",
+  "shortDescription": {
+    "ar": "نظام تصوير تشخيصي متقدم – يُنتج صوراً مقطعية ثلاثية الأبعاد للجسم باستخدام الأشعة السينية وتقنيات المعالجة الرقمية",
+    "en": "Advanced Diagnostic Imaging System – Produces cross-sectional 3D images of the body using X-rays and digital processing techniques"
+  },
+  "images": [
+    "assets/image/Radiology/CT/CT1.webp",
+    "assets/image/Radiology/CT/CT2.webp",
+    "assets/image/Radiology/CT/CT3.webp",
+    "assets/image/Radiology/CT/CT4.webp"
+  ],
+  "description": {
+    "ar": "التصوير المقطعي المحوسب (Computed Tomography) هو تقنية تصوير طبي متقدمة تستخدم الأشعة السينية الدوارة وكواشف رقمية حساسة، إلى جانب خوارزميات رياضية معقدة، لإنتاج صور مقطعية تفصيلية للجسم. يُعد جهاز CT من أهم الأدوات التشخيصية في الطب الحديث، حيث يُستخدم في تشخيص الأورام، النزيف الداخلي، الكسور المعقدة، أمراض القلب والأوعية الدموية، وتوجيه العمليات الجراحية والتداخلية.",
+    "en": "Computed Tomography (CT) is an advanced medical imaging technique that uses rotating X-ray tubes and sensitive digital detectors, along with complex mathematical algorithms, to produce detailed cross-sectional images of the body. The CT scanner is one of the most important diagnostic tools in modern medicine, used in diagnosing tumors, internal bleeding, complex fractures, cardiovascular diseases, and guiding surgical and interventional procedures."
+  },
+  "uses": [
+    {
+      "ar": "تصوير الرأس والدماغ: تشخيص السكتات الدماغية، النزيف، الأورام، والرضوض الدماغية.",
+      "en": "Head and Brain Imaging: Diagnosis of strokes, hemorrhages, tumors, and traumatic brain injuries."
+    },
+    {
+      "ar": "تصوير الصدر: اكتشاف الأورام الرئوية، الانسداد الرئوي، وتقييم أمراض القلب.",
+      "en": "Chest Imaging: Detection of lung tumors, pulmonary embolism, and cardiac assessment."
+    },
+    {
+      "ar": "تصوير البطن والحوض: تشخيص أورام الكبد، البنكرياس، الكلى، والتطبيقات البولية.",
+      "en": "Abdominal and Pelvic Imaging: Diagnosis of liver, pancreatic, kidney tumors, and urological applications."
+    },
+    {
+      "ar": "تصوير العظام والمفاصل: تقييم الكسور المعقدة، الأورام العظمية، والتهابات العمود الفقري.",
+      "en": "Bone and Joint Imaging: Evaluation of complex fractures, bone tumors, and spinal infections."
+    },
+    {
+      "ar": "التصوير التداخلي (Interventional CT): توجيه أخذ الخزعات، تصريف الخراجات، وعلاج الأورام بالتردد الحراري.",
+      "en": "Interventional CT: Guidance for biopsies, abscess drainage, and radiofrequency tumor ablation."
+    },
+    {
+      "ar": "تصوير الأوعية (CTA): تقييم الشرايين والأوردة باستخدام مادة التباين الوريدية.",
+      "en": "Angiography (CTA): Assessment of arteries and veins using intravenous contrast material."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تدور حزمة الأشعة السينية والكواشف بشكل متزامن حول المريض لالتقاط آلاف الإسقاطات، والتي تحولها الكواشف إلى إشارات رقمية يعالجها حاسوب قوي باستخدام خوارزميات إعادة البناء لإنتاج صور مقطعية دقيقة.",
+    "en": "The X-ray beam and detectors rotate synchronously around the patient to capture thousands of projections, which are converted by detectors into digital signals processed by a powerful computer using reconstruction algorithms to produce precise cross-sectional images."
+  },
+  "workingSteps": [
+    {
+      "ar": "مصدر الأشعة (أنبوب الأشعة السينية): يصدر حزمة أشعة سينية عالية الطاقة (تصل إلى 140 كيلوفولت) باتجاه المريض من داخل الحلقة الدوارة (Gantry).",
+      "en": "X-Ray Source (X-Ray Tube): Emits a high-energy X-ray beam toward the patient from inside the rotating gantry."
+    },
+    {
+      "ar": "الكواشف (Detectors): تحول مجموعة الكواشف الصلبة الأشعة المارة عبر الجسم إلى إشارات كهربائية رقمية.",
+      "en": "Detectors: Solid-state detectors convert X-rays passing through the body into digital electrical signals."
+    },
+    {
+      "ar": "الدوران والتقاط البيانات: تدور حزمة الأشعة والكواشف (360 درجة) لالتقاط آلاف الإسقاطات من زوايا متعددة بالتزامن مع حركة الطاولة.",
+      "en": "Rotation and Data Acquisition: The beam and detectors rotate (360 degrees) to capture thousands of projections from multiple angles along with table movement."
+    },
+    {
+      "ar": "معالجة البيانات وإعادة البناء (Reconstruction): يُعالج حاسوب قوي الإشارات باستخدام خوارزميات رياضية لإعادة بناء الصور المقطعية في مستويات مختلفة.",
+      "en": "Data Processing and Reconstruction: A powerful computer processes signals using mathematical algorithms to reconstruct cross-sectional images in various planes."
+    }
+  ],
+  "highlight": {
+    "ar": "تعتمد جودة صورة CT بشكل كبير على جرعة الإشعاع (مبدأ ALARA)، وتستخدم الأجهزة الحديثة تقنيات متقدمة مثل التعديل التلقائي للتيار والتصوير الطيفي (Dual-Energy CT).",
+    "en": "CT image quality depends heavily on radiation dose (ALARA principle), with modern systems using advanced techniques like automatic tube current modulation and Dual-Energy CT."
+  },
+  "components": [
+    {
+      "ar": "الحلقة الدوارة (Gantry) مع نظام الدوران",
+      "en": "Gantry with Rotation System"
+    },
+    {
+      "ar": "أنبوب الأشعة السينية عالي الأداء",
+      "en": "High-Performance X-Ray Tube"
+    },
+    {
+      "ar": "نظام الكواشف (Detector Array)",
+      "en": "Detector Array System"
+    },
+    {
+      "ar": "نظام التبريد عالي الكفاءة",
+      "en": "High-Efficiency Cooling System"
+    },
+    {
+      "ar": "المرشحات ومعاير الحزمة (Bowtie Filters)",
+      "en": "Filters and Bowtie Beam Shapers"
+    },
+    {
+      "ar": "طاولة الفحص القابلة للحركة",
+      "en": "Motorized Patient Table"
+    },
+    {
+      "ar": "مولد الجهد العالي (HV Generator)",
+      "en": "High-Voltage Generator"
+    },
+    {
+      "ar": "حاسوب إعادة البناء (Reconstruction Computer)",
+      "en": "Reconstruction Computer"
+    },
+    {
+      "ar": "محطة عمل متقدمة ببرامج ثلاثية الأبعاد",
+      "en": "Advanced Workstation with 3D Software"
+    },
+    {
+      "ar": "نظام حماية إشعاعية متكامل",
+      "en": "Integrated Radiation Protection System"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لجهاز CT متعدد الشرائح (Multislice) حديث",
+    "en": "Typical specifications for a modern Multislice CT system"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "عدد الشرائح (Slices)",
+        "en": "Number of Slices"
+      },
+      "value": {
+        "ar": "64 – 320 شريحة",
+        "en": "64 – 320 slices"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الدوران (Rotation Time)",
+        "en": "Rotation Time"
+      },
+      "value": {
+        "ar": "0.25 – 1.0 ثانية",
+        "en": "0.25 – 1.0 seconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد الأنبوب (kV)",
+        "en": "Tube Voltage (kV)"
+      },
+      "value": {
+        "ar": "70 – 140 kV (قابل للتعديل)",
+        "en": "70 – 140 kV (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "تيار الأنبوب (mA)",
+        "en": "Tube Current (mA)"
+      },
+      "value": {
+        "ar": "10 – 800 mA (مع تعديل تلقائي)",
+        "en": "10 – 800 mA (with automatic modulation)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة الحلقة الدوارة (Gantry Bore)",
+        "en": "Gantry Bore Size"
+      },
+      "value": {
+        "ar": "قطر 70 – 85 سم",
+        "en": "70 – 85 cm diameter"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة المسح (Scan Resolution)",
+        "en": "Scan Resolution"
+      },
+      "value": {
+        "ar": "0.23 – 0.5 مم",
+        "en": "0.23 – 0.5 mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الكواشف",
+        "en": "Detector Type"
+      },
+      "value": {
+        "ar": "كواشف صلبة (Gadolinium Oxide أو Gemstone)",
+        "en": "Solid-State (Gadolinium Oxide or Gemstone)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة الطاولة",
+        "en": "Table Speed"
+      },
+      "value": {
+        "ar": "حتى 300 مم/ثانية (في وضع الحلزوني)",
+        "en": "Up to 300 mm/second (in spiral mode)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أقصى مجال رؤية (FOV)",
+        "en": "Maximum Field of View (FOV)"
+      },
+      "value": {
+        "ar": "50 سم",
+        "en": "50 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق مع المعايير",
+        "en": "Standards Compliance"
+      },
+      "value": {
+        "ar": "DICOM 3.0، IHE، (FDA & CE معتمد)",
+        "en": "DICOM 3.0, IHE, (FDA & CE Certified)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ارتفاع حرارة أنبوب الأشعة (Tube Overheating) بسبب الاستخدام المكثف أو فشل نظام التبريد الزيتي.",
+      "en": "X-Ray Tube Overheating due to heavy usage or failure of the oil-based cooling system."
+    },
+    {
+      "ar": "عطل في مولد الجهد العالي يسبب عدم استقرار في الطاقة أو فقدان كامل للأشعة.",
+      "en": "High-Voltage Generator malfunction causing power instability or complete loss of X-rays."
+    },
+    {
+      "ar": "تلف أو تدهور كفاءة الكواشف يؤدي إلى ظهور خطوط أو حلقات (Ring Artifacts) في الصور.",
+      "en": "Detector damage or degradation leading to lines or ring artifacts in images."
+    },
+    {
+      "ar": "مشاكل في نظام الدوران (Slip Ring) تسبب انقطاع في نقل البيانات أو الطاقة.",
+      "en": "Slip Ring system problems causing data or power transmission interruptions."
+    },
+    {
+      "ar": "أعطال في محركات الطاولة تمنع الحركة الدقيقة أو التوقف التلقائي.",
+      "en": "Table motor failures preventing precise movement or automatic stopping."
+    },
+    {
+      "ar": "فشل في حاسوب إعادة البناء يؤدي إلى بطء شديد أو تعطل كامل للجهاز.",
+      "en": "Reconstruction computer failure leading to severe slowdown or complete system shutdown."
+    },
+    {
+      "ar": "خلل في نظام قياس الجرعة أو أنظمة السلامة الإشعاعية.",
+      "en": "Dose measurement system or radiation safety system malfunctions."
+    },
+    {
+      "ar": "مشاكل في مصدر الطاقة الكهربائية أو التوصيلات الأرضية.",
+      "en": "Power supply issues or grounding problems."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Click on the image to enlarge"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "التطبيقات السريرية الرئيسية:",
+      "en": "Main Clinical Applications:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,266 @@
+{
+  "id": 65,
+  "name": {
+    "ar": "حاضنة النقل لحديثي الولادة",
+    "en": "Transport Incubator"
+  },
+  "category": "neonatal",
+  "icon": "baby",
+  "shortDescription": {
+    "ar": "وحدة حضانة متنقلة مصممة لنقل الأطفال حديثي الولادة الخدج أو المرضى بشكل آمن بين المستشفيات أو داخل المنشأة الطبية، مع توفير بيئة دافئة ومضبوطة ودعم الحياة الأساسي أثناء النقل.",
+    "en": "A mobile incubator unit designed to safely transport premature or ill newborns between hospitals or within a medical facility, providing a warm, controlled environment and essential life support during transit."
+  },
+  "images": [
+    "assets/image/Neonatal/Transport/transport1.webp",
+    "assets/image/Neonatal/Transport/transport2.webp"
+  ],
+  "description": {
+    "ar": "حاضنة النقل (Transport Incubator) هي وحدة حضانة مدمجة ومزودة بعجلات، مصممة خصيصاً لنقل الأطفال حديثي الولادة الذين يحتاجون إلى رعاية مستمرة أثناء التنقل. توفر بيئة دافئة ومضبوطة (حرارة، رطوبة، أكسجين) مع أنظمة مراقبة وإنعاش مدمجة، مما يضمن استمرارية الرعاية من نقطة إلى أخرى.",
+    "en": "The Transport Incubator is a compact, wheeled incubator unit specifically designed to transport newborns who require continuous care during transit. It provides a warm, controlled environment (temperature, humidity, oxygen) with integrated monitoring and resuscitation systems, ensuring continuity of care from point to point."
+  },
+  "uses": [
+    {
+      "ar": "النقل بين المستشفيات – نقل الأطفال الخدج أو المرضى من مستشفى إلى آخر مجهز بوحدات رعاية أعلى.",
+      "en": "Inter-hospital transport – Transferring premature or ill infants from one hospital to another with higher-level care units."
+    },
+    {
+      "ar": "النقل الداخلي – نقل الطفل داخل المستشفى بين أقسام مختلفة (الولادة، العناية المركزة، الأشعة، العمليات).",
+      "en": "Intra-hospital transport – Moving the infant within the hospital between different departments (delivery, NICU, radiology, surgery)."
+    },
+    {
+      "ar": "النقل في حالات الطوارئ – استخدامه في سيارات الإسعاف المجهزة لنقل حديثي الولادة.",
+      "en": "Emergency transport – Used in equipped ambulances for neonatal transport."
+    },
+    {
+      "ar": "النقل الجوي – بعض الموديلات مصممة للاستخدام في الطائرات الإسعافية أو المروحيات.",
+      "en": "Air transport – Some models are designed for use in air ambulances or helicopters."
+    },
+    {
+      "ar": "دعم الحياة الأساسي – توفير تهوية ميكانيكية، مراقبة العلامات الحيوية، وتزويد بالأكسجين أثناء النقل.",
+      "en": "Basic life support – Provides mechanical ventilation, vital signs monitoring, and oxygen supply during transport."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر توفير بيئة دافئة ورطبة بواسطة عناصر التسخين وخزان المياه مع التحكم الآلي بالحرارة، وتوزيع الهواء الدافئ عبر مروحة داخلية، ودعم التنفس عبر وصلات الأكسجين وأجهزة التنفس، مع شاشات مراقبة العلامات الحيوية وبطاريات قابلة لإعادة الشحن تضمن استمرارية التشغيل أثناء النقل.",
+    "en": "The system operates by providing a warm and humid environment via heating elements and a water reservoir with automatic temperature control, distributing warm air through an internal fan, supporting respiration via oxygen connections and ventilators, with vital signs monitoring screens and rechargeable batteries ensuring continuous operation during transit."
+  },
+  "workingSteps": [
+    {
+      "ar": "التدفئة والترطيب: تعمل عناصر التسخين وخزان المياه على توفير بيئة دافئة ورطبة للطفل، مع التحكم الآلي بالحرارة عبر حساسات دقيقة.",
+      "en": "Heating and humidification: Heating elements and a water reservoir provide a warm, humid environment for the infant, with automatic temperature control via precise sensors."
+    },
+    {
+      "ar": "تدوير الهواء: نظام تهوية داخلي يوزع الهواء الدافئ بشكل متجانس دون التأثير المباشر على الطفل.",
+      "en": "Air circulation: An internal ventilation system distributes warm air evenly without directly affecting the infant."
+    },
+    {
+      "ar": "دعم الأكسجين والتنفس: مزودة بوصلات لتزويد الأكسجين وضغط الهواء الإيجابي المستمر (CPAP) أو أجهزة تنفس صناعي مدمجة.",
+      "en": "Oxygen and respiratory support: Equipped with connections for oxygen supply, Continuous Positive Airway Pressure (CPAP), or integrated ventilators."
+    },
+    {
+      "ar": "المراقبة المستمرة: شاشات عرض مدمجة تعرض درجة حرارة الطفل، نسبة الأكسجين، معدل التنفس، ونبض القلب.",
+      "en": "Continuous monitoring: Integrated display screens showing infant temperature, oxygen levels, respiratory rate, and heart rate."
+    },
+    {
+      "ar": "الطاقة الذاتية: تعمل على بطاريات قابلة لإعادة الشحن تضمن تشغيل الجهاز لفترة كافية أثناء النقل، مع إمكانية التوصيل بالتيار الكهربائي في السيارة أو الطائرة.",
+      "en": "Independent power: Operates on rechargeable batteries ensuring device operation for sufficient duration during transport, with the ability to connect to vehicle or aircraft power."
+    }
+  ],
+  "highlight": {
+    "ar": "تتميز حاضنات النقل الحديثة بأنظمة تعليق متطورة لامتصاص الصدمات، مما يقلل من الاهتزازات التي يتعرض لها الطفل أثناء النقل.",
+    "en": "Modern transport incubators feature advanced suspension systems to absorb shocks, reducing vibrations experienced by the infant during transport."
+  },
+  "components": [
+    {
+      "ar": "نظام تسخين كهربائي مع حساسات حرارة",
+      "en": "Electric heating system with temperature sensors"
+    },
+    {
+      "ar": "نظام ترطيب بخاري لتعديل الرطوبة",
+      "en": "Vapor humidification system for humidity adjustment"
+    },
+    {
+      "ar": "مروحة توزيع هواء داخلي لطيف",
+      "en": "Gentle internal air distribution fan"
+    },
+    {
+      "ar": "وحدة دعم تنفسي (أكسجين + CPAP)",
+      "en": "Respiratory support unit (Oxygen + CPAP)"
+    },
+    {
+      "ar": "نظام مراقبة العلامات الحيوية (معدل نبض، تنفس، تشبع أكسجين)",
+      "en": "Vital signs monitoring system (heart rate, respiration, SpO2)"
+    },
+    {
+      "ar": "شاشة LCD متعددة الوظائف",
+      "en": "Multi-function LCD screen"
+    },
+    {
+      "ar": "بطارية احتياطية عالية السعة",
+      "en": "High-capacity backup battery"
+    },
+    {
+      "ar": "نظام تعليق لامتصاص الصدمات والاهتزازات",
+      "en": "Shock and vibration absorption suspension system"
+    },
+    {
+      "ar": "محول طاقة للعمل على التيار المستمر (12V/24V) أو المتناوب",
+      "en": "Power adapter for DC (12V/24V) or AC operation"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات حاضنة نقل نموذجية (Dräger Isolette TI2000 أو Ginevri T1500)",
+    "en": "Example: Specifications for a typical transport incubator (Dräger Isolette TI2000 or Ginevri T1500)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "34°C – 38°C (قابلة للتعديل)",
+        "en": "34°C – 38°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق الرطوبة",
+        "en": "Humidity range"
+      },
+      "value": {
+        "ar": "20% – 95% (نسبي)",
+        "en": "20% – 95% (relative)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت تشغيل البطارية",
+        "en": "Battery run time"
+      },
+      "value": {
+        "ar": "حتى 6 ساعات (حسب الموديل)",
+        "en": "Up to 6 hours (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التزويد بالأكسجين",
+        "en": "Oxygen supply range"
+      },
+      "value": {
+        "ar": "من 21% إلى 100% (قابل للتعديل)",
+        "en": "21% to 100% (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "35 – 55 كجم (بدون الطفل)",
+        "en": "35 – 55 kg (without infant)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": {
+        "ar": "طول 80 سم × عرض 45 سم × ارتفاع 55 سم",
+        "en": "Length 80 cm × Width 45 cm × Height 55 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power supply"
+      },
+      "value": {
+        "ar": "تيار مستمر 12-24V أو تيار متناوب 110-240V",
+        "en": "DC 12-24V or AC 110-240V"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة المراقبة",
+        "en": "Monitoring systems"
+      },
+      "value": {
+        "ar": "درجة حرارة الطفل، تشبع الأكسجين (SpO2)، نبض القلب (ECG)",
+        "en": "Infant temperature, SpO2, heart rate (ECG)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض أو فشل البطارية أثناء النقل يؤدي إلى توقف النظام.",
+      "en": "Low or failed battery during transport causing system shutdown."
+    },
+    {
+      "ar": "تلف حساس درجة الحرارة مما يسبب تقلبات في التدفئة أو إنذارات خاطئة.",
+      "en": "Temperature sensor failure causing heating fluctuations or false alarms."
+    },
+    {
+      "ar": "انسداد أو تسرب في نظام الترطيب يؤدي إلى جفاف الهواء داخل الحاضنة.",
+      "en": "Blockage or leak in the humidification system causing dry air inside the incubator."
+    },
+    {
+      "ar": "عطل في نظام امتصاص الصدمات أو تلف العجلات يؤثر على ثبات الحاضنة.",
+      "en": "Shock absorption system malfunction or damaged wheels affecting incubator stability."
+    },
+    {
+      "ar": "مشكلة في وصلات الأكسجين أو انقطاع التزويد أثناء النقل.",
+      "en": "Oxygen connection issues or supply interruption during transport."
+    },
+    {
+      "ar": "عطل في شاشة العرض أو عدم استجابة أزرار التحكم بسبب الاهتزاز.",
+      "en": "Display screen failure or unresponsive control buttons due to vibration."
+    },
+    {
+      "ar": "توقف مروحة توزيع الهواء الداخلي مما يؤدي إلى عدم تجانس الحرارة.",
+      "en": "Internal air distribution fan stoppage causing uneven heating."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

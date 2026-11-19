@@ -1,0 +1,249 @@
+{
+  "id": 10,
+  "name": {
+    "ar": "جهاز مزيل الرجفان الخارجي الآلي",
+    "en": "Automated External Defibrillator (AED)"
+  },
+  "category": "emergency",
+  "icon": "bolt",
+  "shortDescription": {
+    "ar": "جهاز محمول خفيف الوزن يعمل بالبطارية، يستخدم لتشخيص وعلاج السكتة القلبية المفاجئة عن طريق تحليل نظم القلب وإيصال صدمة كهربائية (مزيل رجفان) لإعادة النظم الطبيعي.",
+    "en": "A portable, lightweight, battery-operated device used to diagnose and treat sudden cardiac arrest by analyzing heart rhythms and delivering an electrical shock (defibrillation) to restore normal rhythm."
+  },
+  "images": [
+    "assets/image/Emergency/AED/AED1.webp",
+    "assets/image/Emergency/AED/AED2.webp",
+    "assets/image/Emergency/AED/AED3.webp",
+    "assets/image/Emergency/AED/AED4.webp"
+  ],
+  "description": {
+    "ar": "جهاز مزيل الرجفان الخارجي الآلي (AED) هو جهاز محمول خفيف الوزن يعمل بالبطارية، يستخدم لتشخيص وعلاج السكتة القلبية المفاجئة عن طريق تحليل نظم القلب وإيصال صدمة كهربائية (مزيل رجفان) لإعادة النظم الطبيعي. تشمل استخداماته: الطوارئ ما قبل المستشفى من قبل المسعفين والمارة المدربين، الأماكن العامة كالمطارات والمدارس والمولات والصالات الرياضية، العناية القلبية كدعم متقدم للإنعاش القلبي الرئوي، والتدريب عبر موديلات تدريبية مع أوضاع محاكاة.",
+    "en": "An AED is a portable, lightweight, battery-operated device used to diagnose and treat sudden cardiac arrest by analyzing heart rhythms and delivering an electrical shock (defibrillation) to restore normal rhythm. Its uses include: Pre-hospital emergency used by paramedics and trained bystanders; Public places such as airports, schools, malls, and gyms; Cardiac care as advanced support for CPR; and Training via training models with simulation modes."
+  },
+  "uses": [
+    {
+      "ar": "الطوارئ ما قبل المستشفى – يستخدم من قبل المسعفين والمارة المدربين.",
+      "en": "Pre-hospital emergency – used by paramedics and trained bystanders."
+    },
+    {
+      "ar": "الأماكن العامة – المطارات، المدارس، المولات، الصالات الرياضية.",
+      "en": "Public places – airports, schools, malls, gyms."
+    },
+    {
+      "ar": "العناية القلبية – دعم متقدم للإنعاش القلبي الرئوي.",
+      "en": "Cardiac care – advanced support for CPR."
+    },
+    {
+      "ar": "التدريب – موديلات تدريبية مع أوضاع محاكاة.",
+      "en": "Training – training models with simulation modes."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز AED عبر ست مراحل: التشغيل بالضغط على زر التشغيل ثم اتباع التعليمات الصوتية والمرئية، ثم لصق الأقطاب بتثبيت الأقطاب اللاصقة على صدر المريض العاري (الموضع الأمامي-الوحشي)، ثم تحليل النظم حيث يحلل المعالج الداخلي تخطيط القلب (ECG) خلال 5–15 ثانية لتحديد وجود رجفان بطيني (VF) أو تسرع قلبي بطيني عديم النبض (VT)، ثم اتخاذ القرار حيث إذا كان النظم قابلاً للصدمة يطلب الجهاز من المستخدم الضغط على زر الصدمة (في الأجهزة شبه الآلية) أو يصدر الصدمة تلقائياً (في الأجهزة الآلية بالكامل)، ثم الصدمة بإطلاق نبضة كهربائية ثنائية الطور بجهد يتراوح بين 150–360 جول (حسب الجهاز)، وأخيراً المراقبة المستمرة حيث يعيد تحليل النظم بعد الصدمة ويوجه المستخدم لتقديم إنعاش قلبي رئوي إذا لزم الأمر.",
+    "en": "The AED operates through six stages: power on by pressing the power button then following audio and visual prompts, then apply pads by attaching adhesive pads to the patient's bare chest (anterior-lateral position), then rhythm analysis where the internal processor analyzes the ECG within 5–15 seconds to detect Ventricular Fibrillation (VF) or pulseless Ventricular Tachycardia (VT), then decision where if a shockable rhythm is detected the device prompts the user to press the shock button (semi-automatic) or delivers the shock automatically (fully automatic), then shock by delivering a biphasic electrical pulse with an energy range of 150–360 Joules (device dependent), and finally continuous monitoring where it re-analyzes the rhythm after shock and guides the user to provide CPR if needed."
+  },
+  "workingSteps": [
+    {
+      "ar": "التشغيل: الضغط على زر التشغيل، ثم اتباع التعليمات الصوتية والمرئية.",
+      "en": "Power on: press the power button, then follow audio and visual prompts."
+    },
+    {
+      "ar": "لصق الأقطاب: تثبيت الأقطاب اللاصقة على صدر المريض العاري (الموضع الأمامي-الوحشي).",
+      "en": "Apply pads: attach adhesive pads to the patient's bare chest (anterior-lateral position)."
+    },
+    {
+      "ar": "تحليل النظم: المعالج الداخلي يحلل تخطيط القلب (ECG) خلال 5–15 ثانية لتحديد وجود رجفان بطيني (VF) أو تسرع قلبي بطيني عديم النبض (VT).",
+      "en": "Rhythm analysis: the internal processor analyzes the ECG within 5–15 seconds to detect Ventricular Fibrillation (VF) or pulseless Ventricular Tachycardia (VT)."
+    },
+    {
+      "ar": "اتخاذ القرار: إذا كان النظم قابلاً للصدمة، يطلب الجهاز من المستخدم الضغط على زر الصدمة (في الأجهزة شبه الآلية) أو يصدر الصدمة تلقائياً (في الأجهزة الآلية بالكامل).",
+      "en": "Decision: if a shockable rhythm is detected, the device prompts the user to press the shock button (semi-automatic) or delivers the shock automatically (fully automatic)."
+    },
+    {
+      "ar": "الصدمة: إطلاق نبضة كهربائية ثنائية الطور بجهد يتراوح بين 150–360 جول (حسب الجهاز).",
+      "en": "Shock: delivers a biphasic electrical pulse with an energy range of 150–360 Joules (device dependent)."
+    },
+    {
+      "ar": "المراقبة المستمرة: يعيد تحليل النظم بعد الصدمة ويوجه المستخدم لتقديم إنعاش قلبي رئوي إذا لزم الأمر.",
+      "en": "Continuous monitoring: re-analyzes the rhythm after shock and guides the user to provide CPR if needed."
+    }
+  ],
+  "highlight": {
+    "ar": "تم تصميم AED ليكون سهل الاستخدام للمستخدمين غير الطبيين، مع تعليمات صوتية واضحة خطوة بخطوة.",
+    "en": "The AED is designed to be easy to use for non-medical users, with clear step-by-step voice instructions."
+  },
+  "components": [
+    {
+      "ar": "وحدة تحليل ECG",
+      "en": "ECG analysis unit"
+    },
+    {
+      "ar": "وحدة توليد الصدمة (مكثفات عالية الجهد)",
+      "en": "Shock delivery unit (high-voltage capacitors)"
+    },
+    {
+      "ar": "معالج دقيق / DSP",
+      "en": "Microprocessor / DSP"
+    },
+    {
+      "ar": "مكبر صوت (تعليمات صوتية)",
+      "en": "Speaker (voice prompts)"
+    },
+    {
+      "ar": "أضواء LED (إرشادات مرئية)",
+      "en": "LED lights (visual prompts)"
+    },
+    {
+      "ar": "بطارية ليثيوم عالية السعة",
+      "en": "High-capacity lithium battery"
+    },
+    {
+      "ar": "دارات حماية وتصفية",
+      "en": "Protection and filtering circuits"
+    },
+    {
+      "ar": "أقطاب كهربائية لاصقة (متصلة مسبقاً)",
+      "en": "Pre-connected adhesive electrodes"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز AED القياسي (Philips HeartStart FRx أو ZOLL AED 3)",
+    "en": "Example: standard AED device (Philips HeartStart FRx or ZOLL AED 3)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع الصدمة",
+        "en": "Shock type"
+      },
+      "value": {
+        "ar": "ثنائية الطور، مُكيَّفة حسب المعاوقة",
+        "en": "Biphasic, impedance-compensated"
+      }
+    },
+    {
+      "label": {
+        "ar": "طاقة الصدمة",
+        "en": "Shock energy"
+      },
+      "value": {
+        "ar": "150 – 360 جول (حسب بروتوكول الجهاز)",
+        "en": "150 – 360 Joules (device protocol dependent)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدة الشحن",
+        "en": "Charge time"
+      },
+      "value": {
+        "ar": "أقل من 10 ثوانٍ (مع بطارية جديدة)",
+        "en": "Less than 10 seconds (with new battery)"
+      }
+    },
+    {
+      "label": {
+        "ar": "تحليل النظم",
+        "en": "Rhythm analysis"
+      },
+      "value": {
+        "ar": "خوارزميات تحليل متقدمة (خصوصية عالية)",
+        "en": "Advanced analysis algorithms (high specificity)"
+      }
+    },
+    {
+      "label": {
+        "ar": "العمر الافتراضي للبطارية",
+        "en": "Battery shelf life"
+      },
+      "value": {
+        "ar": "4 – 5 سنوات (في وضع الاستعداد)",
+        "en": "4 – 5 years (standby mode)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأقطاب",
+        "en": "Electrodes"
+      },
+      "value": {
+        "ar": "لاصقة، مدة صلاحية 2-3 سنوات",
+        "en": "Adhesive, 2-3 years shelf life"
+      }
+    },
+    {
+      "label": {
+        "ar": "المقاومة للعوامل البيئية",
+        "en": "Environmental resistance"
+      },
+      "value": {
+        "ar": "مقاوم للماء والغبار (تصنيف IP55)",
+        "en": "Water and dust resistant (IP55 rating)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انتهاء عمر البطارية أو عدم شحنها بشكل كافٍ.",
+      "en": "Battery depleted or insufficiently charged."
+    },
+    {
+      "ar": "الأقطاب منتهية الصلاحية أو جافة (عدم التصاقها بالصدر).",
+      "en": "Expired or dry electrodes (poor adhesion to chest)."
+    },
+    {
+      "ar": "فشل في تحليل النظم بسبب الحركة المفرطة للمريض أو التداخل الكهربائي.",
+      "en": "Rhythm analysis failure due to excessive patient movement or electrical interference."
+    },
+    {
+      "ar": "تعذر إطلاق الصدمة بسبب وجود مانع (مثل المريض مبتل).",
+      "en": "Shock delivery prevented due to obstruction (e.g., patient wet)."
+    },
+    {
+      "ar": "انقطاع الصوت (مشكلة في مكبر الصوت أو إعدادات مستوى الصوت).",
+      "en": "Audio failure (speaker issue or volume settings)."
+    },
+    {
+      "ar": "أعطال في البرامج الثابتة (Firmware) أو تأخر في الاستجابة.",
+      "en": "Firmware bugs or delayed response."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

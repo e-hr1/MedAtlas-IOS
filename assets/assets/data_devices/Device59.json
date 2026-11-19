@@ -1,0 +1,274 @@
+{
+  "id": 59,
+  "name": {
+    "ar": "خلاط الدم",
+    "en": "Blood Mixer"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري يستخدم لخلط عينات الدم مع المواد المانعة للتخثر بشكل متجانس للحفاظ على سلامة العينة",
+    "en": "Laboratory device used for thoroughly and uniformly mixing blood samples with anticoagulants to maintain sample integrity"
+  },
+  "images": [
+    "assets/image/Laboratory/Blood_Mixer/Blood_Mixer1.webp",
+    "assets/image/Laboratory/Blood_Mixer/Blood_Mixer2.webp",
+    "assets/image/Laboratory/Blood_Mixer/Blood_Mixer3.webp",
+    "assets/image/Laboratory/Blood_Mixer/Blood_Mixer4.webp"
+  ],
+  "description": {
+    "ar": "جهاز مخبري متخصص يُستخدم لخلط عينات الدم مع المواد المانعة للتخثر (مثل EDTA، سترات الصوديوم، أو الهيبارين) بشكل متجانس وسلس لمنع تكوّن الجلطات والحفاظ على سلامة العينة. يُستخدم الجهاز بشكل أساسي في بنوك الدم، المختبرات الطبية، وأقسام الطوارئ لضمان توزيع المادة المانعة للتخثر بالتساوي في جميع أنحاء عينة الدم.",
+    "en": "A specialized laboratory device used to uniformly and gently mix blood samples with anticoagulants (such as EDTA, sodium citrate, or heparin) to prevent clot formation and maintain sample integrity. The device is primarily used in blood banks, medical laboratories, and emergency departments to ensure even distribution of anticoagulant throughout the blood sample."
+  },
+  "uses": [
+    {
+      "ar": "خلط عينات الدم الوريدي – خلط أنابيب الدم المأخوذة من المرضى مع مضادات التخثر قبل إجراء الفحوصات المخبرية.",
+      "en": "Venous blood sample mixing – Mixing blood tubes collected from patients with anticoagulants before laboratory testing."
+    },
+    {
+      "ar": "خلط أكياس الدم – في بنوك الدم، خلط أكياس الدم المتبرع بها مع المواد الحافظة والمضادة للتخثر.",
+      "en": "Blood bag mixing – In blood banks, mixing donated blood bags with preservatives and anticoagulants."
+    },
+    {
+      "ar": "تحضير العينات للفحوصات – تجهيز عينات الدم لفحوصات CBC، وظائف التخثر، وفحوصات الكيمياء الحيوية.",
+      "en": "Sample preparation for testing – Preparing blood samples for CBC, coagulation function, and biochemistry tests."
+    },
+    {
+      "ar": "خلط عينات الدم الشرياني – خلط عينات غازات الدم مع الهيبارين لمنع التجلط.",
+      "en": "Arterial blood sample mixing – Mixing blood gas samples with heparin to prevent clotting."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بتوضع أنابيب أو أكياس الدم في الحوامل المخصصة، ثم اختيار آلية الحركة (اهتزازية، دورانية، أو أسطوانية) بالسرعة والزمن المبرمجين عبر وحدة التحكم الإلكترونية، ليقوم المحرك بتحريك المنصة بانتظام وضمان التجانس الكامل، وأخيراً التوقف التلقائي مع إشارة صوتية عند انتهاء الدورة.",
+    "en": "The system operates through placing tubes or bags in designated holders, selecting the motion mechanism (rocker, rotator, or roller) at programmed speeds and times via the electronic control unit, driving the platform for uniform mixing, and automatically stopping with an audible signal upon cycle completion."
+  },
+  "workingSteps": [
+    {
+      "ar": "وضع العينة: تُوضع أنابيب الدم أو أكياس الدم في حوامل مخصصة على منصة الجهاز.",
+      "en": "Sample placement: Blood tubes or blood bags are placed in designated holders on the device platform."
+    },
+    {
+      "ar": "آلية الخلط: يقوم الجهاز بحركة اهتزازية (Oscillation) أو دورانية (Rotation) أو تدويرية (Rolling) بسرعات ودرجات محددة لضمان خلط العينة بشكل متجانس.",
+      "en": "Mixing mechanism: The device performs oscillating, rotating, or rolling motion at specific speeds and angles to ensure thorough sample mixing."
+    },
+    {
+      "ar": "أنواع الحركة: الخلاط الاهتزازي (Rocker) بحركة تأرجحية، الخلاط الدوار (Rotator) بزاوية 360 درجة، والخلاط الأسطواني (Roller) عبر بكرات دوارة.",
+      "en": "Motion types: Rocker mixer with back-and-forth motion, Rotator mixer with 360-degree rotation, and Roller mixer with rotating rollers."
+    },
+    {
+      "ar": "التحكم بالسرعة والزمن: يمكن برمجة سرعة الخلط ومدته حسب نوع العينة والمادة المانعة للتخثر المستخدمة.",
+      "en": "Speed and time control: Mixing speed and duration can be programmed according to sample type and anticoagulant used."
+    },
+    {
+      "ar": "التشغيل التلقائي: بعد وضع العينات، يعمل الجهاز تلقائياً لفترة زمنية محددة ثم يتوقف مع إصدار إشارة صوتية عند الانتهاء.",
+      "en": "Automatic operation: After placing samples, the device operates automatically for a set period and stops with an audible signal upon completion."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بتحكم رقمي دقيق في السرعة والزمن، وشاشات عرض رقمية، مع إمكانية برمجة بروتوكولات خلط مختلفة حسب نوع الاختبار، وأنظمة أمان توقف التشغيل في حالة عدم توازن العينات.",
+    "en": "Modern devices feature precise digital speed and time control, digital displays, programmable mixing protocols for different test types, and safety systems that stop operation in case of sample imbalance."
+  },
+  "components": [
+    {
+      "ar": "منصة خلط (حوامل لأنابيب/أكياس الدم)",
+      "en": "Mixing platform (tube/blood bag holders)"
+    },
+    {
+      "ar": "محرك كهربائي (موتور) للحركة",
+      "en": "Electric motor for motion"
+    },
+    {
+      "ar": "نظام تحكم في السرعة (Variable Speed)",
+      "en": "Variable speed control system"
+    },
+    {
+      "ar": "مؤقت زمني (Timer) قابل للبرمجة",
+      "en": "Programmable timer"
+    },
+    {
+      "ar": "شاشة رقمية (سرعة، زمن، عدد الدورات)",
+      "en": "Digital display (speed, time, cycle count)"
+    },
+    {
+      "ar": "نظام إنذار (انتهاء الخلط أو خلل)",
+      "en": "Alarm system (mixing completion or malfunction)"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية",
+      "en": "Electronic control unit"
+    },
+    {
+      "ar": "نظام موازنة العينات (اختياري)",
+      "en": "Sample balancing system (optional)"
+    },
+    {
+      "ar": "طابعة مدمجة (اختياري)",
+      "en": "Built-in printer (optional)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: خلاط دم نموذجي (LMB 2-4 أو Hettich EBA 20)",
+    "en": "Example: Typical blood mixer (LMB 2-4 or Hettich EBA 20)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع الحركة",
+        "en": "Motion type"
+      },
+      "value": {
+        "ar": "تأرجحي (Rocker)، دوراني (Rotator)، أو أسطواني (Roller)",
+        "en": "Rocker, Rotator, or Roller"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة الخلط",
+        "en": "Mixing speed"
+      },
+      "value": {
+        "ar": "10 – 100 دورة/دقيقة (قابلة للبرمجة)",
+        "en": "10 – 100 cycles/minute (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية الخلط (للتأرجحي)",
+        "en": "Mixing angle (for rocker)"
+      },
+      "value": {
+        "ar": "15 – 30 درجة (قابلة للتعديل)",
+        "en": "15 – 30 degrees (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة العينات",
+        "en": "Sample capacity"
+      },
+      "value": {
+        "ar": "12 – 60 أنبوب (حسب الطراز)",
+        "en": "12 – 60 tubes (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أحجام الأنابيب المدعومة",
+        "en": "Supported tube sizes"
+      },
+      "value": {
+        "ar": "3 – 50 مل",
+        "en": "3 – 50 mL"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت الخلط",
+        "en": "Mixing time"
+      },
+      "value": {
+        "ar": "1 – 60 دقيقة (قابل للبرمجة)",
+        "en": "1 – 60 minutes (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "متطلبات الطاقة",
+        "en": "Power requirements"
+      },
+      "value": {
+        "ar": "100-240 فولت / 50-60 هرتز",
+        "en": "100-240V / 50-60Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "المخرجات",
+        "en": "Outputs"
+      },
+      "value": {
+        "ar": "USB، RS-232 (للأجهزة الحديثة)",
+        "en": "USB, RS-232 (for modern devices)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LED أو LCD (سرعة، زمن)",
+        "en": "Digital LED or LCD (speed, time)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في المحرك الكهربائي يؤدي إلى توقف الحركة أو بطء غير طبيعي.",
+      "en": "Motor failure causing motion to stop or operate abnormally slow."
+    },
+    {
+      "ar": "خلل في نظام التحكم في السرعة (سرعة غير منتظمة أو غير دقيقة).",
+      "en": "Speed control system malfunction (irregular or inaccurate speed)."
+    },
+    {
+      "ar": "عطل في المؤقت الزمني (لا يتوقف أو لا يبدأ في الوقت المحدد).",
+      "en": "Timer malfunction (does not stop or start at the set time)."
+    },
+    {
+      "ar": "انزلاق أو عدم استقرار العينات على المنصة بسبب تلف الحوامل.",
+      "en": "Samples slipping or becoming unstable on the platform due to damaged holders."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة خلل في حساسات النظام.",
+      "en": "False alarms due to sensor system malfunctions."
+    },
+    {
+      "ar": "تقلبات في مصدر الطاقة تؤدي إلى توقف مفاجئ أثناء التشغيل.",
+      "en": "Power fluctuations causing sudden stoppage during operation."
+    },
+    {
+      "ar": "عدم توازن العينات يؤدي إلى اهتزاز زائد وتلف المحرك (في الطرازات غير المزودة بموازنة).",
+      "en": "Sample imbalance causing excessive vibration and motor damage (in models without balancing)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

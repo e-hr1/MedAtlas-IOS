@@ -1,0 +1,239 @@
+{
+  "id": 73,
+  "name": {
+    "ar": "المصباح الشقي",
+    "en": "Slit Lamp"
+  },
+  "category": "eye",
+  "icon": "microscope",
+  "shortDescription": {
+    "ar": "جهاز فحص طبي يستخدم لفحص العين بتكبير عالي، ويتكون من مجهر ومصدر ضوء شقي لتقييم الأجزاء الأمامية والخلفية للعين.",
+    "en": "A medical examination device used to examine the eye with high magnification, consisting of a microscope and a slit light source to evaluate the anterior and posterior segments of the eye."
+  },
+  "images": [
+    "assets/image/Eye/SlitLamp/SlitLamp1.webp",
+    "assets/image/Eye/SlitLamp/SlitLamp2.webp"
+  ],
+  "description": {
+    "ar": "المصباح الشقي (Slit Lamp) هو جهاز فحص عيون متكامل يجمع بين مجهر تشريحي ومصدر ضوء يمكن تعديله على شكل شق رفيع. يستخدم لفحص العين بتكبير يصل إلى 40x، مما يسمح برؤية تفصيلية للقرنية، القزحية، العدسة، والجسم الزجاجي.",
+    "en": "The Slit Lamp is a comprehensive eye examination device that combines a binocular microscope with a light source that can be adjusted to form a thin slit. It is used to examine the eye with magnification up to 40x, allowing detailed visualization of the cornea, iris, lens, and vitreous body."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص أمراض القرنية: مثل الالتهابات، القرحة، والجفاف.",
+      "en": "Diagnosing corneal diseases: Such as infections, ulcers, and dryness."
+    },
+    {
+      "ar": "كشف المياه البيضاء (الكتاراكت): تقييم درجة تعتيم العدسة.",
+      "en": "Detecting cataracts: Assessing the degree of lens opacification."
+    },
+    {
+      "ar": "تشخيص الجلوكوما (الماء الأزرق): قياس عمق الغرفة الأمامية وفحص زاوية التصريف.",
+      "en": "Diagnosing glaucoma: Measuring anterior chamber depth and examining the drainage angle."
+    },
+    {
+      "ar": "فحص الشبكية والعصب البصري: باستخدام عدسات إضافية.",
+      "en": "Examining the retina and optic nerve: Using additional lenses."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل المصباح الشقي عبر أربع مراحل: الإضاءة الشقية حيث يسلط الجهاز شعاعاً ضوئياً رفيعاً على العين يمكن تعديل عرضه وارتفاعه وزاويته، ثم التكبير المجهري حيث يستخدم مجهراً ثنائي العينين لتكبير الصورة المضاءة مما يوفر رؤية ثلاثية الأبعاد، ثم تقنية فحص المقاطع البصرية (Optical Section) حيث يسمح الشعاع الشقي برؤية مقطع عرضي من أنسجة العين الشفافة مثل القرنية والعدسة، ثم الإضاءات المختلفة حيث يمكن استخدام مرشحات مثل مرشح الكوبالت الأزرق لفحص القرنية بعد صبغها بالفلوريسئين.",
+    "en": "The slit lamp operates through four stages: Slit Illumination where the device projects a thin beam of light onto the eye with adjustable width, height, and angle, then Microscopic Magnification where a binocular microscope is used to magnify the illuminated image providing a three-dimensional view, then Optical Section Technique where the slit beam allows visualization of a cross-section of transparent eye tissues such as the cornea and lens, then Different Illuminations where filters such as the cobalt blue filter can be used to examine the cornea after staining with fluorescein."
+  },
+  "workingSteps": [
+    {
+      "ar": "الإضاءة الشقية: يسلط الجهاز شعاعاً ضوئياً رفيعاً على العين، يمكن تعديل عرضه وارتفاعه وزاويته.",
+      "en": "Slit Illumination: The device projects a thin beam of light onto the eye, with adjustable width, height, and angle."
+    },
+    {
+      "ar": "التكبير المجهري: يستخدم مجهراً ثنائي العينين لتكبير الصورة المضاءة، مما يوفر رؤية ثلاثية الأبعاد.",
+      "en": "Microscopic Magnification: A binocular microscope is used to magnify the illuminated image, providing a three-dimensional view."
+    },
+    {
+      "ar": "تقنية فحص المقاطع البصرية (Optical Section): يسمح الشعاع الشقي برؤية مقطع عرضي من أنسجة العين الشفافة مثل القرنية والعدسة.",
+      "en": "Optical Section Technique: The slit beam allows visualization of a cross-section of transparent eye tissues such as the cornea and lens."
+    },
+    {
+      "ar": "الإضاءات المختلفة: يمكن استخدام مرشحات مثل مرشح الكوبالت الأزرق لفحص القرنية بعد صبغها بالفلوريسئين.",
+      "en": "Different Illuminations: Filters such as the cobalt blue filter can be used to examine the cornea after staining with fluorescein."
+    }
+  ],
+  "highlight": {
+    "ar": "توفر تقنية الإضاءة الشقية رؤية تفصيلية ثلاثية الأبعاد للعين، وهي أداة لا غنى عنها في عيادات طب العيون.",
+    "en": "The slit illumination technique provides a detailed three-dimensional view of the eye, making it an indispensable tool in ophthalmology clinics."
+  },
+  "components": [
+    {
+      "ar": "مصدر الضوء (لمبة هالوجين أو LED)",
+      "en": "Light source (Halogen or LED bulb)"
+    },
+    {
+      "ar": "نظام الشق (فتحة قابلة للتعديل)",
+      "en": "Slit system (adjustable aperture)"
+    },
+    {
+      "ar": "مجهر ثنائي العينين",
+      "en": "Binocular microscope"
+    },
+    {
+      "ar": "مرشحات ضوئية (كوبالت أزرق، محايد)",
+      "en": "Optical filters (Cobalt blue, neutral)"
+    },
+    {
+      "ar": "مقبض تحكم لضبط زاوية الإضاءة",
+      "en": "Control joystick for adjusting illumination angle"
+    },
+    {
+      "ar": "منصة تحريك للعينات",
+      "en": "Specimen movement platform"
+    },
+    {
+      "ar": "وحدة دعم للذقن والجبهة لتثبيت رأس المريض",
+      "en": "Chin and forehead rest unit to stabilize the patient's head"
+    },
+    {
+      "ar": "منفذ كاميرا (في الطرازات المتطورة)",
+      "en": "Camera port (in advanced models)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز مصباح الشق",
+    "en": "Example: Typical specifications for a Slit Lamp device"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مجال التكبير",
+        "en": "Magnification Range"
+      },
+      "value": {
+        "ar": "6× إلى 40× (قابل للتدرج)",
+        "en": "6× to 40× (stepwise)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عرض الشق",
+        "en": "Slit Width"
+      },
+      "value": {
+        "ar": "0 – 14 مم (قابل للتعديل)",
+        "en": "0 – 14 mm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ارتفاع الشق",
+        "en": "Slit Height"
+      },
+      "value": {
+        "ar": "1 – 14 مم (قابل للتعديل)",
+        "en": "1 – 14 mm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية الإضاءة",
+        "en": "Illumination Angle"
+      },
+      "value": {
+        "ar": "0° – 180° (قابلة للدوران)",
+        "en": "0° – 180° (rotatable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المصدر",
+        "en": "Light Source Type"
+      },
+      "value": {
+        "ar": "لمبة هالوجين 12V / 30W أو LED",
+        "en": "12V / 30W Halogen bulb or LED"
+      }
+    },
+    {
+      "label": {
+        "ar": "المرشحات",
+        "en": "Filters"
+      },
+      "value": {
+        "ar": "كوبالت أزرق، أحمر خالي، رمادي محايد",
+        "en": "Cobalt blue, red-free, neutral gray"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التركيز",
+        "en": "Focusing System"
+      },
+      "value": {
+        "ar": "يدوي أو آلي",
+        "en": "Manual or automatic"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "احتراق لمبة الإضاءة أو ضعف شدة الضوء.",
+      "en": "Burned-out illumination bulb or reduced light intensity."
+    },
+    {
+      "ar": "تلف آلية تعديل عرض أو ارتفاع الشق.",
+      "en": "Damage to the slit width or height adjustment mechanism."
+    },
+    {
+      "ar": "عدم وضوح الرؤية بسبب اتساخ العدسات أو خلل في نظام التركيز.",
+      "en": "Blurry vision due to dirty lenses or focusing system malfunction."
+    },
+    {
+      "ar": "مشاكل في التوصيلات الكهربائية أو مصدر الطاقة.",
+      "en": "Electrical connection or power supply problems."
+    },
+    {
+      "ar": "تلف المرشحات الضوئية أو تغير لونها.",
+      "en": "Damaged or discolored optical filters."
+    },
+    {
+      "ar": "انزلاق أو عدم ثبات منصة تحريك العينة.",
+      "en": "Slipping or instability of the specimen movement platform."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

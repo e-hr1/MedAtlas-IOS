@@ -1,0 +1,241 @@
+{
+  "id": 4,
+  "name": {
+    "ar": "عربة الإنعاش",
+    "en": "Crash Cart"
+  },
+  "category": "emergency",
+  "icon": "cart-plus",
+  "shortDescription": {
+    "ar": "عربة إنعاش متحركة تحتوي على جميع المعدات والأدوية اللازمة للاستجابة الفورية لحالات توقف القلب والطوارئ الحرجة، مصممة لتكون جاهزة للاستخدام في أي لحظة داخل المستشفى.",
+    "en": "A mobile crash cart containing all the equipment and medications needed for immediate response to cardiac arrest and critical emergencies, designed to be ready for use at any moment within the hospital."
+  },
+  "images": [
+    "assets/image/Emergency/CrashCart/crashcart1.webp",
+    "assets/image/Emergency/CrashCart/crashcart2.webp",
+    "assets/image/Emergency/CrashCart/crashcart3.webp",
+    "assets/image/Emergency/CrashCart/crashcart4.webp"
+  ],
+  "description": {
+    "ar": "عربة الإنعاش (Crash Cart) هي عربة إنعاش متحركة تحتوي على جميع المعدات والأدوية اللازمة للاستجابة الفورية لحالات توقف القلب والطوارئ الحرجة. مصممة لتكون جاهزة للاستخدام في أي لحظة داخل المستشفى. تشمل استخداماتها الرئيسية: الإنعاش القلبي الرئوي (CPR) عبر توفير مزيل الرجفان وأجهزة التنفس والأدوية، الطوارئ العامة كالنزيف الحاد والصدمة والتفاعلات التحسسية الشديدة، العناية المركزة للدعم السريع عند تدهور حالة المريض، والتخدير للتعامل مع المضاعفات أثناء العمليات الجراحية.",
+    "en": "A crash cart is a mobile emergency cart containing all the equipment and medications needed for immediate response to cardiac arrest and critical emergencies. It is designed to be ready for use at any moment within the hospital. Its main uses include: CPR (Cardiopulmonary Resuscitation) by providing a defibrillator, ventilation devices, and medications; general emergencies such as severe bleeding, shock, and severe allergic reactions; intensive care for rapid support when a patient's condition deteriorates; and anesthesia for managing complications during surgical procedures."
+  },
+  "uses": [
+    {
+      "ar": "الإنعاش القلبي الرئوي (CPR) – توفير مزيل الرجفان، أجهزة التنفس، والأدوية.",
+      "en": "CPR (Cardiopulmonary Resuscitation) – provides defibrillator, ventilation devices, and medications."
+    },
+    {
+      "ar": "الطوارئ العامة – النزيف الحاد، الصدمة، التفاعلات التحسسية الشديدة.",
+      "en": "General emergencies – severe bleeding, shock, severe allergic reactions."
+    },
+    {
+      "ar": "العناية المركزة – دعم سريع عند تدهور حالة المريض.",
+      "en": "Intensive care – rapid support when a patient's condition deteriorates."
+    },
+    {
+      "ar": "التخدير – التعامل مع المضاعفات أثناء العمليات الجراحية.",
+      "en": "Anesthesia – managing complications during surgical procedures."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تعتمد عربة الإنعاش على مبدأ الجاهزية الدائمة للاستجابة للطوارئ، وتعمل عبر أربع مراحل: التجهيز المسبق حيث تُعبأ العربة بأدراج مرتبة حسب الأولوية (الأدوية، المجاري الهوائية، التجهيزات الوريدية)، ثم الفحص الدوري حيث يتم تدقيق المحتويات يومياً واستبدال الأدوية منتهية الصلاحية وشحن البطاريات، ثم الاستجابة حيث تُدفع العربة إلى سرير المريض وتُستخدم فوراً دون الحاجة لتجميع المعدات، وأخيراً التنظيم حيث يحوي كل درج فئة محددة (مزيل الرجفان، أدوات التنفس، أدوية الطوارئ، المحاليل الوريدية) لتسريع الإجراء.",
+    "en": "The crash cart relies on the principle of permanent readiness for emergency response, operating through four stages: pre-configuration where the cart is stocked with drawers organized by priority (medications, airways, IV supplies), then regular checks where contents are verified daily, expired medications replaced, and batteries charged, then response where the cart is wheeled to the patient's bedside and used immediately without needing to gather equipment, and finally organization where each drawer contains a specific category (defibrillator, breathing aids, emergency drugs, IV fluids) to speed up procedures."
+  },
+  "workingSteps": [
+    {
+      "ar": "التجهيز المسبق: تُعبأ العربة بأدراج مرتبة حسب الأولوية (الأدوية، المجاري الهوائية، التجهيزات الوريدية).",
+      "en": "Pre-configuration: the cart is stocked with drawers organized by priority (medications, airways, IV supplies)."
+    },
+    {
+      "ar": "الفحص الدوري: يتم تدقيق المحتويات يومياً واستبدال الأدوية منتهية الصلاحية وشحن البطاريات.",
+      "en": "Regular checks: contents are verified daily, expired medications replaced, batteries charged."
+    },
+    {
+      "ar": "الاستجابة: عند الطوارئ، تُدفع العربة إلى سرير المريض وتُستخدم فوراً دون الحاجة لتجميع المعدات.",
+      "en": "Response: in an emergency, the cart is wheeled to the patient's bedside and used immediately without needing to gather equipment."
+    },
+    {
+      "ar": "التنظيم: كل درج يحوي فئة محددة (مزيل الرجفان، أدوات التنفس، أدوية الطوارئ، المحاليل الوريدية) لتسريع الإجراء.",
+      "en": "Organization: each drawer contains a specific category (defibrillator, breathing aids, emergency drugs, IV fluids) to speed up procedures."
+    }
+  ],
+  "highlight": {
+    "ar": "تحتوي بعض العربات الحديثة على نظام تتبع إلكتروني للمخزون وتنبيهات انتهاء الصلاحية.",
+    "en": "Some modern carts feature electronic inventory tracking and expiration alerts."
+  },
+  "components": [
+    {
+      "ar": "مزيل الرجفان",
+      "en": "Defibrillator"
+    },
+    {
+      "ar": "جهاز تنفس (Ambu bag)",
+      "en": "Ventilation bag (Ambu bag)"
+    },
+    {
+      "ar": "أدوية الطوارئ",
+      "en": "Emergency drugs"
+    },
+    {
+      "ar": "أجهزة CPR",
+      "en": "CPR devices"
+    },
+    {
+      "ar": "محاليل وريدية",
+      "en": "IV solutions"
+    },
+    {
+      "ar": "أدوات التنبيب",
+      "en": "Intubation tools"
+    },
+    {
+      "ar": "بطاريات احتياطية",
+      "en": "Backup batteries"
+    },
+    {
+      "ar": "دليل الإجراءات",
+      "en": "Procedure guide"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: عربة الإنعاش القياسية (Stryker / Hill-Rom)",
+    "en": "Example: Standard Crash Cart (Stryker / Hill-Rom)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": {
+        "ar": "الارتفاع 100-110 سم، العرض 65 سم، العمق 55 سم",
+        "en": "Height 100-110 cm, Width 65 cm, Depth 55 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "≈ 80-120 كجم (حسب المحتويات)",
+        "en": "≈ 80-120 kg (depending on contents)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأدراج",
+        "en": "Drawers"
+      },
+      "value": {
+        "ar": "5-7 أدراج بسعة مختلفة، قفل مركزي",
+        "en": "5-7 drawers with varying capacity, central locking"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة التخزين",
+        "en": "Storage capacity"
+      },
+      "value": {
+        "ar": "حتى 30 نوعاً من الأدوية، 10 أنواع من المحاليل",
+        "en": "Up to 30 types of medications, 10 types of IV solutions"
+      }
+    },
+    {
+      "label": {
+        "ar": "مزود الطاقة",
+        "en": "Power supply"
+      },
+      "value": {
+        "ar": "بطارية احتياطية لجهاز الرجفان، ومنافذ طاقة 220 فولت",
+        "en": "Backup battery for defibrillator, 220V power outlets"
+      }
+    },
+    {
+      "label": {
+        "ar": "المعدات الإضافية",
+        "en": "Additional equipment"
+      },
+      "value": {
+        "ar": "حامل أكسجين، لوح صلب للإنعاش، مصباح",
+        "en": "Oxygen holder, rigid CPR board, lamp"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "مع نظام السجلات الإلكترونية (اختياري)",
+        "en": "With electronic medical records (optional)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نقص في الأدوية أو المعدات الأساسية (عدم إعادة التعبئة).",
+      "en": "Missing medications or essential equipment (failure to restock)."
+    },
+    {
+      "ar": "بطارية مزيل الرجفان منخفضة أو غير مشحونة.",
+      "en": "Defibrillator battery low or not charged."
+    },
+    {
+      "ar": "خلل في قفل الأدراج أو عجلات العربة.",
+      "en": "Drawer lock or cart wheel malfunction."
+    },
+    {
+      "ar": "أدوية منتهية الصلاحية أو تالفة.",
+      "en": "Expired or damaged medications."
+    },
+    {
+      "ar": "مشاكل في توصيل جهاز الشفط أو الأكسجين.",
+      "en": "Issues with suction or oxygen connection."
+    },
+    {
+      "ar": "أعطال في شاشة مراقبة المريض الملحقة (إن وجدت).",
+      "en": "Faults in the attached patient monitor screen (if applicable)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

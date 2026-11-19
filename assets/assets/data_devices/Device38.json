@@ -1,0 +1,296 @@
+{
+  "id": 38,
+  "name": {
+    "ar": "جهاز الأشعة السينية",
+    "en": "X-Ray System"
+  },
+  "category": "radiology",
+  "icon": "bolt",
+  "shortDescription": {
+    "ar": "نظام التصوير التشخيصي – أداة حيوية تستخدم الأشعة الكهرومغناطيسية لرؤية الهياكل الداخلية للجسم",
+    "en": "Diagnostic Imaging System – A vital tool that uses electromagnetic radiation to visualize the internal structures of the body"
+  },
+  "images": [
+    "assets/image/Radiology/XRay/XRay1.webp",
+    "assets/image/Radiology/XRay/XRay2.webp",
+    "assets/image/Radiology/XRay/XRay3.webp",
+    "assets/image/Radiology/XRay/XRay4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الأشعة السينية (X-Ray) هو أداة تصوير طبي تستخدم الإشعاع الكهرومغناطيسي لإنتاج صور للهياكل الداخلية للجسم، وخاصة العظام. يُعد الجهاز من أقدم وأكثر أدوات التصوير التشخيصي استخداماً في المستشفيات والعيادات، حيث يساعد الأطباء على تشخيص الكسور، الالتهابات، الأورام، وأمراض الرئة، وتوجيه بعض الإجراءات العلاجية.",
+    "en": "The X-Ray system is a medical imaging tool that uses electromagnetic radiation to produce images of the internal structures of the body, particularly bones. It is one of the oldest and most widely used diagnostic imaging tools in hospitals and clinics, helping physicians diagnose fractures, infections, tumors, lung diseases, and guide certain therapeutic procedures."
+  },
+  "uses": [
+    {
+      "ar": "التصوير الشعاعي العام (General Radiography): يُستخدم لتصوير العظام، الصدر، والبطن. يعتمد على مرور الأشعة عبر الجسم وامتصاصها بشكل مختلف حسب كثافة الأنسجة.",
+      "en": "General Radiography: Used for imaging bones, chest, and abdomen. It relies on the passage of X-rays through the body and differential absorption based on tissue density."
+    },
+    {
+      "ar": "التنظير الفلوري (Fluoroscopy): يوفر صوراً متحركة في الوقت الفعلي، ويُستخدم لتوجيه القسطرة، دراسات الجهاز الهضمي بالباريوم، وتصوير الأوعية الدموية.",
+      "en": "Fluoroscopy: Provides real-time moving images and is used to guide catheterization, barium studies of the gastrointestinal tract, and angiography."
+    },
+    {
+      "ar": "التصوير الشعاعي للثدي (Mammography): نوع خاص من التصوير بالأشعة السينية يستخدم جرعة منخفضة لكشف سرطان الثدي في مراحله المبكرة.",
+      "en": "Mammography: A special type of X-ray imaging using a low dose to detect breast cancer in its early stages."
+    },
+    {
+      "ar": "التصوير المقطعي المحوسب (CT Scan): يعتمد على الأشعة السينية لكنه يُنتج صوراً مقطعية ثلاثية الأبعاد للجسم.",
+      "en": "Computed Tomography (CT Scan): Based on X-rays but produces cross-sectional 3D images of the body."
+    },
+    {
+      "ar": "التصوير التداخلي (Interventional Radiology): يستخدم التوجيه بالأشعة السينية لإجراء عمليات طفيفة التوغل كتركيب الدعامات أو أخذ الخزعات.",
+      "en": "Interventional Radiology: Uses X-ray guidance to perform minimally invasive procedures such as stent placement or biopsies."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يولد أنبوب الأشعة السينية إلكترونات متسارعة تصطدم بالأنود لإنتاج الأشعة السينية، والتي تمر عبر مرشحات ومحدد مجال لتخترق جسم المريض وتصل إلى الكاشف لتحويلها إلى صورة رقمية تشخيصية مع الالتزام بمعايير السلامة الإشعاعية.",
+    "en": "An X-ray tube generates accelerated electrons that strike the anode to produce X-rays, which pass through filters and a collimator, penetrate the patient's body, and reach the detector to be converted into a diagnostic digital image while adhering to radiation safety standards."
+  },
+  "workingSteps": [
+    {
+      "ar": "مصدر الأشعة (أنبوب الأشعة السينية): يولد كاثود ساخن إلكترونات يتم تسريعها بجهد عالٍ (kV) باتجاه الأنود.",
+      "en": "X-Ray Source (X-Ray Tube): A heated cathode emits electrons accelerated by high voltage (kV) toward the anode."
+    },
+    {
+      "ar": "إنتاج الأشعة السينية: تصطدم الإلكترونات عالية السرعة بالأنود لإنتاج الأشعة عبر إشعاع الكبح (Bremsstrahlung) والأشعة المميزة.",
+      "en": "X-Ray Production: High-speed electrons strike the anode to produce X-rays via Bremsstrahlung and characteristic radiation."
+    },
+    {
+      "ar": "تشكيل الحزمة وتصفيتها: تمر الأشعة عبر مرشحات (ألومنيوم/نحاس) ومحدد مجال لامتصاص الطاقة المنخفضة وتحديد حقل التصوير.",
+      "en": "Beam Shaping and Filtration: X-rays pass through filters (aluminum/copper) and a collimator to absorb low energy and define the field of view."
+    },
+    {
+      "ar": "الكشف عن الأشعة: تعبر الأشعة جسم المريض وتصل إلى الكاشف (أفلام تقليدية أو لوحات مسطحة رقمية DR/CR).",
+      "en": "Detection: X-rays pass through the patient's body and reach the detector (traditional films or digital flat panels DR/CR)."
+    },
+    {
+      "ar": "معالجة الصورة وعرضها: تحسن الإشارات رقمياً وتُعرض على شاشة عالية الدقة مع إمكانية تخزينها عبر PACS.",
+      "en": "Image Processing and Display: Signals are digitally enhanced and displayed on a high-resolution screen with storage capabilities via PACS."
+    }
+  ],
+  "highlight": {
+    "ar": "تُعد السلامة الإشعاعية ركيزة أساسية في تصميم وتشغيل جهاز الأشعة السينية وفق مبدأ ALARA لتقليل الجرعة الإشعاعية.",
+    "en": "Radiation safety is a cornerstone of X-ray system design and operation following the ALARA principle to minimize radiation dose."
+  },
+  "components": [
+    {
+      "ar": "مولد الجهد العالي (High-Voltage Generator)",
+      "en": "High-Voltage Generator"
+    },
+    {
+      "ar": "أنبوب الأشعة السينية (X-Ray Tube)",
+      "en": "X-Ray Tube"
+    },
+    {
+      "ar": "نظام التبريد (Cooling System)",
+      "en": "Cooling System"
+    },
+    {
+      "ar": "الموازي ومحدد المجال (Collimator)",
+      "en": "Collimator"
+    },
+    {
+      "ar": "مرشحات الحزمة (Filters)",
+      "en": "Beam Filters"
+    },
+    {
+      "ar": "طاولة الفحص (Examination Table)",
+      "en": "Examination Table"
+    },
+    {
+      "ar": "نظام الكشف (Detector / Film Cassette)",
+      "en": "Detection System (Detector / Film Cassette)"
+    },
+    {
+      "ar": "شبكة التشتت (Anti-scatter Grid)",
+      "en": "Anti-scatter Grid"
+    },
+    {
+      "ar": "محطة العمل (Workstation) مع برامج معالجة الصور",
+      "en": "Workstation with Image Processing Software"
+    },
+    {
+      "ar": "واقيات الرصاص (Lead Aprons & Barriers)",
+      "en": "Lead Shields (Aprons & Barriers)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لجهاز أشعة سينية تشخيصي عام (نظام ثابت/محمول)",
+    "en": "Typical specifications for a general diagnostic X-ray system (fixed/mobile unit)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق جهد الأنبوب (kV)",
+        "en": "Tube Voltage Range (kV)"
+      },
+      "value": {
+        "ar": "40 – 150 kV (حسب التطبيق)",
+        "en": "40 – 150 kV (depending on application)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق تيار الأنبوب (mA)",
+        "en": "Tube Current Range (mA)"
+      },
+      "value": {
+        "ar": "10 – 1000 mA (في أنظمة التصوير المقطعي أعلى)",
+        "en": "10 – 1000 mA (higher in CT systems)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن التعريض",
+        "en": "Exposure Time"
+      },
+      "value": {
+        "ar": "1 مللي ثانية – 10 ثوانٍ",
+        "en": "1 ms – 10 seconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "البعد البؤري (Focal Spot)",
+        "en": "Focal Spot Size"
+      },
+      "value": {
+        "ar": "0.3 – 1.2 مم (صغير للتصوير الدقيق، كبير للتصوير العام)",
+        "en": "0.3 – 1.2 mm (small for fine detail, large for general use)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الكاشف (للأنظمة الرقمية)",
+        "en": "Detector Type (Digital Systems)"
+      },
+      "value": {
+        "ar": "لوحة مسطحة (Flat Panel) من نوع (a-Se) أو (CsI)",
+        "en": "Flat Panel (a-Se or CsI)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الصورة (للأنظمة الرقمية)",
+        "en": "Image Resolution (Digital Systems)"
+      },
+      "value": {
+        "ar": "دقة تصل إلى (3-5 lp/mm) خط/مم",
+        "en": "Up to (3-5 lp/mm) line pairs per mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة التخزين الحراري للأنود",
+        "en": "Anode Heat Storage Capacity"
+      },
+      "value": {
+        "ar": "200,000 – 1,000,000 وحدة حرارية (HU)",
+        "en": "200,000 – 1,000,000 Heat Units (HU)"
+      }
+    },
+    {
+      "label": {
+        "ar": "واجهة الاتصال",
+        "en": "Communication Interface"
+      },
+      "value": {
+        "ar": "DICOM 3.0 للتواصل مع PACS و HIS/RIS",
+        "en": "DICOM 3.0 for PACS, HIS/RIS integration"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power Supply"
+      },
+      "value": {
+        "ar": "ثلاثي الطور 380-480 فولت، 50/60 هرتز",
+        "en": "3-phase 380-480 V, 50/60 Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة الأمان",
+        "en": "Safety Systems"
+      },
+      "value": {
+        "ar": "مراقبة الجرعة، قفل الأمان، إنذار ارتفاع الحرارة",
+        "en": "Dose monitoring, safety interlocks, overheat alarms"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ارتفاع حرارة أنبوب الأشعة نتيجة الاستخدام المكثف أو فشل نظام التبريد.",
+      "en": "Overheating of the X-ray tube due to heavy usage or cooling system failure."
+    },
+    {
+      "ar": "عطل في مولد الجهد العالي يؤدي إلى عدم إنتاج الأشعة أو إنتاج جرعات غير مستقرة.",
+      "en": "High-voltage generator malfunction leading to no X-ray production or unstable output."
+    },
+    {
+      "ar": "تدهور جودة الصورة (ضبابية، تباين ضعيف) بسبب عطل في الكاشف أو شبكة التشتت أو تلف الفيلم.",
+      "en": "Image quality degradation (blurriness, poor contrast) due to detector issues, grid damage, or film defects."
+    },
+    {
+      "ar": "خلل في أنظمة الحماية الإشعاعية (كشف الجرعة، الإنذار الصوتي).",
+      "en": "Radiation protection system failure (dose monitoring, audible alarms)."
+    },
+    {
+      "ar": "مشاكل في نظام التحكم الميكانيكي (حركة الطاولة، رأس الأنبوب، الموازي).",
+      "en": "Mechanical control system problems (table movement, tube head positioning, collimator)."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي أو مشاكل في التوصيلات الأرضية.",
+      "en": "Power interruptions or faulty grounding connections."
+    },
+    {
+      "ar": "فشل في الاتصال مع نظام PACS أو برامج معالجة الصور.",
+      "en": "PACS communication or image processing software failure."
+    },
+    {
+      "ar": "تلف في الفتيل (الكاثود) يؤدي إلى انخفاض التيار أو عدم وجود أشعة.",
+      "en": "Filament (cathode) burn-out leading to reduced current or no X-rays."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Click on the image to enlarge"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "المبادئ الأساسية للتصوير بالأشعة السينية:",
+      "en": "Fundamental Principles of X-Ray Imaging:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

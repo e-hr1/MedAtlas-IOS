@@ -1,0 +1,251 @@
+{
+  "id": 9,
+  "name": {
+    "ar": "منظار الحنجرة",
+    "en": "Laryngoscope"
+  },
+  "category": "emergency",
+  "icon": "user-doctor",
+  "shortDescription": {
+    "ar": "أداة طبية تستخدم لرفع لسان المزمار (Epiglottis) ورؤية الحنجرة والمزمار (Glottis) لتسهيل عملية التنبيب الرغامي (Endotracheal Intubation) أو فحص المجرى الهوائي العلوي.",
+    "en": "A medical instrument used to lift the epiglottis and visualize the larynx and glottis to facilitate endotracheal intubation or examination of the upper airway."
+  },
+  "images": [
+    "assets/image/Emergency/Laryngoscope/Laryngoscope1.webp",
+    "assets/image/Emergency/Laryngoscope/Laryngoscope2.webp",
+    "assets/image/Emergency/Laryngoscope/Laryngoscope3.webp",
+    "assets/image/Emergency/Laryngoscope/Laryngoscope4.webp"
+  ],
+  "description": {
+    "ar": "منظار الحنجرة (Laryngoscope) هو أداة طبية تستخدم لرفع لسان المزمار (Epiglottis) ورؤية الحنجرة والمزمار (Glottis) لتسهيل عملية التنبيب الرغامي (Endotracheal Intubation) أو فحص المجرى الهوائي العلوي. تشمل استخداماته: التنبيب الرغامي في التخدير العام والطوارئ والعناية المركزة، فحص الحنجرة لتشخيص الأورام والالتهابات أو الشلل الحنجري، إزالة الأجسام الغريبة من المجرى الهوائي، والإنعاش القلبي الرئوي المتقدم لتأمين المجرى الهوائي.",
+    "en": "A laryngoscope is a medical instrument used to lift the epiglottis and visualize the larynx and glottis to facilitate endotracheal intubation or examination of the upper airway. Its uses include: Endotracheal Intubation in general anesthesia, emergencies, and intensive care; Laryngeal Examination for diagnosing tumors, inflammations, or vocal cord paralysis; Foreign Body Removal from the airway; and Advanced Cardiac Life Support for securing the airway."
+  },
+  "uses": [
+    {
+      "ar": "التنبيب الرغامي – في التخدير العام، الطوارئ، والعناية المركزة.",
+      "en": "Endotracheal Intubation – in general anesthesia, emergencies, and intensive care."
+    },
+    {
+      "ar": "فحص الحنجرة – تشخيص الأورام، الالتهابات، أو الشلل الحنجري.",
+      "en": "Laryngeal Examination – diagnosing tumors, inflammations, or vocal cord paralysis."
+    },
+    {
+      "ar": "إزالة الأجسام الغريبة – من المجرى الهوائي.",
+      "en": "Foreign Body Removal – from the airway."
+    },
+    {
+      "ar": "الإنعاش القلبي الرئوي المتقدم – تأمين المجرى الهوائي.",
+      "en": "Advanced Cardiac Life Support – securing the airway."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل منظار الحنجرة عبر أربع مراحل: الإدخال حيث يُدخل النصل (Blade) في فم المريض على طول اللسان، ثم الرفع حيث تُرفع المقبض لرفع لسان المزمار عن طريق الضغط على قاعدة اللسان أو رفع لسان المزمار مباشرة (حسب نوع النصل)، ثم الإضاءة حيث يُضاء الطرف بواسطة مصباح LED أو ألياف بصرية لتوضيح الرؤية، وأخيراً الرؤية حيث تظهر الحنجرة والمزمار والأحبال الصوتية مما يسمح بإدخال الأنبوب الرغامي.",
+    "en": "The laryngoscope operates through four stages: insertion where the blade is inserted into the patient's mouth along the tongue, then lifting where the handle is lifted to elevate the epiglottis by pressing on the base of the tongue or directly lifting the epiglottis (depending on the blade type), then illumination where the tip is illuminated by an LED or fiber optic light to provide clear visualization, and finally visualization where the larynx, glottis, and vocal cords become visible, allowing the endotracheal tube to be inserted."
+  },
+  "workingSteps": [
+    {
+      "ar": "الإدخال: يُدخل النصل (Blade) في فم المريض على طول اللسان.",
+      "en": "Insertion: the blade is inserted into the patient's mouth along the tongue."
+    },
+    {
+      "ar": "الرفع: تُرفع المقبض لرفع لسان المزمار عن طريق الضغط على قاعدة اللسان أو رفع لسان المزمار مباشرة (حسب نوع النصل).",
+      "en": "Lifting: the handle is lifted to elevate the epiglottis by pressing on the base of the tongue or directly lifting the epiglottis (depending on the blade type)."
+    },
+    {
+      "ar": "الإضاءة: يُضاء الطرف بواسطة مصباح LED أو ألياف بصرية لتوضيح الرؤية.",
+      "en": "Illumination: the tip is illuminated by an LED or fiber optic light to provide clear visualization."
+    },
+    {
+      "ar": "الرؤية: تظهر الحنجرة والمزمار والأحبال الصوتية، مما يسمح بإدخال الأنبوب الرغامي.",
+      "en": "Visualization: the larynx, glottis, and vocal cords become visible, allowing the endotracheal tube to be inserted."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنواع الحديثة (Video Laryngoscope) تحتوي على كاميرا صغيرة وشاشة لعرض الصورة، مما يسهل التنبيب في الحالات الصعبة.",
+    "en": "Modern types (Video Laryngoscope) feature a small camera and screen for image display, facilitating intubation in difficult cases."
+  },
+  "components": [
+    {
+      "ar": "مقبض (Handle)",
+      "en": "Handle"
+    },
+    {
+      "ar": "نصل (Blade)",
+      "en": "Blade"
+    },
+    {
+      "ar": "مصباح إضاءة (LED / ألياف بصرية)",
+      "en": "Illumination Lamp (LED / Fiber Optic)"
+    },
+    {
+      "ar": "بطارية (AA / قابلة لإعادة الشحن)",
+      "en": "Battery (AA / Rechargeable)"
+    },
+    {
+      "ar": "نظام رفع لسان المزمار (Lever)",
+      "en": "Epiglottis Lifting System (Lever)"
+    },
+    {
+      "ar": "كاميرا (في الأنواع الفيديوية)",
+      "en": "Camera (in video types)"
+    },
+    {
+      "ar": "شاشة عرض (في الأنواع الفيديوية)",
+      "en": "Display Screen (in video types)"
+    },
+    {
+      "ar": "معالج الصورة (في الأنواع الفيديوية)",
+      "en": "Image Processor (in video types)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: منظار حنجرة فيديوي (McGrath MAC Video Laryngoscope)",
+    "en": "Example: Video Laryngoscope (McGrath MAC Video Laryngoscope)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع النصل",
+        "en": "Blade Type"
+      },
+      "value": {
+        "ar": "ماك (Mac) 3 أو 4 (للأطفال والبالغين)",
+        "en": "Mac 3 or 4 (for pediatric and adult patients)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الإضاءة",
+        "en": "Light Source"
+      },
+      "value": {
+        "ar": "LED أبيض، عمر 10,000 ساعة",
+        "en": "White LED, 10,000 hours lifespan"
+      }
+    },
+    {
+      "label": {
+        "ar": "الكاميرا",
+        "en": "Camera"
+      },
+      "value": {
+        "ar": "دقة 640 × 480 بكسل، زاوية رؤية 60°",
+        "en": "640 × 480 pixels resolution, 60° field of view"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Screen"
+      },
+      "value": {
+        "ar": "شاشة LCD 2.4 بوصة (في الفيديوية)",
+        "en": "2.4-inch LCD screen (in video types)"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون 3.7 فولت، تدوم 60 دقيقة",
+        "en": "Lithium-ion 3.7V, lasts 60 minutes"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "350 جرام (بدون البطارية)",
+        "en": "350 grams (without battery)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "أنابيب رغامية مقاسات 5.0 – 8.5 مم",
+        "en": "Endotracheal tubes sizes 5.0 – 8.5 mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "التعقيم",
+        "en": "Sterilization"
+      },
+      "value": {
+        "ar": "تعقيم بدرجة حرارة 134°C (تعقيم بالبخار)",
+        "en": "Sterilization at 134°C (steam sterilization)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انطفاء المصباح أو ضعف الإضاءة (بطارية منخفضة أو تماس).",
+      "en": "Lamp failure or dim light (low battery or loose connection)."
+    },
+    {
+      "ar": "نفاد البطارية أثناء الاستخدام.",
+      "en": "Battery depletion during use."
+    },
+    {
+      "ar": "ضبابية العدسة (في الأنواع الفيديوية) بسبب اختلاف درجة الحرارة.",
+      "en": "Lens fogging (in video types) due to temperature differences."
+    },
+    {
+      "ar": "ارتخاء النصل أو تآكل مفصل التثبيت.",
+      "en": "Loose blade or worn fixation joint."
+    },
+    {
+      "ar": "تشويش الصورة أو انقطاع الفيديو (في الأنواع الفيديوية).",
+      "en": "Image distortion or video loss (in video types)."
+    },
+    {
+      "ar": "صعوبة في رفع لسان المزمار بسبب عيوب ميكانيكية.",
+      "en": "Difficulty lifting the epiglottis due to mechanical defects."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

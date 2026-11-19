@@ -1,0 +1,276 @@
+{
+  "id": 56,
+  "name": {
+    "ar": "جهاز عد المستعمرات",
+    "en": "Colony Counter"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري يستخدم لعد المستعمرات البكتيرية والفطرية على الأطباق الزراعية بدقة وسرعة",
+    "en": "Laboratory instrument used for accurate and rapid counting of bacterial and fungal colonies on culture plates"
+  },
+  "images": [
+    "assets/image/Laboratory/Colony_Counter/Colony_Counter1.webp",
+    "assets/image/Laboratory/Colony_Counter/Colony_Counter2.webp"
+  ],
+  "description": {
+    "ar": "جهاز مخبري متخصص يُستخدم لعد المستعمرات البكتيرية والفطرية النامية على الأوساط الزراعية الصلبة في الأطباق البترية (Petri dishes). يُستخدم الجهاز في المختبرات الميكروبيولوجية لتحديد عدد الكائنات الحية القابلة للنمو (Viable Count) في العينات الغذائية والسريرية والبيئية، مما يساعد في تقدير التلوث الميكروبي ومراقبة الجودة.",
+    "en": "A specialized laboratory instrument used for counting bacterial and fungal colonies growing on solid culture media in Petri dishes. The device is used in microbiology laboratories to determine the viable count of microorganisms in food, clinical, and environmental samples, helping to estimate microbial contamination and quality control."
+  },
+  "uses": [
+    {
+      "ar": "مراقبة جودة الأغذية والمياه – تقدير عدد البكتيريا الكلي في عينات الغذاء والمياه.",
+      "en": "Food and water quality control – Estimating total bacterial count in food and water samples."
+    },
+    {
+      "ar": "التشخيص الميكروبيولوجي – عد المستعمرات في عينات البول، البلغم، والسوائل البيولوجية.",
+      "en": "Microbiological diagnosis – Counting colonies in urine, sputum, and biological fluid samples."
+    },
+    {
+      "ar": "اختبارات الحساسية للمضادات الحيوية – قياس منطقة التثبيط (Zone of Inhibition).",
+      "en": "Antibiotic susceptibility testing – Measuring the zone of inhibition."
+    },
+    {
+      "ar": "الأبحاث الميكروبيولوجية – دراسة تأثير العوامل المختلفة على نمو البكتيريا.",
+      "en": "Microbiological research – Studying the effect of various factors on bacterial growth."
+    },
+    {
+      "ar": "مراقبة الجودة في المستحضرات الصيدلانية – التأكد من خلو المنتجات من التلوث الميكروبي.",
+      "en": "Quality control in pharmaceuticals – Ensuring products are free from microbial contamination."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بتحضير الطبق وزرع العينة وحضنها، ثم وضع الطبق على منصة مضيئة لتوفير إضاءة خلفية، يليها إما العد اليدوي باستخدام قلم عد خاص يسجل النقرات صوتياً ورقمياً، أو العد الآلي عبر كاميرا عالية الدقة وبرامج تحليل صور للتعرف على المستعمرات وعدها تلقائياً، وأخيراً عرض النتائج على شاشة رقمية.",
+    "en": "The system operates through plate preparation and incubation, placing the plate on an illuminated base for backlighting, followed by either manual counting using a clicking marker pen or automated counting via a digital camera and image analysis software, and finally displaying results on a digital screen."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير الطبق: يُحضّر طبق بترية يحتوي على وسط زراعي صلب، وتُزرع العينة المطلوبة وتُحضن لعدة أيام حتى تنمو المستعمرات.",
+      "en": "Plate preparation: A Petri dish containing solid culture medium is prepared, the sample is inoculated, and incubated for several days until colonies grow."
+    },
+    {
+      "ar": "وضع الطبق: يُوضع الطبق على منصة الجهاز المضيئة (Illuminated Base) لتوفير إضاءة خلفية (Backlighting) لتوضيح المستعمرات.",
+      "en": "Plate placement: The plate is placed on the device's illuminated base to provide backlighting for clear visualization of colonies."
+    },
+    {
+      "ar": "العد اليدوي (للأجهزة التقليدية): يستخدم المستخدم قلم عد خاص (Marker Pen) متصل بالجهاز، ويضغط على كل مستعمرة ليتم تسجيلها صوتياً ورقمياً. يمكن أيضاً استخدام عدسة مكبرة (Magnifying Lens) لتسهيل رؤية المستعمرات الصغيرة.",
+      "en": "Manual counting (traditional devices): The user uses a special marker pen connected to the device, pressing on each colony to record it audibly and digitally. A magnifying lens can also be used to facilitate viewing small colonies."
+    },
+    {
+      "ar": "العد الآلي (للأجهزة الحديثة): تلتقط كاميرا عالية الدقة صورة للطبق، ويستخدم برنامج تحليل الصور (Image Analysis Software) للكشف التلقائي عن المستعمرات وعدّها بناءً على معايير مثل الحجم واللون والشكل.",
+      "en": "Automated counting (modern devices): A high-resolution camera captures an image of the plate, and image analysis software automatically detects and counts colonies based on criteria such as size, color, and shape."
+    },
+    {
+      "ar": "عرض النتائج: يُعرض العدد الإجمالي للمستعمرات على شاشة رقمية، مع إمكانية تخزين النتائج أو طباعتها.",
+      "en": "Results display: The total colony count is displayed on a digital screen, with options to store or print the results."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بكاميرات رقمية وبرامج ذكاء اصطناعي قادرة على التمييز بين المستعمرات المتداخلة والمتلامسة، وحساب مساحة المستعمرات، وتصنيفها حسب الحجم، مع تصدير النتائج إلى برامج إدارة المختبر (LIS).",
+    "en": "Modern devices are equipped with digital cameras and AI software capable of distinguishing between overlapping and touching colonies, calculating colony area, classifying them by size, and exporting results to Laboratory Information Systems (LIS)."
+  },
+  "components": [
+    {
+      "ar": "منصة إضاءة خلفية (LED)",
+      "en": "Illuminated base (LED)"
+    },
+    {
+      "ar": "عدسة مكبرة (2x – 4x)",
+      "en": "Magnifying lens (2x – 4x)"
+    },
+    {
+      "ar": "قلم عد (جهاز تسجيل النقرات)",
+      "en": "Counting pen (click recording device)"
+    },
+    {
+      "ar": "كاميرا رقمية (للأجهزة الآلية)",
+      "en": "Digital camera (for automated devices)"
+    },
+    {
+      "ar": "معالج مركزي لتحليل الصور",
+      "en": "Central processor for image analysis"
+    },
+    {
+      "ar": "شاشة رقمية (عداد + عرض الصورة)",
+      "en": "Digital display (counter + image view)"
+    },
+    {
+      "ar": "طابعة مدمجة (اختياري)",
+      "en": "Built-in printer (optional)"
+    },
+    {
+      "ar": "برمجيات تحليل وتخزين بيانات",
+      "en": "Analysis software and data storage"
+    },
+    {
+      "ar": "أزرار تحكم (العد، إعادة الضبط، التكبير)",
+      "en": "Control buttons (count, reset, zoom)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز عد مستعمرات نموذجي (Stuart SC6 Plus أو IUL Counter)",
+    "en": "Example: Typical colony counter (Stuart SC6 Plus or IUL Counter)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع العدّ",
+        "en": "Counting type"
+      },
+      "value": {
+        "ar": "يدوي (نقر بالقلم) أو آلي (كاميرا + برمجيات)",
+        "en": "Manual (pen click) or Automated (camera + software)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى العدّ",
+        "en": "Counting range"
+      },
+      "value": {
+        "ar": "0 – 9999 مستعمرة",
+        "en": "0 – 9999 colonies"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الطبق المدعوم",
+        "en": "Supported plate sizes"
+      },
+      "value": {
+        "ar": "60 مم، 90 مم، 150 مم",
+        "en": "60 mm, 90 mm, 150 mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الإضاءة",
+        "en": "Lighting"
+      },
+      "value": {
+        "ar": "مصابيح LED بيضاء/زرقاء (قابلة للتبديل)",
+        "en": "White/Blue LED (switchable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التكبير",
+        "en": "Magnification"
+      },
+      "value": {
+        "ar": "2x – 4x (عدسة مكبرة)",
+        "en": "2x – 4x (magnifying lens)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة العد الآلي",
+        "en": "Automated counting accuracy"
+      },
+      "value": {
+        "ar": "≥ 90% (حسب جودة الصورة وكثافة المستعمرات)",
+        "en": "≥ 90% (depending on image quality and colony density)"
+      }
+    },
+    {
+      "label": {
+        "ar": "المخرجات",
+        "en": "Outputs"
+      },
+      "value": {
+        "ar": "USB، RS-232، Wi-Fi (للأجهزة الحديثة)",
+        "en": "USB, RS-232, Wi-Fi (for modern devices)"
+      }
+    },
+    {
+      "label": {
+        "ar": "متطلبات الطاقة",
+        "en": "Power requirements"
+      },
+      "value": {
+        "ar": "100-240 فولت / 50-60 هرتز",
+        "en": "100-240V / 50-60Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LED أو شاشة لمس ملونة (للأجهزة الآلية)",
+        "en": "Digital LED or color touchscreen (for automated devices)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في الإضاءة الخلفية (مصابيح LED) يؤدي إلى صعوبة في رؤية المستعمرات.",
+      "en": "Backlight (LED) malfunction making it difficult to see colonies."
+    },
+    {
+      "ar": "تلف قلم العد أو انقطاع اتصاله بالجهاز.",
+      "en": "Damaged counting pen or connection failure to the device."
+    },
+    {
+      "ar": "عطل في الكاميرا (للأجهزة الآلية) يؤدي إلى صور غير واضحة.",
+      "en": "Camera malfunction (for automated devices) producing unclear images."
+    },
+    {
+      "ar": "أخطاء برمجية في تحليل الصور (عدّ خاطئ للمستعمرات المتداخلة).",
+      "en": "Software errors in image analysis (incorrect counting of overlapping colonies)."
+    },
+    {
+      "ar": "اتساخ العدسة المكبرة أو وجود غبار يعيق الرؤية.",
+      "en": "Dirty magnifying lens or dust obstructing visibility."
+    },
+    {
+      "ar": "أعطال في أزرار التحكم أو لوحة العدّ.",
+      "en": "Faulty control buttons or counting panel."
+    },
+    {
+      "ar": "تقلبات في مصدر الطاقة تؤدي إلى إعادة تشغيل مفاجئة.",
+      "en": "Power fluctuations causing sudden restarts."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

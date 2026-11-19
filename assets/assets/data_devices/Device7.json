@@ -1,0 +1,251 @@
+{
+  "id": 7,
+  "name": {
+    "ar": "مقياس الجلوكوز",
+    "en": "Glucometer"
+  },
+  "category": "emergency",
+  "icon": "droplet",
+  "shortDescription": {
+    "ar": "جهاز طبي إلكتروني محمول يقيس تركيز الجلوكوز في عينة دم صغيرة (عادة من طرف الإصبع) لمساعدة مرضى السكري على مراقبة مستويات السكر في الدم وضبط الجرعات الدوائية والنظام الغذائي.",
+    "en": "A portable electronic medical device that measures glucose concentration in a small blood sample (usually from a fingertip) to help diabetics monitor blood sugar levels and adjust medication doses and diet."
+  },
+  "images": [
+    "assets/image/Emergency/Glucometer/Glucometer1.webp",
+    "assets/image/Emergency/Glucometer/Glucometer2.webp",
+    "assets/image/Emergency/Glucometer/Glucometer3.webp",
+    "assets/image/Emergency/Glucometer/Glucometer4.webp"
+  ],
+  "description": {
+    "ar": "مقياس الجلوكوز (Glucometer) هو جهاز طبي إلكتروني محمول يقيس تركيز الجلوكوز في عينة دم صغيرة (عادة من طرف الإصبع) لمساعدة مرضى السكري على مراقبة مستويات السكر في الدم وضبط الجرعات الدوائية والنظام الغذائي. تشمل استخداماته: مرضى السكري من النوع الأول والثاني للمراقبة اليومية للسكر، العناية المركزة (ICU) للمراقبة الدقيقة لمستوى الجلوكوز لدى المرضى الحرجين، غرفة الطوارئ للتشخيص السريع لحالات غيبوبة السكري أو نقص السكر، والفحص المنزلي عبر أجهزة صغيرة سهلة الاستخدام للمرضى.",
+    "en": "A glucometer is a portable electronic medical device that measures glucose concentration in a small blood sample (usually from a fingertip) to help diabetics monitor blood sugar levels and adjust medication doses and diet. Its uses include: Type 1 and Type 2 diabetes for daily blood sugar monitoring, Intensive Care (ICU) for accurate glucose monitoring in critically ill patients, Emergency Room for rapid diagnosis of diabetic coma or hypoglycemia, and Home testing via small, easy-to-use devices for patients."
+  },
+  "uses": [
+    {
+      "ar": "مرضى السكري من النوع الأول والثاني – مراقبة يومية للسكر.",
+      "en": "Type 1 and Type 2 diabetes – daily blood sugar monitoring."
+    },
+    {
+      "ar": "العناية المركزة (ICU) – مراقبة دقيقة لمستوى الجلوكوز لدى المرضى الحرجين.",
+      "en": "Intensive Care (ICU) – accurate glucose monitoring in critically ill patients."
+    },
+    {
+      "ar": "غرفة الطوارئ – تشخيص سريع لحالات غيبوبة السكري أو نقص السكر.",
+      "en": "Emergency Room – rapid diagnosis of diabetic coma or hypoglycemia."
+    },
+    {
+      "ar": "الفحص المنزلي – أجهزة صغيرة سهلة الاستخدام للمرضى.",
+      "en": "Home testing – small, easy-to-use devices for patients."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل مقياس الجلوكوز عبر أربع مراحل: أخذ العينة حيث يتم وخز الإصبع بإبرة صغيرة (lancet) للحصول على قطرة دم، ثم التطبيق حيث توضع قطرة الدم على شريط اختبار يحتوي على إنزيمات (جلوكوز أوكسيديز أو جلوكوز ديهيدروجيناز)، ثم التفاعل الكيميائي حيث يتفاعل الجلوكوز مع الإنزيمات الموجودة على الشريط منتجاً تياراً كهربائياً (طريقة قياس الأمبيرومترية) أو تغيراً في اللون (طريقة قياس الانعكاس الضوئي)، وأخيراً القياس حيث يقوم الجهاز بتحويل التيار الكهربائي أو التغير الضوئي إلى قراءة رقمية لمستوى السكر بالملغ/ديسيلتر أو مليمول/لتر.",
+    "en": "The glucometer operates through four stages: sample collection where a small lancet pricks the fingertip to obtain a drop of blood, then application where the blood drop is placed on a test strip containing enzymes (glucose oxidase or glucose dehydrogenase), then chemical reaction where glucose reacts with the enzymes on the strip producing an electrical current (amperometric method) or a color change (reflectance photometry), and finally measurement where the device converts the electrical current or optical change into a digital reading of blood sugar level in mg/dL or mmol/L."
+  },
+  "workingSteps": [
+    {
+      "ar": "أخذ العينة: يتم وخز الإصبع بإبرة صغيرة (lancet) للحصول على قطرة دم.",
+      "en": "Sample collection: a small lancet pricks the fingertip to obtain a drop of blood."
+    },
+    {
+      "ar": "التطبيق: توضع قطرة الدم على شريط اختبار يحتوي على إنزيمات (جلوكوز أوكسيديز أو جلوكوز ديهيدروجيناز).",
+      "en": "Application: the blood drop is placed on a test strip containing enzymes (glucose oxidase or glucose dehydrogenase)."
+    },
+    {
+      "ar": "التفاعل الكيميائي: يتفاعل الجلوكوز مع الإنزيمات الموجودة على الشريط منتجاً تياراً كهربائياً (طريقة قياس الأمبيرومترية) أو تغيراً في اللون (طريقة قياس الانعكاس الضوئي).",
+      "en": "Chemical reaction: glucose reacts with the enzymes on the strip, producing an electrical current (amperometric method) or a color change (reflectance photometry)."
+    },
+    {
+      "ar": "القياس: يقوم الجهاز بتحويل التيار الكهربائي أو التغير الضوئي إلى قراءة رقمية لمستوى السكر بالملغ/ديسيلتر أو مليمول/لتر.",
+      "en": "Measurement: the device converts the electrical current or optical change into a digital reading of blood sugar level in mg/dL or mmol/L."
+    }
+  ],
+  "highlight": {
+    "ar": "تتوفر الآن أجهزة (CGM) للقياس المستمر للجلوكوز بدون وخز متكرر.",
+    "en": "Continuous Glucose Monitors (CGM) are now available for painless, continuous measurement."
+  },
+  "components": [
+    {
+      "ar": "معالج دقيق (MCU)",
+      "en": "Microcontroller (MCU)"
+    },
+    {
+      "ar": "دائرة قياس كهربائي (مضخم إشارة)",
+      "en": "Electrical measurement circuit (signal amplifier)"
+    },
+    {
+      "ar": "محول تناظري رقمي (ADC)",
+      "en": "Analog-to-digital converter (ADC)"
+    },
+    {
+      "ar": "شاشة LCD صغيرة",
+      "en": "Small LCD screen"
+    },
+    {
+      "ar": "ذاكرة تخزين القراءات",
+      "en": "Reading storage memory"
+    },
+    {
+      "ar": "بطارية زر أو قابلة للشحن",
+      "en": "Button or rechargeable battery"
+    },
+    {
+      "ar": "وحدة Bluetooth (في الطرازات الحديثة)",
+      "en": "Bluetooth module (in modern models)"
+    },
+    {
+      "ar": "حساس درجة حرارة للتعويض",
+      "en": "Temperature sensor for compensation"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز قياس السكر النموذجي (Accu-Chek Guide / OneTouch Verio)",
+    "en": "Example: Typical glucometer (Accu-Chek Guide / OneTouch Verio)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق القياس",
+        "en": "Measurement range"
+      },
+      "value": {
+        "ar": "10 – 600 ملغ/ديسيلتر (0.6 – 33.3 مليمول/لتر)",
+        "en": "10 – 600 mg/dL (0.6 – 33.3 mmol/L)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة القياس",
+        "en": "Measurement accuracy"
+      },
+      "value": {
+        "ar": "±15% للقيم > 100 ملغ/ديسيلتر، ±15 ملغ/ديسيلتر للقيم ≤ 100 ملغ/ديسيلتر (معيار ISO 15197)",
+        "en": "±15% for values > 100 mg/dL, ±15 mg/dL for values ≤ 100 mg/dL (ISO 15197 standard)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت القياس",
+        "en": "Measurement time"
+      },
+      "value": {
+        "ar": "4 – 8 ثوانٍ (حسب الطراز)",
+        "en": "4 – 8 seconds (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم العينة",
+        "en": "Sample size"
+      },
+      "value": {
+        "ar": "0.4 – 1 ميكرولتر",
+        "en": "0.4 – 1 µL"
+      }
+    },
+    {
+      "label": {
+        "ar": "طريقة القياس",
+        "en": "Measurement method"
+      },
+      "value": {
+        "ar": "قياس أمبيرومتري أو انعكاس ضوئي",
+        "en": "Amperometric or reflectance photometry"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة الذاكرة",
+        "en": "Memory capacity"
+      },
+      "value": {
+        "ar": "300 – 1000 قراءة مع التاريخ والوقت",
+        "en": "300 – 1000 readings with date and time"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "Bluetooth / USB لنقل البيانات",
+        "en": "Bluetooth / USB for data transfer"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power source"
+      },
+      "value": {
+        "ar": "بطارية CR2032 أو بطارية قابلة للشحن USB",
+        "en": "CR2032 battery or USB rechargeable battery"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "قراءات غير دقيقة بسبب درجة حرارة البيئة المنخفضة أو المرتفعة.",
+      "en": "Inaccurate readings due to low or high ambient temperature."
+    },
+    {
+      "ar": "كمية دم غير كافية على الشريط.",
+      "en": "Insufficient blood on the test strip."
+    },
+    {
+      "ar": "انتهاء صلاحية شرائط الاختبار أو تخزينها بشكل غير صحيح.",
+      "en": "Expired or improperly stored test strips."
+    },
+    {
+      "ar": "تلف أو انسداد منفذ الشريط.",
+      "en": "Damaged or blocked strip port."
+    },
+    {
+      "ar": "نفاد البطارية وضعف الشاشة.",
+      "en": "Low battery and dim display."
+    },
+    {
+      "ar": "رموز خطأ (E-1, E-2 ...) بسبب مشاكل في المعايرة أو الدائرة الإلكترونية.",
+      "en": "Error codes (E-1, E-2 ...) due to calibration or electronic circuit issues."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

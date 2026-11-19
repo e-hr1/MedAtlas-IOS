@@ -1,0 +1,268 @@
+{
+  "id": 62,
+  "name": {
+    "ar": "جهاز الحضانة لحديثي الولادة",
+    "en": "Neonatal Incubator"
+  },
+  "category": "neonatal",
+  "icon": "baby",
+  "shortDescription": {
+    "ar": "وحدة رعاية حرجة توفر بيئة دافئة ومضبوطة للأطفال الخدج أو حديثي الولادة الذين يحتاجون إلى رعاية خاصة، مع التحكم بدرجة الحرارة، الرطوبة، والأكسجين.",
+    "en": "A critical care unit that provides a warm, controlled environment for premature or newborn infants requiring specialized care, with control over temperature, humidity, and oxygen."
+  },
+  "images": [
+    "assets/image/Neonatal/Incubator/incubator1.webp",
+    "assets/image/Neonatal/Incubator/incubator2.webp",
+    "assets/image/Neonatal/Incubator/incubator3.webp",
+    "assets/image/Neonatal/Incubator/incubator4.webp"
+  ],
+  "description": {
+    "ar": "الحضانة (Incubator) هي وحدة مغلقة مصممة لتوفير بيئة دافئة، معقمة، ومثالية لنمو وتطور الأطفال المبتسرين أو منخفضي الوزن عند الولادة. تحافظ على درجة حرارة جسم الطفل، وتقلل من خطر العدوى، وتسمح بمراقبة العلامات الحيوية بشكل دقيق.",
+    "en": "The incubator is an enclosed unit designed to provide a warm, sterile, and optimal environment for the growth and development of premature or low-birth-weight infants. It maintains the infant's body temperature, reduces the risk of infection, and allows for precise monitoring of vital signs."
+  },
+  "uses": [
+    {
+      "ar": "تنظيم درجة الحرارة – توفير دفء ثابت للطفل لتجنب انخفاض حرارة الجسم.",
+      "en": "Temperature regulation – Provides consistent warmth to prevent hypothermia."
+    },
+    {
+      "ar": "التحكم بالرطوبة – منع جفاف بشرة الطفل المبتسر وحماية مجاريه التنفسية.",
+      "en": "Humidity control – Prevents skin dryness in premature infants and protects their respiratory tracts."
+    },
+    {
+      "ar": "علاج اليرقان – بعض الحضانات مزودة بوحدات للعلاج الضوئي.",
+      "en": "Jaundice treatment – Some incubators are equipped with phototherapy units."
+    },
+    {
+      "ar": "مراقبة مستمرة – تسمح بمراقبة معدل التنفس، نبض القلب، وتشبع الأكسجين.",
+      "en": "Continuous monitoring – Allows monitoring of respiratory rate, heart rate, and oxygen saturation."
+    },
+    {
+      "ar": "بيئة معقمة – تقليل تعرض الطفل للجراثيم الخارجية.",
+      "en": "Sterile environment – Reduces the infant's exposure to external germs."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر تسخين الهواء داخل الحاضنة باستخدام عناصر تسخين كهربائية مضبوطة بحساسات دقيقة، وضبط الرطوبة النسبية عبر خزان مياه ومبخر، وتوزيع الهواء الدافئ عبر نظام تهوية متجانس، مع مراقبة مستمرة للقيم وإطلاق إنذارات فورية عند أي انحراف لضمان سلامة الطفل.",
+    "en": "The system operates by heating internal air using electric heating elements controlled by precision sensors, adjusting relative humidity via a water tank and evaporator, distributing warm air evenly through a ventilation system, with continuous monitoring and immediate alarms for any deviations to ensure infant safety."
+  },
+  "workingSteps": [
+    {
+      "ar": "التدفئة: تعمل عناصر التسخين الكهربائية على رفع درجة حرارة الهواء داخل الحاضنة، ويتم التحكم بها بواسطة حساسات دقيقة.",
+      "en": "Heating: Electric heating elements raise the temperature of the air inside the incubator, controlled by precise sensors."
+    },
+    {
+      "ar": "الترطيب: خزان مياه مزود بمبخر يضبط الرطوبة النسبية للحفاظ على مستوى مثالي للطفل.",
+      "en": "Humidification: A water tank with an evaporator adjusts the relative humidity to maintain an optimal level for the infant."
+    },
+    {
+      "ar": "تدوير الهواء: نظام تهوية يوزع الهواء الدافئ والرطب بشكل متجانس دون أن يؤثر مباشرة على الطفل.",
+      "en": "Air circulation: A ventilation system distributes warm, humid air evenly without directly affecting the infant."
+    },
+    {
+      "ar": "المراقبة: حساسات لدرجة الحرارة، الرطوبة، ومستوى الأكسجين تنقل القراءات للشاشة الرئيسية.",
+      "en": "Monitoring: Sensors for temperature, humidity, and oxygen levels transmit readings to the main display."
+    },
+    {
+      "ar": "الإنذار: نظام تنبيه فوري في حال انحراف القيم المحددة لسلامة الطفل.",
+      "en": "Alarm: An immediate alert system in case of deviation from set values to ensure infant safety."
+    }
+  ],
+  "highlight": {
+    "ar": "مزودة بفتحات جانبية تسمح للطاقم الطبي بالتدخل بأقل قدر من فقدان الحرارة أو الرطوبة.",
+    "en": "Equipped with side access ports allowing medical staff to intervene with minimal heat or humidity loss."
+  },
+  "components": [
+    {
+      "ar": "نظام تسخين كهربائي (Heating System)",
+      "en": "Electric heating system"
+    },
+    {
+      "ar": "نظام ترطيب بتبخير الماء",
+      "en": "Water vapor humidification system"
+    },
+    {
+      "ar": "مروحة توزيع الهواء الداخلي",
+      "en": "Internal air distribution fan"
+    },
+    {
+      "ar": "حساسات درجة حرارة ورطوبة دقيقة",
+      "en": "Precision temperature and humidity sensors"
+    },
+    {
+      "ar": "شاشة رقمية لعرض القياسات",
+      "en": "Digital display for measurements"
+    },
+    {
+      "ar": "نظام إنذار بصري ومسموع",
+      "en": "Visual and audible alarm system"
+    },
+    {
+      "ar": "فلتر هواء هيباك (HEPA) لتنقية الهواء",
+      "en": "HEPA air filter for air purification"
+    },
+    {
+      "ar": "فتحات يدوية للعناية بالطفل",
+      "en": "Manual access ports for infant care"
+    },
+    {
+      "ar": "بطارية احتياطية للتشغيل عند انقطاع التيار",
+      "en": "Backup battery for operation during power outages"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات حضانة GE Giraffe أو Dräger Babyleo",
+    "en": "Example: Specifications for GE Giraffe or Dräger Babyleo incubators"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "من 34°C إلى 37.5°C (قابلة للتعديل)",
+        "en": "From 34°C to 37.5°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق الرطوبة",
+        "en": "Humidity range"
+      },
+      "value": {
+        "ar": "20% – 95% (نسبي)",
+        "en": "20% – 95% (relative)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الحساسات",
+        "en": "Sensor accuracy"
+      },
+      "value": {
+        "ar": "±0.1°C / ±2% رطوبة",
+        "en": "±0.1°C / ±2% humidity"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التهوية",
+        "en": "Ventilation system"
+      },
+      "value": {
+        "ar": "تدفق هواء لطيف (5 – 15 لتر/دقيقة)",
+        "en": "Gentle airflow (5 – 15 L/min)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الفلترة",
+        "en": "Filtration"
+      },
+      "value": {
+        "ar": "فلتر HEPA فعالية 99.97%",
+        "en": "HEPA filter with 99.97% efficiency"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "حوالي 80 – 110 كجم (حسب الموديل)",
+        "en": "Approximately 80 – 110 kg (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power supply"
+      },
+      "value": {
+        "ar": "220-240 فولت، 50/60 هرتز",
+        "en": "220-240 V, 50/60 Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "تشغيل احتياطي لمدة 60 دقيقة",
+        "en": "60-minute backup operation"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف حساس درجة الحرارة يؤدي إلى قراءات غير صحيحة أو ارتفاع حرارة مفاجئ.",
+      "en": "Temperature sensor failure leading to incorrect readings or sudden overheating."
+    },
+    {
+      "ar": "انسداد أو عطل في خزان الترطيب مما يسبب جفاف الهواء.",
+      "en": "Blockage or malfunction in the humidification tank causing dry air."
+    },
+    {
+      "ar": "إنذارات خاطئة ومستمرة بسبب خلل في البرمجيات أو الحساسات.",
+      "en": "Persistent false alarms due to software or sensor glitches."
+    },
+    {
+      "ar": "توقف مروحة توزيع الهواء يؤدي إلى عدم تجانس الحرارة.",
+      "en": "Air distribution fan stoppage causing uneven heating."
+    },
+    {
+      "ar": "انسداد فلتر الهواء يقلل من كفاءة التهوية ويدخل الغبار.",
+      "en": "Clogged air filter reducing ventilation efficiency and introducing dust."
+    },
+    {
+      "ar": "عطل في البطارية الاحتياطية يمنع التشغيل عند انقطاع الكهرباء.",
+      "en": "Backup battery failure preventing operation during power cuts."
+    },
+    {
+      "ar": "مشكلات في الأسلاك أو التوصيلات الكهربائية تسبب إطفاء الجهاز فجأة.",
+      "en": "Wiring or electrical connection issues causing sudden shutdown."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

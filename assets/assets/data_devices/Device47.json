@@ -1,0 +1,268 @@
+{
+  "id": 47,
+  "name": {
+    "ar": "جهاز تحليل الدم CBC",
+    "en": "CBC Blood Analyzer"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري آلي لعدِّ خلايا الدم وتقييم المؤشرات الدموية الأساسية",
+    "en": "Automated laboratory analyzer for complete blood cell counting and basic hematological indices"
+  },
+  "images": [
+    "assets/image/Laboratory/CBC/CBC1.webp",
+    "assets/image/Laboratory/CBC/CBC2.webp",
+    "assets/image/Laboratory/CBC/CBC3.webp",
+    "assets/image/Laboratory/CBC/CBC4.webp"
+  ],
+  "description": {
+    "ar": "جهاز تحليل دموي آلي يستخدم في المختبرات الطبية لإجراء فحص الدم الشامل (CBC – Complete Blood Count). يقوم الجهاز بعدِّ وتصنيف خلايا الدم الحمراء والبيضاء والصفائح الدموية، وحساب المؤشرات الدموية مثل الهيموغلوبين والهيماتوكريت، بالإضافة إلى تقديم رسوم بيانية توضح توزيع الخلايا.",
+    "en": "An automated hematology analyzer used in medical laboratories to perform a complete blood count (CBC). The device counts and classifies red blood cells, white blood cells, and platelets, and calculates blood indices such as hemoglobin and hematocrit, in addition to providing graphical representations of cell distribution."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص فقر الدم – قياس الهيموغلوبين، الهيماتوكريت، وحجم الكريات الوسطي (MCV).",
+      "en": "Diagnosis of anemia – Measurement of hemoglobin, hematocrit, and mean corpuscular volume (MCV)."
+    },
+    {
+      "ar": "الكشف عن العدوى والالتهابات – تحليل تفصيلي لعدد كريات الدم البيضاء وتصنيفها (عدلات، لمفاويات، إلخ).",
+      "en": "Detection of infections and inflammations – Detailed analysis of white blood cell count and differential (neutrophils, lymphocytes, etc.)."
+    },
+    {
+      "ar": "متابعة أمراض الدم – كاللوكيميا واضطرابات الصفيحات والنزف.",
+      "en": "Monitoring blood disorders – Such as leukemia, platelet disorders, and bleeding disorders."
+    },
+    {
+      "ar": "الفحص الروتيني – كجزء من الفحص الطبي الدوري لتقييم الصحة العامة.",
+      "en": "Routine screening – As part of regular medical check-ups to assess general health."
+    },
+    {
+      "ar": "مراقبة العلاج – متابعة استجابة المرضى للعلاجات الكيميائية أو الدوائية المؤثرة على نخاع العظم.",
+      "en": "Treatment monitoring – Tracking patient response to chemotherapy or drugs affecting bone marrow."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بسحب العينة في أنبوب يحتوي على مضاد تخثر (EDTA)، ثم التخفيف بمحلول متوازن لضمان عد دقيق، يليها العد والتقييم بمرور الخلايا عبر فتحة دقيقة في نظام العد الكهربائي (Coulter Principle) واستخدام التدفق الخلوي (Flow Cytometry) مع صبغات فلورية لتصنيف الخلايا البيضاء، ثم التحليل الكيميائي لتقدير الهيموغلوبين عبر تحليل ضوئي بعد تحليل الخلايا، وأخيراً عرض النتائج كقيم رقمية ورسوم بيانية.",
+    "en": "The system operates through steps starting with sample collection in an EDTA tube, dilution with a balanced diluent for accurate counting, counting and evaluation via the Coulter impedance principle and laser flow cytometry with fluorescent dyes, chemical analysis of hemoglobin via spectrophotometry after cell lysis, and finally displaying data as numerical values and histograms."
+  },
+  "workingSteps": [
+    {
+      "ar": "سحب العينة: تُؤخذ عينة دم وريدي في أنبوب يحتوي على مضاد تخثر (EDTA)، ثم توضع في الجهاز.",
+      "en": "Sample collection: A venous blood sample is taken into a tube containing an anticoagulant (EDTA), then placed in the device."
+    },
+    {
+      "ar": "التخفيف والتحضير: تُخفف العينة بمحلول متوازن (Diluent) لضمان عدِّ دقيق للخلايا.",
+      "en": "Dilution and preparation: The sample is diluted with a balanced diluent to ensure accurate cell counting."
+    },
+    {
+      "ar": "العدّ والتقييم: تمر الخلايا عبر فتحة دقيقة (Aperture) في نظام العدّ الكهربائي (Coulter Principle) حيث يُقاس التغير في المقاومة الكهربائية. وتستخدم تقنيات أخرى مثل التدفق الخلوي (Flow Cytometry) مع صبغات فلورية لتصنيف الخلايا البيضاء.",
+      "en": "Counting and evaluation: Cells pass through a small aperture in the electrical impedance system (Coulter Principle), where changes in electrical resistance are measured. Other techniques such as flow cytometry with fluorescent dyes are used to classify white blood cells."
+    },
+    {
+      "ar": "التحليل الكيميائي: تُقدَّر قيم الهيموغلوبين كيميائياً عبر تحليل ضوئي (Spectrophotometry) بعد تحليل الخلايا.",
+      "en": "Chemical analysis: Hemoglobin values are estimated chemically via spectrophotometry after cell lysis."
+    },
+    {
+      "ar": "عرض النتائج: تُرسل البيانات إلى معالج دقيق، وتُعرض على الشاشة كقيم رقمية ورسوم بيانية (Histograms) تشمل توزيع الخلايا حسب الحجم والتعقيد.",
+      "en": "Results display: Data is sent to a microprocessor and displayed on the screen as numerical values and histograms showing cell distribution by size and complexity."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنظمة الحديثة مزودة ببرامج ذكية للكشف التلقائي عن العينات غير الطبيعية وتصنيفها، مع إنذار فوري عند وجود خلايا شاذة.",
+    "en": "Modern systems are equipped with intelligent software for automatic detection and classification of abnormal samples, with immediate alerts for any unusual cells."
+  },
+  "components": [
+    {
+      "ar": "نظام سحب العينات",
+      "en": "Sample aspiration system"
+    },
+    {
+      "ar": "مخازن الكواشف (Diluents، Lyse، Stain)",
+      "en": "Reagent reservoirs (Diluents, Lyse, Stain)"
+    },
+    {
+      "ar": "رأس العدّ الإلكتروني (Aperture)",
+      "en": "Electronic counting aperture"
+    },
+    {
+      "ar": "مضخات دقيقة للجرعات",
+      "en": "Precision dosing pumps"
+    },
+    {
+      "ar": "وحدة التدفق الخلوي (Flow Cytometry)",
+      "en": "Flow cytometry unit"
+    },
+    {
+      "ar": "مقياس الطيف الضوئي (الهيموغلوبين)",
+      "en": "Spectrophotometer (Hemoglobin)"
+    },
+    {
+      "ar": "معالج مركزي وبرمجيات تحليل",
+      "en": "Central processor and analysis software"
+    },
+    {
+      "ar": "شاشة لمس مع رسوم بيانية وتقارير",
+      "en": "Touchscreen with graphs and reports"
+    },
+    {
+      "ar": "نظام تخزين نتائج وقاعدة بيانات",
+      "en": "Results storage and database system"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز تحليل CBC نموذجي (Sysmex XN-1000 أو Beckman Coulter DxH 800)",
+    "en": "Example: Typical CBC analyzer (Sysmex XN-1000 or Beckman Coulter DxH 800)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "المعلمات المقاسة",
+        "en": "Parameters measured"
+      },
+      "value": {
+        "ar": "WBC، RBC، HGB، HCT، MCV، MCH، MCHC، PLT، RDW، PDW، MPV، NEUT، LYMPH، MONO، EO، BASO",
+        "en": "WBC, RBC, HGB, HCT, MCV, MCH, MCHC, PLT, RDW, PDW, MPV, NEUT, LYMPH, MONO, EO, BASO"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة العينة",
+        "en": "Sample volume"
+      },
+      "value": {
+        "ar": "150 – 200 ميكروليتر",
+        "en": "150 – 200 microliters"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التحليل",
+        "en": "Analysis time"
+      },
+      "value": {
+        "ar": "60 – 90 ثانية لكل عينة",
+        "en": "60 – 90 seconds per sample"
+      }
+    },
+    {
+      "label": {
+        "ar": "طريقة العدّ",
+        "en": "Counting method"
+      },
+      "value": {
+        "ar": "مبدأ كولتر الكهربائي + التدفق الخلوي بالليزر",
+        "en": "Coulter impedance principle + laser flow cytometry"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى قياس WBC",
+        "en": "WBC measurement range"
+      },
+      "value": {
+        "ar": "0 – 400 × 10³/µL",
+        "en": "0 – 400 × 10³/µL"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى قياس RBC",
+        "en": "RBC measurement range"
+      },
+      "value": {
+        "ar": "0 – 10 × 10⁶/µL",
+        "en": "0 – 10 × 10⁶/µL"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى قياس الصفيحات",
+        "en": "Platelet measurement range"
+      },
+      "value": {
+        "ar": "0 – 3000 × 10³/µL",
+        "en": "0 – 3000 × 10³/µL"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة 15 بوصة مع واجهة تفاعلية",
+        "en": "15-inch color touchscreen with interactive interface"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد في فتحة العدّ (Aperture) نتيجة تجمع البروتينات أو الخلايا.",
+      "en": "Clogged counting aperture due to protein or cell aggregation."
+    },
+    {
+      "ar": "نقص أو تلف الكواشف (Diluent، Lyse) مما يؤدي إلى قراءات خاطئة.",
+      "en": "Insufficient or degraded reagents (Diluent, Lyse) leading to erroneous readings."
+    },
+    {
+      "ar": "انسداد المرشحات الداخلية أو وجود فقاعات هواء في الأنابيب.",
+      "en": "Blocked internal filters or air bubbles in tubing."
+    },
+    {
+      "ar": "عدم معايرة الجهاز مما يسبب انحرافاً في قيم الهيموغلوبين أو الهيماتوكريت.",
+      "en": "Lack of calibration causing deviation in hemoglobin or hematocrit values."
+    },
+    {
+      "ar": "أعطال في مستشعرات التدفق أو الليزر المستخدم في التدفق الخلوي.",
+      "en": "Faulty flow sensors or laser used in flow cytometry."
+    },
+    {
+      "ar": "مشكلات في مصدر الطاقة تؤدي إلى إعادة تشغيل مفاجئة.",
+      "en": "Power supply issues causing sudden restarts."
+    },
+    {
+      "ar": "فشل في نظام التخلص من النفايات الحيوية (الأنابيب الملوثة).",
+      "en": "Failure in the biohazard waste disposal system (contaminated tubing)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

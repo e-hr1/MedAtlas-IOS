@@ -1,0 +1,263 @@
+{
+  "id": 79,
+  "name": {
+    "ar": "جهاز الأشعة السينية السني",
+    "en": "Dental X-Ray Machine"
+  },
+  "category": "dentistry",
+  "icon": "x-ray",
+  "shortDescription": {
+    "ar": "أداة تشخيصية حيوية تستخدم الأشعة السينية لإنتاج صور دقيقة للأسنان والأنسجة المحيطة، مما يساعد في اكتشاف التسوس، أمراض اللثة، والالتهابات الخفية التي لا ترى بالعين المجردة.",
+    "en": "A vital diagnostic tool that uses X-rays to produce precise images of the teeth and surrounding tissues, helping to detect caries, periodontal diseases, and hidden infections not visible to the naked eye."
+  },
+  "images": [
+    "assets/image/Dentistry/Dental X-Ray/xray1.webp",
+    "assets/image/Dentistry/Dental X-Ray/xray2.webp",
+    "assets/image/Dentistry/Dental X-Ray/xray3.webp",
+    "assets/image/Dentistry/Dental X-Ray/xray4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الأشعة السينية السني (Dental X-Ray) هو نظام تصوير طبي يستخدم الإشعاع الكهرومغناطيسي لتكوين صور للفم والأسنان. يُستخدم بشكل واسع في طب الأسنان للتشخيص الدقيق ولمتابعة تطور العلاجات، وهو متوفر بأنواع مختلفة مثل البانورامي (Panoramic)، والبيرياپيكال (Periapical)، والجانبي (Cephalometric).",
+    "en": "The dental X-ray machine is a medical imaging system that uses electromagnetic radiation to produce images of the mouth and teeth. It is widely used in dentistry for accurate diagnosis and to monitor treatment progress, and is available in different types such as panoramic, periapical, and cephalometric."
+  },
+  "uses": [
+    {
+      "ar": "كشف التسوس الخفي: خاصة بين الأسنان وتحت الحشوات القديمة.",
+      "en": "Detecting hidden caries: Especially between teeth and under old fillings."
+    },
+    {
+      "ar": "تشخيص أمراض اللثة: وتقييم فقدان العظم حول الجذور.",
+      "en": "Diagnosing periodontal diseases: And assessing bone loss around the roots."
+    },
+    {
+      "ar": "فحص ما قبل خلع الأسنان أو الزراعة: لتقييم الأعصاب والجيوب الأنفية.",
+      "en": "Pre-extraction or implant examination: To evaluate nerves and sinuses."
+    },
+    {
+      "ar": "تقييم نمو الأسنان: والأضراس المطمورة أو المنحرفة.",
+      "en": "Assessing tooth development: And impacted or misaligned molars."
+    },
+    {
+      "ar": "كشف الخراجات والأورام: في الفك العلوي والسفلي.",
+      "en": "Detecting cysts and tumors: In the upper and lower jaw."
+    },
+    {
+      "ar": "تخطيط علاج تقويم الأسنان: من خلال الصور الجانبية (Cephalometric).",
+      "en": "Orthodontic treatment planning: Through cephalometric images."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز الأشعة السينية السني على مبدأ توليد شعاع من الإلكترونات عالية الطاقة داخل أنبوبة زجاجية مفرغة، ثم توجيهها نحو هدف معدني (الأنود) لإنتاج أشعة إكس (X-rays) التي تمر عبر أنسجة المريض لتسقط على فيلم أو حساس رقمي، مكونة صورة تختلف كثافتها باختلاف كثافة الأنسجة (العظام تظهر بيضاء، والأنسجة الرخوة رمادية) عبر أربع مراحل: توليد الأشعة حيث يسخن الفتيل (الكاثود) داخل الأنبوبة ليطلق إلكترونات تنطلق بسرعة عالية نحو الهدف المعدني (الأنود)، ثم انبعاث الأشعة السينية حيث تنبعث أشعة إكس (فوتونات عالية الطاقة) عبر نافذة الجهاز عند اصطدام الإلكترونات بالأنود، ثم توجيه الحزمة وتصفيتها حيث تمر الأشعة عبر مرشحات لتحديد مداها وتقليل الإشعاع الضار ثم تتجه نحو رأس المريض لتكوين الصورة، ثم التقاط الصورة إما عبر فيلم فوتوغرافي تقليدي أو بواسطة حساس رقمي يرسل الصورة فوراً إلى شاشة الحاسوب (التصوير الرقمي الأحدث).",
+    "en": "The dental X-ray machine works on the principle of generating a beam of high-energy electrons inside an evacuated glass tube, then directing them towards a metal target (the anode) to produce X-rays that pass through the patient's tissues and fall onto a film or digital sensor, creating an image whose density varies according to the tissue density (bones appear white, soft tissues appear gray) through four stages: X-ray generation where the filament (cathode) inside the tube is heated to release electrons that accelerate at high speed towards the metal target (anode), then X-ray emission where when electrons collide with the anode X-rays (high-energy photons) are emitted through the machine's window, then Beam directing and filtering where the rays pass through filters to define their range and reduce harmful radiation then head towards the patient's head to form the image, then Image capture either through conventional photographic film or via a digital sensor that instantly sends the image to the computer screen (modern digital imaging)."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الأشعة: يسخن الفتيل (الكاثود) داخل الأنبوبة ليطلق إلكترونات تنطلق بسرعة عالية نحو الهدف المعدني (الأنود).",
+      "en": "X-ray generation: The filament (cathode) inside the tube is heated to release electrons that accelerate at high speed towards the metal target (anode)."
+    },
+    {
+      "ar": "انبعاث الأشعة السينية: عند اصطدام الإلكترونات بالأنود، تنبعث أشعة إكس (فوتونات عالية الطاقة) عبر نافذة الجهاز.",
+      "en": "X-ray emission: When electrons collide with the anode, X-rays (high-energy photons) are emitted through the machine's window."
+    },
+    {
+      "ar": "توجيه الحزمة وتصفيتها: تمر الأشعة عبر مرشحات لتحديد مداها وتقليل الإشعاع الضار، ثم تتجه نحو رأس المريض لتكوين الصورة.",
+      "en": "Beam directing and filtering: The rays pass through filters to define their range and reduce harmful radiation, then head towards the patient's head to form the image."
+    },
+    {
+      "ar": "التقاط الصورة: إما عبر فيلم فوتوغرافي تقليدي، أو بواسطة حساس رقمي يرسل الصورة فوراً إلى شاشة الحاسوب (التصوير الرقمي الأحدث).",
+      "en": "Image capture: Either through conventional photographic film, or via a digital sensor that instantly sends the image to the computer screen (modern digital imaging)."
+    }
+  ],
+  "highlight": {
+    "ar": "تمتاز الأجهزة الحديثة بأنظمة تحكم ذكية تقلل الجرعة الإشعاعية إلى أقل حد ممكن مع الحفاظ على جودة الصورة، وتستخدم تقنيات مثل التصوير المقطعي ثلاثي الأبعاد (CBCT) للحصول على تفاصيل دقيقة للغاية.",
+    "en": "Modern devices feature intelligent control systems that reduce the radiation dose to the minimum possible while maintaining image quality, and use techniques such as three-dimensional cone beam computed tomography (CBCT) to obtain extremely detailed images."
+  },
+  "components": [
+    {
+      "ar": "أنبوبة الأشعة (X-Ray Tube)",
+      "en": "X-Ray Tube"
+    },
+    {
+      "ar": "ذراع تعليق متحرك (Arm & Column)",
+      "en": "Movable suspension arm (Arm & Column)"
+    },
+    {
+      "ar": "رأس جهاز الأشعة (Tube Head)",
+      "en": "X-Ray Tube Head"
+    },
+    {
+      "ar": "لوحة تحكم (ضبط الجهد والتيار والوقت)",
+      "en": "Control panel (voltage, current, and time adjustment)"
+    },
+    {
+      "ar": "حساس رقمي أو فيلم (Sensor/Film)",
+      "en": "Digital sensor or film (Sensor/Film)"
+    },
+    {
+      "ar": "برنامج معالجة الصور الرقمية (في الأنواع الرقمية)",
+      "en": "Digital image processing software (in digital types)"
+    },
+    {
+      "ar": "دروع واقية (رصاصية) للحماية من الإشعاع",
+      "en": "Protective (lead) shields for radiation protection"
+    },
+    {
+      "ar": "طابعة الصور (في الأنظمة غير الرقمية)",
+      "en": "Image printer (in non-digital systems)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز أشعة سني رقمي متطور (فئة البانورامي)",
+    "en": "Example: Typical specifications for an advanced digital dental X-ray machine (panoramic class)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى الجهد (KV)",
+        "en": "Voltage range (KV)"
+      },
+      "value": {
+        "ar": "60 – 90 كيلو فولت (قابل للتعديل)",
+        "en": "60 – 90 kV (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى التيار (mA)",
+        "en": "Current range (mA)"
+      },
+      "value": {
+        "ar": "2 – 15 ميلي أمبير",
+        "en": "2 – 15 mA"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التعريض",
+        "en": "Exposure time"
+      },
+      "value": {
+        "ar": "0.01 – 5 ثوانٍ (حسب النوع)",
+        "en": "0.01 – 5 seconds (depending on type)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الحساس الرقمي",
+        "en": "Digital sensor resolution"
+      },
+      "value": {
+        "ar": "9 – 20 بكسل/مم (خطية عالية)",
+        "en": "9 – 20 pixels/mm (high linearity)"
+      }
+    },
+    {
+      "label": {
+        "ar": "البعد البؤري",
+        "en": "Focal distance"
+      },
+      "value": {
+        "ar": "20 – 100 سم (حسب التصميم)",
+        "en": "20 – 100 cm (depending on design)"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد التشغيل",
+        "en": "Operating voltage"
+      },
+      "value": {
+        "ar": "220-240 فولت / 50-60 هرتز",
+        "en": "220-240 V / 50-60 Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الجهاز",
+        "en": "Device weight"
+      },
+      "value": {
+        "ar": "60 – 120 كجم (حسب الموديل والملحقات)",
+        "en": "60 – 120 kg (depending on model and accessories)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع التصوير",
+        "en": "Imaging type"
+      },
+      "value": {
+        "ar": "بانورامي / بيرياپيكال / CBCT (حسب الموديل)",
+        "en": "Panoramic / Periapical / CBCT (depending on model)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عدم صدور الأشعة (خلل في أنبوبة الأشعة أو مصدر الجهد العالي).",
+      "en": "No X-ray emission (fault in X-ray tube or high-voltage source)."
+    },
+    {
+      "ar": "صور غير واضحة أو ضبابية (حركة المريض، أو خطأ في الحساس، أو تلف الفيلم).",
+      "en": "Blurry or unclear images (patient movement, sensor error, or film damage)."
+    },
+    {
+      "ar": "تأخر أو عدم استجابة ذراع الجهاز (مشكلة في المحركات أو التروس).",
+      "en": "Delayed or no response from the device arm (motor or gear issue)."
+    },
+    {
+      "ar": "مشكلة في الاتصال بين الحساس الرقمي والحاسوب (كابل تالف أو برنامج).",
+      "en": "Connection issue between the digital sensor and computer (damaged cable or software)."
+    },
+    {
+      "ar": "ارتفاع حرارة الأنبوبة (نقص في نظام التبريد أو الإفراط في الاستخدام).",
+      "en": "Tube overheating (cooling system deficiency or overuse)."
+    },
+    {
+      "ar": "ظهور تحذيرات أمان متعلقة بالجرعة الإشعاعية (عطل في نظام التحكم بالجرعة).",
+      "en": "Safety warnings related to radiation dose (fault in dose control system)."
+    },
+    {
+      "ar": "مشاكل في الطابعة (في الأنظمة غير الرقمية) أو تعطل معالج الصور.",
+      "en": "Printer problems (in non-digital systems) or image processor malfunction."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

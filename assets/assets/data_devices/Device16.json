@@ -1,0 +1,245 @@
+{
+  "id": 16,
+  "name": {
+    "ar": "مضخة السرنجة",
+    "en": "Syringe Pump"
+  },
+  "category": "icu",
+  "icon": "syringe",
+  "shortDescription": {
+    "ar": "جهاز طبي دقيق يُستخدم لإعطاء كميات صغيرة جداً من الأدوية أو السوائل بمعدلات بطيئة ومنضبطة للغاية، يعمل عن طريق دفع مكبس سرنجة مثبتة في الجهاز.",
+    "en": "A precision medical device used to administer very small volumes of medications or fluids at extremely slow and controlled rates, working by pushing the plunger of a syringe mounted in the device."
+  },
+  "images": [
+    "assets/image/ICU/SyringePump/SyringePump1.webp",
+    "assets/image/ICU/SyringePump/SyringePump2.webp",
+    "assets/image/ICU/SyringePump/SyringePump3.webp",
+    "assets/image/ICU/SyringePump/SyringePump4.webp"
+  ],
+  "description": {
+    "ar": "مضخة السرنجة (Syringe Pump) هي جهاز طبي دقيق يُستخدم لإعطاء كميات صغيرة جداً من الأدوية أو السوائل بمعدلات بطيئة ومنضبطة للغاية. يعمل عن طريق دفع مكبس سرنجة مثبتة في الجهاز، مما يسمح بتوصيل الدواء بدقة عالية جداً، خاصة في العناية المركزة والتخدير. تشمل استخداماتها الرئيسية: الأدوية الحرجة ذات النافذة العلاجية الضيقة مثل الإنسولين والهيبارين والنتروجليسرين، التخدير في العمليات الجراحية لإعطاء أدوية التخدير والمهدئات بجرعات دقيقة، العلاج الكيميائي للأدوية التي تتطلب جرعات محددة جداً على مدى طويل، والعناية المركزة لحديثي الولادة لإعطاء السوائل والأدوية للأطفال الخدج بكميات متناهية الصغر. أنواعها: مضخة سرنجة مفردة (Single Channel) تحتوي على سرنجة واحدة، ومضخة سرنجة متعددة القنوات (Multi-Channel) تحتوي على أكثر من سرنجة لتوصيل عدة أدوية في وقت واحد.",
+    "en": "A syringe pump is a precision medical device used to administer very small volumes of medications or fluids at extremely slow and controlled rates. It works by pushing the plunger of a syringe mounted in the device, allowing highly accurate drug delivery, especially in intensive care and anesthesia. Its main uses include: Critical medications with a narrow therapeutic window such as insulin, heparin, and nitroglycerin; Anesthesia in surgical procedures to administer anesthetics and sedatives at precise doses; Chemotherapy for drugs that require very specific doses over extended periods; and Neonatal intensive care to administer fluids and medications to premature infants in micro-volumes. Types: Single Channel (holds one syringe) and Multi-Channel (holds multiple syringes for simultaneous drug delivery)."
+  },
+  "uses": [
+    {
+      "ar": "الأدوية الحرجة – مثالية للأدوية ذات النافذة العلاجية الضيقة مثل الإنسولين، الهيبارين، والنتروجليسرين.",
+      "en": "Critical medications – ideal for drugs with a narrow therapeutic window such as insulin, heparin, and nitroglycerin."
+    },
+    {
+      "ar": "التخدير – تُستخدم بشكل شائع في العمليات الجراحية لإعطاء أدوية التخدير والمهدئات بجرعات دقيقة.",
+      "en": "Anesthesia – commonly used in surgical procedures to administer anesthetics and sedatives at precise doses."
+    },
+    {
+      "ar": "العلاج الكيميائي – مناسبة لإعطاء أدوية العلاج الكيميائي التي تتطلب جرعات محددة جداً على مدى طويل.",
+      "en": "Chemotherapy – suitable for administering chemotherapy drugs that require very specific doses over extended periods."
+    },
+    {
+      "ar": "العناية المركزة لحديثي الولادة – تستخدم لإعطاء السوائل والأدوية للأطفال الخدج بكميات متناهية الصغر.",
+      "en": "Neonatal intensive care – used to administer fluids and medications to premature infants in micro-volumes."
+    },
+    {
+      "ar": "مضخة سرنجة مفردة (Single Channel) – تحتوي على سرنجة واحدة.",
+      "en": "Single Channel – holds one syringe."
+    },
+    {
+      "ar": "مضخة سرنجة متعددة القنوات (Multi-Channel) – تحتوي على أكثر من سرنجة لتوصيل عدة أدوية في وقت واحد.",
+      "en": "Multi-Channel – holds multiple syringes for simultaneous drug delivery."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تعمل مضخة السرنجة عبر ثلاث مراحل: التثبيت والبرمجة حيث تُثبت السرنجة في مكانها ثم يُبرمج الجهاز بحجم السرنجة (مثلاً 10، 20، 50 مل) والمعدل المطلوب (مل/ساعة) والجرعة الكلية، ثم آلية الضخ حيث يعمل محرك متدرج دقيق على دفع المكبس بسرعة محددة جداً محولاً الحركة الدورانية إلى حركة خطية، ثم المراقبة المستمرة حيث يحتوي على مستشعرات تراقب الضغط في الخط ووجود فقاعات هواء ومستوى المحلول في السرنجة وتطلق إنذاراً فورياً لأي خلل.",
+    "en": "The syringe pump operates through three stages: mounting and programming where the syringe is secured in place then the device is programmed with the syringe size (e.g., 10, 20, 50 ml), desired rate (ml/hr), and total dose, then pumping mechanism where a precise stepper motor drives the plunger at a very specific speed, converting rotational motion into linear motion, then continuous monitoring where it contains sensors that monitor line pressure, presence of air bubbles, and solution level in the syringe, triggering an immediate alarm for any abnormality."
+  },
+  "workingSteps": [
+    {
+      "ar": "التثبيت والبرمجة: تُثبت السرنجة في مكانها، ثم يُبرمج الجهاز بحجم السرنجة (مثلاً 10، 20، 50 مل)، والمعدل المطلوب (مل/ساعة)، والجرعة الكلية.",
+      "en": "Mounting and Programming: the syringe is secured in place, then the device is programmed with the syringe size (e.g., 10, 20, 50 ml), desired rate (ml/hr), and total dose."
+    },
+    {
+      "ar": "آلية الضخ: يعمل محرك متدرج دقيق على دفع المكبس بسرعة محددة جداً، محولاً الحركة الدورانية إلى حركة خطية.",
+      "en": "Pumping Mechanism: a precise stepper motor drives the plunger at a very specific speed, converting rotational motion into linear motion."
+    },
+    {
+      "ar": "المراقبة المستمرة: يحتوي على مستشعرات تراقب الضغط في الخط، وجود فقاعات هواء، ومستوى المحلول في السرنجة، وتطلق إنذاراً فورياً لأي خلل.",
+      "en": "Continuous Monitoring: contains sensors that monitor line pressure, presence of air bubbles, and solution level in the syringe, triggering an immediate alarm for any abnormality."
+    }
+  ],
+  "highlight": {
+    "ar": "تتميز مضخة السرنجة بدقة عالية جداً تصل إلى ± 1%، مما يجعلها الخيار الأول لتوصيل الأدوية الفعالة التي تؤثر بشكل كبير على وظائف الجسم الحيوية.",
+    "en": "The syringe pump features extremely high accuracy of up to ± 1%, making it the first choice for delivering potent medications that significantly affect vital body functions."
+  },
+  "components": [
+    {
+      "ar": "مستشعر قوة الدفع",
+      "en": "Thrust force sensor"
+    },
+    {
+      "ar": "مستشعر الضغط",
+      "en": "Pressure sensor"
+    },
+    {
+      "ar": "محرك متدرج (Stepper Motor)",
+      "en": "Stepper motor"
+    },
+    {
+      "ar": "مستشعر فقاعات الهواء",
+      "en": "Air bubble sensor"
+    },
+    {
+      "ar": "معالج دقيق (وحدة تحكم)",
+      "en": "Microprocessor (controller)"
+    },
+    {
+      "ar": "شاشة عرض ولوحة تحكم",
+      "en": "Display screen and control panel"
+    },
+    {
+      "ar": "آلية تثبيت السرنجة",
+      "en": "Syringe clamping mechanism"
+    },
+    {
+      "ar": "آلية نقل الحركة (التروس والبراغي)",
+      "en": "Motion transmission (gears and lead screws)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مضخة سرنجة نموذجية (BD Alaris™ CC مثلاً)",
+    "en": "Example: Typical syringe pump (e.g., BD Alaris™ CC)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق معدل التسريب (حسب حجم السرنجة)",
+        "en": "Infusion rate range (depending on syringe size)"
+      },
+      "value": {
+        "ar": "0.01 – 400 مل/ساعة",
+        "en": "0.01 – 400 ml/hr"
+      }
+    },
+    {
+      "label": {
+        "ar": "أحجام السرنجات المدعومة",
+        "en": "Supported syringe sizes"
+      },
+      "value": {
+        "ar": "5، 10، 20، 30، 50/60 مل",
+        "en": "5, 10, 20, 30, 50/60 ml"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الضخ",
+        "en": "Pumping accuracy"
+      },
+      "value": {
+        "ar": "± 2% (للحجم) أو ± 1% (للمعدل المنخفض)",
+        "en": "± 2% (volume) or ± 1% (low rate)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق ضغط التسريب",
+        "en": "Infusion pressure range"
+      },
+      "value": {
+        "ar": "0.1 – 10 بار (قابل للتعديل)",
+        "en": "0.1 – 10 bar (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام الإنذار",
+        "en": "Alarm system"
+      },
+      "value": {
+        "ar": "انسداد، فقاعات، نهاية السرنجة، نفاد البطارية، خطأ في التركيب",
+        "en": "Occlusion, bubbles, syringe end, battery depletion, mounting error"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون قابلة للشحن (تدوم 6-12 ساعة)",
+        "en": "Rechargeable Lithium-ion (lasts 6-12 hours)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Screen"
+      },
+      "value": {
+        "ar": "LCD أو TFT ملون، مع إضاءة خلفية للعمل في الظلام",
+        "en": "Color LCD or TFT with backlight for dark environments"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض شحن البطارية أو تلفها.",
+      "en": "Low battery charge or battery damage."
+    },
+    {
+      "ar": "انسداد في خط التسريب الوريدي (إنذار ضغط مرتفع).",
+      "en": "Occlusion in the IV line (high pressure alarm)."
+    },
+    {
+      "ar": "وجود فقاعات هواء في السرنجة أو الأنبوب (إنذار فقاعات).",
+      "en": "Air bubbles in the syringe or tubing (bubble alarm)."
+    },
+    {
+      "ar": "عدم تثبيت السرنجة بشكل صحيح (إنذار التركيب).",
+      "en": "Syringe not properly secured (mounting alarm)."
+    },
+    {
+      "ar": "أخطاء في برمجة حجم السرنجة أو معدل التسريب.",
+      "en": "Errors in programming syringe size or infusion rate."
+    },
+    {
+      "ar": "عطل في الشاشة أو أزرار التحكم.",
+      "en": "Screen or control button malfunction."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

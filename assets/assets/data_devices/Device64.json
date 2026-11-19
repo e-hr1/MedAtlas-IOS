@@ -1,0 +1,266 @@
+{
+  "id": 64,
+  "name": {
+    "ar": "وحدة العلاج الضوئي لحديثي الولادة",
+    "en": "Neonatal Phototherapy Unit"
+  },
+  "category": "neonatal",
+  "icon": "baby",
+  "shortDescription": {
+    "ar": "جهاز طبي يستخدم الضوء الأزرق عالي الكثافة (بطول موجي 420-470 نانومتر) لعلاج اليرقان الوليدي (فرط بيليروبين الدم) عن طريق تكسير البيليروبين غير المباشر في جلد الطفل.",
+    "en": "A medical device that uses high-intensity blue light (wavelength 420-470 nm) to treat neonatal jaundice (hyperbilirubinemia) by breaking down indirect bilirubin in the infant's skin."
+  },
+  "images": [
+    "assets/image/Neonatal/Phototherapy/photo1.webp",
+    "assets/image/Neonatal/Phototherapy/photo2.webp"
+  ],
+  "description": {
+    "ar": "جهاز العلاج الضوئي (Phototherapy Unit) هو وحدة إنارة طبية متخصصة تصدر ضوءاً أزرق بطول موجي محدد (425-475 نانومتر) لعلاج اليرقان الفسيولوجي عند الأطفال حديثي الولادة. يعمل الضوء على تحويل البيليروبين غير المباشر (الدهني) إلى شكل قابل للذوبان في الماء يمكن للكبد والكلى التخلص منه بسهولة عبر البول والبراز.",
+    "en": "The Phototherapy Unit is a specialized medical lighting device that emits blue light at a specific wavelength (425-475 nm) to treat physiological jaundice in newborns. The light converts indirect (fat-soluble) bilirubin into a water-soluble form that the liver and kidneys can easily excrete through urine and stool."
+  },
+  "uses": [
+    {
+      "ar": "علاج اليرقان الوليدي – خفض مستويات البيليروبين في الدم لمنع حدوث اليرقان النووي (Kernicterus).",
+      "en": "Treatment of neonatal jaundice – Reduces bilirubin levels in the blood to prevent kernicterus."
+    },
+    {
+      "ar": "الوقاية من المضاعفات – تجنب تلف الدماغ الناتج عن ترسب البيليروبين في الخلايا العصبية.",
+      "en": "Prevention of complications – Avoids brain damage caused by bilirubin deposition in nerve cells."
+    },
+    {
+      "ar": "العلاج المنزلي – بعض الوحدات مصممة للاستخدام المنزلي تحت إشراف طبي.",
+      "en": "Home therapy – Some units are designed for home use under medical supervision."
+    },
+    {
+      "ar": "العلاج المزدوج – استخدام مصدرين (علوي وسفلي) لزيادة فعالية العلاج وتقليل مدته.",
+      "en": "Double therapy – Using two sources (top and bottom) to increase treatment effectiveness and reduce duration."
+    },
+    {
+      "ar": "المراقبة المستمرة – توفير إضاءة كافية مع إمكانية مراقبة الطفل عبر كاميرات مدمجة في بعض الموديلات.",
+      "en": "Continuous monitoring – Provides adequate lighting with the ability to monitor the infant via built-in cameras in some models."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر إصدار ضوء أزرق عالي الكثافة (420-470 نانومتر) يخترق جلد الطفل ويصل للشعيرات الدموية، ليحدث تفاعل كيميائي ضوئي يحول البيليروبين غير المباشر إلى أيزومر قابل للذوبان في الماء (فوتوبيليروبين)، ليتم طرحه عبر الكبد والكلى في البول والبراز.",
+    "en": "The system operates by emitting high-intensity blue light (420-470 nm) that penetrates the infant's skin to reach capillaries, triggering a photochemical reaction that converts indirect bilirubin into a water-soluble isomer (photobilirubin) to be excreted via the liver and kidneys in urine and stool."
+  },
+  "workingSteps": [
+    {
+      "ar": "إصدار الضوء الأزرق: تستخدم وحدة العلاج الضوئي مصابيح LED زرقاء عالية الكثافة أو مصابيح فلورسنت خاصة (طول موجي 420-470 نانومتر).",
+      "en": "Blue light emission: The phototherapy unit uses high-intensity blue LED lamps or special fluorescent lamps (wavelength 420-470 nm)."
+    },
+    {
+      "ar": "اختراق الجلد: تخترق الأشعة الزرقاء الجلد الرقيق للطفل وتصل إلى الشعيرات الدموية السطحية.",
+      "en": "Skin penetration: Blue light penetrates the infant's thin skin and reaches the superficial capillaries."
+    },
+    {
+      "ar": "تفاعل كيميائي ضوئي: تعمل فوتونات الضوء على تغيير بنية جزيئات البيليروبين غير المباشر (الدهني) إلى أيزومر قابل للذوبان في الماء (فوتوبيليروبين).",
+      "en": "Photochemical reaction: Light photons change the structure of indirect bilirubin molecules (fat-soluble) into a water-soluble isomer (photobilirubin)."
+    },
+    {
+      "ar": "طرح البيليروبين: ينتقل البيليروبين المتحول إلى الكبد حيث يُقترن بحمض الغلوكورونيك، ثم يُطرح عبر الصفراء والبول والبراز.",
+      "en": "Bilirubin excretion: The converted bilirubin moves to the liver where it is conjugated with glucuronic acid, then excreted through bile, urine, and stool."
+    },
+    {
+      "ar": "المراقبة المستمرة: يتم قياس مستوى البيليروبين في الدم بشكل دوري لتعديل مدة وشدة العلاج حسب استجابة الطفل.",
+      "en": "Continuous monitoring: Blood bilirubin levels are measured periodically to adjust treatment duration and intensity according to the infant's response."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم الوحدات الحديثة تقنية LED التي توفر إضاءة عالية الكثافة مع إنتاج حرارة أقل، مما يجعلها أكثر أماناً وكفاءة من المصابيح التقليدية.",
+    "en": "Modern units use LED technology that provides high-intensity illumination with lower heat production, making them safer and more efficient than traditional lamps."
+  },
+  "components": [
+    {
+      "ar": "مصابيح LED زرقاء عالية الكثافة",
+      "en": "High-intensity blue LED lamps"
+    },
+    {
+      "ar": "عاكسات ضوئية لتوزيع الإضاءة بشكل متساوٍ",
+      "en": "Optical reflectors for even light distribution"
+    },
+    {
+      "ar": "حساسات حرارة لمراقبة درجة حرارة الطفل",
+      "en": "Temperature sensors to monitor infant temperature"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية بقوة إضاءة قابلة للتعديل",
+      "en": "Electronic control unit with adjustable light intensity"
+    },
+    {
+      "ar": "شاشة LCD تعرض مدة العلاج وقوة الإضاءة",
+      "en": "LCD display showing treatment duration and light intensity"
+    },
+    {
+      "ar": "مؤقت رقمي للتحكم في مدة الجلسة",
+      "en": "Digital timer for session duration control"
+    },
+    {
+      "ar": "نظام إنذار في حال ارتفاع الحرارة أو عطل المصابيح",
+      "en": "Alarm system for overheating or lamp failure"
+    },
+    {
+      "ar": "سرير أطفال شفاف أو حاضنة مدمجة",
+      "en": "Transparent infant bed or integrated incubator"
+    },
+    {
+      "ar": "غطاء واقٍ للعينين (حماية من الأشعة)",
+      "en": "Protective eye cover (radiation shield)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات وحدة علاج ضوئي نموذجية (GE Lullaby LED أو Draeger Phototherapy LED)",
+    "en": "Example: Specifications for a typical phototherapy unit (GE Lullaby LED or Draeger Phototherapy LED)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع المصابيح",
+        "en": "Lamp type"
+      },
+      "value": {
+        "ar": "LED أزرق عالي الكثافة (طول موجي 420-470 نانومتر)",
+        "en": "High-intensity blue LED (wavelength 420-470 nm)"
+      }
+    },
+    {
+      "label": {
+        "ar": "شدة الإضاءة",
+        "en": "Light intensity"
+      },
+      "value": {
+        "ar": "30 - 50 μW/cm²/nm (قابلة للتعديل)",
+        "en": "30 - 50 μW/cm²/nm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مساحة التغطية",
+        "en": "Coverage area"
+      },
+      "value": {
+        "ar": "50 × 40 سم (تغطي جسم الطفل بالكامل)",
+        "en": "50 × 40 cm (covers the entire infant body)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "تشغيل آمن عند 20-30 درجة مئوية",
+        "en": "Safe operation at 20-30°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "التحكم",
+        "en": "Control"
+      },
+      "value": {
+        "ar": "شاشة تعمل باللمس + أزرار تحكم يدوي",
+        "en": "Touch screen + manual control buttons"
+      }
+    },
+    {
+      "label": {
+        "ar": "المؤقت",
+        "en": "Timer"
+      },
+      "value": {
+        "ar": "0 – 99 ساعة (قابل للبرمجة)",
+        "en": "0 – 99 hours (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": {
+        "ar": "طول 80 سم × عرض 50 سم × ارتفاع 150-180 سم",
+        "en": "Length 80 cm × Width 50 cm × Height 150-180 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "≈ 30 – 45 كجم",
+        "en": "≈ 30 – 45 kg"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "احتراق أو ضعف إضاءة بعض مصابيح LED مما يقلل من فعالية العلاج.",
+      "en": "Burned out or dim LED lamps reducing treatment effectiveness."
+    },
+    {
+      "ar": "تلف حساس الحرارة يؤدي إلى ارتفاع غير متوقع في درجة حرارة الطفل.",
+      "en": "Temperature sensor failure causing unexpected overheating of the infant."
+    },
+    {
+      "ar": "خلل في وحدة إمداد الطاقة (Power Supply) يسبب انقطاع التيار الكهربائي.",
+      "en": "Power supply unit malfunction causing power interruption."
+    },
+    {
+      "ar": "مشكلة في برمجيات التحكم تؤدي إلى أخطاء في ضبط شدة الإضاءة.",
+      "en": "Control software issues causing errors in light intensity adjustment."
+    },
+    {
+      "ar": "تلف شاشة العرض أو عدم استجابة أزرار التحكم.",
+      "en": "Display screen damage or unresponsive control buttons."
+    },
+    {
+      "ar": "عطل في المؤقت الرقمي مما يمنع إيقاف الجلسة تلقائياً.",
+      "en": "Digital timer malfunction preventing automatic session termination."
+    },
+    {
+      "ar": "انسداد فتحات التهوية الداخلية يؤدي إلى ارتفاع حرارة الجهاز وإيقاف التشغيل المفاجئ.",
+      "en": "Blocked internal ventilation openings causing device overheating and sudden shutdown."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

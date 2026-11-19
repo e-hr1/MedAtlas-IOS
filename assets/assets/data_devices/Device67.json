@@ -1,0 +1,272 @@
+{
+  "id": 67,
+  "name": {
+    "ar": "جهاز التعقيم بدرجة حرارة منخفضة",
+    "en": "Low Temperature Sterilizer"
+  },
+  "category": "sterilization",
+  "icon": "shield-alt",
+  "shortDescription": {
+    "ar": "وحدة تعقيم متطورة تستخدم تقنيات مثل بلازما بيروكسيد الهيدروجين أو أكسيد الإيثيلين لتعقيم الأدوات الحساسة للحرارة والرطوبة، مثل المناظير الجراحية والأجهزة الإلكترونية الدقيقة.",
+    "en": "An advanced sterilization unit using technologies such as hydrogen peroxide plasma or ethylene oxide to sterilize heat- and moisture-sensitive instruments, such as surgical endoscopes and delicate electronic devices."
+  },
+  "images": [
+    "assets/image/Sterilization/LowTemp/sterilizer1.webp",
+    "assets/image/Sterilization/LowTemp/sterilizer2.webp"
+  ],
+  "description": {
+    "ar": "جهاز التعقيم بدرجة حرارة منخفضة هو نظام متخصص يستخدم لتعقيم الأدوات والمعدات الطبية التي لا تتحمل درجات الحرارة العالية (أكثر من 60°م) أو الرطوبة العالية. يعمل الجهاز باستخدام مواد كيميائية مثل بيروكسيد الهيدروجين (H₂O₂) أو أكسيد الإيثيلين (EtO) في درجات حرارة تتراوح بين 35-60°م، مما يضمن قتل جميع أنواع الميكروبات (بما في ذلك الأبواغ) دون إتلاف المواد الحساسة.",
+    "en": "A low-temperature sterilizer is a specialized system used to sterilize medical instruments and equipment that cannot withstand high temperatures (above 60°C) or high humidity. It operates using chemicals such as hydrogen peroxide (H₂O₂) or ethylene oxide (EtO) at temperatures between 35-60°C, ensuring the elimination of all types of microbes (including spores) without damaging sensitive materials."
+  },
+  "uses": [
+    {
+      "ar": "تعقيم المناظير الجراحية – مناظير البطن، المفاصل، والمسالك البولية الحساسة للحرارة.",
+      "en": "Sterilizing surgical endoscopes – Abdominal, joint, and urinary tract endoscopes sensitive to heat."
+    },
+    {
+      "ar": "تعقيم الأجهزة الإلكترونية – كاميرات الجراحة، أجهزة الليزر، والأدوات المزودة ببطاريات.",
+      "en": "Sterilizing electronic devices – Surgical cameras, lasers, and battery-powered instruments."
+    },
+    {
+      "ar": "تعقيم الأدوات البلاستيكية والمطاطية – الأنابيب، القسطرة، والمواد المستهلكة التي تتلف بالتعقيم الحراري.",
+      "en": "Sterilizing plastic and rubber instruments – Tubes, catheters, and consumables that are damaged by heat sterilization."
+    },
+    {
+      "ar": "تعقيم الأدوات الدقيقة – الأدوات الجراحية الدقيقة مثل الماسكات والملاقط الدقيقة.",
+      "en": "Sterilizing delicate instruments – Fine surgical tools such as forceps and micro forceps."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر إفراغ الهواء من حجرة التعقيم لضمان سحب الرطوبة وانتشار المعقم، ثم حقن المادة الفعالة (بيروكسيد الهيدروجين وتحويلها إلى بلازما لتوليد جذور حرة أو حقن أكسيد الإيثيلين)، والاحتفاظ بها لفترة زمنية محددة للقضاء على الميكروبات، تليها مرحلة تهوية وتخلص من البقايا السامة آلياً.",
+    "en": "The system operates by evacuating air from the sterilization chamber to remove moisture and facilitate sterilant distribution, then injecting the active agent (converting hydrogen peroxide into plasma to generate free radicals or injecting ethylene oxide), holding it for a specified dwell time to eliminate microbes, followed by an automatic aeration and toxic residue removal phase."
+  },
+  "workingSteps": [
+    {
+      "ar": "التغليف والتحميل: توضع الأدوات المغلفة بأكياس خاصة (قابلة للنفاذ للغاز) داخل حجرة التعقيم، مع مراعاة عدم تكديسها لضمان وصول المعقم.",
+      "en": "Packaging and Loading: The instruments are placed in special pouches (gas-permeable) inside the sterilization chamber, ensuring they are not overcrowded to allow proper sterilant penetration."
+    },
+    {
+      "ar": "تفريغ الهواء (المرحلة الأولى): يتم سحب الهواء من الحجرة لخلق بيئة مفرغة، مما يساعد على إزالة الرطوبة ويسهل انتشار الغاز أو البلازما.",
+      "en": "Air Evacuation (Phase 1): Air is removed from the chamber to create a vacuum, helping to eliminate moisture and facilitate the distribution of the gas or plasma."
+    },
+    {
+      "ar": "حقن المادة الفعالة (مرحلة التعقيم): في أجهزة البلازما، يتم حقن بيروكسيد الهيدروجين الذي يتحول إلى بلازما تحت تأثير المجال الكهربائي، مما يولد جذوراً حرة (OH) تقتل الميكروبات. في أجهزة أكسيد الإيثيلين، يتم حقن الغاز في درجة حرارة منخفضة مع رطوبة مضبوطة.",
+      "en": "Active Agent Injection (Sterilization Phase): In plasma systems, hydrogen peroxide is injected and converted into plasma under an electric field, generating free radicals (OH) that kill microbes. In ethylene oxide systems, the gas is injected at a low temperature with controlled humidity."
+    },
+    {
+      "ar": "الاحتفاظ بالمادة (وقت التماس): تبقى المادة المعقمة في الحجرة لمدة محددة (تتراوح بين 30 دقيقة إلى عدة ساعات حسب التقنية) لضمان التعقيم الكامل.",
+      "en": "Dwell Time (Contact Time): The sterilant remains in the chamber for a specific period (ranging from 30 minutes to several hours depending on the technology) to ensure complete sterilization."
+    },
+    {
+      "ar": "التهوية والتخلص من البقايا: في نهاية الدورة، يتم التخلص من الغاز المتبقي عن طريق تهوية الحجرة (أو باستخدام محفزات كيميائية لتحويله إلى ماء وأكسجين)، ويتم فتح الجهاز بعد اكتمال الدورة وخروج جميع المواد السامة.",
+      "en": "Aeration and Residue Removal: At the end of the cycle, residual gas is removed by venting the chamber (or using chemical catalysts to convert it into water and oxygen), and the device is opened only after the cycle is complete and all toxic substances have been eliminated."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم أجهزة البلازما الحديثة نظام 'دورة مزدوجة' (Double Cycle) لزيادة اختراق الغاز للأنابيب الطويلة، مع وجود مؤشرات كيميائية وبيولوجية للتحقق من نجاح عملية التعقيم قبل استخدام الأدوات.",
+    "en": "Modern plasma sterilizers use a 'Double Cycle' system to enhance gas penetration into long tubes, with chemical and biological indicators to verify sterilization success before using the instruments."
+  },
+  "components": [
+    {
+      "ar": "حجرة التعقيم (Chamber) مصنوعة من الفولاذ المقاوم للصدأ",
+      "en": "Sterilization chamber made of stainless steel"
+    },
+    {
+      "ar": "نظام تفريغ الهواء (Vacuum Pump) قوي وسريع",
+      "en": "Powerful and fast vacuum pump system"
+    },
+    {
+      "ar": "خزان المادة المعقمة (بيروكسيد أو أكسيد الإيثيلين)",
+      "en": "Sterilant reservoir (Peroxide or Ethylene Oxide)"
+    },
+    {
+      "ar": "مولد البلازما (Plasma Generator) لإنتاج البلازما النشطة",
+      "en": "Plasma generator to produce active plasma"
+    },
+    {
+      "ar": "حساسات حرارة ورطوبة دقيقة للتحكم بالبيئة الداخلية",
+      "en": "Precision temperature and humidity sensors to control the internal environment"
+    },
+    {
+      "ar": "نظام تحويل بقايا الغاز (Catalytic Converter) لتفكيك المواد السامة",
+      "en": "Residual gas conversion system (Catalytic Converter) to break down toxic substances"
+    },
+    {
+      "ar": "طابعة مدمجة لتسجيل بيانات الدورة (درجة الحرارة، الضغط، الوقت)",
+      "en": "Built-in printer to record cycle data (temperature, pressure, time)"
+    },
+    {
+      "ar": "نظام مراقبة عن بعد (IoT) لتتبع دورات التعقيم وإنذار الأعطال",
+      "en": "Remote monitoring system (IoT) to track sterilization cycles and alert for malfunctions"
+    },
+    {
+      "ar": "نظام مؤشرات (كيميائية وبيولوجية) للتأكد من نجاح التعقيم",
+      "en": "Indicator system (chemical and biological) to confirm sterilization success"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز تعقيم بلازما بيروكسيد الهيدروجين (مثل STERRAD أو Tuttnauer)",
+    "en": "Example: Specifications of a hydrogen peroxide plasma sterilizer (e.g., STERRAD or Tuttnauer)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "سعة الحجرة",
+        "en": "Chamber capacity"
+      },
+      "value": {
+        "ar": "100 – 200 لتر (حسب الطراز)",
+        "en": "100 – 200 liters (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التشغيل",
+        "en": "Operating temperature"
+      },
+      "value": {
+        "ar": "40 – 55 درجة مئوية",
+        "en": "40 – 55 °C"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة التعقيم",
+        "en": "Sterilizing agent"
+      },
+      "value": {
+        "ar": "بيروكسيد الهيدروجين (H₂O₂) 59% أو أكسيد الإيثيلين (EtO)",
+        "en": "Hydrogen peroxide (H₂O₂) 59% or Ethylene Oxide (EtO)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الدورة الكاملة",
+        "en": "Full cycle time"
+      },
+      "value": {
+        "ar": "30 – 75 دقيقة (للبلازما) / 2 – 5 ساعات (لـ EtO)",
+        "en": "30 – 75 minutes (plasma) / 2 – 5 hours (EtO)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط التفريغ",
+        "en": "Vacuum pressure"
+      },
+      "value": {
+        "ar": "يصل إلى 50 ملي بار (Vacuum level)",
+        "en": "Up to 50 mbar (Vacuum level)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التحكم",
+        "en": "Control system"
+      },
+      "value": {
+        "ar": "شاشة لمس تعمل باللمس (HMI) مع برمجة دورات مخصصة",
+        "en": "Touchscreen (HMI) with customizable cycle programming"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "متوافق مع أدوات الحساسة للحرارة مثل المناظير المرنة والأجهزة الإلكترونية",
+        "en": "Compatible with heat-sensitive instruments such as flexible endoscopes and electronic devices"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزات الأمان",
+        "en": "Safety features"
+      },
+      "value": {
+        "ar": "قفل أمان، إنذار للتسرب، نظام إطفاء تلقائي للحرائق (في أجهزة EtO)",
+        "en": "Safety lock, leak alarm, automatic fire suppression system (in EtO models)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوصيلات",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "شبكة إيثرنت، USB لتصدير بيانات الدورات، ومنفذ لتحديث البرامج",
+        "en": "Ethernet, USB for exporting cycle data, and a port for software updates"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في مضخة التفريغ يؤدي إلى عدم تحقيق الضغط المطلوب، مما يمنع وصول المادة المعقمة إلى جميع الأدوات.",
+      "en": "Vacuum pump failure leading to insufficient pressure, preventing the sterilant from reaching all instruments."
+    },
+    {
+      "ar": "نقص أو تلوث المادة المعقمة (H₂O₂) مما يقلل من كفاءة التعقيم ويؤدي إلى فشل الدورة.",
+      "en": "Depletion or contamination of the sterilant (H₂O₂) reducing sterilization efficiency and causing cycle failure."
+    },
+    {
+      "ar": "خلل في حساسات الحرارة أو الرطوبة يؤدي إلى قراءات خاطئة وإيقاف الدورة بشكل مفاجئ.",
+      "en": "Malfunctioning temperature or humidity sensors leading to incorrect readings and sudden cycle interruption."
+    },
+    {
+      "ar": "عطل في مولد البلازما (عدم توليد التفريغ الكهربائي المناسب) مما يمنع تكون الجذور الحرة الفعالة.",
+      "en": "Plasma generator failure (no proper electrical discharge) preventing the formation of active free radicals."
+    },
+    {
+      "ar": "انسداد أو تلف في نظام تحويل الغاز (Catalytic Converter) مما يؤدي إلى تسرب غازات سامة إلى البيئة المحيطة.",
+      "en": "Blockage or damage to the gas conversion system (Catalytic Converter) causing toxic gas leaks into the surrounding environment."
+    },
+    {
+      "ar": "خلل في الطابعة المدمجة أو وحدة تخزين البيانات مما يفقد سجلات الدورات المهمة للتوثيق.",
+      "en": "Fault in the built-in printer or data storage unit resulting in loss of important cycle records for documentation."
+    },
+    {
+      "ar": "عدم إحكام إغلاق باب الحجرة يؤدي إلى تسرب الهواء الداخلي وفشل دورة التعقيم.",
+      "en": "Improper sealing of the chamber door leading to air leakage and sterilization cycle failure."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الرئيسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical Specifications"
+    },
+    "faults": {
+      "ar": "الأعطال والمشكلات الشائعة",
+      "en": "Common Faults and Issues"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

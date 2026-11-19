@@ -1,0 +1,288 @@
+{
+  "id": 26,
+  "name": {
+    "ar": "المجهر الجراحي",
+    "en": "Surgical Microscope"
+  },
+  "category": "operating",
+  "icon": "search-plus",
+  "shortDescription": {
+    "ar": "منظار التكبير الجراحي – جهاز بصري دقيق يوفر رؤية مكبرة وعالية الوضوح للحقول الجراحية الدقيقة",
+    "en": "Surgical Magnification Scope – A precision optical device that provides magnified, high-resolution views of delicate surgical fields"
+  },
+  "images": [
+    "assets/image/Operating/Microscope/Microscope1.webp",
+    "assets/image/Operating/Microscope/Microscope2.webp",
+    "assets/image/Operating/Microscope/Microscope3.webp",
+    "assets/image/Operating/Microscope/Microscope4.webp"
+  ],
+  "description": {
+    "ar": "جهاز بصري متخصص يُستخدم في العمليات الجراحية الدقيقة التي تتطلب رؤية مكبرة للأنسجة والأوعية الدموية والأعصاب التي لا تُرى بالعين المجردة. يوفر الجهاز تكبيراً يتراوح بين 2x إلى 50x مع إضاءة مركزة عالية الكثافة، ورؤية ثلاثية الأبعاد (مجسمة) تمنح الجراح إحساساً بالعمق والمسافة.",
+    "en": "A specialized optical device used in delicate surgical procedures that require magnified visualization of tissues, blood vessels, and nerves that are not visible to the naked eye. The device provides magnification ranging from 2x to 50x with high-intensity focused illumination, and three-dimensional (stereoscopic) vision that gives the surgeon depth perception and spatial awareness."
+  },
+  "uses": [
+    {
+      "ar": "جراحة المخ والأعصاب: استئصال الأورام الدماغية، إصلاح تمدد الأوعية الدموية، وجراحة العمود الفقري الدقيقة.",
+      "en": "Neurosurgery: Brain tumor resection, aneurysm repair, and delicate spinal surgery."
+    },
+    {
+      "ar": "جراحة العيون: عمليات المياه البيضاء، الزرق، زراعة القرنية، وجراحة الشبكية.",
+      "en": "Ophthalmology: Cataract surgery, glaucoma surgery, corneal transplant, and retinal surgery."
+    },
+    {
+      "ar": "جراحة الأنف والأذن والحنجرة: جراحة الأذن الوسطى، زراعة القوقعة، وجراحة الحبال الصوتية.",
+      "en": "ENT (Otolaryngology): Middle ear surgery, cochlear implant, and vocal cord surgery."
+    },
+    {
+      "ar": "جراحة التجميل والترميم: توصيل الأوعية الدموية والأعصاب الدقيقة، وزراعة الأصابع.",
+      "en": "Plastic and Reconstructive Surgery: Microvascular anastomosis, digit replantation, and fine cosmetic surgery."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يستخدم مصدر إضاءة عالي الكثافة يمر عبر مرايا وعدسات لإضاءة الحقل الجراحي. تمر الأشعة المنعكسة عبر العدسة الشيئية ونظام التكبير المتغير، وتُقسم عبر منشورات ثنائية اللون لتوفير رؤية مجسمة (ثلاثية الأبعاد) عبر العدسات أو الشاشات الخارجية.",
+    "en": "Uses a high-intensity light source passing through mirrors and lenses to illuminate the surgical field. Reflected rays pass through the objective lens and zoom system, split by beam splitters to provide stereoscopic 3D vision through eyepieces or external screens."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الضوء: يستخدم مصدر إضاءة عالي الكثافة (زينون أو LED أو هالوجين) يمر عبر نظام من المرايا والعدسات لتوفير إضاءة مركزة ومباشرة على مجال العملية.",
+      "en": "Light Generation: Uses a high-intensity light source (Xenon, LED, or Halogen) that passes through a system of mirrors and lenses to provide focused, direct illumination on the surgical field."
+    },
+    {
+      "ar": "التكبير البصري: تمر الأشعة الضوئية المنعكسة من الأنسجة عبر نظام العدسات الأساسي (العدسة الشيئية) ثم عبر نظام تكبير متغير (Zoom System) للتحكم بدرجة التكبير.",
+      "en": "Optical Magnification: Light rays reflected from the tissue pass through the primary lens system (Objective Lens) and then through a variable magnification system (Zoom System)."
+    },
+    {
+      "ar": "تقسيم مسار الضوء: يُقسم مسار الضوء عبر منشورات ثنائية اللون (Beam Splitters) لتوفير رؤية ثنائية العينين (مجهرية مجسمة)، مما يمنح الجراح إحساساً بالعمق.",
+      "en": "Light Path Splitting: The light path is split through dichroic beam splitters to provide binocular (stereoscopic) vision, giving the surgeon depth perception (3D vision)."
+    },
+    {
+      "ar": "الرؤية والعرض: يرى الجراح الصورة المكبرة من خلال عدسات المجهر، مع إمكانية تركيب كاميرات رقمية لعرض الصورة على شاشات خارجية والتسجيل للأغراض التعليمية.",
+      "en": "Viewing and Display: The surgeon views the magnified image through the microscope eyepieces, with the option to attach digital cameras for displaying the image on external screens and recording."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنظمة الحديثة مزودة بتقنية التنظير الفلوري (Fluorescence) مثل تصوير الأوعية بالجراحياتين (ICG) لمراقبة تدفق الدم في الأنسجة والأوعية الدموية خلال العملية، وأنظمة الملاحة الجراحية لتوجيه الأدوات بدقة فائقة.",
+    "en": "Modern systems feature fluorescence technology such as ICG (Indocyanine Green) angiography for monitoring blood flow in tissues and vessels during surgery, and surgical navigation systems for ultra-precise instrument guidance."
+  },
+  "components": [
+    {
+      "ar": "مصدر إضاءة (زينون/LED/هالوجين)",
+      "en": "Light Source (Xenon/LED/Halogen)"
+    },
+    {
+      "ar": "عدسات شيئية (Objective Lens)",
+      "en": "Objective Lens"
+    },
+    {
+      "ar": "نظام تكبير متغير (Zoom)",
+      "en": "Variable Magnification (Zoom) System"
+    },
+    {
+      "ar": "منظار ثنائي العينين (مجهر مجسم)",
+      "en": "Binocular (Stereoscopic) Viewer"
+    },
+    {
+      "ar": "كاميرا رقمية (HD/4K)",
+      "en": "Digital Camera (HD/4K)"
+    },
+    {
+      "ar": "شاشة عرض خارجية",
+      "en": "External Display Screen"
+    },
+    {
+      "ar": "أذرع متوازنة ومفاصل حركية",
+      "en": "Balanced Arms and Articulated Joints"
+    },
+    {
+      "ar": "نظام تحكم (يدوي/دواسات قدم)",
+      "en": "Control System (Manual/Foot Pedals)"
+    },
+    {
+      "ar": "وحدة معالجة وتحسين الصورة",
+      "en": "Image Processing and Enhancement Unit"
+    },
+    {
+      "ar": "مرشحات واقية وفلتر للضوء الأزرق",
+      "en": "Protective Filters and Blue Light Filter"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مجهر جراحي نموذجي (Zeiss KINEVO 900 أو Leica M530 OHX)",
+    "en": "Example: Typical Surgical Microscope (Zeiss KINEVO 900 or Leica M530 OHX)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى التكبير",
+        "en": "Magnification Range"
+      },
+      "value": {
+        "ar": "2x – 50x (قابل للتعديل)",
+        "en": "2x – 50x (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "البعد البؤري (Focal Length)",
+        "en": "Focal Length"
+      },
+      "value": {
+        "ar": "200 – 500 مم (حسب العدسة الشيئية)",
+        "en": "200 – 500 mm (depending on objective lens)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مجال الرؤية (FOV)",
+        "en": "Field of View (FOV)"
+      },
+      "value": {
+        "ar": "5 – 150 مم (حسب التكبير)",
+        "en": "5 – 150 mm (depending on magnification)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الإضاءة",
+        "en": "Light Source"
+      },
+      "value": {
+        "ar": "زينون (300 وات) أو LED (120 وات)",
+        "en": "Xenon (300W) or LED (120W)"
+      }
+    },
+    {
+      "label": {
+        "ar": "شدة الإضاءة",
+        "en": "Illuminance"
+      },
+      "value": {
+        "ar": "30,000 – 100,000 لوكس",
+        "en": "30,000 – 100,000 Lux"
+      }
+    },
+    {
+      "label": {
+        "ar": "فلتر الضوء الأزرق",
+        "en": "Blue Light Filter"
+      },
+      "value": {
+        "ar": "متوفر لحماية الشبكية",
+        "en": "Available for retinal protection"
+      }
+    },
+    {
+      "label": {
+        "ar": "الكاميرا المدمجة",
+        "en": "Integrated Camera"
+      },
+      "value": {
+        "ar": "HD (1080p) أو 4K (حسب الموديل)",
+        "en": "HD (1080p) or 4K (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التوازن",
+        "en": "Balance System"
+      },
+      "value": {
+        "ar": "أذرع متوازنة هيدروليكياً أو إلكترونياً",
+        "en": "Hydraulically or electronically balanced arms"
+      }
+    },
+    {
+      "label": {
+        "ar": "التحكم",
+        "en": "Control"
+      },
+      "value": {
+        "ar": "أزرار على المجهر + دواسات قدم لاسلكية",
+        "en": "Microscope buttons + Wireless foot pedals"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التثبيت",
+        "en": "Mounting Type"
+      },
+      "value": {
+        "ar": "سقفي (جدار)، أرضي متحرك، أو مثبت على طاولة العمليات",
+        "en": "Ceiling (wall), Mobile Floor Stand, or Table-mounted"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "احتراق مصباح الإضاءة مما يؤدي إلى انقطاع الرؤية أو ضعفها الشديد.",
+      "en": "Light bulb burnout causing loss of vision or severe dimming."
+    },
+    {
+      "ar": "اتساخ العدسات بالغبار أو بصمات الأصابع يسبب تشويشاً في الصورة.",
+      "en": "Dirty lenses from dust or fingerprints causing image blurring."
+    },
+    {
+      "ar": "عطل في نظام التكبير (Zoom) يمنع تغيير درجة التكبير.",
+      "en": "Zoom system failure preventing magnification changes."
+    },
+    {
+      "ar": "تلف الكاميرا المدمجة أو انقطاع الإشارة يؤدي إلى فقدان العرض على الشاشة.",
+      "en": "Integrated camera damage or signal loss causing display failure."
+    },
+    {
+      "ar": "تصلب أو عطل في المفاصل الحركية يمنع تحريك المجهر أو تثبيته.",
+      "en": "Stiff or faulty articulated joints preventing microscope positioning or locking."
+    },
+    {
+      "ar": "عدم استجابة دواسات القدم أو لوحة التحكم.",
+      "en": "Foot pedal or control panel unresponsiveness."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة المعالجة تؤدي إلى بطء أو تجمد الصورة.",
+      "en": "Software glitches in the processing unit causing slow or frozen images."
+    },
+    {
+      "ar": "تلف المرشحات الواقية مما يسبب انعكاسات ضوئية أو أضرار في العين.",
+      "en": "Damaged protective filters causing light reflections or eye damage."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

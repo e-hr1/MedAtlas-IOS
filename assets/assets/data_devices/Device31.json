@@ -1,0 +1,260 @@
+{
+  "id": 31,
+  "name": {
+    "ar": "جهاز قياس التنفس",
+    "en": "Spirometer"
+  },
+  "category": "respiratory",
+  "icon": "wind",
+  "shortDescription": {
+    "ar": "جهاز تشخيصي لقياس وظائف الرئة وحجم الهواء المتدفق، يستخدم لتقييم أمراض الجهاز التنفسي ومتابعة العلاج",
+    "en": "A diagnostic device for measuring lung function and airflow volume, used to evaluate respiratory diseases and monitor treatment"
+  },
+  "images": [
+    "assets/image/Respiratory/Spirometer/Spirometer1.webp",
+    "assets/image/Respiratory/Spirometer/Spirometer2.webp",
+    "assets/image/Respiratory/Spirometer/Spirometer3.webp",
+    "assets/image/Respiratory/Spirometer/Spirometer4.webp"
+  ],
+  "description": {
+    "ar": "جهاز قياس التنفس (Spirometer) هو أداة تشخيصية تستخدم لقياس حجم الهواء الذي يستنشقه ويزفره المريض، وسرعة تدفق الهواء من وإلى الرئتين. يعتبر الفحص الأساسي لتقييم وظائف الرئة (Pulmonary Function Test - PFT) وتشخيص الأمراض التنفسية المختلفة.",
+    "en": "A Spirometer is a diagnostic tool used to measure the volume of air inhaled and exhaled by the patient, as well as the speed of airflow to and from the lungs. It is the primary test for evaluating Pulmonary Function Tests (PFT) and diagnosing various respiratory diseases."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص أمراض الرئة: يساعد في تشخيص الربو، COPD، التليف الرئوي، وأمراض الجهاز التنفسي الأخرى.",
+      "en": "Diagnosing Lung Diseases: Helps diagnose asthma, COPD, pulmonary fibrosis, and other respiratory conditions."
+    },
+    {
+      "ar": "متابعة العلاج: تقييم استجابة المريض للعلاج الدوائي أو إعادة التأهيل الرئوي.",
+      "en": "Treatment Monitoring: Evaluates patient response to drug therapy or pulmonary rehabilitation."
+    },
+    {
+      "ar": "تقييم ما قبل الجراحة: تقييم المخاطر التنفسية قبل العمليات الجراحية الكبرى.",
+      "en": "Pre-Surgical Assessment: Evaluates respiratory risks before major surgical procedures."
+    },
+    {
+      "ar": "الفحص الدوري: متابعة وظائف الرئة لدى المدخنين أو العاملين في بيئات ملوثة.",
+      "en": "Routine Screening: Monitors lung function in smokers or workers in polluted environments."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يأخذ المريض أعمق شهيق ممكن ثم يزفر بأقصى قوة وسرعة عبر قطعة الفم والمرشح، ليقوم المستشعر الداخلي بقياس حجم الهواء وتدفقه، ويقوم الجهاز بحساب مؤشرات مثل FEV1 و FVC وعرض المنحنيات البيانية.",
+    "en": "The patient takes a deep breath and exhales as forcefully and rapidly as possible through the mouthpiece and filter. The internal sensor measures air volume and flow, allowing the device to calculate parameters like FEV1 and FVC and display graphs."
+  },
+  "workingSteps": [
+    {
+      "ar": "الاستعداد للفحص: يطلب من المريض الجلوس بوضعية مستقيمة، وارتداء مشبك أنف لمنع تسرب الهواء عبر الأنف.",
+      "en": "Test Preparation: The patient is asked to sit upright and wear a nose clip to prevent air leakage through the nose."
+    },
+    {
+      "ar": "الزفير القسري (FVC): يطلب من المريض أخذ أعمق شهيق ممكن، ثم الزفير بأقصى سرعة وقوة حتى إفراغ الرئتين تماماً.",
+      "en": "Forced Expiratory Volume (FVC): The patient takes the deepest possible breath, then exhales as forcefully and rapidly as possible until the lungs are completely empty."
+    },
+    {
+      "ar": "قياس الحجم: يقوم المستشعر الداخلي بقياس حجم الهواء المزفور خلال الثانية الأولى (FEV1) والحجم الكلي الزفيري (FVC).",
+      "en": "Volume Measurement: The internal sensor measures the volume of air exhaled in the first second (FEV1) and the total exhaled volume (FVC)."
+    },
+    {
+      "ar": "تحليل البيانات: يحسب الجهاز تلقائياً النسبة FEV1/FVC ويقارنها بالقيم المتوقعة حسب العمر والجنس والطول.",
+      "en": "Data Analysis: The device automatically calculates the FEV1/FVC ratio and compares it to expected values based on age, gender, and height."
+    }
+  ],
+  "highlight": {
+    "ar": "تتوفر أجهزة محمولة صغيرة (Handheld Spirometer) للاستخدام المنزلي أو في عيادات الرعاية الأولية، وتتصل بالهواتف الذكية.",
+    "en": "Compact handheld devices (Handheld Spirometer) are available for home use or in primary care clinics, and can connect to smartphones."
+  },
+  "components": [
+    {
+      "ar": "مستشعر تدفق (Flow Sensor)",
+      "en": "Flow Sensor"
+    },
+    {
+      "ar": "مستشعر حجم (Volume Transducer)",
+      "en": "Volume Transducer"
+    },
+    {
+      "ar": "وحدة معالجة ومعايرة",
+      "en": "Processing and Calibration Unit"
+    },
+    {
+      "ar": "شاشة عرض مع رسوم بيانية",
+      "en": "Display Screen with Graphics"
+    },
+    {
+      "ar": "طابعة مدمجة (في بعض الطرازات)",
+      "en": "Built-in Printer (in some models)"
+    },
+    {
+      "ar": "قطعة فم (Mouthpiece) معقمة",
+      "en": "Sterile Mouthpiece"
+    },
+    {
+      "ar": "مرشح هواء للاستعمال الفردي",
+      "en": "Single-Use Air Filter"
+    },
+    {
+      "ar": "بطارية داخلية (للأجهزة المحمولة)",
+      "en": "Internal Battery (for portable devices)"
+    },
+    {
+      "ar": "وحدة اتصال لاسلكي",
+      "en": "Wireless Communication Module"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز Spirometer نموذجي (Cosmed MicroQuark أو Vitalograph Alpha)",
+    "en": "Example: Typical Spirometer device (Cosmed MicroQuark or Vitalograph Alpha)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق قياس الحجم",
+        "en": "Volume Measurement Range"
+      },
+      "value": {
+        "ar": "0 – 12 لتر",
+        "en": "0 – 12 Liters"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس التدفق",
+        "en": "Flow Measurement Range"
+      },
+      "value": {
+        "ar": "0 – 16 لتر/ثانية",
+        "en": "0 – 16 Liters/Second"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة القياس",
+        "en": "Measurement Accuracy"
+      },
+      "value": {
+        "ar": "± 2% أو ± 0.05 لتر",
+        "en": "± 2% or ± 0.05 Liters"
+      }
+    },
+    {
+      "label": {
+        "ar": "المقاييس المحسوبة",
+        "en": "Calculated Parameters"
+      },
+      "value": {
+        "ar": "FVC، FEV1، PEF، FEF25-75، FEV1/FVC",
+        "en": "FVC, FEV1, PEF, FEF25-75, FEV1/FVC"
+      }
+    },
+    {
+      "label": {
+        "ar": "القيم المتوقعة",
+        "en": "Predicted Values"
+      },
+      "value": {
+        "ar": "تعتمد على العمر، الجنس، الطول، العرق",
+        "en": "Based on age, gender, height, ethnicity"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المستشعر",
+        "en": "Sensor Type"
+      },
+      "value": {
+        "ar": "تدفق حراري (Pneumotachograph) أو توربيني",
+        "en": "Pneumotachograph or Turbine"
+      }
+    },
+    {
+      "label": {
+        "ar": "معايير القبول",
+        "en": "Acceptance Standards"
+      },
+      "value": {
+        "ar": "ATS (American Thoracic Society) / ERS",
+        "en": "ATS (American Thoracic Society) / ERS"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "USB، Bluetooth، WiFi (حسب الطراز)",
+        "en": "USB, Bluetooth, WiFi (depending on model)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد أو تلوث المستشعر بسبب سوء التنظيف أو استخدام مرشح غير مناسب.",
+      "en": "Sensor blockage or contamination due to poor cleaning or use of improper filters."
+    },
+    {
+      "ar": "الحاجة إلى المعايرة المستمرة للحفاظ على دقة القياسات.",
+      "en": "Need for continuous calibration to maintain measurement accuracy."
+    },
+    {
+      "ar": "تسرب الهواء من قطعة الفم أو الأنبوب مما يقلل من دقة القراءات.",
+      "en": "Air leakage from the mouthpiece or tubing reducing reading accuracy."
+    },
+    {
+      "ar": "أعطال في المستشعرات الإلكترونية تؤدي إلى قراءات غير مستقرة.",
+      "en": "Electronic sensor failures causing unstable readings."
+    },
+    {
+      "ar": "ضعف البطارية في الأجهزة المحمولة يحد من وقت التشغيل.",
+      "en": "Weak battery in portable devices limiting operating time."
+    },
+    {
+      "ar": "مشاكل في الاتصال اللاسلكي تعيق نقل البيانات إلى الكمبيوتر أو السحابة.",
+      "en": "Wireless connectivity issues hindering data transfer to computers or the cloud."
+    },
+    {
+      "ar": "خلل في الطابعة المدمجة (في الطرازات التي تحتوي عليها).",
+      "en": "Built-in printer malfunction (in models that include one)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

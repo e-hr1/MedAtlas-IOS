@@ -1,0 +1,276 @@
+{
+  "id": 68,
+  "name": {
+    "ar": "جهاز التنظيف بالموجات فوق الصوتية",
+    "en": "Ultrasonic Cleaner"
+  },
+  "category": "sterilization",
+  "icon": "shield-alt",
+  "shortDescription": {
+    "ar": "وحدة تنظيف متطورة تستخدم الموجات فوق الصوتية (الترددات العالية) لإزالة الأوساخ والملوثات العضوية وغير العضوية من الأدوات الجراحية والمعدات الطبية الحساسة، قبل عملية التعقيم النهائية.",
+    "en": "An advanced cleaning unit that uses high-frequency ultrasonic waves to remove organic and inorganic contaminants from surgical instruments and sensitive medical equipment, prior to the final sterilization process."
+  },
+  "images": [
+    "assets/image/Sterilization/Ultrasonic/ultrasonic1.webp",
+    "assets/image/Sterilization/Ultrasonic/ultrasonic2.webp"
+  ],
+  "description": {
+    "ar": "جهاز التنظيف بالموجات فوق الصوتية (Ultrasonic Cleaner) هو جهاز يستخدم موجات صوتية عالية التردد (عادة بين 35-45 كيلوهرتز) تنتقل عبر سائل التنظيف لتوليد فقاعات مجهرية تنهار بعنف (ظاهرة التجويف - Cavitation)، مما يؤدي إلى إزالة الأوساخ والبقايا العضوية والبروتينية من الأسطح الداخلية والخارجية للأدوات الطبية، وخاصة المناظير الجراحية، والمشابك، والإبر، والأدوات الدقيقة.",
+    "en": "An ultrasonic cleaner is a device that uses high-frequency sound waves (typically between 35-45 kHz) transmitted through a cleaning liquid to generate microscopic bubbles that implode violently (cavitation effect), effectively removing dirt, organic and protein residues from the internal and external surfaces of medical instruments, especially surgical endoscopes, clamps, needles, and delicate tools."
+  },
+  "uses": [
+    {
+      "ar": "تنظيف المناظير الجراحية – إزالة بقايا الأنسجة والدم من القنوات الداخلية للمناظير المرنة والصارمة.",
+      "en": "Cleaning surgical endoscopes – Removing tissue and blood residues from the internal channels of flexible and rigid endoscopes."
+    },
+    {
+      "ar": "تنظيف الأدوات الجراحية الدقيقة – الماسكات، المشابك، الإبر، والمقصات التي تحتوي على مفاصل ومناطق يصعب الوصول إليها.",
+      "en": "Cleaning delicate surgical instruments – Forceps, clamps, needles, and scissors with joints and hard-to-reach areas."
+    },
+    {
+      "ar": "تنظيف الأجهزة السنية – أدوات الحفر، المرايات، والمبارد السنية.",
+      "en": "Cleaning dental devices – Drills, mirrors, and dental files."
+    },
+    {
+      "ar": "إزالة التكلسات والبقايا الكيميائية – من الأجهزة التي تتعرض للدم أو المحاليل الطبية.",
+      "en": "Removing calcifications and chemical residues – From devices exposed to blood or medical solutions."
+    },
+    {
+      "ar": "مرحلة ما قبل التعقيم – تعتبر خطوة أساسية قبل أي عملية تعقيم حراري أو كيميائي، لضمان خلو الأدوات من الملوثات العضوية التي قد تحمي الميكروبات.",
+      "en": "Pre-sterilization step – Considered an essential step before any thermal or chemical sterilization process, ensuring instruments are free from organic contaminants that might protect microorganisms."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر تحويل التيار الكهربائي إلى اهتزازات ميكانيكية عالية التردد بواسطة مولد موجات (Transducer)، مما ينتج ظاهرة التجويف (Cavitation) عبر تكوين وانهيار ملايين الفقاعات المجهرية في السائل لتوليد طاقة تفصل الأوساخ والدهون والبروتينات عن سطح الأدوات بدقة عالية.",
+    "en": "The system operates by converting electrical current into high-frequency mechanical vibrations using a transducer, producing the cavitation effect through the formation and violent collapse of millions of microscopic bubbles in the liquid, generating energy that thoroughly separates dirt, fats, and proteins from the instrument surfaces."
+  },
+  "workingSteps": [
+    {
+      "ar": "التحضير والتعبئة: يتم ملء حوض الجهاز بسائل التنظيف المناسب (ماء مقطر مع منظف إنزيمي أو قلوي)، وتوضع الأدوات في سلة مخصصة (غير مباشرة على قاع الحوض).",
+      "en": "Preparation and Filling: The tank is filled with the appropriate cleaning solution (distilled water with enzymatic or alkaline detergent), and instruments are placed in a dedicated basket (not directly on the tank bottom)."
+    },
+    {
+      "ar": "توليد الموجات فوق الصوتية: يقوم مُولِّد موجات (Transducer) بتحويل التيار الكهربائي إلى اهتزازات ميكانيكية عالية التردد، تنتقل عبر جدران الحوض إلى السائل.",
+      "en": "Ultrasonic Wave Generation: A transducer converts electrical current into high-frequency mechanical vibrations, which are transmitted through the tank walls to the liquid."
+    },
+    {
+      "ar": "ظاهرة التجويف (Cavitation): تتكون فقاعات مجهرية (ملايين الفقاعات في الثانية) تنمو وتنكمش بسرعة، وعند انهيارها تنتج طاقة عالية (حرارة موضعية وصدمات ميكانيكية) تعمل على فصل الأوساخ عن سطح الأداة، حتى من أصغر الزوايا والشقوق.",
+      "en": "Cavitation Effect: Microscopic bubbles (millions per second) form, grow, and collapse rapidly. Their implosion releases significant energy (localized heat and mechanical shock) that dislodges contaminants from instrument surfaces, even from the smallest crevices."
+    },
+    {
+      "ar": "التنظيف الميكانيكي والكيميائي: يساعد المنظف الإنزيمي أو القلوي في إذابة الدهون والبروتينات، بينما تقوم الموجات بتعزيز وصول المحلول إلى جميع المناطق.",
+      "en": "Mechanical and Chemical Cleaning: The enzymatic or alkaline detergent helps dissolve fats and proteins, while the waves enhance solution penetration into all areas."
+    },
+    {
+      "ar": "التجفيف الأولي والتصريف: بعد انتهاء الدورة (تتراوح بين 3-10 دقائق)، يتم تصريف المحلول وشطف الأدوات بالماء المقطر، ثم تجفيفها قبل الانتقال لمرحلة التعقيم.",
+      "en": "Initial Drying and Draining: After the cycle (typically 3-10 minutes), the solution is drained, instruments are rinsed with distilled water, and dried before moving to the sterilization phase."
+    }
+  ],
+  "highlight": {
+    "ar": "توجد أجهزة مزودة بنظام (Degas) لإزالة الغازات الذائبة في السائل لزيادة كفاءة التجويف، وأخرى بنظام تسخين مدمج (عادة 40-60°م) لتعزيز فاعلية المنظفات الكيميائية، مما يقلل زمن التنظيف ويحسن النتائج.",
+    "en": "Some units include a Degas system to remove dissolved gases from the liquid for improved cavitation efficiency, and others feature a built-in heating system (typically 40-60°C) to enhance chemical detergent effectiveness, reducing cleaning time and improving results."
+  },
+  "components": [
+    {
+      "ar": "حوض التنظيف (Tank) من الفولاذ المقاوم للصدأ (SUS304)",
+      "en": "Cleaning tank made of stainless steel (SUS304)"
+    },
+    {
+      "ar": "مولِّد الموجات فوق الصوتية (Piezoelectric Transducer)",
+      "en": "Ultrasonic transducer (Piezoelectric Transducer)"
+    },
+    {
+      "ar": "لوحة تحكم إلكترونية (Microcontroller) للتحكم بالوقت ودرجة الحرارة",
+      "en": "Electronic control board (Microcontroller) for time and temperature management"
+    },
+    {
+      "ar": "نظام تسخين (Heater) للحفاظ على درجة حرارة مثالية (30-80°م)",
+      "en": "Heating system to maintain optimal temperature (30-80°C)"
+    },
+    {
+      "ar": "مؤقت رقمي (Digital Timer) لضبط زمن الدورة (1-30 دقيقة)",
+      "en": "Digital timer for cycle duration (1-30 minutes)"
+    },
+    {
+      "ar": "نظام تحكم بالتردد (Frequency control) - 35-45 كيلوهرتز",
+      "en": "Frequency control system - 35-45 kHz"
+    },
+    {
+      "ar": "نظام تفريغ الغازات (Degassing) لإزالة الأكسجين الذائب",
+      "en": "Degassing system to remove dissolved oxygen"
+    },
+    {
+      "ar": "غطاء عازل للصوت (Soundproof Lid) لتقليل الضوضاء",
+      "en": "Soundproof lid to reduce noise"
+    },
+    {
+      "ar": "نظام تصريف آلي (Automatic Drain Valve) للتخلص من المحلول المتسخ",
+      "en": "Automatic drain valve for used solution disposal"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز تنظيف فوق صوتي نموذجي (مثل Elma أو Bandelin)",
+    "en": "Example: Specifications of a typical ultrasonic cleaner (e.g., Elma or Bandelin)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "سعة الحوض",
+        "en": "Tank capacity"
+      },
+      "value": {
+        "ar": "2 – 90 لتر (حسب الطراز، المخبري والصناعي)",
+        "en": "2 – 90 liters (depending on model, laboratory or industrial)"
+      }
+    },
+    {
+      "label": {
+        "ar": "تردد الموجات",
+        "en": "Ultrasonic frequency"
+      },
+      "value": {
+        "ar": "35 كيلوهرتز (قياسي) / 45 كيلوهرتز (للأدوات الحساسة)",
+        "en": "35 kHz (standard) / 45 kHz (for sensitive instruments)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طاقة الموجات فوق الصوتية",
+        "en": "Ultrasonic power"
+      },
+      "value": {
+        "ar": "120 – 600 واط (قابلة للضبط)",
+        "en": "120 – 600 W (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "من درجة حرارة الغرفة حتى 80 درجة مئوية (قابلة للتعديل)",
+        "en": "From room temperature up to 80°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الدورة",
+        "en": "Cycle time"
+      },
+      "value": {
+        "ar": "1 – 30 دقيقة (قابل للبرمجة)",
+        "en": "1 – 30 minutes (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة الحوض",
+        "en": "Tank material"
+      },
+      "value": {
+        "ar": "ستانلس ستيل 304 أو 316 مقاوم للتآكل",
+        "en": "Stainless steel 304 or 316, corrosion-resistant"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزات إضافية",
+        "en": "Additional features"
+      },
+      "value": {
+        "ar": "تحكم بالطاقة (Pulse)، مؤقت، شاشة عرض رقمية، إنذار عند انتهاء الدورة",
+        "en": "Power (Pulse) control, timer, digital display, end-of-cycle alarm"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "متوافق مع محاليل التنظيف الإنزيمية، القلوية، والحمضية الخفيفة",
+        "en": "Compatible with enzymatic, alkaline, and mild acidic cleaning solutions"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأمان",
+        "en": "Safety"
+      },
+      "value": {
+        "ar": "حماية من الجفاف (تشغيل تلقائي عند نقص الماء)، عزل حراري",
+        "en": "Dry-run protection (automatic shutdown if water is low), thermal insulation"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ضعف أو انعدام الموجات فوق الصوتية نتيجة تلف المولِّد (Transducer) أو انفصال الأسلاك، مما يقلل من كفاءة التنظيف بشكل كبير.",
+      "en": "Weak or absent ultrasound due to transducer damage or loose wiring, significantly reducing cleaning efficiency."
+    },
+    {
+      "ar": "عطل في نظام التسخين (عدم وصول الحرارة للدرجة المطلوبة) مما يضعف تأثير المنظفات الكيميائية ويطيل زمن الدورة.",
+      "en": "Heater malfunction (failure to reach set temperature) reduces detergent effectiveness and extends cycle time."
+    },
+    {
+      "ar": "تسرب في الحوض أو تآكل الفولاذ المقاوم للصدأ نتيجة استخدام محاليل غير مناسبة، مما يؤدي إلى تلف الجهاز وتلوث المحلول.",
+      "en": "Tank leaks or corrosion of stainless steel due to incompatible cleaning solutions, leading to device damage and solution contamination."
+    },
+    {
+      "ar": "مشاكل في مصدر الطاقة أو انقطاع التيار الكهربائي أثناء الدورة، مما يوقف التنظيف ويترك الأدوات غير جاهزة.",
+      "en": "Power supply issues or power interruption during a cycle, stopping the cleaning process and leaving instruments unprepared."
+    },
+    {
+      "ar": "ضعف نظام إزالة الغازات (Degassing) يؤدي إلى بقاء فقاعات هواء على سطح الأدوات، مما يحجب وصول الموجات الصوتية ويقلل من فعالية التنظيف.",
+      "en": "Degassing system failure leaves air bubbles on instrument surfaces, blocking ultrasonic wave transmission and reducing cleaning efficiency."
+    },
+    {
+      "ar": "خلل في لوحة التحكم أو شاشة العرض مما يجعل من الصعب ضبط الوقت أو درجة الحرارة بشكل دقيق.",
+      "en": "Control board or display malfunction makes it difficult to accurately set time or temperature."
+    },
+    {
+      "ar": "تلف غطاء العزل الصوتي أو عدم إحكام إغلاقه مما يزيد من الضوضاء الصادرة عن الجهاز ويؤثر على بيئة العمل.",
+      "en": "Damaged or improperly sealed soundproof lid increases device noise and affects the work environment."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الرئيسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical Specifications"
+    },
+    "faults": {
+      "ar": "الأعطال والمشكلات الشائعة",
+      "en": "Common Faults and Issues"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

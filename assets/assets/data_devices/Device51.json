@@ -1,0 +1,276 @@
+{
+  "id": 51,
+  "name": {
+    "ar": "جهاز قارئ الإليزا",
+    "en": "ELISA Reader"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري ضوئي يستخدم لقياس الكثافة البصرية في اختبارات الإليزا لتشخيص الأمراض وتحديد التراكيز الحيوية",
+    "en": "Optical laboratory instrument used to measure optical density in ELISA tests for disease diagnosis and biomolecular concentration determination"
+  },
+  "images": [
+    "assets/image/Laboratory/ELISA/ELISA1.webp",
+    "assets/image/Laboratory/ELISA/ELISA2.webp"
+  ],
+  "description": {
+    "ar": "جهاز قياس طيفي متخصص يُستخدم في المختبرات الطبية والبحثية لقراءة نتائج اختبارات الإليزا (ELISA – Enzyme-Linked Immunosorbent Assay). يقيس الجهاز الكثافة البصرية (Optical Density) للألواح البلاستيكية (Microplates) ذات الآبار المتعددة، ويحول شدة اللون الناتج عن التفاعلات الإنزيمية إلى تركيزات كمية للمادة المراد تحليلها.",
+    "en": "A specialized spectrophotometer used in medical and research laboratories to read results of ELISA (Enzyme-Linked Immunosorbent Assay) tests. The device measures the optical density (OD) of multi-well plastic microplates, converting the color intensity produced by enzymatic reactions into quantitative concentrations of the target analyte."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص الأمراض المعدية – مثل فيروس نقص المناعة البشرية (HIV)، والتهاب الكبد الفيروسي (Hepatitis B, C)، والحمى المالطية (Brucellosis).",
+      "en": "Infectious disease diagnosis – Such as HIV, viral hepatitis (Hepatitis B, C), and Brucellosis."
+    },
+    {
+      "ar": "تشخيص الأمراض المناعية – الكشف عن الأجسام المضادة الذاتية (Autoantibodies) في أمراض مثل الذئبة الحمراء والتهاب المفاصل الروماتويدي.",
+      "en": "Immunological disease diagnosis – Detection of autoantibodies in diseases like lupus and rheumatoid arthritis."
+    },
+    {
+      "ar": "قياس الهرمونات – مثل هرمونات الغدة الدرقية (TSH، T3، T4)، وهرمونات الغدة الكظرية (الكورتيزول).",
+      "en": "Hormone measurement – Such as thyroid hormones (TSH, T3, T4) and adrenal hormones (cortisol)."
+    },
+    {
+      "ar": "الكشف عن المواد السامة والحساسية – قياس السموم الغذائية والمواد المسببة للحساسية.",
+      "en": "Toxin and allergen detection – Measurement of food toxins and allergens."
+    },
+    {
+      "ar": "اختبارات الحمل – قياس هرمون hCG في الدم أو البول.",
+      "en": "Pregnancy tests – Measurement of hCG hormone in blood or urine."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بوضع العينات في آبار الصفيحة البلاستيكية مع الأجسام المضادة والإنزيمات المحددة، ثم إضافة ركيزة تتفاعل مع الإنزيم المرتطثث لإنتاج تغير في اللون، يليها إيقاف التفاعل بمحلول خاص لتثبيت اللون، ثم القراءة الضوئية بمرور شعاع ضوئي بطول موجي محدد (عادة 450 نانومتر) عبر كل بئر وقياس الامتصاص، وأخيراً تحويل قيم الامتصاص إلى تركيزات باستخدام منحنى معايرة.",
+    "en": "The system operates through microplate preparation with samples, antibodies, and enzymes, adding a substrate for enzymatic color reaction, stopping the reaction with a stop solution, optical reading via a specific wavelength beam passing through each well to measure absorbance, and converting values into concentrations using a standard curve."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير الصفيحة: توضع العينات (مصل، بلازما، أو سوائل بيولوجية) في آبار الصفيحة البلاستيكية مع الأجسام المضادة والإنزيمات المحددة.",
+      "en": "Plate preparation: Samples (serum, plasma, or biological fluids) are placed in the wells of the plastic microplate with specific antibodies and enzymes."
+    },
+    {
+      "ar": "التفاعل الأنزيمي: يُضاف ركيزة (Substrate) تتفاعل مع الإنزيم المرتبط، ويحدث تغير في اللون يتناسب مع تركيز المادة المستهدفة.",
+      "en": "Enzymatic reaction: A substrate is added that reacts with the bound enzyme, producing a color change proportional to the concentration of the target substance."
+    },
+    {
+      "ar": "إيقاف التفاعل: يُضاف محلول إيقاف (Stop Solution) لتثبيت اللون الناتج.",
+      "en": "Reaction stopping: A stop solution is added to stabilize the developed color."
+    },
+    {
+      "ar": "القراءة الضوئية: تُوضع الصفيحة في القارئ، حيث يمر شعاع ضوئي بطول موجي محدد (عادة 450 نانومتر مع فلتر مرجعي 620-650 نانومتر) عبر كل بئر، ويُقاس مقدار الامتصاص (Absorbance).",
+      "en": "Optical reading: The plate is placed in the reader, where a light beam at a specific wavelength (typically 450 nm with a reference filter at 620-650 nm) passes through each well, and the absorbance is measured."
+    },
+    {
+      "ar": "تحليل النتائج: يُحوّل البرنامج المدمج قيم الامتصاص إلى تركيزات باستخدام منحنى معايرة (Standard Curve) من عينات قياسية معروفة التركيز، ويعرض النتائج كقيم رقمية أو رسوم بيانية.",
+      "en": "Results analysis: The built-in software converts absorbance values into concentrations using a standard curve from known concentration samples, displaying results as numerical values or graphs."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة تدعم قراءة متعددة الموجات (Multiwavelength) وتحتوي على مرشحات ضوئية متعددة، مع برامج متطورة لحساب التركيزات وإدارة البيانات وتصدير التقارير.",
+    "en": "Modern devices support multiwavelength reading and contain multiple optical filters, with advanced software for concentration calculations, data management, and report exporting."
+  },
+  "components": [
+    {
+      "ar": "صينية حامل للصفيحات (96 أو 384 بئراً)",
+      "en": "Microplate tray (96 or 384 wells)"
+    },
+    {
+      "ar": "مصدر ضوئي (مصباح هالوجين أو زينون)",
+      "en": "Light source (Halogen or Xenon lamp)"
+    },
+    {
+      "ar": "مرشحات ضوئية (أطوال موجية متعددة)",
+      "en": "Optical filters (multiple wavelengths)"
+    },
+    {
+      "ar": "كاشف ضوئي (فوتوديود أو ضوئي)",
+      "en": "Optical detector (Photodiode or PMT)"
+    },
+    {
+      "ar": "معالج مركزي لتحليل الإشارات",
+      "en": "Central processor for signal analysis"
+    },
+    {
+      "ar": "شاشة لمس مع برمجيات تحليل",
+      "en": "Touchscreen with analysis software"
+    },
+    {
+      "ar": "طابعة مدمجة لتقارير النتائج",
+      "en": "Built-in printer for result reports"
+    },
+    {
+      "ar": "نظام تخزين بيانات (منحنيات معايرة، نتائج)",
+      "en": "Data storage system (calibration curves, results)"
+    },
+    {
+      "ar": "نظام معايرة تلقائي للطول الموجي",
+      "en": "Automatic wavelength calibration system"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز قارئ إليزا نموذجي (BioTek ELx808 أو Thermo Scientific Multiskan FC)",
+    "en": "Example: Typical ELISA reader (BioTek ELx808 or Thermo Scientific Multiskan FC)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "عدد الآبار",
+        "en": "Number of wells"
+      },
+      "value": {
+        "ar": "96 أو 384 بئراً",
+        "en": "96 or 384 wells"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى الامتصاص",
+        "en": "Absorbance range"
+      },
+      "value": {
+        "ar": "0 – 4 وحدة كثافة بصرية (OD)",
+        "en": "0 – 4 Optical Density (OD)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأطوال الموجية",
+        "en": "Wavelengths"
+      },
+      "value": {
+        "ar": "400 – 750 نانومتر (حسب المرشحات)",
+        "en": "400 – 750 nm (filter dependent)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد المرشحات",
+        "en": "Number of filters"
+      },
+      "value": {
+        "ar": "6 – 8 مرشحات قابلة للتبديل",
+        "en": "6 – 8 interchangeable filters"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت القراءة",
+        "en": "Reading time"
+      },
+      "value": {
+        "ar": "3 – 8 ثوانٍ (لصفيحة 96 بئراً)",
+        "en": "3 – 8 seconds (for 96-well plate)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدقة (الخطأ)",
+        "en": "Accuracy (error)"
+      },
+      "value": {
+        "ar": "± 0.005 OD أو 0.5% (أيهما أكبر)",
+        "en": "± 0.005 OD or 0.5% (whichever is greater)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طريقة القراءة",
+        "en": "Reading mode"
+      },
+      "value": {
+        "ar": "قياس ضوئي (End-point) أو زمني (Kinetic)",
+        "en": "End-point or Kinetic"
+      }
+    },
+    {
+      "label": {
+        "ar": "حركة الصفيحة",
+        "en": "Plate shaking"
+      },
+      "value": {
+        "ar": "اهتزازية (Shaking) أثناء القراءة (اختياري)",
+        "en": "Shaking during reading (optional)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة 7-10 بوصة",
+        "en": "7-10 inch color touchscreen"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف أو ضعف مصدر الضوء (المصباح) يؤدي إلى قراءات منخفضة أو غير مستقرة.",
+      "en": "Damaged or weak light source (lamp) leading to low or unstable readings."
+    },
+    {
+      "ar": "اتساخ أو تلف المرشحات الضوئية يؤثر على دقة الطول الموجي.",
+      "en": "Dirty or damaged optical filters affecting wavelength accuracy."
+    },
+    {
+      "ar": "عدم استواء الصفيحة أو وضعها بشكل غير صحيح في الحامل.",
+      "en": "Uneven plate or incorrect placement in the holder."
+    },
+    {
+      "ar": "تلف الكاشف الضوئي (الفوتوديود) نتيجة للاستخدام المكثف أو الصدمات.",
+      "en": "Damaged optical detector due to heavy use or shocks."
+    },
+    {
+      "ar": "وجود فقاعات هواء في الآبار تؤدي إلى قراءات خاطئة.",
+      "en": "Air bubbles in wells leading to erroneous readings."
+    },
+    {
+      "ar": "أعطال برمجية في نظام المعايرة أو تحليل المنحنى القياسي.",
+      "en": "Software faults in calibration or standard curve analysis."
+    },
+    {
+      "ar": "عدم معايرة الجهاز بانتظام باستخدام ألواح المعايرة القياسية.",
+      "en": "Irregular calibration using standard calibration plates."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

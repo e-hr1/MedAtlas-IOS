@@ -1,0 +1,276 @@
+{
+  "id": 66,
+  "name": {
+    "ar": "جهاز قياس البيليروبين عبر الجلد",
+    "en": "Transcutaneous Bilirubinometer"
+  },
+  "category": "neonatal",
+  "icon": "baby",
+  "shortDescription": {
+    "ar": "جهاز طبي غير جراحي يستخدم التحليل الطيفي الانعكاسي لقياس مستوى البيليروبين في أنسجة الجلد، لتقييم اليرقان الوليدي بسرعة ودقة دون الحاجة لأخذ عينات دم مؤلمة.",
+    "en": "A non-invasive medical device that uses reflectance spectroscopy to measure bilirubin levels in skin tissue, providing rapid and accurate assessment of neonatal jaundice without the need for painful blood sampling."
+  },
+  "images": [
+    "assets/image/Neonatal/Bilirubinometer/bili1.webp",
+    "assets/image/Neonatal/Bilirubinometer/bili2.webp"
+  ],
+  "description": {
+    "ar": "مقياس البيليروبين عبر الجلد (Transcutaneous Bilirubinometer) هو جهاز تشخيصي محمول يستخدم تقنية التحليل الطيفي الانعكاسي لقياس تركيز البيليروبين في الأنسجة تحت الجلد. يوفر الجهاز قراءة فورية (خلال ثوانٍ) لمستوى البيليروبين، مما يساعد في فحص اليرقان الوليدي وتحديد الحالات التي تتطلب تدخلاً طبياً أو فحصاً دموياً مخبرياً، مما يقلل من عدد سحب الدم المؤلمة للأطفال الرضع.",
+    "en": "The Transcutaneous Bilirubinometer is a portable diagnostic device that uses reflectance spectroscopy to measure bilirubin concentration in subcutaneous tissues. The device provides an instantaneous reading (within seconds) of bilirubin levels, helping in screening for neonatal jaundice and identifying cases that require medical intervention or laboratory blood testing, thereby reducing the number of painful blood draws for infants."
+  },
+  "uses": [
+    {
+      "ar": "فحص اليرقان الوليدي – الكشف المبكر عن ارتفاع البيليروبين لدى حديثي الولادة.",
+      "en": "Neonatal jaundice screening – Early detection of elevated bilirubin in newborns."
+    },
+    {
+      "ar": "مراقبة العلاج الضوئي – متابعة فعالية العلاج الضوئي وتقييم استجابة الطفل.",
+      "en": "Phototherapy monitoring – Tracking the effectiveness of phototherapy and evaluating the infant's response."
+    },
+    {
+      "ar": "تحديد الحاجة للفحص المخبري – تقليل عدد عينات الدم المأخوذة من الطفل عبر تحديد الحالات التي تستدعي الفحص الدموي.",
+      "en": "Determining need for laboratory testing – Reducing the number of blood samples taken from the infant by identifying cases that require blood testing."
+    },
+    {
+      "ar": "الفحص المنزلي – يمكن استخدام بعض الموديلات في العيادات الخارجية أو الرعاية المنزلية.",
+      "en": "Home screening – Some models can be used in outpatient clinics or home care settings."
+    },
+    {
+      "ar": "المتابعة المستمرة – تتبع مستوى البيليروبين بشكل متكرر دون إزعاج الطفل.",
+      "en": "Continuous follow-up – Tracking bilirubin levels frequently without disturbing the infant."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر توجيه ضوء أبيض أو أحادي الطول الموجي نحو جلد الطفل، حيث يمتص البيليروبين أجزاء من الطيف الضوئي ويعكس الباقي، ليقوم كاشف ضوئي بقياس شدة الضوء المنعكس وتحويله لإشارة كهربائية تقارن بالخوارزميات لحساب تركيز البيليروبين وعرضه فوراً.",
+    "en": "The system operates by directing white or monochromatic light onto the infant's skin, where bilirubin absorbs parts of the light spectrum and reflects the rest; a photodetector measures the reflected light intensity and converts it into an electrical signal compared via algorithms to calculate and instantly display the bilirubin concentration."
+  },
+  "workingSteps": [
+    {
+      "ar": "إصدار الضوء: يولد الجهاز ضوءً أبيض أو ضوءً أحادي اللون (بطول موجي محدد) ويوجهه نحو جلد الطفل عبر مسبار ضوئي.",
+      "en": "Light emission: The device generates white light or monochromatic light (at a specific wavelength) and directs it toward the infant's skin via an optical probe."
+    },
+    {
+      "ar": "امتصاص وانعكاس الضوء: يمتص البيليروبين الموجود في الجلد أجزاءً معينة من الطيف الضوئي (خاصة الأطوال الموجية الزرقاء والخضراء)، ويعكس الأجزاء الأخرى.",
+      "en": "Light absorption and reflection: Bilirubin in the skin absorbs specific parts of the light spectrum (especially blue and green wavelengths) and reflects other parts."
+    },
+    {
+      "ar": "تحليل الطيف المنعكس: يقوم كاشف ضوئي بقياس شدة الضوء المنعكس من الجلد وتحويلها إلى إشارة كهربائية.",
+      "en": "Analysis of reflected spectrum: A photodetector measures the intensity of light reflected from the skin and converts it into an electrical signal."
+    },
+    {
+      "ar": "المقارنة والمعايرة: يقارن الجهاز بين شدة الضوء المنبعث والمنعكس، ويستخدم خوارزميات رياضية ومعايرة مسبقة لحساب تركيز البيليروبين.",
+      "en": "Comparison and calibration: The device compares the intensity of emitted and reflected light, using mathematical algorithms and pre-set calibration to calculate bilirubin concentration."
+    },
+    {
+      "ar": "عرض النتيجة: تظهر قراءة البيليروبين على شاشة الجهاز بوحدة (mg/dL) أو (µmol/L) خلال ثوانٍ معدودة.",
+      "en": "Result display: The bilirubin reading appears on the device screen in (mg/dL) or (µmol/L) within seconds."
+    }
+  ],
+  "highlight": {
+    "ar": "تعتمد دقة الجهاز على موقع القياس (يفضل عظمة القص أو الجبهة)، ويتم معايرة الجهاز بشكل دوري باستخدام أنابيب معايرة قياسية لضمان الدقة.",
+    "en": "The accuracy of the device depends on the measurement site (preferably the sternum or forehead), and the device is periodically calibrated using standard calibration tubes to ensure accuracy."
+  },
+  "components": [
+    {
+      "ar": "مصدر ضوء (زينون أو LED أبيض/أزرق)",
+      "en": "Light source (Xenon or white/blue LED)"
+    },
+    {
+      "ar": "كاشف ضوئي (فوتوديود أو CCD) لقياس الضوء المنعكس",
+      "en": "Photodetector (photodiode or CCD) for measuring reflected light"
+    },
+    {
+      "ar": "معالج إشارات رقمي (DSP) لتحليل الطيف",
+      "en": "Digital Signal Processor (DSP) for spectral analysis"
+    },
+    {
+      "ar": "شاشة LCD لعرض القراءات والتقارير",
+      "en": "LCD screen for displaying readings and reports"
+    },
+    {
+      "ar": "ذاكرة تخزين للقراءات السابقة (حتى 100 قراءة)",
+      "en": "Memory storage for previous readings (up to 100 readings)"
+    },
+    {
+      "ar": "بطارية قابلة لإعادة الشحن (عمل حتى 8 ساعات)",
+      "en": "Rechargeable battery (up to 8 hours of operation)"
+    },
+    {
+      "ar": "طابعة حرارية مدمجة (في بعض الموديلات)",
+      "en": "Built-in thermal printer (in some models)"
+    },
+    {
+      "ar": "أزرار تحكم لإدخال بيانات المريض",
+      "en": "Control buttons for entering patient data"
+    },
+    {
+      "ar": "نظام معايرة تلقائي للحفاظ على الدقة",
+      "en": "Automatic calibration system for accuracy maintenance"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز قياس البيليروبين النموذجي (Dräger JM-105 أو Philips BiliChek)",
+    "en": "Example: Specifications for a typical bilirubinometer (Dräger JM-105 or Philips BiliChek)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق القياس",
+        "en": "Measurement range"
+      },
+      "value": {
+        "ar": "0 – 25 mg/dL (0 – 428 µmol/L)",
+        "en": "0 – 25 mg/dL (0 – 428 µmol/L)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة القياس",
+        "en": "Measurement accuracy"
+      },
+      "value": {
+        "ar": "± 1.5 mg/dL أو ± 10% (أيهما أكبر)",
+        "en": "± 1.5 mg/dL or ± 10% (whichever is greater)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت القياس",
+        "en": "Measurement time"
+      },
+      "value": {
+        "ar": "أقل من 3 ثوانٍ",
+        "en": "Less than 3 seconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الضوء",
+        "en": "Light source"
+      },
+      "value": {
+        "ar": "مصباح زينون أو LED أبيض عالي الكثافة",
+        "en": "Xenon lamp or high-intensity white LED"
+      }
+    },
+    {
+      "label": {
+        "ar": "الذاكرة",
+        "en": "Memory"
+      },
+      "value": {
+        "ar": "تخزين 100 – 500 قراءة",
+        "en": "Stores 100 – 500 readings"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون، تعمل حتى 8 ساعات",
+        "en": "Lithium-ion, up to 8 hours of operation"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "200 – 350 جرام (يدوي محمول)",
+        "en": "200 – 350 grams (handheld portable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": {
+        "ar": "15 × 8 × 4 سم (تقريباً)",
+        "en": "15 × 8 × 4 cm (approximately)"
+      }
+    },
+    {
+      "label": {
+        "ar": "المعايرة",
+        "en": "Calibration"
+      },
+      "value": {
+        "ar": "تلقائية باستخدام أنبوب معايرة قياسي",
+        "en": "Automatic using standard calibration tube"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ضعف أو انطفاء مصدر الضوء يؤدي إلى قراءات غير دقيقة أو عدم القدرة على القياس.",
+      "en": "Dim or failed light source leading to inaccurate readings or inability to measure."
+    },
+    {
+      "ar": "تلف الكاشف الضوئي أو اتساخ العدسة يؤثر على دقة قياس الضوء المنعكس.",
+      "en": "Damaged photodetector or dirty lens affecting reflected light measurement accuracy."
+    },
+    {
+      "ar": "انخفاض شحن البطارية أو تلفها يؤدي إلى انقطاع التشغيل المفاجئ.",
+      "en": "Low battery charge or battery failure causing sudden shutdown."
+    },
+    {
+      "ar": "فشل نظام المعايرة التلقائية مما يسبب أخطاء في القراءات.",
+      "en": "Automatic calibration system failure causing reading errors."
+    },
+    {
+      "ar": "عطل في شاشة العرض أو ظهور خطوط وبكسلات ميتة.",
+      "en": "Display screen malfunction or appearance of lines and dead pixels."
+    },
+    {
+      "ar": "انحشار الورق أو عطل في الطابعة الحرارية المدمجة.",
+      "en": "Paper jam or built-in thermal printer malfunction."
+    },
+    {
+      "ar": "خلل في البرمجيات يؤدي إلى تجميد الجهاز أو إعادة التشغيل المتكرر.",
+      "en": "Software glitch causing device freezing or frequent rebooting."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

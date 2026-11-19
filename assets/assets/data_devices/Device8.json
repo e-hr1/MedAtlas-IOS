@@ -1,0 +1,255 @@
+{
+  "id": 8,
+  "name": {
+    "ar": "جهاز قياس الكابنوغراف",
+    "en": "Capnograph"
+  },
+  "category": "emergency",
+  "icon": "lungs",
+  "shortDescription": {
+    "ar": "جهاز طبي يقيس تركيز ثاني أكسيد الكربون (CO₂) في هواء الزفير بشكل مستمر لحظي، ويعرض قيمة الـ CO₂ النهائي الزفيري (EtCO₂) ومعدل التنفس ومنحنى الكابنوغرام الذي يعكس دورة التنفس الكاملة.",
+    "en": "A medical device that continuously measures the concentration of carbon dioxide (CO₂) in exhaled breath in real-time, displaying the end-tidal CO₂ (EtCO₂) value, respiratory rate, and the capnogram waveform that reflects the complete respiratory cycle."
+  },
+  "images": [
+    "assets/image/Emergency/Capnograph/Capnograph1.webp",
+    "assets/image/Emergency/Capnograph/Capnograph2.webp",
+    "assets/image/Emergency/Capnograph/Capnograph3.webp",
+    "assets/image/Emergency/Capnograph/Capnograph4.webp"
+  ],
+  "description": {
+    "ar": "جهاز قياس الكابنوغراف (Capnograph) هو جهاز طبي يقيس تركيز ثاني أكسيد الكربون (CO₂) في هواء الزفير بشكل مستمر لحظي. يعرض قيمة الـ CO₂ النهائي الزفيري (EtCO₂) ومعدل التنفس، بالإضافة إلى منحنى الكابنوغرام (Capnogram) الذي يعكس دورة التنفس الكاملة. تشمل استخداماته: التخدير والإنعاش للتأكد من صحة وضع الأنبوب الرغامي ومراقبة التهوية أثناء التخدير، العناية المركزة (ICU) لمتابعة حالة التهوية والتبادل الغازي للمرضى ذوي التنفس الاصطناعي، غرفة الطوارئ للتقييم السريع لفعالية التنفس والإنعاش القلبي الرئوي (جودة الضغطات)، والنقل الطبي عبر أجهزة محمولة لمراقبة المرضى أثناء النقل.",
+    "en": "A capnograph is a medical device that continuously measures the concentration of carbon dioxide (CO₂) in exhaled breath in real-time. It displays the end-tidal CO₂ (EtCO₂) value and respiratory rate, along with the capnogram waveform that reflects the complete respiratory cycle. Its uses include: Anesthesia and Resuscitation for confirming correct endotracheal tube placement and monitoring ventilation during anesthesia, Intensive Care (ICU) for monitoring ventilation and gas exchange in mechanically ventilated patients, Emergency Room for rapid assessment of ventilation effectiveness and CPR quality, and Medical Transport via portable devices for patient monitoring during transport."
+  },
+  "uses": [
+    {
+      "ar": "التخدير والإنعاش – التأكد من صحة وضع الأنبوب الرغامي، ومراقبة التهوية أثناء التخدير.",
+      "en": "Anesthesia and Resuscitation – confirming correct endotracheal tube placement, and monitoring ventilation during anesthesia."
+    },
+    {
+      "ar": "العناية المركزة (ICU) – متابعة حالة التهوية والتبادل الغازي للمرضى ذوي التنفس الاصطناعي.",
+      "en": "Intensive Care (ICU) – monitoring ventilation and gas exchange in mechanically ventilated patients."
+    },
+    {
+      "ar": "غرفة الطوارئ – تقييم سريع لفعالية التنفس والإنعاش القلبي الرئوي (جودة الضغطات).",
+      "en": "Emergency Room – rapid assessment of ventilation effectiveness and CPR quality."
+    },
+    {
+      "ar": "النقل الطبي – أجهزة محمولة لمراقبة المرضى أثناء النقل.",
+      "en": "Medical Transport – portable devices for patient monitoring during transport."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد جهاز الكابنوغراف على تقنية الأشعة تحت الحمراء غير المشتتة (NDIR)، ويعمل عبر أربع مراحل: أخذ العينة حيث يتم سحب عينة هواء من مجرى التنفس (عن طريق محول جانبي Sidestream أو تدفق رئيسي Mainstream) عبر أنبوب شعري رفيع، ثم التحليل حيث يمر الضوء عبر العينة ويمتص CO₂ أطوالاً موجية محددة ويتناسب الامتصاص مع التركيز، ثم المعالجة حيث يحسب المعالج الداخلي قيمة EtCO₂ (نهاية الزفير) ومعدل التنفس من منحنى التركيز الزمني، وأخيراً العرض حيث تعرض الشاشة قيمة الـ CO₂ رقماً ومنحنى الكابنوغرام وإنذارات عند ارتفاع أو انخفاض التركيز عن الحدود الآمنة (نورموكابنيا: 35-45 مم زئبق).",
+    "en": "The capnograph relies on non-dispersive infrared (NDIR) technology, operating through four stages: sampling where an air sample is drawn from the breathing circuit (via a sidestream adapter or mainstream flow) through a thin capillary tube, then analysis where light passes through the sample and CO₂ absorbs specific wavelengths with absorption proportional to concentration, then processing where the internal processor calculates the EtCO₂ value (end-tidal) and respiratory rate from the concentration-versus-time waveform, and finally display where a screen shows the CO₂ value numerically, the capnogram waveform, and alarms when concentration exceeds or falls below safe limits (normocapnia: 35-45 mmHg)."
+  },
+  "workingSteps": [
+    {
+      "ar": "أخذ العينة: يتم سحب عينة هواء من مجرى التنفس (عن طريق محول جانبي Sidestream أو تدفق رئيسي Mainstream) عبر أنبوب شعري رفيع.",
+      "en": "Sampling: an air sample is drawn from the breathing circuit (via a sidestream adapter or mainstream flow) through a thin capillary tube."
+    },
+    {
+      "ar": "التحليل: تقنية الأشعة تحت الحمراء غير المشتتة (NDIR) – حيث يمر الضوء عبر العينة، ويمتص CO₂ أطوالاً موجية محددة، ويتناسب الامتصاص مع التركيز.",
+      "en": "Analysis: non-dispersive infrared (NDIR) technology – light passes through the sample, and CO₂ absorbs specific wavelengths; absorption is proportional to concentration."
+    },
+    {
+      "ar": "المعالجة: يحسب المعالج الداخلي قيمة EtCO₂ (نهاية الزفير) ومعدل التنفس من منحنى التركيز الزمني.",
+      "en": "Processing: the internal processor calculates the EtCO₂ value (end-tidal) and respiratory rate from the concentration-versus-time waveform."
+    },
+    {
+      "ar": "العرض: شاشة تعرض قيمة الـ CO₂ رقماً، ومنحنى الكابنوغرام، وإنذارات عند ارتفاع أو انخفاض التركيز عن الحدود الآمنة (نورموكابنيا: 35-45 مم زئبق).",
+      "en": "Display: a screen shows the CO₂ value numerically, the capnogram waveform, and alarms when concentration exceeds or falls below safe limits (normocapnia: 35-45 mmHg)."
+    }
+  ],
+  "highlight": {
+    "ar": "الكابنوغراف هو المؤشر الذهبي للتأكد من وضع الأنبوب الرغامي في القصبة الهوائية (وليس المريء) أثناء التنبيب.",
+    "en": "The capnograph is the gold standard for confirming endotracheal tube placement in the trachea (not the esophagus) during intubation."
+  },
+  "components": [
+    {
+      "ar": "مضخة شفط (Sidestream)",
+      "en": "Suction pump (Sidestream)"
+    },
+    {
+      "ar": "مصدر أشعة تحت حمراء",
+      "en": "Infrared light source"
+    },
+    {
+      "ar": "مرشحات ضوئية وعدسات",
+      "en": "Optical filters and lenses"
+    },
+    {
+      "ar": "كاشف ضوئي (Pyroelectric)",
+      "en": "Photodetector (Pyroelectric)"
+    },
+    {
+      "ar": "معالج إشارات رقمية (DSP)",
+      "en": "Digital Signal Processor (DSP)"
+    },
+    {
+      "ar": "مصيدة ماء (Water trap) لحماية الدائرة",
+      "en": "Water trap to protect the circuit"
+    },
+    {
+      "ar": "دائرة معايرة ومعالجة الخرج",
+      "en": "Calibration and output processing circuit"
+    },
+    {
+      "ar": "بطارية احتياطية داخلية",
+      "en": "Internal backup battery"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز كابنوغراف محمول (Masimo EMMA أو Dräger CapnoLine)",
+    "en": "Example: Portable capnograph (Masimo EMMA or Dräger CapnoLine)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى قياس CO₂",
+        "en": "CO₂ Measurement Range"
+      },
+      "value": {
+        "ar": "0 – 100 مم زئبق (أو 0 – 13.3 كيلوباسكال)",
+        "en": "0 – 100 mmHg (or 0 – 13.3 kPa)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدقة",
+        "en": "Accuracy"
+      },
+      "value": {
+        "ar": "±2 مم زئبق عند نطاق 0-40 مم زئبق، ±5% للقيم فوق 40 مم زئبق",
+        "en": "±2 mmHg in the 0-40 mmHg range, ±5% for values above 40 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التنفس",
+        "en": "Respiratory Rate"
+      },
+      "value": {
+        "ar": "0 – 150 نفس/دقيقة (دقة ±1 نفس/دقيقة)",
+        "en": "0 – 150 breaths/min (accuracy ±1 breath/min)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الاستجابة",
+        "en": "Response Time"
+      },
+      "value": {
+        "ar": "أقل من 250 مللي ثانية (للنوع Mainstream)",
+        "en": "Less than 250 ms (Mainstream type)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع العينة",
+        "en": "Sample Type"
+      },
+      "value": {
+        "ar": "Sidestream (جانبي) أو Mainstream (رئيسي)",
+        "en": "Sidestream or Mainstream"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل سحب العينة",
+        "en": "Sample Draw Rate"
+      },
+      "value": {
+        "ar": "50 – 150 مل/دقيقة (Sidestream)",
+        "en": "50 – 150 ml/min (Sidestream)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "تناظري (خرج 0-5V)، رقمي (USB، RS-232، Bluetooth)",
+        "en": "Analog (0-5V output), Digital (USB, RS-232, Bluetooth)"
+      }
+    },
+    {
+      "label": {
+        "ar": "المعايرة",
+        "en": "Calibration"
+      },
+      "value": {
+        "ar": "تلقائية، باستخدام غاز معياري (5% CO₂) أو خوارزميات برمجية",
+        "en": "Automatic, using a standard gas (5% CO₂) or software algorithms"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد أو تسريب في أنبوب العينة (ماء، مخاط، أو التواء).",
+      "en": "Blockage or leak in the sample line (water, mucus, or kinking)."
+    },
+    {
+      "ar": "نفاد البطارية أو ضعف مصدر الطاقة.",
+      "en": "Battery depletion or weak power supply."
+    },
+    {
+      "ar": "قراءات غير دقيقة أو متذبذبة نتيجة تكثف الماء في الدائرة.",
+      "en": "Inaccurate or fluctuating readings due to water condensation in the circuit."
+    },
+    {
+      "ar": "إنذارات خاطئة بسبب حركة المريض أو تداخل كهربائي.",
+      "en": "False alarms due to patient movement or electrical interference."
+    },
+    {
+      "ar": "تشويش في منحنى الكابنوغرام (نقص في التصفية أو مشكلة في الكاشف).",
+      "en": "Noise in the capnogram waveform (poor filtering or detector issues)."
+    },
+    {
+      "ar": "حاجة إلى معايرة (خاصة إذا تغيرت حساسية المستشعر).",
+      "en": "Need for calibration (especially if sensor sensitivity changes)."
+    },
+    {
+      "ar": "تجميد الشاشة أو عطل في البرمجيات المضمنة.",
+      "en": "Screen freeze or embedded software malfunction."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

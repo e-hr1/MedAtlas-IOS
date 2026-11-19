@@ -1,0 +1,276 @@
+{
+  "id": 43,
+  "name": {
+    "ar": "جهاز التصوير بالأمواج فوق الصوتية",
+    "en": "Ultrasound Imaging System"
+  },
+  "category": "radiology",
+  "icon": "wave-square",
+  "shortDescription": {
+    "ar": "نظام تشخيصي آمن وغير مؤين – يعتمد على صدى الموجات الصوتية عالية التردد لتصوير الأعضاء والأنسجة اللينة بدقة",
+    "en": "Safe, Non-Ionizing Diagnostic System – Utilizes high-frequency sound wave echoes to accurately image organs and soft tissues"
+  },
+  "images": [
+    "assets/image/Radiology/Ultrasound/US1.webp",
+    "assets/image/Radiology/Ultrasound/US2.webp",
+    "assets/image/Radiology/Ultrasound/US3.webp",
+    "assets/image/Radiology/Ultrasound/US4.webp"
+  ],
+  "description": {
+    "ar": "جهاز السونار أو الإيكو هو نظام تصوير طبي يعتمد على بث موجات صوتية ذات ترددات عالية جداً تفوق قدرة الأذن البشرية على السماع (تبدأ من 2 ميجاهرتز وتصل إلى 20 ميجاهرتز أو أكثر). يتميز هذا الجهاز بخلوه تماماً من الإشعاع المؤين (X-Ray)، مما يجعله الخيار الأول والأكثر أماناً لمتابعة الأجنة وفحص أعضاء الجسم الحيوية بشكل فوري وديناميكي.",
+    "en": "Also known as Sonography or Echography, this medical imaging system relies on transmitting very high-frequency sound waves beyond the range of human hearing (starting from 2 MHz up to 20 MHz or more). The system is completely free of ionizing radiation (X-Rays), making it the first choice and the safest option for fetal monitoring and real-time dynamic examination of vital organs."
+  },
+  "uses": [
+    {
+      "ar": "طب النساء والتوليد (Obstetrics & Gynecology) – مراقبة نمو وتطور الجنين، وتحديد عمر الحمل، والكشف عن التشوهات الخلقية.",
+      "en": "Obstetrics & Gynecology – Monitoring fetal growth and development, determining gestational age, and detecting congenital anomalies."
+    },
+    {
+      "ar": "تصوير البطن والحوض (Abdominal Imaging) – فحص الكبد، المرارة، الكلى، الطحال، البنكرياس، والمثانة للكشف عن الحصوات والأورام.",
+      "en": "Abdominal Imaging – Examining the liver, gallbladder, kidneys, spleen, pancreas, and bladder to detect stones and tumors."
+    },
+    {
+      "ar": "تخطيط صدى القلب (Echocardiography) – تقييم صمامات القلب، حركة العضلات، وضخ الدم في الحجرات القلبية بدقة.",
+      "en": "Echocardiography – Assessing heart valves, muscle motion, and blood pumping within the cardiac chambers with high precision."
+    },
+    {
+      "ar": "دراسات الدوبلر الوعائية (Vascular Doppler) – قياس سرعة واتجاه تدفق الدم في الشرايين والأوردة، وتشخيص الجلطات (DVT) والتضيقات.",
+      "en": "Vascular Doppler Studies – Measuring blood flow velocity and direction in arteries and veins, diagnosing clots (DVT) and stenosis."
+    },
+    {
+      "ar": "الأنسجة السطحية والغدد (Superficial Parts) – فحص الغدة الدرقية، الثدي، الخصيتين، والأنسجة العضلية الهيكلية (Musculoskeletal).",
+      "en": "Superficial Parts and Glands – Examining the thyroid, breast, testicles, and musculoskeletal tissues."
+    },
+    {
+      "ar": "الإنضاج والتوجيه الطبي – توجيه الإبر لسحب الخزعات (Biopsy) أو رشف السوائل والمظاهر الالتهابية من المفاصل والأورام.",
+      "en": "Guided Interventions – Guiding needles for biopsies, fluid aspiration, and inflammatory collections in joints and tumors."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بالتأثير الكهروضغطي حيث تحتوي المجسات (Transducers) على بلورات تهتز وتصدر موجات فوق صوتية عند تطبيق تيار كهربائي، ثم انتشار واختراق الموجات لأنسجة الجسم وارتداد جزء منها على شكل صدى عند الاصطدام بالحدود المختلفة في الكثافة، تليها مرحلة استقبال الارتداد وتحويل الاهتزازات الميكانيكية إلى إشارات كهربائية، ثم حساب المسافة والزمن بواسطة الحاسوب المركزي مع سرعة الصوت في النسيج (1540 م/ث) لتحديد العمق بدقة، وأخيراً تكوين ومعالجة الصورة بترجمة شدة الإشارات إلى تدرجات رمادية (Greyscale) على الشاشة.",
+    "en": "The system operates through the piezoelectric effect where transducer crystals vibrate and emit ultrasound waves when an electrical current is applied, followed by wave propagation and tissue penetration where echoes reflect off boundaries of different densities, then echo reception converting mechanical vibrations back to electrical signals, distance and time calculation by the central computer using sound speed in tissue (1540 m/s) to determine depth precisely, and finally image formation translating signal intensity into greyscale shades on the display."
+  },
+  "workingSteps": [
+    {
+      "ar": "التأثير الكهروضغطي (Piezoelectric Effect): تحتوي مجسات الجهاز (Transducers) على بلورات كهروضغطية خاصة. عند تطبيق تيار كهربائي سريع عليها، تهتز هذه البلورات وتصدر موجات فوق صوتية نحو الجسم.",
+      "en": "Piezoelectric Effect: The system's transducers contain special piezoelectric crystals. When a rapid electrical current is applied, these crystals vibrate and emit ultrasound waves into the body."
+    },
+    {
+      "ar": "انتشار واختراق الموجات: تسير الموجات الصوتية عبر أنسجة الجسم. وعندما تصطدم بالحدود الفاصلة بين الأنسجة المختلفة في الكثافة (مثل الحد بين السائل والنسيج العضلي)، يرتد جزء منها على شكل \"صدى\" (Echo) بينما يتابع الجزء الآخر طريقه.",
+      "en": "Wave Propagation and Penetration: Sound waves travel through body tissues. When they encounter boundaries between different tissue densities (e.g., between fluid and muscle tissue), part of the wave reflects as an \"echo\" while the rest continues its path."
+    },
+    {
+      "ar": "استقبال الارتداد (Echo Reception): تعود الموجات المرتدة (الصدى) وتصطدم بنفس البلورات في المجس، فتقوم البلورات بتحويل هذه الاهتزازات الميكانيكية العكسية إلى إشارات كهربائية مجدداً.",
+      "en": "Echo Reception: The reflected waves (echoes) return and strike the same crystals in the transducer. The crystals then convert these mechanical vibrations back into electrical signals."
+    },
+    {
+      "ar": "حساب المسافة والزمن: يقوم الحاسوب المركزي للجهاز بحساب الوقت الذي استغرقته الموجة للذهاب والعودة، وسرعة الصوت في النسيج الكثيف (1540 m/s كمتوسط في الأنسجة اللينة)، وبناءً على ذلك يحدد عمق وموقع النسيج بدقة.",
+      "en": "Distance and Time Calculation: The central computer calculates the time taken for the wave to travel and return, and the speed of sound in tissue (average 1540 m/s in soft tissues), thereby determining the depth and location of the tissue with precision."
+    },
+    {
+      "ar": "تكوين ومعالجة الصورة: تُترجم شدة الإشارات المرتدة إلى نقاط مضيئة بدرجات رمادية مختلفة (Greyscale) على الشاشة، حيث تظهر السوائل باللون الأسود (Anechoic) والأنسجة الصلبة أو العظام باللون الأبيض الساطع (Hyperechoic).",
+      "en": "Image Formation and Processing: The intensity of the returning signals is translated into varying shades of gray (Greyscale) on the display, with fluids appearing black (Anechoic) and dense tissues or bones appearing bright white (Hyperechoic)."
+    }
+  ],
+  "highlight": {
+    "ar": "يُعد استخدام هلام الأمواج فوق الصوتية (Ultrasound Gel) خطوة أساسية لا يمكن الاستغناء عنها أثناء الفحص؛ حيث يعمل كجسر ناقل يقضي تماماً على وجود الهواء بين المجس وجلد المريض، نظراً لأن الهواء يعكس الموجات الصوتية بنسبة تقارب 100% ويمنعها من اختراق الجسم.",
+    "en": "The use of Ultrasound Gel is an essential and indispensable step during the examination; it acts as a conductive bridge that completely eliminates the presence of air between the transducer and the patient's skin, as air reflects nearly 100% of the sound waves and prevents them from penetrating the body."
+  },
+  "components": [
+    {
+      "ar": "المجسات (Probes / Transducers) بأنواعها (خطي، محدب، قطاعي)",
+      "en": "Transducers (Probes) - Linear, Convex, Phased Array types"
+    },
+    {
+      "ar": "وحدة المعالجة المركزية ومعالج الإشارات الرقمية (DSP)",
+      "en": "Central Processing Unit and Digital Signal Processor (DSP)"
+    },
+    {
+      "ar": "لوحة التحكم ومفاتيح ضبط كسب الإشارة تبعاً للعمق (TGC)",
+      "en": "Control Panel and Time Gain Compensation (TGC) Sliders"
+    },
+    {
+      "ar": "شاشة عرض طبية عالية النقاء (LCD / OLED) تدعم الألوان لدراسات الدوبلر",
+      "en": "High-Resolution Medical Display (LCD/OLED) supporting color for Doppler studies"
+    },
+    {
+      "ar": "وحدة تخزين وتثبيت الإطارات الحركية (Cine Loop Memory)",
+      "en": "Cine Loop Memory for storing and reviewing dynamic frames"
+    },
+    {
+      "ar": "لوحة مفاتيح متكاملة لإدخال بيانات المرضى وكتابة التقارير",
+      "en": "Integrated Keyboard for patient data entry and reporting"
+    },
+    {
+      "ar": "طابعة حرارية مدمجة (Thermal Printer) لطباعة الصور الفورية",
+      "en": "Integrated Thermal Printer for instant image printing"
+    },
+    {
+      "ar": "وحدة التغذية الكهربائية المزودة بنظام بطارية احتياطي (UPS)",
+      "en": "Power Supply Unit with Battery Backup (UPS)"
+    },
+    {
+      "ar": "منافذ توصيل متعددة للمجسات (Probe Connectors) لتبديلها برمجياً",
+      "en": "Multiple Active Probe Connectors for software-controlled switching"
+    },
+    {
+      "ar": "نظام إرسال واستقبال البيانات والربط مع شبكات المستشفى (DICOM)",
+      "en": "Data Transmission and PACS Integration System (DICOM)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لجهاز تصوير فوق صوتي متطور عالي الأداء",
+    "en": "Typical specifications for an advanced high-performance ultrasound system"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق الترددات (Frequency Range)",
+        "en": "Frequency Range"
+      },
+      "value": {
+        "ar": "2.0 – 22.0 MHz (حسب نوع المجس والتطبيق)",
+        "en": "2.0 – 22.0 MHz (depending on probe type and application)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنماط التشغيل (Display Modes)",
+        "en": "Display Modes"
+      },
+      "value": {
+        "ar": "B-Mode, M-Mode, Color Doppler, Power Doppler, PW/CW Doppler",
+        "en": "B-Mode, M-Mode, Color Doppler, Power Doppler, PW/CW Doppler"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمق التصوير الإشعاعي (Scanning Depth)",
+        "en": "Scanning Depth"
+      },
+      "value": {
+        "ar": "يصل حتى 30 أو 40 سم (في الترددات المنخفضة للمجس المحدب)",
+        "en": "Up to 30 or 40 cm (at low frequencies with convex probes)"
+      }
+    },
+    {
+      "label": {
+        "ar": "قنوات المعالجة الرقمية",
+        "en": "Digital Processing Channels"
+      },
+      "value": {
+        "ar": "أكثر من 1,000,000 قناة رقمية افتراضية لتعزيز دقة الصورة",
+        "en": "Over 1,000,000 virtual digital channels for enhanced image precision"
+      }
+    },
+    {
+      "label": {
+        "ar": "التصوير المتقدم (Advanced Imaging)",
+        "en": "Advanced Imaging"
+      },
+      "value": {
+        "ar": "دعم التصوير ثلاثي ورباعي الأبعاد (3D / 4D Live Imaging)",
+        "en": "Support for 3D and 4D Live Imaging"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل الإطارات (Frame Rate)",
+        "en": "Frame Rate"
+      },
+      "value": {
+        "ar": "حتى 100 إطار في الثانية أو أكثر (حسب النمط وعمق التصوير)",
+        "en": "Up to 100 frames per second or more (depending on mode and depth)"
+      }
+    },
+    {
+      "label": {
+        "ar": "منافذ المجسات النشطة",
+        "en": "Active Probe Ports"
+      },
+      "value": {
+        "ar": "3 إلى 5 منافذ نشطة (Active Probe Ports)",
+        "en": "3 to 5 active ports"
+      }
+    },
+    {
+      "label": {
+        "ar": "تقنيات تحسين الصورة",
+        "en": "Image Enhancement Technologies"
+      },
+      "value": {
+        "ar": "التصوير التوافقي للأنسجة (THI)، وتقليل التشويش النقطي (Speckle Reduction)",
+        "en": "Tissue Harmonic Imaging (THI), Speckle Reduction"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف البلورات داخل المجس (Transducer Dropouts) نتيجة السقوط، مما يظهر كخطوط سوداء ثابتة في الصورة.",
+      "en": "Crystal damage within the transducer (Dropouts) due to dropping, resulting in fixed black lines in the image."
+    },
+    {
+      "ar": "تشقق أو قطع في الكيبل الواصل بين المجس والجهاز مما يسبب تشويشاً كهرومغناطيسياً حاداً.",
+      "en": "Cable cracking or breakage between the probe and system, causing severe electromagnetic interference."
+    },
+    {
+      "ar": "عطل في مراوح التبريد الداخلية وفلاتر الغبار مما يؤدي لارتفاع حرارة المعالجات وتجمد النظام (Freezing).",
+      "en": "Internal cooling fan or dust filter failure leading to processor overheating and system freezing."
+    },
+    {
+      "ar": "تلف أو تآكل مقاومة مفاتيح التحكم بالـ (TGC Sliders) مما يسبب اختلالاً في سطوع بعض مستويات الصورة.",
+      "en": "Wear or damage to the TGC slider potentiometers, causing uneven brightness levels in the image."
+    },
+    {
+      "ar": "ظهور بكسلات ميتة أو بهوت في ألوان الدوبلر على شاشة العرض الأساسية.",
+      "en": "Dead pixels or color distortion in the Doppler display on the main screen."
+    },
+    {
+      "ar": "تلف في القرص الصلب (HDD/SSD) أو ملفات النظام مما يمنع إقلاع برنامج السونار أو يؤدي لفقدان بيانات المرضى.",
+      "en": "Hard drive (HDD/SSD) or system file corruption preventing system boot-up or causing patient data loss."
+    },
+    {
+      "ar": "أعطال في لوحة توزيع الطاقة الداخلية (Power Supply) ناتجة عن تذبذب التيار الكهربائي الخارجي.",
+      "en": "Internal Power Distribution Board failures due to external power fluctuations."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

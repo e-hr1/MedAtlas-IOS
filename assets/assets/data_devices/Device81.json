@@ -1,0 +1,259 @@
+{
+  "id": 81,
+  "name": {
+    "ar": "جهاز الإضاءة المعالجة (Curing Light)",
+    "en": "Curing Light"
+  },
+  "category": "dentistry",
+  "icon": "lightbulb",
+  "shortDescription": {
+    "ar": "أداة أساسية في طب الأسنان الترميمي، تستخدم ضوءاً عالي الكثافة (أزرق/بنفسجي) لبلمرة وتقسية المواد المركبة (الحشوات الضوئية) واللواصق في ثوانٍ معدودة.",
+    "en": "An essential tool in restorative dentistry, using high-intensity light (blue/violet) to polymerize and harden composite materials (light-cured fillings) and adhesives within seconds."
+  },
+  "images": [
+    "assets/image/Dentistry/Curing Light/curing1.webp",
+    "assets/image/Dentistry/Curing Light/curing2.webp",
+    "assets/image/Dentistry/Curing Light/curing3.webp",
+    "assets/image/Dentistry/Curing Light/curing4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الإضاءة المعالجة (Curing Light) هو أداة تستخدم في عيادات الأسنان لإتمام عملية البلمرة (التقسية) للمواد المركبة الضوئية (Light-Cured Composite Resins)، واللواصق (Adhesives)، والمواد المانعة للتسرب (Sealants) التي تحتوي على محفزات ضوئية تتفاعل مع الضوء الأزرق (بطول موجي 400-500 نانومتر) لتتحول من حالة لدنة إلى حالة صلبة في غضون 10-40 ثانية.",
+    "en": "The curing light is a tool used in dental clinics to complete the polymerization (hardening) of light-cured composite resins, adhesives, and sealants that contain photoinitiators which react to blue light (wavelength 400-500 nm) to transform from a plastic state to a solid state within 10-40 seconds."
+  },
+  "uses": [
+    {
+      "ar": "تثبيت الحشوات المركبة: بلمرة المواد التجميلية في الحشوات الأمامية والخلفية.",
+      "en": "Setting composite fillings: Polymerizing aesthetic materials in anterior and posterior restorations."
+    },
+    {
+      "ar": "تثبيت مواد الربط (Bonding): لتثبيت الحشوات والتيجان والجسور.",
+      "en": "Setting bonding agents: For securing fillings, crowns, and bridges."
+    },
+    {
+      "ar": "تثبيت المواد المانعة للتسرب: في شقوق الأسنان الخلفية للوقاية من التسوس.",
+      "en": "Setting sealants: In the grooves of posterior teeth for caries prevention."
+    },
+    {
+      "ar": "تثبيت إسمنت التركيبات والتيجان: الإسمنت الضوئي المستخدم لتثبيت التركيبات الثابتة.",
+      "en": "Setting cement for restorations and crowns: Light-cured cement used for fixing fixed prostheses."
+    },
+    {
+      "ar": "بلمرة مواد البناء (Build-up): لبناء الدعامات والتركيبات غير المباشرة.",
+      "en": "Polymerizing build-up materials: For core build-ups and indirect restorations."
+    },
+    {
+      "ar": "تثبيت تقويم الأسنان: باستخدام مواد لاصقة ضوئية.",
+      "en": "Setting orthodontic brackets: Using light-cured adhesive materials."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد مبدأ عمل جهاز الإضاءة المعالجة على استخدام تقنيات إضاءة متطورة لتوليد حزم ضوئية عالية الكثافة ضمن نطاق طيفي محدد (الضوء الأزرق)، وقد تطورت التقنيات عبر أجيال: تقنية LED (الصمامات الثنائية الباعثة للضوء) وهي الأحدث والأكثر شيوعاً وتستخدم صمامات LED عالية القدرة تنبعث منها ضوء أزرق بطول موجي 440-480 نانومتر وتتميز بعمر افتراضي طويل (أكثر من 50,000 ساعة) وكفاءة عالية وحرارة منخفضة مما يجعلها آمنة على الأنسجة الحيوية، وتقنية القوس الكهربائي عالي الكثافة (Plasma Arc) التي تستخدم بلازما الزينون لإنتاج ضوء أبيض قوي يُرشَّح للحصول على الضوء الأزرق وتتميز بسرعة عالية جداً (1-3 ثوانٍ) لكنها مكلفة وتولد حرارة عالية، وتقنية الليزر (Titanium Sapphire) التي تستخدم حزم ليزر في النطاق الموجي المطلوب لكنها نادراً ما تستخدم بسبب التكلفة العالية والتعقيد.",
+    "en": "The working principle of the curing light relies on using advanced lighting technologies to generate high-intensity light beams within a specific spectral range (blue light), with technologies evolving through generations: LED Technology (Light Emitting Diodes) which is the latest and most common using high-power LED diodes that emit blue light with a wavelength of 440-480 nm characterized by a long lifespan (over 50,000 hours), high efficiency, and low heat generation making them safe for vital tissues, High-Intensity Arc Light (Plasma Arc) which uses xenon plasma to produce strong white light that is filtered to obtain blue light characterized by very high speed (1-3 seconds) but is expensive and generates high heat, and Laser Technology (Titanium Sapphire) which uses laser beams in the required wavelength range but is rarely used due to high cost and complexity."
+  },
+  "workingSteps": [
+    {
+      "ar": "تقنية LED (الصمامات الثنائية الباعثة للضوء): الأحدث والأكثر شيوعاً، تستخدم صمامات LED عالية القدرة تنبعث منها ضوء أزرق بطول موجي 440-480 نانومتر، تتميز بعمر افتراضي طويل (أكثر من 50,000 ساعة)، كفاءة عالية، وحرارة منخفضة مما يجعلها آمنة على الأنسجة الحيوية.",
+      "en": "LED Technology (Light Emitting Diodes): The latest and most common, using high-power LED diodes that emit blue light with a wavelength of 440-480 nm, characterized by a long lifespan (over 50,000 hours), high efficiency, and low heat generation, making them safe for vital tissues."
+    },
+    {
+      "ar": "تقنية القوس الكهربائي عالي الكثافة (Plasma Arc): تستخدم بلازما الزينون لإنتاج ضوء أبيض قوي يُرشَّح للحصول على الضوء الأزرق، تتميز بسرعة عالية جداً (1-3 ثوانٍ) لكنها مكلفة وتولد حرارة عالية.",
+      "en": "High-Intensity Arc Light (Plasma Arc): Uses xenon plasma to produce strong white light that is filtered to obtain blue light, characterized by very high speed (1-3 seconds) but is expensive and generates high heat."
+    },
+    {
+      "ar": "تقنية الليزر (Titanium Sapphire): تستخدم حزم ليزر في النطاق الموجي المطلوب، لكنها نادراً ما تستخدم بسبب التكلفة العالية والتعقيد.",
+      "en": "Laser Technology (Titanium Sapphire): Uses laser beams in the required wavelength range, but is rarely used due to high cost and complexity."
+    }
+  ],
+  "highlight": {
+    "ar": "تمتاز الأجهزة الحديثة بمؤقتات رقمية قابلة للبرمجة، وشاشات OLED، ومستشعرات لشدة الضوء (Radiometer) لضمان فعالية المعالجة، وأنظمة تبريد ذكية تمنع ارتفاع حرارة رأس الجهاز.",
+    "en": "Modern devices feature programmable digital timers, OLED displays, light intensity sensors (radiometers) to ensure curing efficiency, and smart cooling systems that prevent the device head from overheating."
+  },
+  "components": [
+    {
+      "ar": "رأس المعالجة (مصدر الضوء LED/Plasma)",
+      "en": "Curing head (LED/Plasma light source)"
+    },
+    {
+      "ar": "مرشحات ضوئية (لضبط الطول الموجي)",
+      "en": "Optical filters (for wavelength adjustment)"
+    },
+    {
+      "ar": "وحدة تحكم رقمية (مؤقتات وبرامج معدّة مسبقاً)",
+      "en": "Digital control unit (timers and preset programs)"
+    },
+    {
+      "ar": "بطارية قابلة لإعادة الشحن (في الموديلات المحمولة)",
+      "en": "Rechargeable battery (in portable models)"
+    },
+    {
+      "ar": "مستشعر شدة الضوء (Radiometer داخلي/خارجي)",
+      "en": "Light intensity sensor (internal/external radiometer)"
+    },
+    {
+      "ar": "معالج دقيق للتحكم بالقدرة والوقت",
+      "en": "Microprocessor for power and time control"
+    },
+    {
+      "ar": "دليل ألياف ضوئية (لتوصيل الضوء في بعض الموديلات)",
+      "en": "Optical fiber guide (for light delivery in some models)"
+    },
+    {
+      "ar": "محول شحن وقاعدة إرساء (في الموديلات المكتبية)",
+      "en": "Charging adapter and docking station (in desktop models)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز إضاءة معالجة LED متطور (فئة احترافية)",
+    "en": "Example: Typical specifications for an advanced LED curing light (professional class)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الطول الموجي (الأساسي)",
+        "en": "Wavelength (primary)"
+      },
+      "value": {
+        "ar": "440 – 480 نانومتر (الضوء الأزرق)",
+        "en": "440 – 480 nm (blue light)"
+      }
+    },
+    {
+      "label": {
+        "ar": "شدة الضوء (القدرة)",
+        "en": "Light intensity (power)"
+      },
+      "value": {
+        "ar": "1,200 – 3,500 ميلي واط/سم² (قابلة للتعديل)",
+        "en": "1,200 – 3,500 mW/cm² (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أزمنة المعالجة المبرمجة",
+        "en": "Programmed curing times"
+      },
+      "value": {
+        "ar": "5 – 40 ثانية (برامج قابلة للتخصيص)",
+        "en": "5 – 40 seconds (customizable programs)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع مصدر الضوء",
+        "en": "Light source type"
+      },
+      "value": {
+        "ar": "LED (صمامات ثنائية عالية القدرة)",
+        "en": "LED (high-power diodes)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمر البطارية",
+        "en": "Battery life"
+      },
+      "value": {
+        "ar": "200 – 600 دورة معالجة (حسب الشدة)",
+        "en": "200 – 600 curing cycles (depending on intensity)"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد التشغيل / الشحن",
+        "en": "Operating / Charging voltage"
+      },
+      "value": {
+        "ar": "100-240 فولت / 50-60 هرتز",
+        "en": "100-240 V / 50-60 Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الجهاز",
+        "en": "Device weight"
+      },
+      "value": {
+        "ar": "120 – 250 جرام (موديلات محمولة خفيفة)",
+        "en": "120 – 250 grams (lightweight portable models)"
+      }
+    },
+    {
+      "label": {
+        "ar": "شاشة العرض",
+        "en": "Display screen"
+      },
+      "value": {
+        "ar": "OLED / LCD رقمية مع مؤقت وعداد",
+        "en": "OLED / LCD digital with timer and counter"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ضعف شدة الضوء (تلف صمامات LED أو انتهاء عمرها الافتراضي).",
+      "en": "Weak light intensity (damaged LED diodes or reached end of lifespan)."
+    },
+    {
+      "ar": "نفاذ البطارية بسرعة أو عدم شحنها (تلف البطارية أو دائرة الشحن).",
+      "en": "Battery drains quickly or doesn't charge (damaged battery or charging circuit)."
+    },
+    {
+      "ar": "خلل في المؤقت الرقمي أو عدم استجابة الأزرار (مشكلة في لوحة التحكم).",
+      "en": "Digital timer malfunction or unresponsive buttons (control panel issue)."
+    },
+    {
+      "ar": "ارتفاع حرارة رأس الجهاز (عطل في نظام التبريد أو الاستخدام لفترات طويلة).",
+      "en": "Device head overheating (cooling system failure or prolonged use)."
+    },
+    {
+      "ar": "عدم ثبات الطول الموجي (تلف المرشحات الضوئية في الموديلات القديمة).",
+      "en": "Wavelength inconsistency (damaged optical filters in older models)."
+    },
+    {
+      "ar": "مشاكل في الاتصال بقاعدة الشحن (تآكل نقاط التلامس).",
+      "en": "Connection issues with charging base (worn contact points)."
+    },
+    {
+      "ar": "أخطاء في البرمجيات المدمجة (تجمّد الشاشة أو تعليق الأزرار).",
+      "en": "Embedded software errors (display freeze or button lock-up)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

@@ -1,0 +1,280 @@
+{
+  "id": 55,
+  "name": {
+    "ar": "خزانة السلامة الحيوية",
+    "en": "Biosafety Cabinet"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "محطة عمل محكمة ومصفاة للهواء توفر حماية للعامل والعينة والبيئة من التلوث الميكروبي والجزيئي",
+    "en": "A sealed, air-filtered workstation providing protection for the worker, sample, and environment from microbial and molecular contamination"
+  },
+  "images": [
+    "assets/image/Laboratory/Biosafety/Biosafety1.webp",
+    "assets/image/Laboratory/Biosafety/Biosafety2.webp"
+  ],
+  "description": {
+    "ar": "خزانة مختبرية محكمة الإغلاق مزودة بنظام ترشيح هواء (HEPA) لتوفير بيئة عمل معقمة وخالية من الجزيئات والملوثات. تُستخدم للتعامل مع المواد البيولوجية الخطرة، والعينات الملوثة، والخلايا المستزرعة، والكائنات المعدلة وراثياً، والمواد الكيميائية المتطايرة، مع توفير حماية ثلاثية الأبعاد: حماية العامل، وحماية العينة، وحماية البيئة المحيطة.",
+    "en": "A sealed laboratory cabinet equipped with a HEPA air filtration system to provide a sterile, particle-free working environment. It is used for handling hazardous biological materials, contaminated samples, cultured cells, genetically modified organisms, and volatile chemicals, providing three-dimensional protection: worker protection, sample protection, and environmental protection."
+  },
+  "uses": [
+    {
+      "ar": "زراعة الخلايا والأنسجة – توفير بيئة معقمة لزراعة الخلايا الحيوانية والنباتية.",
+      "en": "Cell and tissue culture – Providing a sterile environment for growing animal and plant cells."
+    },
+    {
+      "ar": "التعامل مع العينات الملوثة – حماية العامل من مسببات الأمراض (الفيروسات، البكتيريا، الفطريات).",
+      "en": "Handling contaminated samples – Protecting the worker from pathogens (viruses, bacteria, fungi)."
+    },
+    {
+      "ar": "تحضير المحاليل المعقمة – تجهيز الأوساط الزراعية والمحاليل الخالية من الملوثات.",
+      "en": "Sterile solution preparation – Preparing culture media and contaminant-free solutions."
+    },
+    {
+      "ar": "التعامل مع المواد السامة والمتطايرة – تحتوي بعض الطرازات على نظام ترشيح كربوني للغازات والمركبات العضوية المتطايرة (VOCs).",
+      "en": "Handling toxic and volatile materials – Some models feature carbon filtration for gases and volatile organic compounds (VOCs)."
+    },
+    {
+      "ar": "العمل مع الحمض النووي (DNA/RNA) – منع تلوث العينات بالحمض النووي الخارجي أو النوكليازات.",
+      "en": "Working with DNA/RNA – Preventing sample contamination by external DNA or nucleases."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بسحب الهواء من الغرفة عبر فتحة أمامية لتكوين ستارة هوائية، ثم مروره عبر مرشح أولي لالتقاط الجزيئات الكبيرة، يليها الترشيح الرئيسي بمرشح HEPA بكفاءة عالية، ثم توجيه الهواء المعقم عمودياً إلى منطقة العمل، وطرد جزء من الهواء الملوث عبر مرشح HEPA آخر.",
+    "en": "The system operates through air intake via front opening to form an air curtain, pre-filtration for large particles, main HEPA filtration, vertical sterile downflow into the work area, and exhausting contaminated air through an exhaust HEPA filter."
+  },
+  "workingSteps": [
+    {
+      "ar": "سحب الهواء: تسحب مروحة الهواء من الغرفة عبر فتحة سحب أمامية، مما يخلق ستارة هوائية (Air Curtain) تمنع دخول الملوثات من الخارج إلى منطقة العمل.",
+      "en": "Air intake: A blower draws air from the room through a front intake opening, creating an air curtain that prevents contaminants from entering the work area from the outside."
+    },
+    {
+      "ar": "الترشيح الأولي: يمر الهواء عبر مرشح أولي (Pre-filter) لالتقاط الجزيئات الكبيرة (الغبار، الشعر، وبر الجلد).",
+      "en": "Pre-filtration: Air passes through a pre-filter to capture large particles (dust, hair, skin flakes)."
+    },
+    {
+      "ar": "الترشيح الرئيسي HEPA: يمر الهواء عبر مرشح HEPA (High-Efficiency Particulate Air) بكفاءة 99.997% لالتقاط جزيئات بحجم 0.3 ميكرون، مما ينتج هواءً معقماً خالياً من الملوثات.",
+      "en": "Main HEPA filtration: Air passes through a HEPA (High-Efficiency Particulate Air) filter with 99.997% efficiency for 0.3 micron particles, producing sterile, contaminant-free air."
+    },
+    {
+      "ar": "تدفق الهواء النظيف: يُوجه الهواء المعقم إلى منطقة العمل بشكل عمودي (Downflow) لتوفير بيئة خالية من الملوثات للعينة.",
+      "en": "Clean air flow: Sterile air is directed vertically (downflow) into the work area to provide a contaminant-free environment for the sample."
+    },
+    {
+      "ar": "طرد الهواء الملوث: يُسحب جزء من الهواء من منطقة العمل عبر مرشح HEPA آخر ويُطرد إلى الخارج (في الخزانات من النوع الثاني) أو يُعاد تدويره داخل الخزانة (في النوع الأول).",
+      "en": "Contaminated air exhaust: A portion of the air from the work area is drawn through another HEPA filter and exhausted to the outside (in Class II Type B cabinets) or recirculated within the cabinet (in Class II Type A cabinets)."
+    },
+    {
+      "ar": "الستارة الهوائية: يحافظ تدفق الهواء السفلي على ستارة هوائية تمنع تبادل الهواء بين منطقة العمل والغرفة المحيطة.",
+      "en": "Air curtain: The downward airflow maintains an air curtain that prevents air exchange between the work area and the surrounding room."
+    }
+  ],
+  "highlight": {
+    "ar": "الخزانات الحديثة مزودة بشاشات رقمية تعرض سرعة تدفق الهواء، وحالة المرشحات، مع إنذارات صوتية ومرئية عند انخفاض التدفق أو انسداد المرشحات، وأنظمة تعقيم بالأشعة فوق البنفسجية (UV) لتعقيم الأسطح الداخلية.",
+    "en": "Modern cabinets feature digital displays showing airflow velocity, filter status, with audible and visual alarms for reduced flow or filter clogging, and UV sterilization systems for internal surface decontamination."
+  },
+  "components": [
+    {
+      "ar": "مروحة سحب هواء (Blower)",
+      "en": "Air intake blower"
+    },
+    {
+      "ar": "مرشح أولي (Pre-filter)",
+      "en": "Pre-filter"
+    },
+    {
+      "ar": "مرشح HEPA رئيسي (للتدفق السفلي)",
+      "en": "Main HEPA filter (downflow)"
+    },
+    {
+      "ar": "مرشح HEPA للعادم (Exhaust)",
+      "en": "Exhaust HEPA filter"
+    },
+    {
+      "ar": "إضاءة داخلية (مصباح LED/فلوري)",
+      "en": "Internal lighting (LED/Fluorescent)"
+    },
+    {
+      "ar": "مصباح UV للتعقيم (اختياري)",
+      "en": "UV sterilization lamp (optional)"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية (سرعة التدفق)",
+      "en": "Electronic control unit (flow velocity)"
+    },
+    {
+      "ar": "شاشة رقمية (سرعة التدفق، حالة المرشحات)",
+      "en": "Digital display (flow velocity, filter status)"
+    },
+    {
+      "ar": "نظام إنذار (انخفاض التدفق، انسداد المرشح)",
+      "en": "Alarm system (low flow, filter clogging)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: خزانة سلامة حيوية نموذجية (Thermo Scientific 1300 Series II أو NuAire NU-425)",
+    "en": "Example: Typical biosafety cabinet (Thermo Scientific 1300 Series II or NuAire NU-425)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "النوع",
+        "en": "Type"
+      },
+      "value": {
+        "ar": "الفئة الثانية (Class II) النوع A2 أو B2",
+        "en": "Class II, Type A2 or B2"
+      }
+    },
+    {
+      "label": {
+        "ar": "كفاءة مرشح HEPA",
+        "en": "HEPA filter efficiency"
+      },
+      "value": {
+        "ar": "99.997% لجزيئات 0.3 ميكرون",
+        "en": "99.997% for 0.3 micron particles"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة تدفق الهواء السفلي",
+        "en": "Downflow air velocity"
+      },
+      "value": {
+        "ar": "0.25 – 0.5 متر/ثانية (قابلة للبرمجة)",
+        "en": "0.25 – 0.5 m/s (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة تدفق الهواء الأمامي",
+        "en": "Inflow air velocity (air curtain)"
+      },
+      "value": {
+        "ar": "0.4 – 0.6 متر/ثانية (ستارة هوائية)",
+        "en": "0.4 – 0.6 m/s"
+      }
+    },
+    {
+      "label": {
+        "ar": "عرض منطقة العمل",
+        "en": "Work area width"
+      },
+      "value": {
+        "ar": "90 – 180 سم (حسب الطراز)",
+        "en": "90 – 180 cm (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise level"
+      },
+      "value": {
+        "ar": "≤ 65 ديسيبل",
+        "en": "≤ 65 dB"
+      }
+    },
+    {
+      "label": {
+        "ar": "الإضاءة",
+        "en": "Illumination"
+      },
+      "value": {
+        "ar": "≥ 1000 لوكس عند سطح العمل",
+        "en": "≥ 1000 lux at work surface"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت تشغيل مصباح UV (اختياري)",
+        "en": "UV lamp runtime (optional)"
+      },
+      "value": {
+        "ar": "قابل للبرمجة (عادة 15-30 دقيقة)",
+        "en": "Programmable (typically 15-30 minutes)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LCD أو LED لعرض سرعة التدفق",
+        "en": "Digital LCD or LED for flow velocity"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض سرعة تدفق الهواء نتيجة انسداد المرشحات أو عطل في المروحة.",
+      "en": "Reduced airflow velocity due to clogged filters or blower malfunction."
+    },
+    {
+      "ar": "انسداد مرشح HEPA أو مرشح ما قبل الترشيح يحتاج إلى استبدال.",
+      "en": "Clogged HEPA filter or pre-filter requiring replacement."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة اتساخ مستشعرات التدفق.",
+      "en": "False alarms due to dirty flow sensors."
+    },
+    {
+      "ar": "عطل في مصباح UV أو انتهاء عمره التشغيلي (لا ينبعث منه الأشعة المطلوبة).",
+      "en": "UV lamp malfunction or expired operational life (not emitting required UV radiation)."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة التحكم أو في نظام المعايرة.",
+      "en": "Software faults in the control unit or calibration system."
+    },
+    {
+      "ar": "تلف الحشية المطاطية حول الزجاج الأمامي يسبب تسرباً للهواء.",
+      "en": "Damaged rubber gasket around the front glass causing air leakage."
+    },
+    {
+      "ar": "انقطاع الإضاءة الداخلية أو ضعفها.",
+      "en": "Internal lighting failure or insufficient brightness."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

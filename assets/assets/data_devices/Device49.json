@@ -1,0 +1,276 @@
+{
+  "id": 49,
+  "name": {
+    "ar": "جهاز المحلل الكيميائي",
+    "en": "Chemistry Analyzer"
+  },
+  "category": "laboratory",
+  "icon": "flask",
+  "shortDescription": {
+    "ar": "جهاز مخبري آلي لتحليل مكونات الدم والبلازما والمصل كيميائياً لتشخيص الأمراض ومتابعة الحالة الصحية",
+    "en": "Automated laboratory instrument for chemical analysis of blood, plasma, and serum components for disease diagnosis and health monitoring"
+  },
+  "images": [
+    "assets/image/Laboratory/Chemistry/Chemistry1.webp",
+    "assets/image/Laboratory/Chemistry/Chemistry2.webp"
+  ],
+  "description": {
+    "ar": "جهاز تحليل كيميائي آلي يُستخدم في المختبرات الطبية لقياس تركيز مجموعة واسعة من المواد الكيميائية في الدم، البلازما، المصل، البول، والسوائل البيولوجية الأخرى. يعتمد على تفاعلات كيميائية ضوئية (colorimetric) أو كهروكيميائية لتقدير تركيز الجزيئات.",
+    "en": "An automated chemical analyzer used in medical laboratories to measure the concentration of a wide range of chemical substances in blood, plasma, serum, urine, and other biological fluids. It relies on photochemical (colorimetric) or electrochemical reactions to estimate molecular concentrations."
+  },
+  "uses": [
+    {
+      "ar": "وظائف الكبد – قياس إنزيمات الكبد (ALT، AST، ALP، GGT) والبيليروبين والألبومين.",
+      "en": "Liver function – Measurement of liver enzymes (ALT, AST, ALP, GGT), bilirubin, and albumin."
+    },
+    {
+      "ar": "وظائف الكلى – قياس اليوريا، الكرياتينين، وحمض البوليك.",
+      "en": "Kidney function – Measurement of urea, creatinine, and uric acid."
+    },
+    {
+      "ar": "الدهون والسكري – قياس الكوليسترول الكلي، الدهون الثلاثية، HDL، LDL، والجلوكوز.",
+      "en": "Lipids and diabetes – Measurement of total cholesterol, triglycerides, HDL, LDL, and glucose."
+    },
+    {
+      "ar": "الكهارل والبروتينات – قياس الصوديوم، البوتاسيوم، الكلور، والبروتين الكلي.",
+      "en": "Electrolytes and proteins – Measurement of sodium, potassium, chloride, and total protein."
+    },
+    {
+      "ar": "إنزيمات القلب – قياس CK، CK-MB، والتروبونين للمساعدة في تشخيص النوبات القلبية.",
+      "en": "Cardiac enzymes – Measurement of CK, CK-MB, and troponin to aid in diagnosing heart attacks."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بتحضير العينة بفصل البلازما أو المصل عن طريق الطرد المركزي، ثم سحب العينة والكواشف بواسطة ماصات آلية دقيقة، يليها الخلط والتفاعل في خلايا تفاعلية تحت ظروف حرارية مضبوطة عند 37 درجة مئوية، ثم القياس الطيفي لقياس امتصاص الضوء بموجات ضوئية مختلفة وحساب التركيزات بناءً على معايرات مسبقة، وأخيراً المعالجة وعرض النتائج على الشاشة.",
+    "en": "The system operates through sample preparation via centrifugation, automated aspiration of samples and reagents using precision probes, mixing and reaction in cuvettes at a controlled 37°C temperature, spectrophotometric measurement of light absorption at various wavelengths to calculate concentrations based on pre-established calibrations, and central processing for result display."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير العينة: تُسحب عينة الدم وتُفصل البلازما أو المصل عن طريق الطرد المركزي، ثم توضع في أنابيب خاصة داخل الجهاز.",
+      "en": "Sample preparation: Blood sample is drawn and plasma or serum is separated by centrifugation, then placed in special tubes inside the device."
+    },
+    {
+      "ar": "سحب العينة والكواشف: تستخدم ماصات آلية (Probes) دقيقة لسحب كميات محددة من العينة والكواشف (Reagents) الخاصة بكل اختبار.",
+      "en": "Sample and reagent aspiration: Automated pipettes (Probes) precisely aspirate specific volumes of sample and reagents specific to each test."
+    },
+    {
+      "ar": "الخلط والتفاعل: تُمزج العينة مع الكواشف في خلايا تفاعلية (Cuvettes) تحت ظروف حرارية مضبوطة (37 درجة مئوية).",
+      "en": "Mixing and reaction: The sample is mixed with reagents in reaction cuvettes under controlled thermal conditions (37°C)."
+    },
+    {
+      "ar": "القياس الطيفي: بعد فترة تفاعل محددة، يقاس امتصاص الضوء باستخدام مقياس طيفي (Spectrophotometer) بموجات ضوئية مختلفة، وتُحسب التركيزات بناءً على معايرات مسبقة.",
+      "en": "Spectrophotometric measurement: After a specified reaction period, light absorption is measured using a spectrophotometer at various wavelengths, and concentrations are calculated based on pre-established calibrations."
+    },
+    {
+      "ar": "المعالجة وعرض النتائج: يُحلل المعالج المركزي الإشارات، ويحولها إلى قيم رقمية، ثم تُعرض على الشاشة مع إمكانية طباعة تقرير تفصيلي.",
+      "en": "Processing and results display: The central processor analyzes the signals, converts them into numerical values, and displays them on the screen with the option to print a detailed report."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة تدعم تقنية (ISE - Ion Selective Electrodes) لقياس الكهارل مباشرة، وتعمل بشكل عالي الإنتاجية (High Throughput) بسرعة تصل إلى 2000 اختبار في الساعة.",
+    "en": "Modern devices support ISE (Ion Selective Electrodes) technology for direct electrolyte measurement and operate at high throughput speeds of up to 2000 tests per hour."
+  },
+  "components": [
+    {
+      "ar": "نظام سحب العينات الآلي",
+      "en": "Automated sample aspiration system"
+    },
+    {
+      "ar": "مخازن الكواشف (20-80 موضع)",
+      "en": "Reagent storage (20-80 positions)"
+    },
+    {
+      "ar": "نظام الخلط والتفاعل",
+      "en": "Mixing and reaction system"
+    },
+    {
+      "ar": "وحدة تحكم حراري (37°C)",
+      "en": "Thermal control unit (37°C)"
+    },
+    {
+      "ar": "مقياس طيفي متعدد الموجات",
+      "en": "Multi-wavelength spectrophotometer"
+    },
+    {
+      "ar": "أقطاب ISE لقياس الكهارل",
+      "en": "ISE electrodes for electrolyte measurement"
+    },
+    {
+      "ar": "معالج مركزي وبرامج تحليل",
+      "en": "Central processor and analysis software"
+    },
+    {
+      "ar": "شاشة لمس مع واجهة تفاعلية",
+      "en": "Touchscreen with interactive interface"
+    },
+    {
+      "ar": "نظام تخزين نتائج ومعايرة",
+      "en": "Results storage and calibration system"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز كيمياء نموذجي (Roche Cobas c702 أو Beckman Coulter AU5800)",
+    "en": "Example: Typical chemistry analyzer (Roche Cobas c702 or Beckman Coulter AU5800)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الإنتاجية",
+        "en": "Throughput"
+      },
+      "value": {
+        "ar": "500 – 2000 اختبار/ساعة",
+        "en": "500 – 2000 tests/hour"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد المعايير المدعومة",
+        "en": "Supported parameters"
+      },
+      "value": {
+        "ar": "100 – 200 اختبار كيميائي مختلف",
+        "en": "100 – 200 different chemical tests"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم العينة",
+        "en": "Sample volume"
+      },
+      "value": {
+        "ar": "2 – 50 ميكروليتر",
+        "en": "2 – 50 microliters"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الكاشف",
+        "en": "Reagent volume"
+      },
+      "value": {
+        "ar": "20 – 300 ميكروليتر",
+        "en": "20 – 300 microliters"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى الطول الموجي",
+        "en": "Wavelength range"
+      },
+      "value": {
+        "ar": "340 – 800 نانومتر",
+        "en": "340 – 800 nm"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التفاعل",
+        "en": "Reaction temperature"
+      },
+      "value": {
+        "ar": "37 ± 0.1 درجة مئوية",
+        "en": "37 ± 0.1 °C"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة العينات",
+        "en": "Sample capacity"
+      },
+      "value": {
+        "ar": "100 – 400 عينة (حسب الناقل)",
+        "en": "100 – 400 samples (depending on carrier)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام ISE",
+        "en": "ISE system"
+      },
+      "value": {
+        "ar": "قياس Na⁺، K⁺، Cl⁻، Li⁺",
+        "en": "Na⁺, K⁺, Cl⁻, Li⁺ measurement"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة 17-19 بوصة",
+        "en": "17-19 inch color touchscreen"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد أو تلف في ماصة سحب العينة/الكاشف.",
+      "en": "Clogged or damaged sample/reagent aspiration probe."
+    },
+    {
+      "ar": "نقص أو تلف الكواشف، أو انتهاء صلاحيتها.",
+      "en": "Insufficient or degraded reagents, or expired reagents."
+    },
+    {
+      "ar": "خلل في نظام التحكم الحراري (عدم ثبات درجة الحرارة).",
+      "en": "Fault in the thermal control system (temperature instability)."
+    },
+    {
+      "ar": "تلف أو اتساخ المصدر الضوئي في المقياس الطيفي.",
+      "en": "Damaged or dirty light source in the spectrophotometer."
+    },
+    {
+      "ar": "أعطال في أقطاب ISE (الكهارل) نتيجة للاستخدام المكثف.",
+      "en": "ISE electrode faults due to heavy usage."
+    },
+    {
+      "ar": "أخطاء برمجية في المعايرة أو قراءة الباركود.",
+      "en": "Software errors in calibration or barcode reading."
+    },
+    {
+      "ar": "تراكم فقاعات الهواء في نظام الأنابيب يؤثر على دقة الجرعات.",
+      "en": "Air bubble accumulation in the tubing system affecting dosing accuracy."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

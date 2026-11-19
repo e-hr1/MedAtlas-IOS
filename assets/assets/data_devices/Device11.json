@@ -1,0 +1,241 @@
+{
+  "id": 11,
+  "name": {
+    "ar": "جهاز تدفئة الدم",
+    "en": "Blood Warmer"
+  },
+  "category": "emergency",
+  "icon": "temperature-high",
+  "shortDescription": {
+    "ar": "جهاز طبي يستخدم لتسخين وحدات الدم الطازج المجمد، البلازما، أو السوائل الوريدية إلى درجة حرارة الجسم (حوالي 37 درجة مئوية) قبل نقلها للمريض، وذلك لمنع المضاعفات الناتجة عن انخفاض حرارة الجسم.",
+    "en": "A medical device used to warm fresh frozen blood units, plasma, or intravenous fluids to body temperature (around 37°C) before transfusion, to prevent complications from hypothermia."
+  },
+  "images": [
+    "assets/image/Emergency/BloodWarmer/BloodWarmer1.webp",
+    "assets/image/Emergency/BloodWarmer/BloodWarmer2.webp",
+    "assets/image/Emergency/BloodWarmer/BloodWarmer3.webp",
+    "assets/image/Emergency/BloodWarmer/BloodWarmer4.webp"
+  ],
+  "description": {
+    "ar": "جهاز تدفئة الدم (Blood Warmer) هو جهاز طبي يستخدم لتسخين وحدات الدم الطازج المجمد، البلازما، أو السوائل الوريدية إلى درجة حرارة الجسم (حوالي 37 درجة مئوية) قبل نقلها للمريض، وذلك لمنع المضاعفات الناتجة عن انخفاض حرارة الجسم. تشمل استخداماته: غرفة الطوارئ في حالات النزيف الحاد والصدمات، غرفة العمليات أثناء الجراحات الكبرى التي تتطلب نقل دم سريع، العناية المركزة للمرضى المصابين بانخفاض حرارة الجسم، ووحدات الحروق للحفاظ على حرارة المريض أثناء الإنعاش.",
+    "en": "A blood warmer is a medical device used to warm fresh frozen blood units, plasma, or intravenous fluids to body temperature (around 37°C) before transfusion, to prevent complications from hypothermia. Its uses include: Emergency Room in cases of severe bleeding and trauma, Operating Room during major surgeries requiring rapid blood transfusion, Intensive Care for patients with hypothermia, and Burn Units to maintain patient warmth during resuscitation."
+  },
+  "uses": [
+    {
+      "ar": "غرفة الطوارئ – في حالات النزيف الحاد والصدمات.",
+      "en": "Emergency Room – in cases of severe bleeding and trauma."
+    },
+    {
+      "ar": "غرفة العمليات – أثناء الجراحات الكبرى التي تتطلب نقل دم سريع.",
+      "en": "Operating Room – during major surgeries requiring rapid blood transfusion."
+    },
+    {
+      "ar": "العناية المركزة – للمرضى المصابين بانخفاض حرارة الجسم.",
+      "en": "Intensive Care – for patients with hypothermia."
+    },
+    {
+      "ar": "وحدات الحروق – للحفاظ على حرارة المريض أثناء الإنعاش.",
+      "en": "Burn Units – to maintain patient warmth during resuscitation."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز تدفئة الدم عبر أربع مراحل: التدفق حيث يمر الدم أو السائل عبر أنبوب معقّم داخل الجهاز، ثم التسخين حيث تعمل عناصر تسخين كهربائية (سخانات) على رفع درجة حرارة السائل أثناء مروره عبر مبادل حراري، ثم التحكم حيث تراقب حساسات حرارة دقيقة (ثرموستات) درجة الحرارة الخارجة وتضبط التسخين تلقائيًا للحفاظ على درجة حرارة ثابتة (عادة 37-42 درجة مئوية حسب الإعداد)، وأخيراً السلامة حيث تنبه أنظمة إنذار الطاقم في حال ارتفاع أو انخفاض الحرارة عن الحدود الآمنة، أو وجود فقاعات هواء في الخط.",
+    "en": "The blood warmer operates through four stages: flow where blood or fluid passes through a sterile tubing inside the device, then heating where electric heating elements warm the fluid as it passes through a heat exchanger, then control where precision temperature sensors (thermostats) monitor the outgoing temperature and automatically adjust heating to maintain a stable temperature (usually 37-42°C depending on settings), and finally safety where alarm systems alert staff in case of high or low temperature limits, or if air bubbles are detected in the line."
+  },
+  "workingSteps": [
+    {
+      "ar": "التدفق: يمر الدم أو السائل عبر أنبوب معقّم داخل الجهاز.",
+      "en": "Flow: blood or fluid passes through a sterile tubing inside the device."
+    },
+    {
+      "ar": "التسخين: عناصر تسخين كهربائية (سخانات) تعمل على رفع درجة حرارة السائل أثناء مروره عبر مبادل حراري.",
+      "en": "Heating: electric heating elements warm the fluid as it passes through a heat exchanger."
+    },
+    {
+      "ar": "التحكم: حساسات حرارة دقيقة (ثرموستات) تراقب درجة الحرارة الخارجة وتضبط التسخين تلقائيًا للحفاظ على درجة حرارة ثابتة (عادة 37-42 درجة مئوية حسب الإعداد).",
+      "en": "Control: precision temperature sensors (thermostats) monitor the outgoing temperature and automatically adjust heating to maintain a stable temperature (usually 37-42°C depending on settings)."
+    },
+    {
+      "ar": "السلامة: أنظمة إنذار تنبه الطاقم في حال ارتفاع أو انخفاض الحرارة عن الحدود الآمنة، أو وجود فقاعات هواء في الخط.",
+      "en": "Safety: alarm systems alert staff in case of high or low temperature limits, or if air bubbles are detected in the line."
+    }
+  ],
+  "highlight": {
+    "ar": "أجهزة متطورة تسمى \"Level 1\" تستخدم تقنية التدفق السريع لتسخين كميات كبيرة من الدم في دقائق.",
+    "en": "Advanced devices called \"Level 1\" use rapid flow technology to warm large volumes of blood in minutes."
+  },
+  "components": [
+    {
+      "ar": "عناصر تسخين كهربائية",
+      "en": "Electric heating elements"
+    },
+    {
+      "ar": "حساسات حرارة (ثرموكبل)",
+      "en": "Temperature sensors (thermocouples)"
+    },
+    {
+      "ar": "مضخة تدفق (في بعض الموديلات)",
+      "en": "Flow pump (in some models)"
+    },
+    {
+      "ar": "مبادل حراري",
+      "en": "Heat exchanger"
+    },
+    {
+      "ar": "وحدة تحكم دقيقة (MCU)",
+      "en": "Microcontroller unit (MCU)"
+    },
+    {
+      "ar": "نظام إنذار أمان",
+      "en": "Safety alarm system"
+    },
+    {
+      "ar": "بطارية احتياطية",
+      "en": "Backup battery"
+    },
+    {
+      "ar": "لوحة تحكم وضبط",
+      "en": "Control and adjustment panel"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز تدفئة الدم (Ranger™, 3M)",
+    "en": "Example: Blood Warmer (Ranger™, 3M)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "25 – 42 درجة مئوية (قابلة للضبط)",
+        "en": "25 – 42°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدقة",
+        "en": "Accuracy"
+      },
+      "value": {
+        "ar": "± 0.5 درجة مئوية",
+        "en": "± 0.5°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التدفق",
+        "en": "Flow rate"
+      },
+      "value": {
+        "ar": "0.5 – 10 لتر / دقيقة (حسب النوع)",
+        "en": "0.5 – 10 L/min (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن التسخين",
+        "en": "Warm-up time"
+      },
+      "value": {
+        "ar": "أقل من دقيقة واحدة للوصول إلى 37 درجة مئوية",
+        "en": "Less than 1 minute to reach 37°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع السوائل",
+        "en": "Fluid types"
+      },
+      "value": {
+        "ar": "دم كامل، كريات دم حمراء، بلازما، سوائل بلورية",
+        "en": "Whole blood, red blood cells, plasma, crystalloids"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة الأمان",
+        "en": "Safety systems"
+      },
+      "value": {
+        "ar": "إنذار حرارة عالية/منخفضة، كشف الفقاعات",
+        "en": "High/low temperature alarm, bubble detection"
+      }
+    },
+    {
+      "label": {
+        "ar": "المصدر",
+        "en": "Power supply"
+      },
+      "value": {
+        "ar": "تيار متردد 100-240 فولت، 50-60 هرتز",
+        "en": "AC 100-240V, 50-60Hz"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ارتفاع درجة الحرارة (فشل في نظام التحكم أو انسداد التدفق).",
+      "en": "High temperature (control system failure or flow blockage)."
+    },
+    {
+      "ar": "عدم الوصول إلى درجة الحرارة المطلوبة (عطل في عناصر التسخين).",
+      "en": "Failure to reach required temperature (heating element fault)."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي أو نفاد البطارية.",
+      "en": "Power outage or battery depletion."
+    },
+    {
+      "ar": "إنذارات كاذبة بسبب فقاعات هواء أو تداخل في الحساسات.",
+      "en": "False alarms due to air bubbles or sensor interference."
+    },
+    {
+      "ar": "تسريب في أنابيب التوصيل.",
+      "en": "Leak in connection tubing."
+    },
+    {
+      "ar": "شاشة تعطل أو أزرار غير مستجيبة.",
+      "en": "Display or unresponsive buttons."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

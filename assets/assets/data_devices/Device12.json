@@ -1,0 +1,263 @@
+{
+  "id": 12,
+  "name": {
+    "ar": "جهاز الشفط الطبي",
+    "en": "Suction Machine"
+  },
+  "category": "emergency",
+  "icon": "wind",
+  "shortDescription": {
+    "ar": "جهاز طبي يستخدم لشفط (سحب) الإفرازات المخاطية، السوائل، الدم، أو القيء من مجرى الهواء للمريض لضمان بقاء المسالك التنفسية مفتوحة، خاصة عند المرضى غير القادرين على البلع أو السعال بفعالية.",
+    "en": "A medical device used to aspirate (remove) mucous secretions, fluids, blood, or vomit from the patient's airway to ensure respiratory passages remain open, especially for patients unable to swallow or cough effectively."
+  },
+  "images": [
+    "assets/image/Emergency/SuctionMachine/SuctionMachine1.webp",
+    "assets/image/Emergency/SuctionMachine/SuctionMachine2.webp",
+    "assets/image/Emergency/SuctionMachine/SuctionMachine3.webp",
+    "assets/image/Emergency/SuctionMachine/SuctionMachine4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الشفط الطبي (Suction Machine) هو جهاز طبي يستخدم لشفط (سحب) الإفرازات المخاطية، السوائل، الدم، أو القيء من مجرى الهواء للمريض لضمان بقاء المسالك التنفسية مفتوحة، خاصة عند المرضى غير القادرين على البلع أو السعال بفعالية. تشمل استخداماته: غرفة الطوارئ لتنظيف مجرى الهواء بسرعة في حالات الطوارئ، العناية المركزة (ICU) للمرضى المربطين بأجهزة التنفس الصناعي، غرفة العمليات أثناء التخدير أو العمليات الجراحية، النقل الإسعافي عبر موديلات محمولة تعمل بالبطارية، والعناية المنزلية للمرضى الذين يعانون من صعوبات في التنفس.",
+    "en": "A suction machine is a medical device used to aspirate (remove) mucous secretions, fluids, blood, or vomit from the patient's airway to ensure respiratory passages remain open, especially for patients unable to swallow or cough effectively. Its uses include: Emergency Room for rapid airway clearance in emergencies, Intensive Care Unit (ICU) for patients on mechanical ventilation, Operating Room during anesthesia or surgical procedures, Ambulance Transport via battery-operated portable models, and Home Care for patients with respiratory difficulties."
+  },
+  "uses": [
+    {
+      "ar": "غرفة الطوارئ – تنظيف مجرى الهواء بسرعة في حالات الطوارئ.",
+      "en": "Emergency Room – rapid airway clearance in emergencies."
+    },
+    {
+      "ar": "العناية المركزة (ICU) – للمرضى المربطين بأجهزة التنفس الصناعي.",
+      "en": "Intensive Care Unit (ICU) – for patients on mechanical ventilation."
+    },
+    {
+      "ar": "غرفة العمليات – أثناء التخدير أو العمليات الجراحية.",
+      "en": "Operating Room – during anesthesia or surgical procedures."
+    },
+    {
+      "ar": "النقل الإسعافي – موديلات محمولة تعمل بالبطارية.",
+      "en": "Ambulance Transport – battery-operated portable models."
+    },
+    {
+      "ar": "العناية المنزلية – للمرضى الذين يعانون من صعوبات في التنفس.",
+      "en": "Home Care – for patients with respiratory difficulties."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز الشفط الطبي عبر خمس مراحل: توليد الضغط السلبي حيث يولد محرك كهربائي أو مضخة يدوية فراغًا (ضغطًا منخفضًا) داخل أنبوب الشفط، ثم سحب السوائل حيث يتم توصيل قسطر (أنبوب رفيع) بخرطوم الشفط ويُدخل إلى مجرى الهواء للمريض، ثم تجمع السوائل حيث تُسحب الإفرازات والسوائل من المريض وتتجمع في وعاء زجاجي أو بلاستيكي معقم (مجرى التجميع)، ثم فصل السوائل حيث يحتوي الجهاز على مرشح أو فاصل يحمي المضخة من دخول السوائل إليها، وأخيراً إيقاف التشغيل حيث يتوقف الجهاز تلقائيًا عند امتلاء وعاء التجميع (في الموديلات المتطورة).",
+    "en": "The suction machine operates through five stages: generating negative pressure where an electric motor or manual pump creates a vacuum (low pressure) inside the suction tube, then fluid aspiration where a catheter (thin tube) is connected to the suction hose and inserted into the patient's airway, then fluid collection where secretions and fluids are drawn from the patient and collect in a sterilized glass or plastic container (collection jar), then fluid separation where the device includes a filter or separator to protect the pump from fluid ingress, and finally shut-off where the device automatically stops when the collection jar is full (in advanced models)."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الضغط السلبي: محرك كهربائي أو مضخة يدوية تولد فراغًا (ضغطًا منخفضًا) داخل أنبوب الشفط.",
+      "en": "Generating Negative Pressure: an electric motor or manual pump creates a vacuum (low pressure) inside the suction tube."
+    },
+    {
+      "ar": "سحب السوائل: يتم توصيل قسطر (أنبوب رفيع) بخرطوم الشفط، ويُدخل إلى مجرى الهواء للمريض.",
+      "en": "Fluid Aspiration: a catheter (thin tube) is connected to the suction hose and inserted into the patient's airway."
+    },
+    {
+      "ar": "تجمع السوائل: تُسحب الإفرازات والسوائل من المريض وتتجمع في وعاء زجاجي أو بلاستيكي معقم (مجرى التجميع).",
+      "en": "Fluid Collection: secretions and fluids are drawn from the patient and collect in a sterilized glass or plastic container (collection jar)."
+    },
+    {
+      "ar": "فصل السوائل: يحتوي الجهاز على مرشح أو فاصل يحمي المضخة من دخول السوائل إليها.",
+      "en": "Fluid Separation: the device includes a filter or separator to protect the pump from fluid ingress."
+    },
+    {
+      "ar": "إيقاف التشغيل: يتوقف الجهاز تلقائيًا عند امتلاء وعاء التجميع (في الموديلات المتطورة).",
+      "en": "Shut-off: the device automatically stops when the collection jar is full (in advanced models)."
+    }
+  ],
+  "highlight": {
+    "ar": "من المهم ضبط مستوى الضغط حسب الحاجة: شفط الرضع يحتاج ضغطًا منخفضًا (80-100 ملم زئبق)، بينما البالغون يحتاجون 100-150 ملم زئبق.",
+    "en": "It is important to adjust the pressure level according to need: infant suction requires low pressure (80-100 mmHg), while adults require 100-150 mmHg."
+  },
+  "components": [
+    {
+      "ar": "مضخة التفريغ (Vacuum Pump)",
+      "en": "Vacuum Pump"
+    },
+    {
+      "ar": "منظم الضغط",
+      "en": "Pressure Regulator"
+    },
+    {
+      "ar": "وعاء تجميع السوائل",
+      "en": "Collection Jar"
+    },
+    {
+      "ar": "مرشح/فاصل السوائل",
+      "en": "Fluid Separator/Filter"
+    },
+    {
+      "ar": "أنابيب وخراطيم الشفط",
+      "en": "Suction Tubing and Hoses"
+    },
+    {
+      "ar": "مقياس الضغط (Manometer)",
+      "en": "Pressure Gauge (Manometer)"
+    },
+    {
+      "ar": "بطارية (في الموديلات المحمولة)",
+      "en": "Battery (in portable models)"
+    },
+    {
+      "ar": "لوحة تحكم إلكترونية",
+      "en": "Electronic Control Board"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز الشفط الكهربائي المحمول (Devilbiss Suction Unit 7300D)",
+    "en": "Example: Portable Electric Suction Unit (Devilbiss Suction Unit 7300D)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع المضخة",
+        "en": "Pump Type"
+      },
+      "value": {
+        "ar": "مضخة تفريغ مزدوجة الجدار (كفاءة عالية)",
+        "en": "Double-walled vacuum pump (high efficiency)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى الضغط السلبي",
+        "en": "Negative Pressure Range"
+      },
+      "value": {
+        "ar": "0 – 550 ملم زئبق (قابل للتعديل)",
+        "en": "0 – 550 mmHg (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التدفق",
+        "en": "Flow Rate"
+      },
+      "value": {
+        "ar": "حتى 40 لتر/دقيقة (في الأنبوب المفتوح)",
+        "en": "Up to 40 L/min (with open tube)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة وعاء التجميع",
+        "en": "Collection Jar Capacity"
+      },
+      "value": {
+        "ar": "800 مل – 2000 مل (حسب الموديل)",
+        "en": "800 ml – 2000 ml (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power Source"
+      },
+      "value": {
+        "ar": "تيار متردد 220-240 فولت، وبطارية داخلية 12 فولت",
+        "en": "AC 220-240V, internal 12V battery"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التشغيل على البطارية",
+        "en": "Battery Runtime"
+      },
+      "value": {
+        "ar": "حوالي 45-60 دقيقة بشحنة كاملة",
+        "en": "Approximately 45-60 minutes on full charge"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise Level"
+      },
+      "value": {
+        "ar": "أقل من 55 ديسيبل",
+        "en": "Less than 55 dB"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "4.5 كجم (موديل محمول)",
+        "en": "4.5 kg (portable model)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض قوة الشفط نتيجة انسداد الأنابيب أو تلف المضخة.",
+      "en": "Reduced suction power due to blocked tubing or pump damage."
+    },
+    {
+      "ar": "نفاد البطارية في الموديلات المحمولة.",
+      "en": "Battery depletion in portable models."
+    },
+    {
+      "ar": "امتلاء وعاء التجميع دون تفريغه.",
+      "en": "Collection jar full without being emptied."
+    },
+    {
+      "ar": "انسداد أو تلف المرشح (يحتاج إلى استبدال دوري).",
+      "en": "Clogged or damaged filter (needs periodic replacement)."
+    },
+    {
+      "ar": "تسريب في نظام الخراطيم يسبب فقدان الضغط.",
+      "en": "Leak in the hose system causing pressure loss."
+    },
+    {
+      "ar": "ضوضاء عالية أو اهتزاز غير طبيعي (مشكلة في المحرك).",
+      "en": "Unusual noise or vibration (motor issue)."
+    },
+    {
+      "ar": "عدم تشغيل الجهاز نهائيًا (عطل في الكابل أو المنصهر).",
+      "en": "Device not powering on at all (cable or fuse fault)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

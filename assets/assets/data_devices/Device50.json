@@ -1,0 +1,286 @@
+{
+  "id": 50,
+  "name": {
+    "ar": "جهاز تحليل الإلكتروليتات",
+    "en": "Electrolyte Analyzer"
+  },
+  "category": "laboratory",
+  "icon": "flask",
+  "shortDescription": {
+    "ar": "جهاز مخبري متخصص لقياس تركيز الأيونات الأساسية في الدم والسوائل البيولوجية بدقة عالية",
+    "en": "Specialized laboratory instrument for measuring the concentration of essential ions in blood and biological fluids with high precision"
+  },
+  "images": [
+    "assets/image/Laboratory/Electrolyte/Electrolyte1.webp",
+    "assets/image/Laboratory/Electrolyte/Electrolyte2.webp"
+  ],
+  "description": {
+    "ar": "جهاز تحليل كهروكيميائي متخصص يُستخدم في المختبرات الطبية ووحدات الطوارئ والعناية المركزة لقياس تركيز الأيونات (الكهارل) في الدم، البلازما، المصل، البول، والسوائل البيولوجية الأخرى. يعتمد على تقنية الأقطاب الانتقائية للأيونات (ISE – Ion-Selective Electrodes) لتوفير قراءات سريعة ودقيقة.",
+    "en": "A specialized electrochemical analyzer used in medical laboratories, emergency departments, and intensive care units to measure the concentration of ions (electrolytes) in blood, plasma, serum, urine, and other biological fluids. It relies on Ion-Selective Electrode (ISE) technology to provide rapid and accurate readings."
+  },
+  "uses": [
+    {
+      "ar": "قياس الكهارل الأساسية – الصوديوم (Na⁺)، البوتاسيوم (K⁺)، والكلور (Cl⁻).",
+      "en": "Primary electrolyte measurement – Sodium (Na⁺), Potassium (K⁺), and Chloride (Cl⁻)."
+    },
+    {
+      "ar": "قياس الكهارل الثانوية – الكالسيوم المتأين (Ca²⁺)، المغنيسيوم (Mg²⁺)، والليثيوم (Li⁺) في المرضى المعالجين بأملاح الليثيوم.",
+      "en": "Secondary electrolyte measurement – Ionized Calcium (Ca²⁺), Magnesium (Mg²⁺), and Lithium (Li⁺) in patients treated with lithium salts."
+    },
+    {
+      "ar": "تشخيص اضطرابات الكهارل – مثل نقص أو زيادة الصوديوم (Hyponatremia/Hypernatremia)، نقص أو زيادة البوتاسيوم (Hypokalemia/Hyperkalemia).",
+      "en": "Diagnosing electrolyte disorders – Such as hyponatremia/hypernatremia, hypokalemia/hyperkalemia."
+    },
+    {
+      "ar": "متابعة المرضى في العناية المركزة – مراقبة مستمرة لتوازن السوائل والكهارل أثناء العلاجات الوريدية أو غسيل الكلى.",
+      "en": "ICU patient monitoring – Continuous monitoring of fluid and electrolyte balance during IV therapy or dialysis."
+    },
+    {
+      "ar": "تحليل غازات الدم – بعض الأجهزة المتطورة تقيس الكهارل مع غازات الدم (pH، pCO₂، pO₂) في جهاز واحد.",
+      "en": "Blood gas analysis – Some advanced devices measure electrolytes alongside blood gases (pH, pCO₂, pO₂) in a single instrument."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بسحب عينة الدم الكامل أو المصل أو البول، ثم تخفيفها اختيارياً عند الحاجة بمحلول منظم، يليها تمرير العينة عبر خلايا قياس تحتوي على أقطاب انتقائية لكل أيون لقياس فرق الجهد الكهربائي بين القطب المرجعي والقطب الانتقائي وفقاً لمعادلة نرنست، ثم المعايرة التلقائية بمحاليل قياسية، وأخيراً تحويل الإشارات إلى قيم تركيز وعرضها على الشاشة.",
+    "en": "The system operates through sample aspiration, optional dilution with buffer, passing the sample through measurement cells with ion-selective electrodes to measure potential differences according to the Nernst equation, automatic calibration with standard solutions, and processor conversion into concentration values displayed on screen."
+  },
+  "workingSteps": [
+    {
+      "ar": "سحب العينة: تُؤخذ عينة دم كامل، مصل، بلازما، أو بول وتوضع في أنبوب خاص أو تُسحب مباشرة بواسطة ماصة الجهاز.",
+      "en": "Sample collection: A sample of whole blood, serum, plasma, or urine is placed in a special tube or directly aspirated by the device's probe."
+    },
+    {
+      "ar": "التخفيف (اختياري): بعض العينات (مثل البول) تحتاج إلى تخفيف بمحلول منظم للحصول على قراءة ضمن نطاق الجهاز.",
+      "en": "Dilution (optional): Some samples (such as urine) require dilution with a buffer solution to obtain readings within the device's range."
+    },
+    {
+      "ar": "القياس بالأقطاب: تمر العينة عبر خلايا قياس تحتوي على أقطاب انتقائية لكل أيون. يقيس القطب فرق الجهد الكهربائي بين القطب المرجعي والقطب الانتقائي، ويتناسب هذا الجهد مع تركيز الأيون وفقاً لمعادلة نرنست (Nernst Equation).",
+      "en": "Electrode measurement: The sample passes through measurement cells containing selective electrodes for each ion. The electrode measures the potential difference between the reference electrode and the selective electrode, which is proportional to the ion concentration according to the Nernst equation."
+    },
+    {
+      "ar": "المعايرة: يُعاير الجهاز تلقائياً باستخدام محاليل قياسية ذات تركيزات معروفة لضمان دقة النتائج.",
+      "en": "Calibration: The device automatically calibrates using standard solutions with known concentrations to ensure result accuracy."
+    },
+    {
+      "ar": "عرض النتائج: يُحول المعالج الإشارات الكهربائية إلى قيم تركيز (مليمول/لتر) وتعرض على الشاشة مع إمكانية الطباعة أو الإرسال إلى نظام المختبر.",
+      "en": "Results display: The processor converts electrical signals into concentration values (mmol/L) and displays them on the screen with options to print or transmit to the laboratory system."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة تستخدم أقطاباً صلبة (Solid-state ISE) أو أقطاباً غشائية (Membrane ISE) مع أنظمة ضخ دقيقة، وتتميز بسرعة قراءة تتراوح بين 30-60 ثانية للعينة الواحدة.",
+    "en": "Modern devices use solid-state ISE or membrane ISE with precision pumping systems, featuring rapid reading times of 30-60 seconds per sample."
+  },
+  "components": [
+    {
+      "ar": "نظام سحب العينات (يدوي/آلي)",
+      "en": "Sample aspiration system (manual/automated)"
+    },
+    {
+      "ar": "أقطاب ISE (Na⁺، K⁺، Cl⁻، Ca²⁺، Li⁺)",
+      "en": "ISE electrodes (Na⁺, K⁺, Cl⁻, Ca²⁺, Li⁺)"
+    },
+    {
+      "ar": "محلول معايرة (Standard Solutions)",
+      "en": "Calibration solutions (Standards)"
+    },
+    {
+      "ar": "محلول شطف (Wash Solution)",
+      "en": "Wash solution"
+    },
+    {
+      "ar": "نظام تحكم حراري (25 أو 37 درجة مئوية)",
+      "en": "Thermal control system (25 or 37°C)"
+    },
+    {
+      "ar": "معالج مركزي لتحويل الإشارات",
+      "en": "Central processor for signal conversion"
+    },
+    {
+      "ar": "شاشة عرض رقمية",
+      "en": "Digital display screen"
+    },
+    {
+      "ar": "طابعة مدمجة (اختياري)",
+      "en": "Built-in printer (optional)"
+    },
+    {
+      "ar": "نظام إنذار للخطأ أو الحاجة للمعايرة",
+      "en": "Alarm system for errors or calibration requirements"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز تحليل كهارل نموذجي (Roche AVL 9180 أو Radiometer ABL90 FLEX)",
+    "en": "Example: Typical electrolyte analyzer (Roche AVL 9180 or Radiometer ABL90 FLEX)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الأيونات المقاسة",
+        "en": "Ions measured"
+      },
+      "value": {
+        "ar": "Na⁺، K⁺، Cl⁻، Ca²⁺، Li⁺، Mg²⁺ (حسب الموديل)",
+        "en": "Na⁺, K⁺, Cl⁻, Ca²⁺, Li⁺, Mg²⁺ (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس Na⁺",
+        "en": "Na⁺ measurement range"
+      },
+      "value": {
+        "ar": "100 – 200 مليمول/لتر",
+        "en": "100 – 200 mmol/L"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس K⁺",
+        "en": "K⁺ measurement range"
+      },
+      "value": {
+        "ar": "0.5 – 15 مليمول/لتر",
+        "en": "0.5 – 15 mmol/L"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس Cl⁻",
+        "en": "Cl⁻ measurement range"
+      },
+      "value": {
+        "ar": "50 – 200 مليمول/لتر",
+        "en": "50 – 200 mmol/L"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس Ca²⁺",
+        "en": "Ca²⁺ measurement range"
+      },
+      "value": {
+        "ar": "0.2 – 5 مليمول/لتر",
+        "en": "0.2 – 5 mmol/L"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم العينة",
+        "en": "Sample volume"
+      },
+      "value": {
+        "ar": "50 – 200 ميكروليتر (حسب الجهاز)",
+        "en": "50 – 200 microliters (depending on device)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التحليل",
+        "en": "Analysis time"
+      },
+      "value": {
+        "ar": "30 – 90 ثانية",
+        "en": "30 – 90 seconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدقة (CV)",
+        "en": "Accuracy (CV)"
+      },
+      "value": {
+        "ar": "≤ 1% للأيونات الأساسية",
+        "en": "≤ 1% for primary ions"
+      }
+    },
+    {
+      "label": {
+        "ar": "طريقة القياس",
+        "en": "Measurement method"
+      },
+      "value": {
+        "ar": "قياس الجهد المباشر (Direct ISE)",
+        "en": "Direct ISE potentiometry"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التشغيل",
+        "en": "Operating temperature"
+      },
+      "value": {
+        "ar": "15 – 35 درجة مئوية",
+        "en": "15 – 35 °C"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف أو تآكل الأقطاب الانتقائية نتيجة الاستخدام المكثف.",
+      "en": "Damaged or worn-out selective electrodes due to heavy usage."
+    },
+    {
+      "ar": "نقص محاليل المعايرة أو الشطف مما يؤدي إلى قراءات غير دقيقة.",
+      "en": "Insufficient calibration or wash solutions leading to inaccurate readings."
+    },
+    {
+      "ar": "وجود فقاعات هواء في نظام الأنابيب يعوق تدفق العينة.",
+      "en": "Air bubbles in the tubing system obstructing sample flow."
+    },
+    {
+      "ar": "تقلبات في درجة الحرارة تؤثر على استجابة الأقطاب.",
+      "en": "Temperature fluctuations affecting electrode response."
+    },
+    {
+      "ar": "انسداد في نظام سحب العينة أو الأنابيب الدقيقة.",
+      "en": "Clogged sample aspiration system or micro-tubing."
+    },
+    {
+      "ar": "أعطال برمجية في نظام المعايرة التلقائية.",
+      "en": "Software faults in the automatic calibration system."
+    },
+    {
+      "ar": "عدم معايرة الجهاز بانتظام يؤدي إلى انحراف النتائج.",
+      "en": "Irregular calibration leading to result drift."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

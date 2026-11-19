@@ -1,0 +1,255 @@
+{
+  "id": 15,
+  "name": {
+    "ar": "مضخة التسريب",
+    "en": "Infusion Pump"
+  },
+  "category": "icu",
+  "icon": "syringe",
+  "shortDescription": {
+    "ar": "جهاز طبي يُستخدم لتوصيل السوائل، والأدوية، والمحاليل الغذائية، ومواد التخدير إلى جسم المريض بمعدلات مضبوطة ودقيقة عبر الوريد (IV) أو تحت الجلد أو فوق الجافية.",
+    "en": "A medical device used to deliver fluids, medications, nutritional solutions, and anesthetics into a patient's body at controlled and precise rates via intravenous (IV), subcutaneous, or epidural routes."
+  },
+  "images": [
+    "assets/image/ICU/InfusionPump/InfusionPump1.webp",
+    "assets/image/ICU/InfusionPump/InfusionPump2.webp",
+    "assets/image/ICU/InfusionPump/InfusionPump3.webp",
+    "assets/image/ICU/InfusionPump/InfusionPump4.webp"
+  ],
+  "description": {
+    "ar": "مضخة التسريب (Infusion Pump) هي جهاز طبي يُستخدم لتوصيل السوائل، والأدوية، والمحاليل الغذائية، ومواد التخدير إلى جسم المريض بمعدلات مضبوطة ودقيقة عبر الوريد (IV) أو تحت الجلد أو فوق الجافية. تشمل استخداماتها الرئيسية: العلاج الدوائي الدقيق لتوصيل أدوية مثل مضادات التخثر ومضادات الحيوية وأدوية الألم والعلاج الكيميائي، التغذية الوريدية لإعطاء محاليل غذائية للمرضى غير القادرين على الأكل، والتخدير لإعطاء مواد التخدير أثناء العمليات الجراحية. أنواعها: مضخة سريرية (Volumetric) تعمل بالحجم ودقيقة في كميات السوائل الكبيرة، مضخة سرنجة (Syringe) تستخدم للجرعات الصغيرة جداً والأدوية المركزة، ومضخة التغذية (Enteral) المخصصة للتغذية الأنبوبية.",
+    "en": "An infusion pump is a medical device used to deliver fluids, medications, nutritional solutions, and anesthetics into a patient's body at controlled and precise rates via intravenous (IV), subcutaneous, or epidural routes. Its main uses include: Precision drug therapy for delivering medications such as anticoagulants, antibiotics, pain medications, and chemotherapy; Parenteral nutrition for administering nutritional solutions to patients unable to eat; and Anesthesia for administering anesthetic agents during surgical procedures. Types: Volumetric pump (volume-based, precise for large fluid quantities), Syringe pump (used for very small doses and concentrated medications), and Enteral pump (dedicated for tube feeding)."
+  },
+  "uses": [
+    {
+      "ar": "العلاج الدوائي الدقيق – توصيل أدوية مثل مضادات التخثر، مضادات الحيوية، أدوية الألم، والعلاج الكيميائي.",
+      "en": "Precision drug therapy – delivering medications such as anticoagulants, antibiotics, pain medications, and chemotherapy."
+    },
+    {
+      "ar": "التغذية الوريدية – إعطاء محاليل غذائية للمرضى غير القادرين على الأكل.",
+      "en": "Parenteral nutrition – administering nutritional solutions to patients unable to eat."
+    },
+    {
+      "ar": "التخدير – إعطاء مواد التخدير أثناء العمليات الجراحية.",
+      "en": "Anesthesia – administering anesthetic agents during surgical procedures."
+    },
+    {
+      "ar": "مضخة سريرية (Volumetric) – تعمل بالحجم، دقيقة في كميات السوائل الكبيرة.",
+      "en": "Volumetric pump – volume-based, precise for large fluid quantities."
+    },
+    {
+      "ar": "مضخة سرنجة (Syringe) – تستخدم للجرعات الصغيرة جداً والأدوية المركزة.",
+      "en": "Syringe pump – used for very small doses and concentrated medications."
+    },
+    {
+      "ar": "مضخة التغذية (Enteral) – مخصصة للتغذية الأنبوبية.",
+      "en": "Enteral pump – dedicated for tube feeding."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تعمل مضخة التسريب عبر ثلاث مراحل: البرمجة حيث يحدد الطبيب أو الممرض المعدل (مل/ساعة) والحجم الكلي ونوع المحلول، ثم الضخ حيث يقوم الجهاز بدفع السائل عبر أنبوب معقّم إلى المريض باستخدام آلية (تروس، تحريك، أو مكبس)، ثم المراقبة حيث يستشعر الجهاز انسداد الأنبوب ووجود فقاعات هواء ونهاية المحلول ويطلق إنذاراً فورياً.",
+    "en": "The infusion pump operates through three stages: programming where the physician or nurse sets the rate (ml/hr), total volume, and solution type, then pumping where the device pushes the fluid through a sterile tube to the patient using a mechanism (gears, peristaltic, or piston), then monitoring where the device senses tube occlusion, air bubbles, and solution end, triggering an immediate alarm."
+  },
+  "workingSteps": [
+    {
+      "ar": "البرمجة: يحدد الطبيب أو الممرض المعدل (مل/ساعة)، الحجم الكلي، ونوع المحلول.",
+      "en": "Programming: the physician or nurse sets the rate (ml/hr), total volume, and solution type."
+    },
+    {
+      "ar": "الضخ: يقوم الجهاز بدفع السائل عبر أنبوب معقّم إلى المريض باستخدام آلية (تروس، تحريك، أو مكبس).",
+      "en": "Pumping: the device pushes the fluid through a sterile tube to the patient using a mechanism (gears, peristaltic, or piston)."
+    },
+    {
+      "ar": "المراقبة: يستشعر الجهاز انسداد الأنبوب، وجود فقاعات هواء، ونهاية المحلول، ويطلق إنذاراً فورياً.",
+      "en": "Monitoring: the device senses tube occlusion, air bubbles, and solution end, triggering an immediate alarm."
+    }
+  ],
+  "highlight": {
+    "ar": "تصل دقة بعض المضخات إلى أقل من 5% خطأ في معدل التسريب، مما يجعلها مثالية للأدوية الحرجة مثل الإنسولين أو الهيبارين.",
+    "en": "Some pumps achieve accuracy of less than 5% error in infusion rate, making them ideal for critical drugs like insulin or heparin."
+  },
+  "components": [
+    {
+      "ar": "مستشعر تدفق",
+      "en": "Flow sensor"
+    },
+    {
+      "ar": "مستشعر ضغط",
+      "en": "Pressure sensor"
+    },
+    {
+      "ar": "محرك / آلية ضخ",
+      "en": "Motor / Pumping mechanism"
+    },
+    {
+      "ar": "مستشعر فقاعات",
+      "en": "Bubble sensor"
+    },
+    {
+      "ar": "معالج (وحدة تحكم)",
+      "en": "Processor (controller)"
+    },
+    {
+      "ar": "شاشة عرض ولوحة تحكم",
+      "en": "Display screen and control panel"
+    },
+    {
+      "ar": "مجموعة الأنابيب المعقمة",
+      "en": "Sterile tubing set"
+    },
+    {
+      "ar": "نظام قفل للجرعات الآمنة",
+      "en": "Safe dose locking system"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مضخة تسريب سريرية نموذجية (BD Alaris™ مثلاً)",
+    "en": "Example: Typical volumetric infusion pump (e.g., BD Alaris™)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق معدل التسريب (حجمي)",
+        "en": "Infusion rate range (Volumetric)"
+      },
+      "value": {
+        "ar": "0.1 – 1200 مل/ساعة",
+        "en": "0.1 – 1200 ml/hr"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق معدل التسريب (سرنجة)",
+        "en": "Infusion rate range (Syringe)"
+      },
+      "value": {
+        "ar": "0.01 – 400 مل/ساعة",
+        "en": "0.01 – 400 ml/hr"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الضخ",
+        "en": "Pumping accuracy"
+      },
+      "value": {
+        "ar": "± 5% (حجمي) / ± 2% (سرنجة)",
+        "en": "± 5% (Volumetric) / ± 2% (Syringe)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط التسريب",
+        "en": "Infusion pressure"
+      },
+      "value": {
+        "ar": "0.1 – 20 بار (حسب الموديل)",
+        "en": "0.1 – 20 bar (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المحلول",
+        "en": "Solution type"
+      },
+      "value": {
+        "ar": "جميع المحاليل الوريدية القياسية",
+        "en": "All standard IV solutions"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام الإنذار",
+        "en": "Alarm system"
+      },
+      "value": {
+        "ar": "انسداد، فقاعات، نهاية التسريب، نفاد البطارية",
+        "en": "Occlusion, bubbles, infusion end, battery depletion"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "احتياطية تدوم 4-8 ساعات",
+        "en": "Backup lasting 4-8 hours"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Screen"
+      },
+      "value": {
+        "ar": "LCD ملون مع واجهة تفاعلية",
+        "en": "Color LCD with interactive interface"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض شحن البطارية أو تلفها.",
+      "en": "Low battery charge or battery damage."
+    },
+    {
+      "ar": "انسداد في الأنبوب الوريدي (إنذار ضغط مرتفع).",
+      "en": "Occlusion in the IV tube (high pressure alarm)."
+    },
+    {
+      "ar": "وجود فقاعات هواء في الأنبوب (إنذار فقاعات).",
+      "en": "Air bubbles in the tube (bubble alarm)."
+    },
+    {
+      "ar": "تسريب من مجموعة الأنابيب أو الوصلة.",
+      "en": "Leakage from the tubing set or connection."
+    },
+    {
+      "ar": "أخطاء في البرمجة (جرعة خاطئة أو معدل غير صحيح).",
+      "en": "Programming errors (incorrect dose or rate)."
+    },
+    {
+      "ar": "عطل في الشاشة أو أزرار التحكم.",
+      "en": "Screen or control button malfunction."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

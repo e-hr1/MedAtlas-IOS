@@ -1,0 +1,284 @@
+{
+  "id": 70,
+  "name": {
+    "ar": "نظام تتبع التعقيم",
+    "en": "Sterilization Tracking System (STS)"
+  },
+  "category": "sterilization",
+  "icon": "shield-alt",
+  "shortDescription": {
+    "ar": "نظام رقمي متكامل لإدارة وتتبع دورة حياة الأدوات الجراحية والمعدات الطبية في وحدات التعقيم المركزي (CSSD)، من لحظة وصولها المتسخة حتى إعادة استخدامها في العمليات الجراحية، مع ضمان التوثيق الكامل والامتثال للمعايير الصحية.",
+    "en": "An integrated digital system for managing and tracking the lifecycle of surgical instruments and medical equipment in Central Sterile Supply Departments (CSSD), from the moment they arrive soiled until their reuse in surgical procedures, ensuring complete documentation and compliance with health standards."
+  },
+  "images": [
+    "assets/image/Sterilization/TrackingSystem/tracking1.webp",
+    "assets/image/Sterilization/TrackingSystem/tracking2.webp"
+  ],
+  "description": {
+    "ar": "نظام تتبع التعقيم (Sterilization Tracking System) هو حل برمجي متكامل يستخدم في وحدات التعقيم المركزي (CSSD) لإدارة وتوثيق دورة حياة الأدوات الجراحية والمعدات الطبية. يعتمد النظام على تقنيات التعريف الآلي مثل الباركود (Barcode) أو موجات الراديو (RFID) لتتبع كل أداة أو حزمة أدوات من لحظة استلامها من غرفة العمليات، مروراً بعمليات التنظيف، التغليف، التعقيم، التخزين، وصولاً إلى إعادة توزيعها للعمليات الجراحية. يوفر النظام سجلاً رقمياً كاملاً يضمن الامتثال للمعايير الصحية (مثل JCI، ISO)، ويقلل من الأخطاء البشرية، ويسرع عملية استرجاع الأدوات.",
+    "en": "A Sterilization Tracking System is an integrated software solution used in Central Sterile Supply Departments (CSSD) to manage and document the lifecycle of surgical instruments and medical equipment. It relies on automatic identification technologies such as barcodes or RFID to track each instrument or instrument set from the moment it is received from the operating room, through cleaning, packaging, sterilization, storage, and finally redistribution to surgical procedures. The system provides a complete digital record ensuring compliance with health standards (e.g., JCI, ISO), reduces human errors, and speeds up instrument retrieval."
+  },
+  "uses": [
+    {
+      "ar": "تتبع الأدوات الجراحية – متابعة كل أداة أو مجموعة أدوات (Set) في جميع مراحل دورة التعقيم.",
+      "en": "Tracking surgical instruments – Monitoring each instrument or set throughout all stages of the sterilization cycle."
+    },
+    {
+      "ar": "إدارة المخزون – مراقبة مخزون الأدوات المعقمة والمتسخة، وتنبيه عند نقص المخزون أو انتهاء صلاحية التعقيم.",
+      "en": "Inventory management – Monitoring sterile and soiled instrument inventory, with alerts for low stock or expired sterilization."
+    },
+    {
+      "ar": "توثيق دورات التعقيم – تسجيل بيانات كل دورة تعقيم (الوقت، درجة الحرارة، الضغط، المشغل، النتيجة).",
+      "en": "Documenting sterilization cycles – Recording data for each sterilization cycle (time, temperature, pressure, operator, result)."
+    },
+    {
+      "ar": "ربط المريض بالأدوات – تتبع الأدوات المستخدمة في كل عملية جراحية، لتسهيل عملية الاستدعاء (Recall) في حال وجود مشكلة في التعقيم.",
+      "en": "Linking patients to instruments – Tracking instruments used in each surgical procedure to facilitate recall in case of sterilization issues."
+    },
+    {
+      "ar": "التقارير والتحليل – توليد تقارير إحصائية عن أداء وحدة التعقيم، ومعدلات دوران الأدوات، وكفاءة العمليات.",
+      "en": "Reporting and analysis – Generating statistical reports on CSSD performance, instrument turnover rates, and operational efficiency."
+    },
+    {
+      "ar": "الامتثال للمعايير – ضمان تطابق جميع العمليات مع متطلبات الهيئات الصحية والاعتماد.",
+      "en": "Standards compliance – Ensuring all processes meet the requirements of health authorities and accreditation bodies."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد النظام على تقنيات التعريف الآلي (باركود أو RFID) لتسجيل وتتبع كل حزمة أدوات عبر مراحلها المختلفة: الاستلام كمتسخة، المسح بعد التنظيف والتعقيم الأولي، ربطها برقم الحزمة عند التغليف، تسجيل مؤشرات ونتائج التعقيم النهائي، وأخيراً مسحها عند التخزين والتوزيع للعمليات الجراحية لضمان التوثيق الشامل.",
+    "en": "The system relies on automatic identification technologies (barcode or RFID) to record and track each instrument pack through its various stages: receiving as soiled, scanning after cleaning and primary sterilization, linking to pack numbers during packaging, recording final sterilization indicators and results, and finally scanning upon storage and distribution for surgical procedures to ensure comprehensive documentation."
+  },
+  "workingSteps": [
+    {
+      "ar": "استلام الأدوات المتسخة (Decontamination): يتم مسح الباركود أو قراءة علامة RFID الخاصة بكل حزمة أدوات عند وصولها من غرفة العمليات، وتسجيلها في النظام كـ 'متسخة' مع تاريخ ووقت الاستلام.",
+      "en": "Receiving Soiled Instruments (Decontamination): The barcode or RFID tag of each instrument set is scanned upon arrival from the operating room, and it is recorded in the system as 'soiled' with the date and time of receipt."
+    },
+    {
+      "ar": "مرحلة التنظيف والتعقيم الأولي (Cleaning & Disinfection): بعد انتهاء دورة جهاز الغسيل والتعقيم (Washer Disinfector)، يتم مسح الأدوات لتحديث حالتها إلى 'تم التنظيف'، مع تسجيل رقم الدورة ونتائجها.",
+      "en": "Cleaning & Disinfection Phase: After the washer disinfector cycle is completed, instruments are scanned to update their status to 'cleaned,' with the cycle number and results recorded."
+    },
+    {
+      "ar": "مرحلة التغليف والتجهيز (Packaging): عند تجهيز الحزم الجراحية، يتم مسح الأدوات وربطها برقم الحزمة، مع إدخال بيانات تاريخ انتهاء الصلاحية (وفقاً لنوع التعقيم).",
+      "en": "Packaging & Preparation Phase: When preparing surgical sets, instruments are scanned and linked to the set number, with expiration date data entered (according to the sterilization type)."
+    },
+    {
+      "ar": "مرحلة التعقيم النهائي (Sterilization): يتم مسح الحزم قبل إدخالها إلى الأوتوكلاف أو جهاز التعقيم بدرجة حرارة منخفضة. بعد انتهاء الدورة، يتم مسحها مرة أخرى لتحديث الحالة إلى 'معقم'، مع تسجيل مؤشرات الدورة (الوقت، الحرارة، الضغط، ونتيجة المؤشر البيولوجي).",
+      "en": "Final Sterilization Phase: Sets are scanned before being placed in the autoclave or low-temperature sterilizer. After the cycle is complete, they are scanned again to update the status to 'sterile,' with cycle indicators recorded (time, temperature, pressure, and biological indicator results)."
+    },
+    {
+      "ar": "مرحلة التخزين والتوزيع (Storage & Distribution): يتم تخزين الحزم المعقمة في مناطق مخصصة، وعند طلبها للعمليات، يتم مسحها لتحديث الحالة إلى 'قيد الاستخدام' أو 'تم التسليم'، مع ربطها برقم العملية والمريض (إن أمكن).",
+      "en": "Storage & Distribution Phase: Sterile sets are stored in designated areas, and when requested for surgeries, they are scanned to update the status to 'in use' or 'delivered,' linking them to the procedure number and patient (if applicable)."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم الأنظمة الحديثة تقنية (RFID) لإجراء تتبع جماعي وسريع (قراءة مئات العلامات في الثانية)، مع تكامل مع نظام إدارة المعلومات المستشفائي (HIS) وإمكانية الوصول عن بعد لتتبع الأدوات في أي وقت ومن أي مكان.",
+    "en": "Modern systems use RFID technology for fast, bulk tracking (reading hundreds of tags per second), with integration with the Hospital Information System (HIS) and remote access capabilities to track instruments anytime, anywhere."
+  },
+  "components": [
+    {
+      "ar": "خادم مركزي (Server) لتخزين قاعدة البيانات وإدارة النظام",
+      "en": "Central server for database storage and system management"
+    },
+    {
+      "ar": "محطات عمل (Workstations) مزودة بشاشات تعمل باللمس",
+      "en": "Workstations with touchscreen displays"
+    },
+    {
+      "ar": "ماسحات ضوئية (Barcode Scanners) لقراءة الباركود الطباعي",
+      "en": "Barcode scanners for reading printed barcodes"
+    },
+    {
+      "ar": "قارئات RFID لقراءة العلامات الإلكترونية عن بُعد",
+      "en": "RFID readers for remote electronic tag reading"
+    },
+    {
+      "ar": "طابعات مخصصة لطباعة ملصقات الباركود (ملصقات التعقيم)",
+      "en": "Dedicated printers for barcode labels (sterilization labels)"
+    },
+    {
+      "ar": "نظام تخزين سحابي (Cloud) للنسخ الاحتياطي والوصول عن بعد",
+      "en": "Cloud storage system for backup and remote access"
+    },
+    {
+      "ar": "تطبيق جوال (Mobile App) للمشرفين لمتابعة الحالة في أي وقت",
+      "en": "Mobile application for supervisors to monitor status anytime"
+    },
+    {
+      "ar": "لوحة تحكم (Dashboard) تفاعلية لعرض المؤشرات الرئيسية (KPI)",
+      "en": "Interactive dashboard for displaying Key Performance Indicators (KPIs)"
+    },
+    {
+      "ar": "واجهات ربط (API) مع أجهزة التعقيم وأنظمة المستشفى الأخرى",
+      "en": "API interfaces for integration with sterilizers and other hospital systems"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نظام تتبع تعقيم نموذجي (مثل Censis أو BSD أو Synergy)",
+    "en": "Example: Specifications of a typical tracking system (e.g., Censis, BSD, or Synergy)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع التعريف",
+        "en": "Identification type"
+      },
+      "value": {
+        "ar": "باركود (1D/2D) و RFID (نشط/سلبي)",
+        "en": "Barcode (1D/2D) and RFID (active/passive)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة قاعدة البيانات",
+        "en": "Database capacity"
+      },
+      "value": {
+        "ar": "غير محدودة (حسب سعة الخادم) - ملايين السجلات",
+        "en": "Unlimited (depending on server capacity) - millions of records"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة القراءة (RFID)",
+        "en": "Read speed (RFID)"
+      },
+      "value": {
+        "ar": "أكثر من 200 علامة في الثانية",
+        "en": "Over 200 tags per second"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى القراءة (RFID)",
+        "en": "Read range (RFID)"
+      },
+      "value": {
+        "ar": "حتى 3 أمتار (حسب التردد)",
+        "en": "Up to 3 meters (depending on frequency)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "متوافق مع Windows، Linux، وأنظمة تشغيل الخوادم الحديثة",
+        "en": "Compatible with Windows, Linux, and modern server operating systems"
+      }
+    },
+    {
+      "label": {
+        "ar": "واجهات الربط",
+        "en": "Integration interfaces"
+      },
+      "value": {
+        "ar": "HL7، FHIR، REST API لتكامل مع HIS و EHR",
+        "en": "HL7, FHIR, REST API for HIS and EHR integration"
+      }
+    },
+    {
+      "label": {
+        "ar": "التقارير",
+        "en": "Reports"
+      },
+      "value": {
+        "ar": "تقارير مخصصة (Excel، PDF، والتصدير المباشر)",
+        "en": "Customizable reports (Excel, PDF, and direct export)"
+      }
+    },
+    {
+      "label": {
+        "ar": "النسخ الاحتياطي",
+        "en": "Backup"
+      },
+      "value": {
+        "ar": "تلقائي (يومي/أسبوعي) مع تشفير البيانات (AES-256)",
+        "en": "Automatic (daily/weekly) with data encryption (AES-256)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدعم",
+        "en": "Support"
+      },
+      "value": {
+        "ar": "دعم فني على مدار الساعة، تحديثات دورية للنظام",
+        "en": "24/7 technical support, regular system updates"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في الخادم المركزي أو انقطاع الشبكة يؤدي إلى فقدان الاتصال بقاعدة البيانات، مما يمنع تسجيل أو استرجاع البيانات.",
+      "en": "Central server failure or network interruption leads to loss of database connectivity, preventing data recording or retrieval."
+    },
+    {
+      "ar": "تلف أو عدم قراءة الباركود (بسبب التآكل، التلف، أو الطباعة الرديئة)، مما يعيق عملية التتبع ويؤدي إلى أخطاء يدوية.",
+      "en": "Damaged or unreadable barcode (due to wear, damage, or poor printing) hinders tracking and leads to manual errors."
+    },
+    {
+      "ar": "تداخل أو ضعف إشارة RFID (بسبب المعادن أو السوائل)، مما يؤدي إلى قراءة خاطئة أو عدم قراءة العلامات.",
+      "en": "Interference or weak RFID signal (due to metals or liquids) causes incorrect reading or failure to read tags."
+    },
+    {
+      "ar": "تلف قاعدة البيانات أو فقدان البيانات (بسبب هجوم إلكتروني أو عطل في القرص الصلب)، مما يفقد السجلات التاريخية.",
+      "en": "Database corruption or data loss (due to cyberattack or hard disk failure) results in loss of historical records."
+    },
+    {
+      "ar": "أخطاء بشرية مثل مسح الباركود الخاطئ أو إدخال بيانات غير صحيحة (مثل رقم الدفعة أو تاريخ الانتهاء).",
+      "en": "Human errors such as scanning the wrong barcode or entering incorrect data (e.g., batch number or expiration date)."
+    },
+    {
+      "ar": "عطل في طابعة الملصقات يؤدي إلى عدم طباعة ملصقات التعقيم، مما يمنع تتبع الحزم المعقمة.",
+      "en": "Label printer malfunction prevents sterilization labels from being printed, hindering sterile set tracking."
+    },
+    {
+      "ar": "فشل التكامل مع أجهزة التعقيم (الأوتوكلاف، أجهزة الغسيل) بسبب تغيير في البروتوكولات أو انقطاع الاتصال.",
+      "en": "Integration failure with sterilizers (autoclaves, washers) due to protocol changes or connection interruption."
+    },
+    {
+      "ar": "مشاكل في الاتصال بالسحابة (Cloud) أو النسخ الاحتياطي، مما يؤدي إلى فقدان النسخ الاحتياطية أو عدم إمكانية الوصول عن بعد.",
+      "en": "Cloud connectivity or backup issues lead to loss of backups or inability to access remotely."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور النظام",
+      "en": "System images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الرئيسية للنظام",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical Specifications"
+    },
+    "faults": {
+      "ar": "الأعطال والمشكلات الشائعة",
+      "en": "Common Faults and Issues"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

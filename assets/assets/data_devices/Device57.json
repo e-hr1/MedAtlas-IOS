@@ -1,0 +1,294 @@
+{
+  "id": 57,
+  "name": {
+    "ar": "ثلاجة بنك الدم",
+    "en": "Blood Bank Refrigerator"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز تبريد متخصص لحفظ أكياس الدم ومشتقاته في درجات حرارة محكمة لضمان سلامتها وفعاليتها",
+    "en": "Specialized refrigeration device for storing blood bags and blood components at controlled temperatures to ensure their safety and efficacy"
+  },
+  "images": [
+    "assets/image/Laboratory/Blood_Bank_Refrigerator/Blood_Bank_Refrigerator1.webp",
+    "assets/image/Laboratory/Blood_Bank_Refrigerator/Blood_Bank_Refrigerator2.webp"
+  ],
+  "description": {
+    "ar": "ثلاجة طبية متخصصة مصممة خصيصاً لحفظ أكياس الدم الكامل ومشتقاته (خلايا الدم الحمراء المركزة، البلازما، والصفائح الدموية) في درجات حرارة محكمة ومنظمة وفقاً للمعايير الدولية. تحافظ الثلاجة على درجة حرارة ثابتة تتراوح بين 2-6 درجة مئوية، مع نظام إنذار دقيق لضمان سلامة المنتجات الدموية وحماية حياة المرضى.",
+    "en": "A specialized medical refrigerator specifically designed for storing whole blood bags and blood components (packed red blood cells, plasma, and platelets) at controlled temperatures according to international standards. The refrigerator maintains a constant temperature between 2-6°C, with a precise alarm system to ensure the safety of blood products and protect patient lives."
+  },
+  "uses": [
+    {
+      "ar": "حفظ أكياس الدم الكامل – تخزين وحدات الدم الكامل لحين استخدامها في العمليات الجراحية وحالات الطوارئ.",
+      "en": "Whole blood storage – Storing whole blood units for use in surgeries and emergency situations."
+    },
+    {
+      "ar": "حفظ كريات الدم الحمراء المركزة – تخزين خلايا الدم الحمراء لفترات تصل إلى 42 يوماً مع المواد الحافظة.",
+      "en": "Packed red blood cell storage – Storing red blood cells for up to 42 days with preservative solutions."
+    },
+    {
+      "ar": "حفظ البلازما الطازجة المجمدة (FFP) – حفظ البلازما لحين استخدامها في حالات النزيف واضطرابات التخثر.",
+      "en": "Fresh frozen plasma (FFP) storage – Storing plasma for use in bleeding and coagulation disorder cases."
+    },
+    {
+      "ar": "حفظ الصفائح الدموية – حفظ الصفائح في درجة حرارة الغرفة (20-24°C) مع جهاز هزاز (في ثلاجات مخصصة).",
+      "en": "Platelet storage – Storing platelets at room temperature (20-24°C) with an agitator (in specialized refrigerators)."
+    },
+    {
+      "ar": "حفظ الكريوبريسبيتيت (Cryoprecipitate) – حفظ مشتقات البلازما الغنية بعوامل التخثر.",
+      "en": "Cryoprecipitate storage – Storing plasma derivatives rich in clotting factors."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بنظام التبريد عبر ضاغط ومادة مبردة مع مروحة توزيع الهواء لضمان تجانس الحرارة، ثم المراقبة المستمرة لدرجة الحرارة عبر مستشعرات دقيقة ووحدة تحكم إلكترونية (PID Controller) للحفاظ على النطاق المطلوب (2-6°C)، مع إطلاق إنذارات صوتية ومرئية عند الانحراف، وتسجيل دوري للبيانات.",
+    "en": "The system operates through a cooling system using a compressor and refrigerant with a distribution fan, continuous temperature monitoring via precision sensors and a PID controller to maintain the 2-6°C range, visual and audible alarms for deviations, and periodic data logging."
+  },
+  "workingSteps": [
+    {
+      "ar": "نظام التبريد: يعمل الجهاز باستخدام ضاغط (Compressor) ونظام تبريد بغاز الفريون أو المواد المبردة الصديقة للبيئة، حيث يتم تبريد الهواء داخل الحجرة ونقله عبر مروحة توزيع لضمان تجانس الحرارة.",
+      "en": "Cooling system: The device operates using a compressor and refrigeration system with Freon or environmentally friendly refrigerants. Air inside the chamber is cooled and circulated by a distribution fan to ensure temperature uniformity."
+    },
+    {
+      "ar": "التحكم في درجة الحرارة: تراقب مستشعرات حرارة دقيقة (Thermistors) درجة الحرارة باستمرار، وتقوم وحدة تحكم إلكترونية (PID Controller) بتشغيل وإيقاف الضاغط للحفاظ على النطاق المطلوب (2-6 درجة مئوية).",
+      "en": "Temperature control: Precision temperature sensors (Thermistors) continuously monitor the temperature, and an electronic control unit (PID Controller) turns the compressor on and off to maintain the required range (2-6°C)."
+    },
+    {
+      "ar": "توزيع الهواء: تستخدم مروحة داخلية لتوزيع الهواء البارد بشكل متجانس في جميع أنحاء الحجرة، مع نظام تهوية يمنع تراكم الجليد على الأدراج والرفوف.",
+      "en": "Air distribution: An internal fan distributes cold air evenly throughout the chamber, with a ventilation system that prevents ice buildup on drawers and shelves."
+    },
+    {
+      "ar": "الإنذار والأمان: عند انحراف درجة الحرارة عن النطاق المسموح (ارتفاع فوق 6°C أو انخفاض تحت 1°C)، يُطلق النظام إنذاراً صوتياً ومرئياً، مع إمكانية إرسال تنبيهات عبر الهاتف أو البريد الإلكتروني.",
+      "en": "Alarm and safety: When the temperature deviates from the allowable range (above 6°C or below 1°C), the system activates audible and visual alarms, with the ability to send alerts via phone or email."
+    },
+    {
+      "ar": "تسجيل البيانات: تسجل وحدة التحكم درجة الحرارة بشكل دوري (عادة كل 5-10 دقائق) وتخزن البيانات لمراجعتها لاحقاً أو طباعتها كتقرير رسمي.",
+      "en": "Data recording: The control unit periodically records temperature (typically every 5-10 minutes) and stores the data for later review or printing as an official report."
+    }
+  ],
+  "highlight": {
+    "ar": "الثلاجات الحديثة مزودة بنظام تبريد احتياطي (مزدوج الضواغط) لضمان استمرارية التبريد في حال تعطل أحد الضواغط، بالإضافة إلى بطارية احتياطية تدوم حتى 12 ساعة لتشغيل نظام الإنذار والتسجيل عند انقطاع التيار الكهربائي.",
+    "en": "Modern refrigerators feature a backup cooling system (dual compressors) to ensure continuous cooling if one compressor fails, plus a backup battery that lasts up to 12 hours to power the alarm and recording system during power outages."
+  },
+  "components": [
+    {
+      "ar": "ضاغط تبريد (Compressor)",
+      "en": "Cooling compressor"
+    },
+    {
+      "ar": "مروحة توزيع الهواء (Evaporator Fan)",
+      "en": "Air distribution fan (Evaporator Fan)"
+    },
+    {
+      "ar": "مستشعرات حرارة دقيقة (Thermistors)",
+      "en": "Precision temperature sensors (Thermistors)"
+    },
+    {
+      "ar": "وحدة تحكم PID إلكترونية",
+      "en": "Electronic PID control unit"
+    },
+    {
+      "ar": "شاشة رقمية (حرارة، إنذارات)",
+      "en": "Digital display (temperature, alarms)"
+    },
+    {
+      "ar": "نظام إنذار صوتي ومرئي",
+      "en": "Audible and visual alarm system"
+    },
+    {
+      "ar": "بطارية احتياطية للإنذار",
+      "en": "Backup battery for alarms"
+    },
+    {
+      "ar": "نظام تسجيل بيانات (Data Logger)",
+      "en": "Data logging system"
+    },
+    {
+      "ar": "طابعة مدمجة (اختياري)",
+      "en": "Built-in printer (optional)"
+    },
+    {
+      "ar": "باب زجاجي مزدوج مع عازل حراري",
+      "en": "Double glass door with thermal insulation"
+    },
+    {
+      "ar": "إضاءة LED داخلية",
+      "en": "Internal LED lighting"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: ثلاجة بنك دم نموذجية (Helmer i.Series أو Thermo Scientific TSX)",
+    "en": "Example: Typical blood bank refrigerator (Helmer i.Series or Thermo Scientific TSX)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "سعة التخزين",
+        "en": "Storage capacity"
+      },
+      "value": {
+        "ar": "200 – 800 كيس دم (حسب الطراز)",
+        "en": "200 – 800 blood bags (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "2 – 6 درجة مئوية (قابلة للبرمجة)",
+        "en": "2 – 6°C (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الحرارة",
+        "en": "Temperature accuracy"
+      },
+      "value": {
+        "ar": "± 0.5 درجة مئوية",
+        "en": "± 0.5°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "تجانُس الحرارة",
+        "en": "Temperature uniformity"
+      },
+      "value": {
+        "ar": "± 1 درجة مئوية (في جميع نقاط الحجرة)",
+        "en": "± 1°C (throughout the chamber)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت استعادة الحرارة",
+        "en": "Temperature recovery time"
+      },
+      "value": {
+        "ar": "≤ 10 دقائق بعد فتح الباب",
+        "en": "≤ 10 minutes after door opening"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التبريد",
+        "en": "Cooling system"
+      },
+      "value": {
+        "ar": "ضاغط واحد أو مزدوج (حسب الطراز)",
+        "en": "Single or dual compressor (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة العزل",
+        "en": "Insulation material"
+      },
+      "value": {
+        "ar": "بولي يوريثان (سمك 50-75 مم)",
+        "en": "Polyurethane (50-75 mm thickness)"
+      }
+    },
+    {
+      "label": {
+        "ar": "المخرجات",
+        "en": "Outputs"
+      },
+      "value": {
+        "ar": "USB، RS-232، Ethernet، Wi-Fi",
+        "en": "USB, RS-232, Ethernet, Wi-Fi"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة 5-10 بوصة",
+        "en": "5-10 inch color touchscreen"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية الاحتياطية",
+        "en": "Backup battery"
+      },
+      "value": {
+        "ar": "12 – 24 ساعة (للإنذار والتسجيل)",
+        "en": "12 – 24 hours (for alarm and recording)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انحراف درجة الحرارة عن النطاق المسموح (ارتفاع أو انخفاض).",
+      "en": "Temperature deviation from the allowable range (high or low)."
+    },
+    {
+      "ar": "عطل في الضاغط يؤدي إلى عدم التبريد أو تبريد غير كافٍ.",
+      "en": "Compressor failure leading to no cooling or insufficient cooling."
+    },
+    {
+      "ar": "انسداد مروحة التبريد أو توقفها يؤدي إلى عدم تجانس الحرارة.",
+      "en": "Cooling fan clogged or stopped causing temperature non-uniformity."
+    },
+    {
+      "ar": "تلف الحشية المطاطية (Gasket) للباب يسبب تسرب الهواء البارد.",
+      "en": "Damaged door rubber gasket causing cold air leakage."
+    },
+    {
+      "ar": "ضعف أو تلف البطارية الاحتياطية يؤدي إلى فقدان الإنذارات عند انقطاع التيار.",
+      "en": "Weak or damaged backup battery causing loss of alarms during power outage."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة التحكم أو نظام تسجيل البيانات.",
+      "en": "Software faults in the control unit or data logging system."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة اتساخ مستشعرات الحرارة أو خلل في المعايرة.",
+      "en": "False alarms due to dirty temperature sensors or calibration errors."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

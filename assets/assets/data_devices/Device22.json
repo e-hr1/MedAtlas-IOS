@@ -1,0 +1,270 @@
+{
+  "id": 22,
+  "name": {
+    "ar": "جهاز الجراحة الكهربائية",
+    "en": "Electrosurgical Unit (ESU)"
+  },
+  "category": "operating",
+  "icon": "bolt",
+  "shortDescription": {
+    "ar": "المبضع الكهربائي – جهاز يستخدم التيار الكهربائي عالي التردد للقطع والتخثير في العمليات الجراحية",
+    "en": "Electrosurgical Unit – A device that uses high-frequency electrical current for cutting and coagulation during surgical procedures"
+  },
+  "images": [
+    "assets/image/Operating/ESU/ESU1.webp",
+    "assets/image/Operating/ESU/ESU2.webp",
+    "assets/image/Operating/ESU/ESU3.webp",
+    "assets/image/Operating/ESU/ESU4.webp"
+  ],
+  "description": {
+    "ar": "جهاز طبي يستخدم الطاقة الكهربائية عالية التردد (عادة 300 كيلوهرتز – 5 ميغاهرتز) لإجراء القطع الجراحي (Cutting) وتخثير الأنسجة (Coagulation) وكي الأوعية الدموية لمنع النزيف أثناء العمليات الجراحية. يحول الجهاز التيار الكهربائي من مصدر الحائط (50-60 هرتز) إلى تردد عالٍ آمن للجسم.",
+    "en": "A medical device that uses high-frequency electrical energy (typically 300 kHz – 5 MHz) for surgical cutting, tissue coagulation, and sealing blood vessels to prevent bleeding during operations. It converts the electrical current from the wall supply (50-60 Hz) into a high frequency that is safe for the body."
+  },
+  "uses": [
+    {
+      "ar": "القطع الجراحي (Cut): شفرة نشطة (إلكترود) تولد شرارة عالية الكثافة تقطع الأنسجة بدقة مع حد أدنى من النزيف.",
+      "en": "Surgical Cutting (Cut): An active electrode (surgical pen) generates a high-density spark that cuts tissue precisely with minimal bleeding."
+    },
+    {
+      "ar": "التخثير (Coag): تيار كهربائي منخفض الكثافة يعمل على تجفيف الأنسجة وإغلاق الأوعية الدموية لوقف النزيف.",
+      "en": "Coagulation (Coag): A low-density electrical current dries tissue and closes blood vessels to stop bleeding."
+    },
+    {
+      "ar": "الكي المزدوج (Bipolar): يستخدم ملقطين معاً لتخثير الأنسجة دون مرور التيار عبر جسم المريض بالكامل (آمن في العمليات الدقيقة مثل المخ والأعصاب).",
+      "en": "Bipolar Mode: Uses two forceps together to coagulate tissue without passing current through the patient's body (safe in delicate procedures like neurosurgery)."
+    },
+    {
+      "ar": "الكي الأحادي (Monopolar): يمر التيار عبر جسم المريض إلى لوحة أرضية (Return Electrode) موضوعة خلف المريض.",
+      "en": "Monopolar Mode: Current passes through the patient's body to a return electrode (ground plate) placed behind the patient."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يقوم مولد الترددات العالية (Oscillator) داخل الجهاز بتحويل التيار المنخفض التردد (50-60 هرتز) إلى تيار عالي التردد (300 كيلوهرتز – 5 ميغاهرتز) لتجنب التحفيز العصبي والعضلي. يتحكم الجراح في شكل الموجة (قطع، تخثير، مخلوط)، حيث يمر التيار من القلم الجراحي عبر الأنسجة لتوليد حرارة عالية تبخر الخلايا أو تجففها، ويكمل مساره عبر اللوحة الأرضية أو بين ملقطي الجهاز.",
+    "en": "A high-frequency oscillator inside the device converts low-frequency current (50-60 Hz) into high-frequency current (300 kHz – 5 MHz) to avoid nerve and muscle stimulation. The surgeon controls the waveform (cut, coag, blend), and current flows from the active electrode through the target tissue generating high heat to vaporize or dry cells, completing its path via the ground plate or between forceps."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد التردد العالي: يقوم مولد الترددات العالية (Oscillator) داخل الجهاز بتحويل التيار المنخفض التردد (50-60 هرتز) إلى تيار عالي التردد (300 كيلوهرتز – 5 ميغاهرتز) لتجنب التحفيز العصبي والعضلي.",
+      "en": "High-Frequency Generation: A high-frequency oscillator inside the device converts low-frequency current (50-60 Hz) into high-frequency current (300 kHz – 5 MHz) to avoid nerve and muscle stimulation."
+    },
+    {
+      "ar": "ضبط شكل الموجة: يتحكم الجراح في شكل الموجة الكهربائية من خلال لوحة التحكم (موجة قطع مستمرة، موجة تخثير متقطعة، أو موجة مخلوطة).",
+      "en": "Waveform Adjustment: The surgeon controls the electrical waveform through the control panel (continuous cut waveform, intermittent coag waveform, or blend waveform)."
+    },
+    {
+      "ar": "التطبيق: يمر التيار من الإلكترود النشط (القلم الجراحي) عبر الأنسجة المستهدفة، مما يولد حرارة عالية (أكثر من 100°مئوية) تكفي لتبخير الخلايا (قطع) أو تجفيفها (تخثير).",
+      "en": "Application: Current flows from the active electrode (surgical pen) through the target tissue, generating high heat (over 100°C) sufficient to vaporize cells (cut) or dry them (coagulate)."
+    },
+    {
+      "ar": "الإكمال الدائري: في الوضع الأحادي، يكمل التيار مساره عبر جسم المريض إلى اللوحة الأرضية (القطب العائد) ثم يعود إلى الجهاز. في الوضع المزدوج، يكمل التيار مساره بين ملقطي الجهاز دون عبور الجسم.",
+      "en": "Circuit Completion: In monopolar mode, the current completes its path through the patient's body to the return electrode (ground plate) and back to the device. In bipolar mode, the current completes its path between the two forceps without passing through the body."
+    }
+  ],
+  "highlight": {
+    "ar": "تتميز الأجهزة الحديثة بأنظمة مراقبة لوحة التلامس (REM) التي تراقب مقاومة اللوحة الأرضية وتوقف الجهاز تلقائياً في حالة عدم التصاقها بشكل صحيح لتجنب الحروق.",
+    "en": "Modern devices feature Return Electrode Monitoring (REM) systems that monitor the ground plate resistance and automatically stop the device if it is not properly attached to prevent burns."
+  },
+  "components": [
+    {
+      "ar": "مولد ترددات عالية (Oscillator)",
+      "en": "High-Frequency Generator (Oscillator)"
+    },
+    {
+      "ar": "منظم طاقة الخرج (وات)",
+      "en": "Output Power Regulator (Watts)"
+    },
+    {
+      "ar": "وحدة تشكيل الموجة",
+      "en": "Waveform Shaping Unit"
+    },
+    {
+      "ar": "نظام مراقبة اللوحة الأرضية (REM)",
+      "en": "Return Electrode Monitoring (REM)"
+    },
+    {
+      "ar": "معالج تحكم رقمي (CPU)",
+      "en": "Digital Control Processor (CPU)"
+    },
+    {
+      "ar": "شاشة عرض (لمسة أو أزرار)",
+      "en": "Display Screen (Touch or Buttons)"
+    },
+    {
+      "ar": "مقبس القلم النشط (Monopolar/Bipolar)",
+      "en": "Active Electrode Socket (Monopolar/Bipolar)"
+    },
+    {
+      "ar": "مقبس اللوحة الأرضية",
+      "en": "Return Electrode Socket"
+    },
+    {
+      "ar": "نظام إنذار للكشف عن الأعطال",
+      "en": "Alarm and Fault Detection System"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز ESU نموذجي (Valleylab FT10 أو ERBE VIO 300D)",
+    "en": "Example: Typical ESU (Valleylab FT10 or ERBE VIO 300D)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "تردد الخرج",
+        "en": "Output Frequency"
+      },
+      "value": {
+        "ar": "300 كيلوهرتز – 5 ميغاهرتز",
+        "en": "300 kHz – 5 MHz"
+      }
+    },
+    {
+      "label": {
+        "ar": "طاقة القطع (Cut)",
+        "en": "Cut Power (Cut)"
+      },
+      "value": {
+        "ar": "0 – 300 وات (قابلة للتعديل)",
+        "en": "0 – 300 W (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طاقة التخثير (Coag)",
+        "en": "Coagulation Power (Coag)"
+      },
+      "value": {
+        "ar": "0 – 120 وات (قابلة للتعديل)",
+        "en": "0 – 120 W (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طاقة الوضع المزدوج (Bipolar)",
+        "en": "Bipolar Power"
+      },
+      "value": {
+        "ar": "0 – 70 وات",
+        "en": "0 – 70 W"
+      }
+    },
+    {
+      "label": {
+        "ar": "مقاومة الحمل المثالية",
+        "en": "Optimal Load Resistance"
+      },
+      "value": {
+        "ar": "300 – 500 أوم (حسب الوضع)",
+        "en": "300 – 500 Ω (depending on mode)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام المراقبة",
+        "en": "Monitoring System"
+      },
+      "value": {
+        "ar": "REM (مراقبة مقاومة اللوحة الأرضية) – CQM (مراقبة جودة التلامس)",
+        "en": "REM (Return Electrode Resistance) – CQM (Contact Quality Monitoring)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أوضاع التشغيل",
+        "en": "Operating Modes"
+      },
+      "value": {
+        "ar": "Cut، Coag، Blend، Bipolar، Spray Coag",
+        "en": "Cut, Coag, Blend, Bipolar, Spray Coag"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "شاشة LCD ملونة أو بشاشة لمسية 7-10 بوصة",
+        "en": "Color LCD or 7-10 inch Touchscreen"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power Supply"
+      },
+      "value": {
+        "ar": "220/110 فولت، 50/60 هرتز",
+        "en": "220/110 V, 50/60 Hz"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "إنذار اللوحة الأرضية (REM Alarm) نتيجة انفصال أو تلوث اللوحة أو انخفاض التصاقها.",
+      "en": "Return Electrode (REM) Alarm due to detachment, contamination, or poor adhesion of the plate."
+    },
+    {
+      "ar": "عدم خروج الطاقة من القلم النشط نتيجة تلف السلك أو القلم نفسه.",
+      "en": "No power output from the active electrode due to a damaged cable or pen."
+    },
+    {
+      "ar": "حروق في مكان اللوحة الأرضية بسبب مقاومة عالية أو وضع غير مناسب.",
+      "en": "Burns at the return electrode site due to high resistance or improper placement."
+    },
+    {
+      "ar": "تداخل كهربائي مع أجهزة أخرى (مثل جهاز مراقبة العلامات الحيوية) يسبب تشويشاً في الإشارات.",
+      "en": "Electrical interference with other devices (e.g., vital signs monitors) causing signal distortion."
+    },
+    {
+      "ar": "أعطال في مولد الترددات تؤدي إلى تغير في شكل الموجة أو ضعف الطاقة.",
+      "en": "Oscillator malfunctions leading to waveform changes or power loss."
+    },
+    {
+      "ar": "خلل في مصدر الطاقة الداخلي أو انقطاع التيار أثناء العملية.",
+      "en": "Internal power supply failure or power interruption during surgery."
+    },
+    {
+      "ar": "مشاكل برمجية في نظام التحكم الرقمي تؤثر على دقة ضبط الطاقة.",
+      "en": "Software issues in the digital control system affecting power accuracy."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

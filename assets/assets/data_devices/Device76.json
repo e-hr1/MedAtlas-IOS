@@ -1,0 +1,253 @@
+{
+  "id": 76,
+  "name": {
+    "ar": "التصوير المقطعي للعين",
+    "en": "OCT (Optical Coherence Tomography)"
+  },
+  "category": "eye",
+  "icon": "wave-square",
+  "shortDescription": {
+    "ar": "جهاز تصوير طبي متقدم يستخدم تقنية التداخل الضوئي لإنتاج مقاطع عرضية عالية الدقة للشبكية وطبقات العين المختلفة، مما يتيح تشخيصاً دقيقاً لأمراض العيون.",
+    "en": "An advanced medical imaging device that uses light interference technology to produce high-resolution cross-sectional images of the retina and various eye layers, enabling precise diagnosis of eye diseases."
+  },
+  "images": [
+    "assets/image/Eye/OCT/OCT1.webp",
+    "assets/image/Eye/OCT/OCT2.webp",
+    "assets/image/Eye/OCT/OCT3.webp",
+    "assets/image/Eye/OCT/OCT4.webp"
+  ],
+  "description": {
+    "ar": "التصوير المقطعي للعين (OCT) هو تقنية تصوير غير جراحية وغير تماسية تنتج صوراً مقطعية عالية الدقة للشبكية وطبقات العين الأخرى. يعمل الجهاز على مبدأ قياس انعكاس الضوء من أنسجة العين، مشابهاً بذلك الموجات فوق الصوتية لكن باستخدام الضوء بدلاً من الصوت، مما يوفر دقة أعلى بكثير (تصل إلى 5 ميكرون).",
+    "en": "Optical Coherence Tomography (OCT) is a non-invasive, non-contact imaging technique that produces high-resolution cross-sectional images of the retina and other eye layers. The device operates on the principle of measuring light reflection from eye tissues, similar to ultrasound but using light instead of sound, providing much higher resolution (up to 5 microns)."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص ومراقبة التنكس البقعي المرتبط بالعمر (AMD): الكشف عن السوائل والنزيف تحت الشبكية.",
+      "en": "Diagnosing and monitoring Age-Related Macular Degeneration (AMD): Detecting fluid and bleeding under the retina."
+    },
+    {
+      "ar": "تشخيص اعتلال الشبكية السكري: قياس سماكة الشبكية واكتشاف الوذمة البقعية.",
+      "en": "Diagnosing diabetic retinopathy: Measuring retinal thickness and detecting macular edema."
+    },
+    {
+      "ar": "تشخيص الجلوكوما: قياس سماكة طبقة الألياف العصبية حول القرص البصري (RNFL).",
+      "en": "Diagnosing glaucoma: Measuring the retinal nerve fiber layer (RNFL) thickness around the optic disc."
+    },
+    {
+      "ar": "تشخيص أمراض المشيمية: مثل التهاب المشيمية أو وجود أورام.",
+      "en": "Diagnosing choroidal diseases: Such as choroiditis or tumors."
+    },
+    {
+      "ar": "تقييم الثقب البقعي والغشاء فوق الشبكي: تحديد مدى الضرر بدقة عالية.",
+      "en": "Assessing macular holes and epiretinal membranes: Determining the extent of damage with high precision."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد جهاز OCT على مبدأ قياس التداخل منخفض التماسك (Low-Coherence Interferometry) عبر خمس مراحل: إصدار الأشعة حيث يُصدر الجهاز شعاعاً من الضوء القريب من الأشعة تحت الحمراء (طوله الموجي حوالي 840 نانومتر)، ثم تقسيم الشعاع حيث يقسم الضوء إلى شعاعين أحدهما يوجه إلى العين (مسار العينة) والآخر إلى مرآة مرجعية (مسار المرجع)، ثم انعكاس الضوء حيث عندما يصل الضوء إلى العين تنعكس أجزاء منه من طبقات الشبكية المختلفة بزوايا مختلفة، ثم التداخل حيث يُعاد جمع الضوء المنعكس من العين مع الضوء المنعكس من المرآة المرجعية لإنشاء نمط تداخل (Interference Pattern)، ثم التحليل حيث يحلل الكمبيوتر نمط التداخل لتوليد صورة مقطعية ثنائية أو ثلاثية الأبعاد لأنسجة العين بجودة استثنائية.",
+    "en": "The OCT device operates on the principle of Low-Coherence Interferometry through five stages: Light Emission where the device emits a beam of near-infrared light (wavelength approximately 840 nm), then Beam Splitting where the light is split into two beams one directed to the eye (sample path) and the other to a reference mirror (reference path), then Light Reflection where when light reaches the eye parts of it are reflected from different retinal layers at various angles, then Interference where the reflected light from the eye is recombined with the light reflected from the reference mirror to create an interference pattern, then Analysis where the computer analyzes the interference pattern to generate a 2D or 3D cross-sectional image of the eye tissues with exceptional quality."
+  },
+  "workingSteps": [
+    {
+      "ar": "إصدار الأشعة: يُصدر الجهاز شعاعاً من الضوء القريب من الأشعة تحت الحمراء (طوله الموجي حوالي 840 نانومتر).",
+      "en": "Light Emission: The device emits a beam of near-infrared light (wavelength approximately 840 nm)."
+    },
+    {
+      "ar": "تقسيم الشعاع: يقسم الضوء إلى شعاعين: أحدهما يوجه إلى العين (مسار العينة)، والآخر إلى مرآة مرجعية (مسار المرجع).",
+      "en": "Beam Splitting: The light is split into two beams: one directed to the eye (sample path) and the other to a reference mirror (reference path)."
+    },
+    {
+      "ar": "انعكاس الضوء: عندما يصل الضوء إلى العين، تنعكس أجزاء منه من طبقات الشبكية المختلفة بزوايا مختلفة.",
+      "en": "Light Reflection: When light reaches the eye, parts of it are reflected from different retinal layers at various angles."
+    },
+    {
+      "ar": "التداخل: يُعاد جمع الضوء المنعكس من العين مع الضوء المنعكس من المرآة المرجعية لإنشاء نمط تداخل (Interference Pattern).",
+      "en": "Interference: The reflected light from the eye is recombined with the light reflected from the reference mirror to create an interference pattern."
+    },
+    {
+      "ar": "التحليل: يحلل الكمبيوتر نمط التداخل لتوليد صورة مقطعية ثنائية أو ثلاثية الأبعاد لأنسجة العين بجودة استثنائية.",
+      "en": "Analysis: The computer analyzes the interference pattern to generate a 2D or 3D cross-sectional image of the eye tissues with exceptional quality."
+    }
+  ],
+  "highlight": {
+    "ar": "تطوير تقنية OCT إلى OCT-A (أنجيوجرافي) يسمح بتصوير الأوعية الدموية للشبكية والمشيمية دون الحاجة لحقن صبغة، مما يقلل المخاطر والمضاعفات.",
+    "en": "The advancement of OCT technology to OCT-A (Angiography) allows imaging of retinal and choroidal blood vessels without the need for dye injection, reducing risks and complications."
+  },
+  "components": [
+    {
+      "ar": "مصدر ضوء فائق التوهج (Superluminescent Diode - SLD)",
+      "en": "Superluminescent Diode (SLD) light source"
+    },
+    {
+      "ar": "نظام تقسيم الشعاع (Beam Splitter)",
+      "en": "Beam Splitter system"
+    },
+    {
+      "ar": "مرآة مرجعية (Reference Mirror)",
+      "en": "Reference Mirror"
+    },
+    {
+      "ar": "كاشف ضوئي (Photodetector / CCD Camera)",
+      "en": "Photodetector (CCD Camera)"
+    },
+    {
+      "ar": "عدسات بصريات متقدمة",
+      "en": "Advanced optics lenses"
+    },
+    {
+      "ar": "وحدة معالجة إشارات (Signal Processor)",
+      "en": "Signal Processor unit"
+    },
+    {
+      "ar": "حاسوب متصل ببرامج تحليل متخصصة",
+      "en": "Connected computer with specialized analysis software"
+    },
+    {
+      "ar": "طابعة (في بعض الطرازات)",
+      "en": "Printer (on some models)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز OCT المتقدم (Spectral-Domain OCT)",
+    "en": "Example: Typical specifications for an advanced OCT device (Spectral-Domain OCT)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "دقة المحور البصري (Axial Resolution)",
+        "en": "Axial Resolution"
+      },
+      "value": {
+        "ar": "5 – 7 ميكرون",
+        "en": "5 – 7 microns"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة المحور العرضي (Transverse Resolution)",
+        "en": "Transverse Resolution"
+      },
+      "value": {
+        "ar": "15 – 20 ميكرون",
+        "en": "15 – 20 microns"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة المسح (Scan Speed)",
+        "en": "Scan Speed"
+      },
+      "value": {
+        "ar": "40,000 – 100,000 مسح/ثانية (A-scans/sec)",
+        "en": "40,000 – 100,000 A-scans/sec"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمق التصوير",
+        "en": "Imaging Depth"
+      },
+      "value": {
+        "ar": "2 – 3 مم",
+        "en": "2 – 3 mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الطول الموجي للضوء",
+        "en": "Light Wavelength"
+      },
+      "value": {
+        "ar": "840 – 880 نانومتر (الأشعة تحت الحمراء)",
+        "en": "840 – 880 nm (Near-infrared)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الصورة",
+        "en": "Image Size"
+      },
+      "value": {
+        "ar": "يصل إلى 10x10 مم (حسب مجال الرؤية)",
+        "en": "Up to 10x10 mm (depending on field of view)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع OCT",
+        "en": "OCT Type"
+      },
+      "value": {
+        "ar": "Spectral-Domain (SD-OCT) أو Swept-Source (SS-OCT)",
+        "en": "Spectral-Domain (SD-OCT) or Swept-Source (SS-OCT)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ضعف شدة مصدر الضوء أو تلفه مع مرور الوقت.",
+      "en": "Weak or damaged light source over time."
+    },
+    {
+      "ar": "اتساخ أو تلف العدسات البصرية، مما يؤثر على جودة الصورة.",
+      "en": "Dirty or scratched optical lenses, affecting image quality."
+    },
+    {
+      "ar": "عدم دقة المرآة المرجعية في الحركة، مما يسبب تشوهات في الصورة.",
+      "en": "Inaccurate reference mirror movement causing image distortions."
+    },
+    {
+      "ar": "مشاكل في التوصيلات الكهربائية أو التذبذب في الجهد الكهربائي.",
+      "en": "Electrical connection issues or voltage fluctuations."
+    },
+    {
+      "ar": "خلل في وحدة معالجة الإشارات، مما يؤدي إلى صور غير مكتملة أو مشوشة.",
+      "en": "Signal processor malfunction leading to incomplete or distorted images."
+    },
+    {
+      "ar": "مشاكل في البرمجيات مثل بطء الأداء أو تعطل نظام التشغيل.",
+      "en": "Software problems such as slow performance or operating system crashes."
+    },
+    {
+      "ar": "فشل في حفظ الصور أو نقلها إلى نظام التخزين.",
+      "en": "Failure to save or transfer images to the storage system."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

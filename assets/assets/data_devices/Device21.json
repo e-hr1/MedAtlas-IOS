@@ -1,0 +1,259 @@
+{
+  "id": 21,
+  "name": {
+    "ar": "جهاز التخدير",
+    "en": "Anesthesia Machine"
+  },
+  "category": "operating",
+  "icon": "mask",
+  "shortDescription": {
+    "ar": "جهاز طبي معقد يُستخدم في غرف العمليات لتوفير التخدير العام للمرضى، يقوم بمزج الغازات الطبية (أكسجين، أكسيد النيتروز، هواء) مع الأدوية المخدرة الاستنشاقية وتوصيل الخليط إلى المريض عبر دائرة تنفس مع مراقبة دائمة للعلامات الحيوية.",
+    "en": "A complex medical device used in operating rooms to provide general anesthesia to patients. It mixes medical gases (oxygen, nitrous oxide, air) with inhalational anesthetic agents and delivers the mixture to the patient through a breathing circuit with continuous monitoring of vital signs."
+  },
+  "images": [
+    "assets/image/Operating/Anesthesia/Anesthesia1.webp",
+    "assets/image/Operating/Anesthesia/Anesthesia2.webp",
+    "assets/image/Operating/Anesthesia/Anesthesia3.webp",
+    "assets/image/Operating/Anesthesia/Anesthesia4.webp"
+  ],
+  "description": {
+    "ar": "جهاز التخدير (Anesthesia Machine) هو جهاز طبي معقد يُستخدم في غرف العمليات لتوفير التخدير العام للمرضى. يقوم بمزج الغازات الطبية (أكسجين، أكسيد النيتروز، هواء) مع الأدوية المخدرة الاستنشاقية، وتوصيل الخليط إلى المريض عبر دائرة تنفس مع مراقبة دائمة للعلامات الحيوية. تشمل استخداماته الرئيسية: التخدير العام لإبقاء المريض فاقداً للوعي وغير حساس للألم أثناء العمليات الجراحية الكبرى، دعم التنفس بتوفير تهوية ميكانيكية للمريض أثناء التخدير، ومراقبة المريض بقياس تركيز الأكسجين وثاني أكسيد الكربون وضغط المجرى التنفسي وحجم الهواء المتبادل. أنواعه: أنظمة تخدير ذات دائرة مغلقة (أنابيب توصيل) ومفتوحة، مع وحدات تبخير للمخدرات السائلة.",
+    "en": "An anesthesia machine is a complex medical device used in operating rooms to provide general anesthesia to patients. It mixes medical gases (oxygen, nitrous oxide, air) with inhalational anesthetic agents, and delivers the mixture to the patient through a breathing circuit with continuous monitoring of vital signs. Its main uses include: General Anesthesia for keeping the patient unconscious and insensitive to pain during major surgeries; Ventilatory Support by providing mechanical ventilation to the patient during anesthesia; and Patient Monitoring by measuring oxygen concentration, carbon dioxide, airway pressure, and tidal volume. Types: Closed-circuit (rebreathing) and open anesthesia systems, with vaporizers for liquid anesthetics."
+  },
+  "uses": [
+    {
+      "ar": "التخدير العام – إبقاء المريض فاقداً للوعي وغير حساس للألم أثناء العمليات الجراحية الكبرى.",
+      "en": "General Anesthesia – keeping the patient unconscious and insensitive to pain during major surgeries."
+    },
+    {
+      "ar": "دعم التنفس – توفير تهوية ميكانيكية للمريض أثناء التخدير.",
+      "en": "Ventilatory Support – providing mechanical ventilation to the patient during anesthesia."
+    },
+    {
+      "ar": "مراقبة المريض – قياس تركيز الأكسجين، ثاني أكسيد الكربون، ضغط المجرى التنفسي، وحجم الهواء المتبادل.",
+      "en": "Patient Monitoring – measuring oxygen concentration, carbon dioxide, airway pressure, and tidal volume."
+    },
+    {
+      "ar": "أنظمة تخدير ذات دائرة مغلقة (أنابيب توصيل) ومفتوحة، مع وحدات تبخير للمخدرات السائلة.",
+      "en": "Closed-circuit (rebreathing) and open anesthesia systems, with vaporizers for liquid anesthetics."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز التخدير عبر أربع مراحل: مزج الغازات حيث يتم خلط الأكسجين والهواء وأكسيد النيتروز بنسب محددة حسب احتياج المريض، ثم التبخير حيث يمر الخليط الغازي عبر مبخر (Vaporizer) يحتوي على دواء مخدر سائل (مثل سيفوفلوران أو إيزوفلوران) ويتحول الدواء إلى بخار بنسبة دقيقة، ثم التوصيل حيث يصل الخليط المخدر إلى المريض عبر دائرة تنفس تشمل أنبوب رغامي أو قناع حنجري مع نظام لاستنشاق الزفير وإعادة تدويره جزئياً، ثم المراقبة حيث تستشعر أجهزة الاستشعار المدمجة تركيز الغازات والضغوط ومعدل التنفس وتعرض البيانات على الشاشة مع إنذارات فورية لأي خلل. تحتوي الأجهزة الحديثة على نظام تهوية مدمج (Ventilator) وأنظمة أمان تمنع توصيل خليط منخفض الأكسجين للمريض.",
+    "en": "The anesthesia machine operates through four stages: gas mixing where oxygen, air, and nitrous oxide are mixed in specific ratios according to the patient's needs, then vaporization where the gas mixture passes through a vaporizer containing a liquid anesthetic (e.g., sevoflurane or isoflurane) and the drug is converted into vapor at a precise concentration, then delivery where the anesthetic mixture reaches the patient via a breathing circuit that includes an endotracheal tube or laryngeal mask with a system for exhaled gas scavenging and partial rebreathing, then monitoring where built-in sensors detect gas concentrations, pressures, and respiratory rate, displaying data on the screen with immediate alarms for any malfunction. Modern devices include an integrated ventilator and safety systems that prevent delivery of a hypoxic gas mixture to the patient."
+  },
+  "workingSteps": [
+    {
+      "ar": "مزج الغازات: يتم خلط الأكسجين، الهواء، وأكسيد النيتروز بنسب محددة حسب احتياج المريض.",
+      "en": "Gas Mixing: oxygen, air, and nitrous oxide are mixed in specific ratios according to the patient's needs."
+    },
+    {
+      "ar": "التبخير: يمر الخليط الغازي عبر مبخر (Vaporizer) يحتوي على دواء مخدر سائل (مثل سيفوفلوران أو إيزوفلوران)، حيث يتحول الدواء إلى بخار بنسبة دقيقة.",
+      "en": "Vaporization: the gas mixture passes through a vaporizer containing a liquid anesthetic (e.g., sevoflurane or isoflurane), where the drug is converted into vapor at a precise concentration."
+    },
+    {
+      "ar": "التوصيل: يصل الخليط المخدر إلى المريض عبر دائرة تنفس تشمل أنبوب رغامي أو قناع حنجري، مع نظام لاستنشاق الزفير وإعادة تدويره جزئياً.",
+      "en": "Delivery: the anesthetic mixture reaches the patient via a breathing circuit that includes an endotracheal tube or laryngeal mask, with a system for exhaled gas scavenging and partial rebreathing."
+    },
+    {
+      "ar": "المراقبة: تستشعر أجهزة الاستشعار المدمجة تركيز الغازات، الضغوط، ومعدل التنفس، وتعرض البيانات على الشاشة مع إنذارات فورية لأي خلل.",
+      "en": "Monitoring: built-in sensors detect gas concentrations, pressures, and respiratory rate, displaying data on the screen with immediate alarms for any malfunction."
+    }
+  ],
+  "highlight": {
+    "ar": "تحتوي الأجهزة الحديثة على نظام تهوية مدمج (Ventilator) وأنظمة أمان تمنع توصيل خليط منخفض الأكسجين للمريض.",
+    "en": "Modern devices include an integrated ventilator and safety systems that prevent delivery of a hypoxic gas mixture to the patient."
+  },
+  "components": [
+    {
+      "ar": "مبخر (Vaporizer)",
+      "en": "Vaporizer"
+    },
+    {
+      "ar": "منظمات غازات (O₂، N₂O، Air)",
+      "en": "Gas Regulators (O₂, N₂O, Air)"
+    },
+    {
+      "ar": "خلاط غازات",
+      "en": "Gas Mixer"
+    },
+    {
+      "ar": "مرشحات ومواد ماصة CO₂",
+      "en": "Filters and CO₂ Absorbent"
+    },
+    {
+      "ar": "وحدة تحكم ومعالج",
+      "en": "Control Unit and Processor"
+    },
+    {
+      "ar": "شاشة عرض مع رسوم بيانية",
+      "en": "Display Screen with Graphs"
+    },
+    {
+      "ar": "دائرة تنفس (مريض)",
+      "en": "Breathing Circuit (Patient)"
+    },
+    {
+      "ar": "مروحة تهوية (Ventilator)",
+      "en": "Ventilator"
+    },
+    {
+      "ar": "نظام إنذار وأمان",
+      "en": "Alarm and Safety System"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز تخدير نموذجي (GE Avance CS2 أو Dräger Fabius)",
+    "en": "Example: Typical Anesthesia Machine (GE Avance CS2 or Dräger Fabius)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق حجم المد (Tidal Volume)",
+        "en": "Tidal Volume Range"
+      },
+      "value": {
+        "ar": "20 – 1500 مل",
+        "en": "20 – 1500 ml"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التنفس",
+        "en": "Respiratory Rate"
+      },
+      "value": {
+        "ar": "2 – 100 نفس/دقيقة",
+        "en": "2 – 100 breaths/min"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط المجرى التنفسي القصوى",
+        "en": "Maximum Airway Pressure"
+      },
+      "value": {
+        "ar": "0 – 80 سم ماء",
+        "en": "0 – 80 cmH₂O"
+      }
+    },
+    {
+      "label": {
+        "ar": "نسبة الأكسجين (FiO₂)",
+        "en": "Oxygen Fraction (FiO₂)"
+      },
+      "value": {
+        "ar": "21% – 100%",
+        "en": "21% – 100%"
+      }
+    },
+    {
+      "label": {
+        "ar": "المخدرات المدعومة",
+        "en": "Supported Anesthetics"
+      },
+      "value": {
+        "ar": "سيفوفلوران، إيزوفلوران، ديسفلوران، هالوثان",
+        "en": "Sevoflurane, Isoflurane, Desflurane, Halothane"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق تركيز المبخر",
+        "en": "Vaporizer Concentration Range"
+      },
+      "value": {
+        "ar": "0.1% – 5% حسب الدواء",
+        "en": "0.1% – 5% depending on drug"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية الاحتياطية",
+        "en": "Backup Battery"
+      },
+      "value": {
+        "ar": "تدوم 30 – 90 دقيقة",
+        "en": "Lasts 30 – 90 minutes"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة، تعرض ضغط، حجم، كابينوغرافي، وغازات",
+        "en": "Color touchscreen, shows pressure, volume, capnography, and gases"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نقص أو انقطاع إمداد الأكسجين أو الغازات الطبية.",
+      "en": "Low or interrupted supply of oxygen or medical gases."
+    },
+    {
+      "ar": "انسداد أو تسرب في دائرة التبخير يؤدي إلى جرعة دواء غير دقيقة.",
+      "en": "Blockage or leak in the vaporizer circuit causing inaccurate drug dosage."
+    },
+    {
+      "ar": "تسرب في دائرة التنفس يسبب فقدان الحجم وانخفاض الضغط.",
+      "en": "Leak in the breathing circuit causing volume loss and pressure drop."
+    },
+    {
+      "ar": "ضعف البطارية الاحتياطية أو تلفها.",
+      "en": "Weak or damaged backup battery."
+    },
+    {
+      "ar": "أعطال في مستشعرات الأكسجين أو ثاني أكسيد الكربون (كابنوغراف).",
+      "en": "Faults in oxygen or carbon dioxide (capnograph) sensors."
+    },
+    {
+      "ar": "عدم معايرة المبخر مما يسبب تركيز خاطئ للمخدر.",
+      "en": "Vaporizer miscalibration causing incorrect anesthetic concentration."
+    },
+    {
+      "ar": "انسداد في مرشحات أو مادة ماصة CO₂ المفرطة الاستخدام.",
+      "en": "Blocked filters or exhausted CO₂ absorbent."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

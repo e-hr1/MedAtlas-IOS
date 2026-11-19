@@ -1,0 +1,249 @@
+{
+  "id": 19,
+  "name": {
+    "ar": "مضخة التغذية",
+    "en": "Enteral Feeding Pump"
+  },
+  "category": "icu",
+  "icon": "utensils",
+  "shortDescription": {
+    "ar": "جهاز طبي يُستخدم لتوصيل المحاليل الغذائية (الحليب الصناعي، المكملات الغذائية، أو الأغذية المهروسة) بشكل مستمر أو متقطع إلى المعدة أو الأمعاء الدقيقة عبر أنبوب التغذية (NG tube أو PEG)، ويُعد البديل الآمن والدقيق للتغذية اليدوية بالحقنة.",
+    "en": "A medical device used to deliver nutritional solutions (formula milk, nutritional supplements, or blended foods) continuously or intermittently into the stomach or small intestine via a feeding tube (NG tube or PEG), serving as a safe and precise alternative to manual syringe feeding."
+  },
+  "images": [
+    "assets/image/ICU/FeedingPump/FeedingPump1.webp",
+    "assets/image/ICU/FeedingPump/FeedingPump2.webp",
+    "assets/image/ICU/FeedingPump/FeedingPump3.webp",
+    "assets/image/ICU/FeedingPump/FeedingPump4.webp"
+  ],
+  "description": {
+    "ar": "مضخة التغذية (Enteral Feeding Pump) هي جهاز طبي يُستخدم لتوصيل المحاليل الغذائية (الحليب الصناعي، المكملات الغذائية، أو الأغذية المهروسة) بشكل مستمر أو متقطع إلى المعدة أو الأمعاء الدقيقة عبر أنبوب التغذية (NG tube أو PEG). يُعد البديل الآمن والدقيق للتغذية اليدوية بالحقنة، خاصة في المرضى غير القادرين على البلع. تشمل استخداماته الرئيسية: العناية المركزة للمرضى فاقدي الوعي أو المصابين بسكتات دماغية أو الذين يخضعون للتهوية الميكانيكية، الأمراض العصبية مثل التصلب الجانبي الضموري (ALS) والشلل الدماغي والخرف المتقدم، الرضع والأطفال في حالات الخداج وسوء الامتصاص أو رفض الرضاعة الطبيعية، ومرضى السرطان خاصة في حالات سرطان الرأس والرقبة أو المريء التي تعيق البلع. أنواعه: مضخة تمعجية (Peristaltic) وهي الأكثر شيوعاً وتعمل على مبدأ ضغط أنبوب السيليكون بواسطة دوّارات، ومضخة حاقنة (Syringe) تُستخدم لجرعات صغيرة أو للتغذية البطيئة جداً لدى الأطفال.",
+    "en": "An enteral feeding pump is a medical device used to deliver nutritional solutions (formula milk, nutritional supplements, or blended foods) continuously or intermittently into the stomach or small intestine via a feeding tube (NG tube or PEG). It is a safe and precise alternative to manual syringe feeding, especially for patients unable to swallow. Its main uses include: Intensive Care for unconscious patients, stroke victims, or those on mechanical ventilation; Neurological conditions such as ALS, cerebral palsy, or advanced dementia; Infants and children in cases of prematurity, malabsorption, or breastfeeding refusal; and Cancer patients especially those with head, neck, or esophageal cancer affecting swallowing. Types: Peristaltic Pump (most common, operates by compressing a silicone tube with rotating rollers) and Syringe Pump (used for small doses or very slow feeding in pediatric patients)."
+  },
+  "uses": [
+    {
+      "ar": "العناية المركزة – للمرضى فاقدي الوعي أو المصابين بسكتات دماغية أو الذين يخضعون للتهوية الميكانيكية.",
+      "en": "Intensive Care – for unconscious patients, stroke victims, or those on mechanical ventilation."
+    },
+    {
+      "ar": "الأمراض العصبية – مثل التصلب الجانبي الضموري (ALS)، الشلل الدماغي، أو الخرف المتقدم.",
+      "en": "Neurological conditions – such as ALS, cerebral palsy, or advanced dementia."
+    },
+    {
+      "ar": "الرضع والأطفال – في حالات الخداج، سوء الامتصاص، أو رفض الرضاعة الطبيعية.",
+      "en": "Infants and children – in cases of prematurity, malabsorption, or breastfeeding refusal."
+    },
+    {
+      "ar": "مرضى السرطان – خاصة في حالات سرطان الرأس والرقبة أو المريء التي تعيق البلع.",
+      "en": "Cancer patients – especially those with head, neck, or esophageal cancer affecting swallowing."
+    },
+    {
+      "ar": "مضخة تمعجية (Peristaltic) – الأكثر شيوعاً، تعمل على مبدأ ضغط أنبوب السيليكون بواسطة دوّارات.",
+      "en": "Peristaltic Pump – most common, operates by compressing a silicone tube with rotating rollers."
+    },
+    {
+      "ar": "مضخة حاقنة (Syringe) – تُستخدم لجرعات صغيرة أو للتغذية البطيئة جداً لدى الأطفال.",
+      "en": "Syringe Pump – used for small doses or very slow feeding in pediatric patients."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تعمل مضخة التغذية عبر أربع مراحل: التحضير حيث يُملأ كيس التغذية بالمحلول الغذائي ويُوصل بطقم التغذية (بلاستيك معقم) ثم بأنبوب المريض، ثم البرمجة حيث يُحدد على الجهاز معدل التدفق (مل/ساعة) والجرعة الكلية وفترة التغذية (قد تكون متصلة أو وجبات متقطعة)، ثم آلية الضخ حيث تدور دوّارات على أنبوب مطاطي مرن في المضخة التمعجية مما يدفع السائل للأمام دون ملامسة أجزاء الجهاز للغذاء مباشرة (تجنب التلوث)، ثم المراقبة حيث تراقب المستشعرات وجود انسداد في الأنبوب أو فقاعات هواء أو نفاد الغذاء من الكيس وتطلق إنذاراً للحماية. توفر مضخات التغذية الحديثة إمكانية التسخين المسبق للغذاء إلى درجة حرارة الغرفة (لتجنب المغص) وتذكر بيانات الجرعة المتراكمة وتعمل ببطاريات تدوم لساعات لضمان استمرارية التغذية أثناء التنقل.",
+    "en": "The feeding pump operates through four stages: preparation where the feeding bag is filled with the nutritional solution and connected to the feeding set (sterile plastic) then to the patient's tube, then programming where the flow rate (ml/hr), total dose, and feeding duration (continuous or bolus) are set on the device, then pumping mechanism where in a peristaltic pump rollers rotate over a flexible rubber tube pushing the fluid forward without any pump parts contacting the food directly (preventing contamination), then monitoring where sensors monitor for tube occlusion, air bubbles, or depletion of the feeding bag, triggering alarms for safety. Modern feeding pumps offer pre-heating to room temperature (to prevent cramping), accumulated dose data recording, and batteries lasting hours to ensure feeding continuity during patient transport."
+  },
+  "workingSteps": [
+    {
+      "ar": "التحضير: يُملأ كيس التغذية بالمحلول الغذائي، ويُوصل بطقم التغذية (بلاستيك معقم) ثم بأنبوب المريض.",
+      "en": "Preparation: the feeding bag is filled with the nutritional solution and connected to the feeding set (sterile plastic) then to the patient's tube."
+    },
+    {
+      "ar": "البرمجة: يُحدد على الجهاز معدل التدفق (مل/ساعة)، والجرعة الكلية، وفترة التغذية (قد تكون متصلة أو وجبات متقطعة).",
+      "en": "Programming: the flow rate (ml/hr), total dose, and feeding duration (continuous or bolus) are set on the device."
+    },
+    {
+      "ar": "آلية الضخ: في المضخة التمعجية، تدور دوّارات على أنبوب مطاطي مرن، مما يدفع السائل للأمام دون ملامسة أجزاء الجهاز للغذاء مباشرة (تجنب التلوث).",
+      "en": "Pumping Mechanism: in a peristaltic pump, rollers rotate over a flexible rubber tube, pushing the fluid forward without any pump parts contacting the food directly (preventing contamination)."
+    },
+    {
+      "ar": "المراقبة: تراقب المستشعرات وجود انسداد في الأنبوب، أو فقاعات هواء، أو نفاد الغذاء من الكيس، وتطلق إنذاراً للحماية.",
+      "en": "Monitoring: sensors monitor for tube occlusion, air bubbles, or depletion of the feeding bag, triggering alarms for safety."
+    }
+  ],
+  "highlight": {
+    "ar": "توفر مضخات التغذية الحديثة إمكانية التسخين المسبق للغذاء إلى درجة حرارة الغرفة (لتجنب المغص)، وتذكر بيانات الجرعة المتراكمة، وتعمل ببطاريات تدوم لساعات لضمان استمرارية التغذية أثناء التنقل.",
+    "en": "Modern feeding pumps offer pre-heating to room temperature (to prevent cramping), accumulated dose data recording, and batteries lasting hours to ensure feeding continuity during patient transport."
+  },
+  "components": [
+    {
+      "ar": "محرك كهربائي مع دوّارات (Rotor)",
+      "en": "Electric motor with rotors"
+    },
+    {
+      "ar": "مستشعر تدفق (Flow Sensor)",
+      "en": "Flow sensor"
+    },
+    {
+      "ar": "مستشعر انسداد وضغط",
+      "en": "Occlusion and pressure sensor"
+    },
+    {
+      "ar": "مستشعر فقاعات هواء",
+      "en": "Air bubble sensor"
+    },
+    {
+      "ar": "عنصر تسخين (اختياري)",
+      "en": "Heating element (optional)"
+    },
+    {
+      "ar": "معالج دقيق وذاكرة برمجة",
+      "en": "Microprocessor and programming memory"
+    },
+    {
+      "ar": "شاشة عرض LCD/ملونة",
+      "en": "LCD/Color display screen"
+    },
+    {
+      "ar": "بطارية قابلة للشحن",
+      "en": "Rechargeable battery"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مضخة تغذية نموذجية (Kangaroo™ ePump أو Nutricia Flocare)",
+    "en": "Example: Typical feeding pump (Kangaroo™ ePump or Nutricia Flocare)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق معدل التدفق",
+        "en": "Flow rate range"
+      },
+      "value": {
+        "ar": "1 – 600 مل/ساعة (حسب الطراز)",
+        "en": "1 – 600 ml/hr (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الضخ",
+        "en": "Pumping accuracy"
+      },
+      "value": {
+        "ar": "± 5% (للمعدلات المنخفضة)، ± 10% (للمعدلات العالية)",
+        "en": "± 5% (low rates), ± 10% (high rates)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة كيس التغذية",
+        "en": "Feeding bag capacity"
+      },
+      "value": {
+        "ar": "500 مل، 1000 مل، 1500 مل",
+        "en": "500 ml, 1000 ml, 1500 ml"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام الإنذار",
+        "en": "Alarm system"
+      },
+      "value": {
+        "ar": "انسداد، نهاية المحلول، بطارية منخفضة، فقاعات هواء، خطأ في التركيب",
+        "en": "Occlusion, solution end, low battery, air bubbles, mounting error"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون (تدوم 8-24 ساعة حسب الاستخدام)",
+        "en": "Lithium-ion (lasts 8-24 hours depending on usage)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Screen"
+      },
+      "value": {
+        "ar": "شاشة رقمية مع إضاءة خلفية وواجهة سهلة",
+        "en": "Digital with backlight and user-friendly interface"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "مع أنابيب التغذية المعيارية (PVC، سيليكون)",
+        "en": "With standard feeding tubes (PVC, silicone)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد في أنبوب التغذية (إنذار ضغط عالٍ) نتيجة التكتلات الغذائية.",
+      "en": "Blockage in the feeding tube (high pressure alarm) due to formula clumping."
+    },
+    {
+      "ar": "وجود فقاعات هواء في الأنبوب أو الكيس (إنذار فقاعات).",
+      "en": "Air bubbles in the tube or bag (bubble alarm)."
+    },
+    {
+      "ar": "انخفاض شحن البطارية أو تلفها.",
+      "en": "Low battery charge or battery damage."
+    },
+    {
+      "ar": "عدم تثبيت مجموعة التغذية بشكل صحيح في أخدود المضخة.",
+      "en": "Feeding set not properly secured in the pump channel."
+    },
+    {
+      "ar": "برمجة خاطئة للمعدل أو الجرعة الكلية.",
+      "en": "Incorrect programming of rate or total dose."
+    },
+    {
+      "ar": "خلل في عنصر التسخين (إن وجد) مما يؤدي إلى تبريد الغذاء.",
+      "en": "Heating element malfunction (if present) leading to food cooling."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

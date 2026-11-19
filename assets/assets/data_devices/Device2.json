@@ -1,0 +1,241 @@
+{
+  "id": 77,
+  "name": {
+    "ar": "مراقبة المريض",
+    "en": "Patient Monitor"
+  },
+  "category": "emergency",
+  "icon": "heart-pulse",
+  "shortDescription": {
+    "ar": "جهاز إلكتروني طبي يعرض باستمرار العلامات الحيوية للمريض (معدل نبض القلب، ضغط الدم، تشبع الأكسجين، درجة الحرارة، التنفس) لمساعدة الطاقم الطبي على متابعة الحالة.",
+    "en": "A medical electronic device that continuously displays the patient's vital signs (heart rate, blood pressure, oxygen saturation, temperature, respiration) to assist medical staff in monitoring the patient's condition."
+  },
+  "images": [
+    "assets/image/Emergency/PatientMonitor/PatientMonitor1.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor2.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor3.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor4.webp"
+  ],
+  "description": {
+    "ar": "مراقبة المريض (Patient Monitor) هو جهاز إلكتروني طبي يعرض باستمرار العلامات الحيوية للمريض (معدل نبض القلب، ضغط الدم، تشبع الأكسجين، درجة الحرارة، التنفس) لمساعدة الطاقم الطبي على متابعة الحالة. يشمل استخداماته: العناية المركزة (ICU) للمراقبة الدقيقة اللحظية، غرفة الطوارئ للتقييم السريع، التخدير والإنعاش لمتابعة الاستجابة للعلاج، والنقل عبر موديلات محمولة مع بطارية داخلية.",
+    "en": "A patient monitor is a medical electronic device that continuously displays the patient's vital signs (heart rate, blood pressure, oxygen saturation, temperature, respiration) to assist medical staff in monitoring the patient's condition. Its uses include: Intensive Care Unit (ICU) for precise real-time monitoring, Emergency Room for rapid patient assessment, Anesthesia & Resuscitation for tracking response to treatment, and Transport via portable models with internal battery."
+  },
+  "uses": [
+    {
+      "ar": "العناية المركزة (ICU) – مراقبة دقيقة لحظية.",
+      "en": "Intensive Care Unit (ICU) – precise, real-time monitoring."
+    },
+    {
+      "ar": "غرفة الطوارئ – تقييم سريع للمريض.",
+      "en": "Emergency Room – rapid patient assessment."
+    },
+    {
+      "ar": "التخدير والإنعاش – متابعة الاستجابة للعلاج.",
+      "en": "Anesthesia & Resuscitation – tracking response to treatment."
+    },
+    {
+      "ar": "النقل – موديلات محمولة مع بطارية داخلية.",
+      "en": "Transport – portable models with internal battery."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز على أربع مراحل: الاستشعار حيث تلتقط الحساسات (أقطاب، كُمّ ضغط، مسبار أكسجين) الإشارات الحيوية، ثم التكبير والتصفية لتضخيم الإشارات وتصفية التشويش لاستخلاص البيانات الدقيقة، ثم المعالجة حيث يحسب معالج داخلي القيم (معدل النبض، ضغط الدم، SpO₂، إلخ)، وأخيراً العرض حيث تُظهر الشاشة الأرقام والموجات (ECG، التنفس) والإنذارات عند تجاوز الحدود.",
+    "en": "The device works in four stages: sensing where sensors (electrodes, blood pressure cuff, oxygen probe) capture vital signals, then amplification and filtering to amplify signals and filter noise for accurate data extraction, then processing where an internal processor calculates values (heart rate, blood pressure, SpO₂, etc.), and finally display where the screen shows numerical values, waveforms (ECG, respiration), and alarms when limits are exceeded."
+  },
+  "workingSteps": [
+    {
+      "ar": "الاستشعار: حساسات (أقطاب، كُمّ ضغط، مسبار أكسجين) تلتقط الإشارات الحيوية.",
+      "en": "Sensing: sensors (electrodes, blood pressure cuff, oxygen probe) capture vital signals."
+    },
+    {
+      "ar": "التكبير والتصفية: تضخيم الإشارات وتصفية التشويش لاستخلاص البيانات الدقيقة.",
+      "en": "Amplification & Filtering: signals are amplified and filtered to extract accurate data."
+    },
+    {
+      "ar": "المعالجة: معالج داخلي يحسب القيم (معدل النبض، ضغط الدم، SpO₂، إلخ).",
+      "en": "Processing: an internal processor calculates values (heart rate, blood pressure, SpO₂, etc.)."
+    },
+    {
+      "ar": "العرض: شاشة تُظهر الأرقام، الموجات (ECG، التنفس)، والإنذارات عند تجاوز الحدود.",
+      "en": "Display: the screen shows numerical values, waveforms (ECG, respiration), and alarms when limits are exceeded."
+    }
+  ],
+  "highlight": {
+    "ar": "بعض الأجهزة الحديثة تتصل بالشبكة وترسل البيانات إلى سجلات المريض الإلكترونية.",
+    "en": "Some modern devices connect to the network and transmit data to the patient's electronic medical records."
+  },
+  "components": [
+    {
+      "ar": "وحدة ECG",
+      "en": "ECG Unit"
+    },
+    {
+      "ar": "وحدة التنفس",
+      "en": "Respiration Unit"
+    },
+    {
+      "ar": "مقياس التأكسج (SpO₂)",
+      "en": "Pulse Oximeter (SpO₂)"
+    },
+    {
+      "ar": "وحدة ضغط الدم",
+      "en": "Blood Pressure Unit"
+    },
+    {
+      "ar": "قياس الحرارة",
+      "en": "Temperature Measurement"
+    },
+    {
+      "ar": "معالج / FPGA",
+      "en": "Processor / FPGA"
+    },
+    {
+      "ar": "دائرة معالجة الإشارات",
+      "en": "Signal Processing Circuit"
+    },
+    {
+      "ar": "بطارية احتياطية",
+      "en": "Backup Battery"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز مراقبة المريض القياسي (Philips IntelliVue MX450)",
+    "en": "Example: Standard patient monitor (Philips IntelliVue MX450)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "15 بوصة، دقة 1024x768، لمسية",
+        "en": "15-inch, resolution 1024x768, touchscreen"
+      }
+    },
+    {
+      "label": {
+        "ar": "العلامات المقاسة",
+        "en": "Measured Parameters"
+      },
+      "value": {
+        "ar": "ECG، التنفس، SpO₂، ضغط الدم (غير باضع)، درجة الحرارة",
+        "en": "ECG, Respiration, SpO₂, Non-invasive Blood Pressure, Temperature"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى ضغط الدم",
+        "en": "Blood Pressure Range"
+      },
+      "value": {
+        "ar": "0 – 300 ملم زئبق (دقة ±2 ملم زئبق)",
+        "en": "0 – 300 mmHg (accuracy ±2 mmHg)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى SpO₂",
+        "en": "SpO₂ Range"
+      },
+      "value": {
+        "ar": "0 – 100% (دقة ±2%)",
+        "en": "0 – 100% (accuracy ±2%)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى معدل النبض",
+        "en": "Heart Rate Range"
+      },
+      "value": {
+        "ar": "20 – 300 نبضة/دقيقة",
+        "en": "20 – 300 bpm"
+      }
+    },
+    {
+      "label": {
+        "ar": "التخزين",
+        "en": "Storage"
+      },
+      "value": {
+        "ar": "ذاكرة داخلية لـ 72 ساعة من البيانات",
+        "en": "Internal memory for 72 hours of data"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "Ethernet، Wi-Fi، Bluetooth، منافذ تسلسلية",
+        "en": "Ethernet, Wi-Fi, Bluetooth, serial ports"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انقطاع أو ضعف توصيل الأقطاب أو الحساسات.",
+      "en": "Poor or loose connection of electrodes or sensors."
+    },
+    {
+      "ar": "نفاد البطارية أو انقطاع التيار الكهربائي.",
+      "en": "Battery depletion or power outage."
+    },
+    {
+      "ar": "تشويش في الإشارة (حركة المريض، تداخل كهربائي).",
+      "en": "Signal interference (patient movement, electrical noise)."
+    },
+    {
+      "ar": "إنذارات كاذبة أو عدم استجابة للمنبهات.",
+      "en": "False alarms or unresponsive alerts."
+    },
+    {
+      "ar": "قياسات غير دقيقة للحرارة أو الضغط.",
+      "en": "Inaccurate temperature or pressure readings."
+    },
+    {
+      "ar": "شاشة سوداء أو تجميد النظام.",
+      "en": "Black screen or system freeze."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

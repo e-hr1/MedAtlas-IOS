@@ -1,0 +1,266 @@
+{
+  "id": 63,
+  "name": {
+    "ar": "جهاز تدفئة الأطفال بالأشعة",
+    "en": "Radiant Infant Warmer"
+  },
+  "category": "neonatal",
+  "icon": "baby",
+  "shortDescription": {
+    "ar": "جهاز تدفئة علوي يستخدم الأشعة تحت الحمراء لتوفير دفء فوري ومباشر للأطفال حديثي الولادة، خاصة في غرف العمليات والعناية المركزة، مع إتاحة وصول كامل للطاقم الطبي.",
+    "en": "An overhead heating device that uses infrared radiation to provide immediate, direct warmth to newborns, especially in operating rooms and intensive care units, while allowing full access for the medical team."
+  },
+  "images": [
+    "assets/image/Neonatal/Warmer/warmer1.webp",
+    "assets/image/Neonatal/Warmer/warmer2.webp"
+  ],
+  "description": {
+    "ar": "جهاز التدفئة الإشعاعية (Radiant Warmer) هو وحدة تدفئة مفتوحة تستخدم مصدر حرارة علوي (أشعة تحت حمراء) للحفاظ على درجة حرارة جسم الطفل. يُستخدم بشكل شائع في غرفة الولادة، غرف العمليات، وأقسام العناية المركزة لحديثي الولادة، حيث يوفر دفئاً سريعاً وفعالاً مع إمكانية الوصول الكامل للطفل لإجراء الإنعاش أو الإجراءات الطبية.",
+    "en": "The Radiant Warmer is an open heating unit that uses an overhead heat source (infrared) to maintain the infant's body temperature. It is commonly used in delivery rooms, operating rooms, and neonatal intensive care units, providing rapid and effective warmth with full access to the infant for resuscitation or medical procedures."
+  },
+  "uses": [
+    {
+      "ar": "التدفئة الفورية – توفير دفء سريع للطفل بعد الولادة لمنع انخفاض حرارة الجسم.",
+      "en": "Immediate heating – Provides rapid warmth to the infant after birth to prevent hypothermia."
+    },
+    {
+      "ar": "دعم الإنعاش – توفير بيئة دافئة أثناء إجراءات الإنعاش القلبي الرئوي للطفل.",
+      "en": "Resuscitation support – Provides a warm environment during infant cardiopulmonary resuscitation."
+    },
+    {
+      "ar": "العمليات الجراحية – الحفاظ على درجة حرارة الطفل أثناء العمليات البسيطة أو تركيب القسطرة.",
+      "en": "Surgical procedures – Maintains the infant's temperature during minor procedures or catheter placement."
+    },
+    {
+      "ar": "المراقبة المستمرة – تسمح بمراقبة العلامات الحيوية للطفل مع سهولة الوصول إليه.",
+      "en": "Continuous monitoring – Allows monitoring of the infant's vital signs with easy access."
+    },
+    {
+      "ar": "العلاج الضوئي المدمج – بعض الموديلات مزودة بوحدات علاج ضوئي لليرقان.",
+      "en": "Integrated phototherapy – Some models are equipped with phototherapy units for jaundice."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر إصدار أشعة تحت حمراء طويلة الموجة من عناصر التسخين وتوجيهها نحو سرير الطفل عبر عاكسات، مع قياس درجة حرارة جلد الطفل بواسطة حساس (ثيرمستور) يرسل البيانات لوحدة تحكم PID لضبط التسخين تلقائياً ضمن النطاق الآمن (36.5°C - 37.5°C)، وإطلاق إنذارات فورية عند أي انحراف.",
+    "en": "The system operates by emitting long-wave infrared radiation from heating elements directed toward the infant bed via reflectors, measuring the infant's skin temperature using a thermistor sensor that sends data to a PID control unit to automatically adjust heating within the safe range (36.5°C - 37.5°C), and triggering immediate alarms for any deviations."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الحرارة: تقوم عناصر التسخين (أنابيب الكوارتز أو السيراميك) بإصدار أشعة تحت حمراء طويلة الموجة.",
+      "en": "Heat generation: Heating elements (quartz or ceramic tubes) emit long-wave infrared radiation."
+    },
+    {
+      "ar": "التوجيه نحو الطفل: تُصمم العاكسات (الريفلكتر) لتوجيه الأشعة بشكل مركّز على سرير الطفل.",
+      "en": "Direction toward infant: Reflectors are designed to focus the radiation onto the infant bed."
+    },
+    {
+      "ar": "التحكم بدرجة الحرارة: حساس حراري (ثيرمستور) مثبت على جلد الطفل يقيس درجة الحرارة ويرسل البيانات لوحدة التحكم.",
+      "en": "Temperature control: A thermal sensor (thermistor) attached to the infant's skin measures temperature and sends data to the control unit."
+    },
+    {
+      "ar": "التغذية الراجعة: تقوم وحدة التحكم بضبط شدة التسخين تلقائياً للحفاظ على درجة حرارة جسم الطفل ضمن النطاق المحدد (36.5°C - 37.5°C).",
+      "en": "Feedback: The control unit automatically adjusts heating intensity to maintain the infant's body temperature within the set range (36.5°C - 37.5°C)."
+    },
+    {
+      "ar": "الإنذار: نظام إنذار فوري في حال ارتفاع أو انخفاض درجة الحرارة عن الحدود الآمنة، أو في حال فشل الحساس.",
+      "en": "Alarm: An immediate alarm system activates in case of high or low temperature beyond safe limits, or sensor failure."
+    }
+  ],
+  "highlight": {
+    "ar": "وضع التشغيل اليدوي يسمح للطبيب بتثبيت مستوى التسخين، بينما الوضع التلقائي يعتمد على قراءات حساس الجلد.",
+    "en": "Manual mode allows the physician to set the heating level, while automatic mode relies on skin sensor readings."
+  },
+  "components": [
+    {
+      "ar": "عناصر تسخين بالأشعة تحت الحمراء",
+      "en": "Infrared heating elements"
+    },
+    {
+      "ar": "عاكسات (Reflectors) لتوجيه الحرارة",
+      "en": "Reflectors for heat direction"
+    },
+    {
+      "ar": "حساس جلدي لدرجة الحرارة (Skin Sensor)",
+      "en": "Skin temperature sensor"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية (PID Controller)",
+      "en": "Electronic control unit (PID Controller)"
+    },
+    {
+      "ar": "شاشة عرض رقمية للقراءات والإعدادات",
+      "en": "Digital display for readings and settings"
+    },
+    {
+      "ar": "نظام إنذار صوتي وبصري",
+      "en": "Audible and visual alarm system"
+    },
+    {
+      "ar": "سرير أطفال قابل للتعديل (مائل أو مسطح)",
+      "en": "Adjustable infant bed (tiltable or flat)"
+    },
+    {
+      "ar": "حامل أدوات وقسطرة جانبي",
+      "en": "Side instrument and catheter holder"
+    },
+    {
+      "ar": "بطارية احتياطية لمدة 60 دقيقة",
+      "en": "Backup battery for 60 minutes"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز تدفئة حديث (Draeger Babytherm 8004 أو GE Panda)",
+    "en": "Example: Specifications for a modern warmer (Draeger Babytherm 8004 or GE Panda)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مصدر الحرارة",
+        "en": "Heat source"
+      },
+      "value": {
+        "ar": "أشعة تحت حمراء، أنابيب كوارتز مزدوجة",
+        "en": "Infrared, dual quartz tubes"
+      }
+    },
+    {
+      "label": {
+        "ar": "قدرة التسخين",
+        "en": "Heating power"
+      },
+      "value": {
+        "ar": "600 – 1000 واط",
+        "en": "600 – 1000 Watts"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "قابل للتعديل من 35°C إلى 38°C",
+        "en": "Adjustable from 35°C to 38°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة حساس الجلد",
+        "en": "Skin sensor accuracy"
+      },
+      "value": {
+        "ar": "±0.2°C",
+        "en": "±0.2°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "وضعيات التشغيل",
+        "en": "Operating modes"
+      },
+      "value": {
+        "ar": "تلقائي (بالحساس) / يدوي / وضع الطوارئ",
+        "en": "Automatic (sensor-based) / Manual / Emergency mode"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الإضاءة",
+        "en": "Lighting level"
+      },
+      "value": {
+        "ar": "مصابيح LED لإضاءة منطقة الطفل (قابلة للتعتيم)",
+        "en": "LED lights for infant area illumination (dimmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الارتفاع القابل للتعديل",
+        "en": "Adjustable height"
+      },
+      "value": {
+        "ar": "75 – 100 سم (قاعدة هيدروليكية)",
+        "en": "75 – 100 cm (hydraulic base)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "≈ 65 – 85 كجم",
+        "en": "≈ 65 – 85 kg"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف حساس الجلد يؤدي إلى قراءات خاطئة وتقلبات في درجة الحرارة.",
+      "en": "Skin sensor failure leading to incorrect readings and temperature fluctuations."
+    },
+    {
+      "ar": "احتراق عناصر التسخين أو انقطاع أحد الأنابيب يؤدي لضعف التدفئة.",
+      "en": "Burned-out heating elements or broken tubes causing weak heating."
+    },
+    {
+      "ar": "إنذارات كاذبة متكررة بسبب خلل في برمجيات المعالج أو ضوضاء كهربائية.",
+      "en": "Frequent false alarms due to processor software glitches or electrical noise."
+    },
+    {
+      "ar": "تلف العاكسات (الريفلكتر) يؤدي إلى تشتت الحرارة وعدم تركيزها على الطفل.",
+      "en": "Damaged reflectors causing heat dispersion and loss of focus on the infant."
+    },
+    {
+      "ar": "عطل في الشاشة أو عدم استجابة أزرار التحكم بسبب مشكلة في اللوحة الأم.",
+      "en": "Display failure or unresponsive control buttons due to motherboard issues."
+    },
+    {
+      "ar": "فشل البطارية الاحتياطية عند انقطاع التيار الكهربائي الرئيسي.",
+      "en": "Backup battery failure during main power outage."
+    },
+    {
+      "ar": "مشكلات في كابل الطاقة أو مأخذ التيار تسبب انقطاع التشغيل المفاجئ.",
+      "en": "Power cable or socket issues causing sudden shutdown."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

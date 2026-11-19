@@ -1,0 +1,260 @@
+{
+  "id": 29,
+  "name": {
+    "ar": "جهاز CPAP",
+    "en": "CPAP Machine"
+  },
+  "category": "respiratory",
+  "icon": "wind",
+  "shortDescription": {
+    "ar": "جهاز علاجي لتوفير ضغط هواء إيجابي مستمر للمجاري التنفسية، يستخدم بشكل رئيسي لعلاج انقطاع التنفس أثناء النوم",
+    "en": "A therapeutic device that provides continuous positive airway pressure, primarily used to treat sleep apnea"
+  },
+  "images": [
+    "assets/image/Respiratory/CPAP/CPAP1.webp",
+    "assets/image/Respiratory/CPAP/CPAP2.webp",
+    "assets/image/Respiratory/CPAP/CPAP3.webp",
+    "assets/image/Respiratory/CPAP/CPAP4.webp"
+  ],
+  "description": {
+    "ar": "جهاز CPAP (Continuous Positive Airway Pressure) هو جهاز طبي يستخدم لعلاج انقطاع التنفس الانسدادي أثناء النوم (OSA) وأمراض الجهاز التنفسي الأخرى. يقوم الجهاز بتوصيل تدفق هواء مستمر بضغط إيجابي عبر قناع أنفي أو فموي، مما يحافظ على فتح المجرى التنفسي أثناء النوم.",
+    "en": "A CPAP (Continuous Positive Airway Pressure) machine is a medical device used to treat obstructive sleep apnea (OSA) and other respiratory conditions. The device delivers a continuous flow of positive pressure air through a nasal or facial mask, keeping the airway open during sleep."
+  },
+  "uses": [
+    {
+      "ar": "علاج انقطاع التنفس أثناء النوم: الحفاظ على مجرى الهواء مفتوحاً لمنع توقف التنفس المتكرر أثناء النوم.",
+      "en": "Sleep Apnea Treatment: Keeps the airway open to prevent repeated breathing pauses during sleep."
+    },
+    {
+      "ar": "متلازمة نقص التهوية: تحسين التهوية الرئوية لدى المرضى الذين يعانون من ضعف في عضلات التنفس.",
+      "en": "Hypoventilation Syndrome: Improves pulmonary ventilation in patients with weak respiratory muscles."
+    },
+    {
+      "ar": "فشل التنفس المزمن: دعم المرضى الذين يعانون من أمراض رئوية مزمنة مثل COPD.",
+      "en": "Chronic Respiratory Failure: Supports patients with chronic lung diseases such as COPD."
+    },
+    {
+      "ar": "الاستخدام المنزلي: معظم أجهزة CPAP مصممة للاستخدام المنزلي المريح، مع واجهات سهلة الاستخدام.",
+      "en": "Home Use: Most CPAP devices are designed for comfortable home use with user-friendly interfaces."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يقوم محرك صامت بسحب الهواء المحيط عبر فلتر لتنقيته، ثم تقوم المروحة الداخلية بضغط الهواء إلى مستوى محدد مسبقاً وتوصيله عبر أنبوب مرن وقناع للمريض، مع مراقبة المستشعرات للضغط ووجود مرطب حراري لترطيب الهواء.",
+    "en": "A quiet motor draws ambient air through a filter to purify it, and the internal fan compresses the air to a preset level, delivering it via a flexible tube and mask to the patient, with sensors monitoring pressure and a heated humidifier for air moisture."
+  },
+  "workingSteps": [
+    {
+      "ar": "سحب الهواء: يقوم محرك صامت بسحب الهواء المحيط عبر فلتر لتنقية الهواء من الغبار والجسيمات.",
+      "en": "Air Intake: A quiet motor draws ambient air through a filter to purify it from dust and particles."
+    },
+    {
+      "ar": "ضغط الهواء: يقوم المروحة الداخلية بضغط الهواء إلى مستوى محدد مسبقاً (يتراوح عادةً بين 4-20 سم ماء).",
+      "en": "Air Pressurization: The internal fan compresses the air to a preset level (typically ranging between 4-20 cm H₂O)."
+    },
+    {
+      "ar": "التوصيل: ينتقل الهواء المضغوط عبر أنبوب مرن إلى القناع الذي يرتديه المريض على الأنف أو الفم.",
+      "en": "Delivery: The pressurized air travels through a flexible tube to the mask worn by the patient over the nose or mouth."
+    },
+    {
+      "ar": "التنظيم والترطيب: تعمل المستشعرات المدمجة على مراقبة ضغط الهواء وتعديل سرعة المروحة، بينما يقوم المرطب الحراري بتسخين وترطيب الهواء.",
+      "en": "Regulation & Humidification: Sensors monitor air pressure and adjust fan speed, while a heated humidifier warms and moistens the air."
+    }
+  ],
+  "highlight": {
+    "ar": "بعض الأجهزة المتطورة (مثل Auto-CPAP) تقوم بضبط الضغط تلقائياً بناءً على احتياجات المريض أثناء النوم.",
+    "en": "Some advanced devices (such as Auto-CPAP) automatically adjust pressure based on the patient's needs during sleep."
+  },
+  "components": [
+    {
+      "ar": "فلتر هواء قابل للاستبدال",
+      "en": "Replaceable Air Filter"
+    },
+    {
+      "ar": "مروحة ضغط (بلور أو توربيني)",
+      "en": "Pressure Fan (Blower or Turbine)"
+    },
+    {
+      "ar": "وحدة معالجة وتحكم",
+      "en": "Processing and Control Unit"
+    },
+    {
+      "ar": "مستشعرات ضغط وتدفق",
+      "en": "Pressure and Flow Sensors"
+    },
+    {
+      "ar": "شاشة عرض (LCD أو LED)",
+      "en": "Display Screen (LCD or LED)"
+    },
+    {
+      "ar": "خزان مرطب حراري",
+      "en": "Heated Humidifier Chamber"
+    },
+    {
+      "ar": "أنبوب تنفس مرن",
+      "en": "Flexible Breathing Tube"
+    },
+    {
+      "ar": "قناع (أنفي، فموي، أو كامل)",
+      "en": "Mask (Nasal, Oral, or Full Face)"
+    },
+    {
+      "ar": "وحدة اتصال (Bluetooth/Wi-Fi لتتبع البيانات)",
+      "en": "Communication Module (Bluetooth/Wi-Fi for data tracking)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز CPAP نموذجي (ResMed AirSense 10 أو Philips DreamStation)",
+    "en": "Example: Typical CPAP device (ResMed AirSense 10 or Philips DreamStation)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق الضغط",
+        "en": "Pressure Range"
+      },
+      "value": {
+        "ar": "4 – 20 سم ماء",
+        "en": "4 – 20 cm H₂O"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise Level"
+      },
+      "value": {
+        "ar": "≈ 26 ديسيبل (تشغيل هادئ)",
+        "en": "≈ 26 dB (quiet operation)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة خزان المرطب",
+        "en": "Humidifier Chamber Capacity"
+      },
+      "value": {
+        "ar": "300 – 380 مل",
+        "en": "300 – 380 ml"
+      }
+    },
+    {
+      "label": {
+        "ar": "تقنية التعديل",
+        "en": "Adjustment Technology"
+      },
+      "value": {
+        "ar": "ثابت الضغط أو تلقائي (Auto-CPAP)",
+        "en": "Fixed Pressure or Auto (Auto-CPAP)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزة البدء التدريجي",
+        "en": "Ramp Feature"
+      },
+      "value": {
+        "ar": "زيادة الضغط تدريجياً حتى النوم",
+        "en": "Gradual pressure increase until sleep onset"
+      }
+    },
+    {
+      "label": {
+        "ar": "تقنية تخفيف الزفير",
+        "en": "Exhalation Relief Technology"
+      },
+      "value": {
+        "ar": "EPR أو A-Flex (تقليل الضغط أثناء الزفير)",
+        "en": "EPR or A-Flex (pressure reduction during exhalation)"
+      }
+    },
+    {
+      "label": {
+        "ar": "فلتر الهواء",
+        "en": "Air Filter"
+      },
+      "value": {
+        "ar": "فلتر هيبوالرجينيك أو قابل للغسل",
+        "en": "Hypoallergenic or washable filter"
+      }
+    },
+    {
+      "label": {
+        "ar": "اتصال البيانات",
+        "en": "Data Connectivity"
+      },
+      "value": {
+        "ar": "Bluetooth، Wi-Fi، أو بطاقة SD",
+        "en": "Bluetooth, Wi-Fi, or SD Card"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد الفلتر مما يقلل من تدفق الهواء ويؤثر على فعالية العلاج.",
+      "en": "Filter blockage reducing airflow and affecting treatment effectiveness."
+    },
+    {
+      "ar": "تسريب الهواء من القناع أو الأنبوب يسبب فقدان الضغط المطلوب.",
+      "en": "Air leakage from the mask or tube causing loss of required pressure."
+    },
+    {
+      "ar": "تراكم البكتيريا أو العفن في خزان المرطب بسبب عدم التنظيف المنتظم.",
+      "en": "Bacterial or mold buildup in the humidifier chamber due to lack of regular cleaning."
+    },
+    {
+      "ar": "تلف المروحة أو المحرك مما يسبب ضوضاء غير طبيعية أو انخفاض الضغط.",
+      "en": "Fan or motor damage causing unusual noise or pressure drop."
+    },
+    {
+      "ar": "ضعف البطارية الاحتياطية (في الأجهزة المزودة ببطارية).",
+      "en": "Weak backup battery (in devices equipped with a battery)."
+    },
+    {
+      "ar": "مشاكل في الاتصال اللاسلكي مما يمنع نقل بيانات العلاج.",
+      "en": "Wireless connectivity issues preventing treatment data transmission."
+    },
+    {
+      "ar": "إعدادات ضغط غير صحيحة تؤدي إلى عدم فعالية العلاج.",
+      "en": "Incorrect pressure settings leading to ineffective treatment."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

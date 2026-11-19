@@ -1,0 +1,296 @@
+{
+  "id": 41,
+  "name": {
+    "ar": "جهاز الماموغرافيا",
+    "en": "Mammography System"
+  },
+  "category": "radiology",
+  "icon": "tag",
+  "shortDescription": {
+    "ar": "نظام تصوير تشخيصي متخصص – يستخدم أشعة سينية منخفضة الجرعة للكشف المبكر عن سرطان الثدي وأمراضه",
+    "en": "Specialized Diagnostic Imaging System – Uses low-dose X-rays for early detection of breast cancer and breast diseases"
+  },
+  "images": [
+    "assets/image/Radiology/Mammography/Mammo1.webp",
+    "assets/image/Radiology/Mammography/Mammo2.webp",
+    "assets/image/Radiology/Mammography/Mammo3.webp",
+    "assets/image/Radiology/Mammography/Mammo4.webp"
+  ],
+  "description": {
+    "ar": "الماموغرافيا (تصوير الثدي الشعاعي) هي تقنية تصوير طبي متخصصة تستخدم أشعة سينية منخفضة الطاقة (حوالي 25-35 كيلوفولت) لفحص أنسجة الثدي. يُعد الجهاز الأداة الأساسية للكشف المبكر عن سرطان الثدي، حيث يمكنه اكتشاف الأورام والتكلسات الدقيقة قبل أن تكون محسوسة باليد، مما يزيد بشكل كبير من فرص العلاج الناجح.",
+    "en": "Mammography is a specialized medical imaging technique that uses low-energy X-rays (approximately 25-35 kV) to examine breast tissue. It is the primary tool for early detection of breast cancer, capable of detecting tumors and microcalcifications before they become palpable, significantly increasing the chances of successful treatment."
+  },
+  "uses": [
+    {
+      "ar": "الماموغرافيا التشخيصية (Diagnostic Mammography): تُجرى عند وجود أعراض مثل كتلة محسوسة، إفرازات حلمة، تغيرات جلدية، أو ألم موضعي لتقييم المنطقة المشبوهة بدقة.",
+      "en": "Diagnostic Mammography: Performed when symptoms are present, such as a palpable lump, nipple discharge, skin changes, or localized pain to evaluate suspicious areas."
+    },
+    {
+      "ar": "الماموغرافيا الفحصية (Screening Mammography): تُجرى بشكل دوري للنساء الأصحاء (عادة سنوياً بعد سن الأربعين) للكشف المبكر عن السرطان دون أعراض.",
+      "en": "Screening Mammography: Performed routinely for asymptomatic women (usually annually after age 40) for early detection."
+    },
+    {
+      "ar": "الماموغرافيا الرقمية (Digital Mammography - FFDM): تستخدم كواشف رقمية مسطحة بدلاً من الأفلام لجودة صورة أفضل ومعالجة رقمية.",
+      "en": "Digital Mammography (FFDM): Uses flat-panel digital detectors instead of film for better image quality and digital processing."
+    },
+    {
+      "ar": "التصوير الشعاعي للثدي بالتوموسينتيز (DBT): تقنية ثلاثية الأبعاد تلتقط صوراً من زوايا مختلفة لتقليل تداخل الأنسجة وزيادة دقة الكشف.",
+      "en": "Digital Breast Tomosynthesis (DBT): A 3D technique capturing multiple images from different angles to reduce tissue overlap and increase accuracy."
+    },
+    {
+      "ar": "الماموغرافيا مع التباين (CEM): تستخدم مادة تباين وريدية لتقييم تدفق الدم وتمييز الأورام الخبيثة عن الحميدة.",
+      "en": "Contrast-Enhanced Mammography (CEM): Uses intravenous contrast to assess blood flow and distinguish malignant from benign lesions."
+    },
+    {
+      "ar": "التصوير الموجه للخزعة (Stereotactic Biopsy): لتوجيه أخذ الخزعات بدقة من المناطق المشبوهة دون جراحة مفتوحة.",
+      "en": "Stereotactic Biopsy Guidance: Used to precisely guide biopsies of suspicious areas without open surgery."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يستخدم أنبوب أشعة سينية خاص بجهد منخفض وأنود موليبدينوم أو روديوم مع مرشحات لتوليد أشعة مثالية لتباين الثدي، بالتزامن مع ضغط الثدي برفق لتوزيع السمك وتثبيته، ثم التقاط الصور بالكواشف الرقمية وعرضها على حاسوب للتشخيص.",
+    "en": "Uses a specialized low-voltage X-ray tube with Mo/Rh anode and filters to generate optimal X-rays for breast tissue contrast, combined with gentle breast compression to unify thickness and immobilize tissue, captured by digital detectors and displayed for diagnosis."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الأشعة: ينتج أنبوب الماموغرافيا أشعة منخفضة الطاقة (25-35 kV) باستخدام أنود من الموليبدينوم أو الروديوم.",
+      "en": "X-Ray Generation: The mammography tube produces low-energy X-rays using a Molybdenum or Rhodium anode."
+    },
+    {
+      "ar": "الترشيح والضغط: تمر الأشعة عبر مرشحات لامتصاص الطاقة غير المرغوبة، بينما يضغط الثدي برفق لتوزيع السمك وتجنب الحركة وتداخل الأنسجة.",
+      "en": "Filtration and Compression: X-rays pass through filters while the breast is gently compressed to unify thickness, prevent motion, and separate tissues."
+    },
+    {
+      "ar": "التقاط الصورة: تعبر الأشعة الثدي لتصل إلى الكاشف (أفلام تقليدية أو كواشف رقمية مسطحة a-Se/a-Si) وتحولها لإشارات رقمية.",
+      "en": "Image Acquisition: X-rays pass through the breast to reach the detector (traditional films or digital flat panels a-Se/a-Si) converting them to digital signals."
+    },
+    {
+      "ar": "المعالجة والعرض: تُرسل الإشارات لحاسوب للمعالجة والعرض على شاشة عالية الدقة مع إمكانية التعديل، أو تقنية التوموسينتيز ثلاثية الأبعاد.",
+      "en": "Processing and Display: Signals are processed and displayed on high-resolution screens with adjustment tools or 3D tomosynthesis reconstruction."
+    }
+  ],
+  "highlight": {
+    "ar": "تعد الماموغرافيا حجر الأساس في الكشف المبكر عن سرطان الثدي وخفض معدلات الوفيات بنسبة تصل إلى 30-40%، مع دمج تقنيات الذكاء الاصطناعي والحفاظ على مبدأ ALARA.",
+    "en": "Mammography is the cornerstone of early breast cancer detection, reducing mortality by 30-40%, incorporating AI technologies while maintaining the ALARA principle."
+  },
+  "components": [
+    {
+      "ar": "أنبوب أشعة مخصص (موليبدينوم/روديوم)",
+      "en": "Specialized X-Ray Tube (Mo/Rh Anode)"
+    },
+    {
+      "ar": "نظام مرشحات متخصص (Mo/Rh/Al)",
+      "en": "Filter System (Mo/Rh/Al)"
+    },
+    {
+      "ar": "نظام ضغط الثدي (Compression Paddle)",
+      "en": "Breast Compression System (Compression Paddle)"
+    },
+    {
+      "ar": "كاشف رقمي مسطح (a-Se أو a-Si)",
+      "en": "Digital Flat-Panel Detector (a-Se or a-Si)"
+    },
+    {
+      "ar": "مولد الجهد العالي (دقيق للتطبيقات الماموغرافية)",
+      "en": "High-Voltage Generator (Precision for Mammography)"
+    },
+    {
+      "ar": "شبكة مكافحة التشتت (Anti-scatter Grid)",
+      "en": "Anti-scatter Grid"
+    },
+    {
+      "ar": "محطة عمل متخصصة ببرامج تحليل الثدي",
+      "en": "Specialized Workstation with Breast Analysis Software"
+    },
+    {
+      "ar": "نظام التوجيه للخزعة (Stereotactic Biopsy System)",
+      "en": "Stereotactic Biopsy Guidance System"
+    },
+    {
+      "ar": "نظام تخزين وإدارة الصور (PACS)",
+      "en": "Image Storage and Management System (PACS)"
+    },
+    {
+      "ar": "دروع واقية من الإشعاع",
+      "en": "Radiation Shields"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لجهاز ماموغرافيا رقمي حديث (FFDM مع DBT)",
+    "en": "Typical specifications for a modern digital mammography system (FFDM with DBT)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "جهد الأنبوب (kV)",
+        "en": "Tube Voltage (kV)"
+      },
+      "value": {
+        "ar": "22 – 35 kV (حسب سمك الثدي وكثافته)",
+        "en": "22 – 35 kV (depending on breast thickness and density)"
+      }
+    },
+    {
+      "label": {
+        "ar": "تيار الأنبوب (mA)",
+        "en": "Tube Current (mA)"
+      },
+      "value": {
+        "ar": "50 – 200 mA (نبضي قصير)",
+        "en": "50 – 200 mA (short pulse)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة الأنود",
+        "en": "Anode Material"
+      },
+      "value": {
+        "ar": "موليبدينوم (Mo) أو روديوم (Rh) أو تنجستن (W)",
+        "en": "Molybdenum (Mo), Rhodium (Rh), or Tungsten (W)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة المرشح",
+        "en": "Filter Material"
+      },
+      "value": {
+        "ar": "Mo، Rh، Ag، Al (حسب التركيبة)",
+        "en": "Mo, Rh, Ag, Al (depending on configuration)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الكاشف الرقمي",
+        "en": "Digital Detector Resolution"
+      },
+      "value": {
+        "ar": "50 – 85 ميكرومتر (بكسل)",
+        "en": "50 – 85 µm (pixel size)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الكاشف",
+        "en": "Detector Size"
+      },
+      "value": {
+        "ar": "24 × 30 سم أو أكبر",
+        "en": "24 × 30 cm or larger"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق الضغط (Compression Force)",
+        "en": "Compression Force Range"
+      },
+      "value": {
+        "ar": "10 – 20 كجم (قابل للضبط)",
+        "en": "10 – 20 kg (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية التوموسينتيز (DBT)",
+        "en": "Tomosynthesis Angle (DBT)"
+      },
+      "value": {
+        "ar": "15 – 50 درجة (حسب النظام)",
+        "en": "15 – 50 degrees (depending on system)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سمك الشريحة في DBT",
+        "en": "Slice Thickness in DBT"
+      },
+      "value": {
+        "ar": "1 مم",
+        "en": "1 mm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الجرعة الإشعاعية النموذجية",
+        "en": "Typical Radiation Dose"
+      },
+      "value": {
+        "ar": "1.2 – 2.5 mGy (AGD لكل صورة)",
+        "en": "1.2 – 2.5 mGy (AGD per view)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في مولد الجهد العالي يؤدي إلى جرعة غير دقيقة أو فقدان الأشعة.",
+      "en": "High-voltage generator malfunction causing inaccurate dose or loss of X-rays."
+    },
+    {
+      "ar": "خلل في نظام الضغط (عدم الوصول إلى القوة المطلوبة أو عدم الاستجابة).",
+      "en": "Compression system failure (not reaching required force or not responding)."
+    },
+    {
+      "ar": "تلف أو تلوث الكاشف الرقمي يسبب خطوطاً أو بقعاً في الصور.",
+      "en": "Digital detector damage or contamination causing lines or artifacts in images."
+    },
+    {
+      "ar": "تلف المرشحات أو نظام تبديلها يؤدي إلى تدهور جودة الصورة.",
+      "en": "Filter damage or switching mechanism failure leading to degraded image quality."
+    },
+    {
+      "ar": "انحراف أو تلف شبكة مكافحة التشتت يسبب فقدان التباين.",
+      "en": "Anti-scatter grid misalignment or damage causing loss of contrast."
+    },
+    {
+      "ar": "ظهور صورة مكررة أو عدم تطابق المعايرة (Calibration) اليومية.",
+      "en": "Ghost image or daily calibration mismatch."
+    },
+    {
+      "ar": "مشاكل في نظام التوجيه للخزعة (Stereotactic) تؤدي إلى عدم الدقة.",
+      "en": "Stereotactic guidance system problems causing inaccuracies."
+    },
+    {
+      "ar": "أعطال كهربائية أو انقطاع التيار أثناء التشغيل.",
+      "en": "Electrical faults or power interruptions during operation."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Click on the image to enlarge"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "التطبيقات السريرية الرئيسية:",
+      "en": "Main Clinical Applications:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

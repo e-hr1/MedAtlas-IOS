@@ -1,0 +1,264 @@
+{
+  "id": 34,
+  "name": {
+    "ar": "جهاز اختبار الإجهاد القلبي",
+    "en": "Cardiac Stress Test System"
+  },
+  "category": "cardiology",
+  "icon": "heartbeat",
+  "shortDescription": {
+    "ar": "نظام تشخيصي يستخدم لقياس استجابة القلب للجهد البدني، ويستخدم بشكل رئيسي لتقييم أمراض القلب التاجية وخطط إعادة التأهيل",
+    "en": "A diagnostic system used to measure the heart's response to physical exertion, primarily used to evaluate coronary artery disease and rehabilitation plans"
+  },
+  "images": [
+    "assets/image/Cardiology/StressTest/stress1.webp",
+    "assets/image/Cardiology/StressTest/stress2.webp",
+    "assets/image/Cardiology/StressTest/stress3.webp",
+    "assets/image/Cardiology/StressTest/stress4.webp"
+  ],
+  "description": {
+    "ar": "جهاز اختبار الإجهاد القلبي (Stress Test System) هو نظام تشخيصي متكامل يستخدم لتقييم أداء القلب والجهاز التنفسي أثناء النشاط البدني المتزايد. يتم إجراء الاختبار عادةً على جهاز المشي أو الدراجة الثابتة مع مراقبة مستمرة لتخطيط القلب وضغط الدم ومعدل الأكسجين.",
+    "en": "The Cardiac Stress Test System is an integrated diagnostic system used to evaluate heart and respiratory performance during increasing physical activity. The test is typically performed on a treadmill or stationary bicycle with continuous monitoring of ECG, blood pressure, and oxygen saturation."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص أمراض القلب التاجية: الكشف عن نقص التروية الناتج عن تضيق الشرايين التاجية أثناء الجهد.",
+      "en": "Diagnosing Coronary Artery Disease: Detecting ischemia caused by coronary artery narrowing during exertion."
+    },
+    {
+      "ar": "تقييم قدرة التحمل القلبي: قياس اللياقة القلبية التنفسية (VO2 max) للمرضى والرياضيين.",
+      "en": "Assessing Cardiac Endurance: Measuring cardiorespiratory fitness (VO2 max) for patients and athletes."
+    },
+    {
+      "ar": "تقييم نظم القلب: مراقبة عدم انتظام ضربات القلب التي تظهر أو تتفاقم مع الجهد.",
+      "en": "Evaluating Heart Rhythms: Monitoring arrhythmias that appear or worsen with exertion."
+    },
+    {
+      "ar": "إعادة التأهيل القلبي: تحديد مستوى الجهد الآمن للمرضى بعد العمليات الجراحية أو النوبات القلبية.",
+      "en": "Cardiac Rehabilitation: Determining safe exertion levels for patients post-surgery or after heart attacks."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يبدأ المريض بالمشي أو ركوب الدراجة على جهاز بجهد متزايد تدريجياً وفق بروتوكول محدد، بينما يسجل الجهاز بانتظام تخطيط القلب والضغط والأكسجين لتقييم أداء القلب والكشف عن أي علامات نقص تروية أو اضطرابات نظم.",
+    "en": "The patient exercises on a treadmill or bicycle with gradually increasing workload according to protocol, while the system continuously records ECG, blood pressure, and oxygen to evaluate cardiac performance and detect ischemia or arrhythmias."
+  },
+  "workingSteps": [
+    {
+      "ar": "التحضير: يتم تركيب أقطاب تخطيط القلب (ECG) على صدر المريض، ويتم قياس ضغط الدم أثناء الراحة.",
+      "en": "Preparation: ECG electrodes are placed on the patient's chest, and resting blood pressure is measured."
+    },
+    {
+      "ar": "مرحلة الإحماء: يبدأ المريض بالمشي أو ركوب الدراجة بسرعة منخفضة ومقاومة قليلة.",
+      "en": "Warm-up Phase: The patient begins walking or cycling at a low speed and low resistance."
+    },
+    {
+      "ar": "زيادة الجهد: يتم زيادة السرعة والميل (أو المقاومة) تدريجياً على مراحل (كل 2-3 دقائق) وفق بروتوكول محدد (مثل Bruce أو Modified Bruce).",
+      "en": "Increasing Intensity: Speed and incline (or resistance) are gradually increased in stages (every 2-3 minutes) according to a specific protocol (e.g., Bruce or Modified Bruce)."
+    },
+    {
+      "ar": "المراقبة المستمرة: يتم تسجيل تخطيط القلب وضغط الدم ومعدل التنفس والأكسجين بشكل مستمر طوال الاختبار.",
+      "en": "Continuous Monitoring: ECG, blood pressure, respiratory rate, and oxygen levels are continuously recorded throughout the test."
+    },
+    {
+      "ar": "مرحلة التعافي: بعد الوصول إلى الهدف، يتباطأ المريض تدريجياً مع استمرار المراقبة حتى تعود المؤشرات إلى وضعها الطبيعي.",
+      "en": "Recovery Phase: After reaching the target, the patient gradually slows down while monitoring continues until vital signs return to baseline."
+    }
+  ],
+  "highlight": {
+    "ar": "يتم تقييم نتائج الاختبار من خلال تحليل تغيرات الموجة T، انخفاض أو ارتفاع المقطع ST، وظهور أعراض مثل ألم الصدر أو ضيق التنفس.",
+    "en": "Test results are evaluated by analyzing T-wave changes, ST-segment depression or elevation, and the appearance of symptoms such as chest pain or shortness of breath."
+  },
+  "components": [
+    {
+      "ar": "جهاز المشي (محرك كهربائي بميل متغير)",
+      "en": "Treadmill (Electric motor with variable incline)"
+    },
+    {
+      "ar": "وحدة تخطيط قلب (ECG) متعددة الأقطاب",
+      "en": "Multi-lead ECG unit"
+    },
+    {
+      "ar": "مستشعرات ضغط الدم الأوتوماتيكية",
+      "en": "Automatic blood pressure sensors"
+    },
+    {
+      "ar": "مقياس تأكسج النبض (SpO2)",
+      "en": "Pulse oximeter (SpO2)"
+    },
+    {
+      "ar": "محلل غازات التنفس (VO2/VCO2) في الأنظمة المتطورة",
+      "en": "Respiratory gas analyzer (VO2/VCO2) in advanced systems"
+    },
+    {
+      "ar": "شاشة عرض كبيرة وتحكم باللمس",
+      "en": "Large display screen with touch control"
+    },
+    {
+      "ar": "طابعة تقارير فورية",
+      "en": "Instant report printer"
+    },
+    {
+      "ar": "نظام إيقاف طارئ وأزرار أمان",
+      "en": "Emergency stop system and safety buttons"
+    },
+    {
+      "ar": "نقل البيانات إلى أنظمة إدارة المرضى (PACS/EMR)",
+      "en": "Data transfer to PACS/EMR systems"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: نظام اختبار إجهاد GE Case أو Schiller AT-104",
+    "en": "Example: GE Case or Schiller AT-104 Stress Testing System"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "بروتوكولات الجهد",
+        "en": "Exercise Protocols"
+      },
+      "value": {
+        "ar": "Bruce، Modified Bruce، Naughton، وغيرها",
+        "en": "Bruce, Modified Bruce, Naughton, and others"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق سرعة المشي",
+        "en": "Treadmill Speed Range"
+      },
+      "value": {
+        "ar": "0.5 – 20 كم/ساعة",
+        "en": "0.5 – 20 km/h"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق الميل",
+        "en": "Incline Range"
+      },
+      "value": {
+        "ar": "0% – 25% (تدرج 0.5%)",
+        "en": "0% – 25% (0.5% increments)"
+      }
+    },
+    {
+      "label": {
+        "ar": "قنوات تخطيط القلب",
+        "en": "ECG Channels"
+      },
+      "value": {
+        "ar": "12 قناة (قياسية) أو 15 قناة",
+        "en": "12-lead (standard) or 15-lead"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة ضغط الدم",
+        "en": "Blood Pressure Accuracy"
+      },
+      "value": {
+        "ar": "±3 مم زئبق",
+        "en": "±3 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "مراقبة SpO2",
+        "en": "SpO2 Monitoring"
+      },
+      "value": {
+        "ar": "نطاق 50% – 100%، دقة ±2%",
+        "en": "Range 50% – 100%, Accuracy ±2%"
+      }
+    },
+    {
+      "label": {
+        "ar": "تخزين البيانات",
+        "en": "Data Storage"
+      },
+      "value": {
+        "ar": "تخزين داخلي + تصدير بصيغ PDF/XML",
+        "en": "Internal storage + Export to PDF/XML formats"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزات الأمان",
+        "en": "Safety Features"
+      },
+      "value": {
+        "ar": "مراقبة مستمرة للST، إيقاف تلقائي عند الحدود الخطرة، زر إيقاف طارئ",
+        "en": "Continuous ST monitoring, automatic stop at critical limits, emergency stop button"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "خلل في أقطاب تخطيط القلب يؤدي إلى إشارات مشوشة أو غير مستقرة.",
+      "en": "Faulty ECG electrodes causing noisy or unstable signals."
+    },
+    {
+      "ar": "خطأ في قياس ضغط الدم بسبب وضع الكفة الخاطئ أو خلل في المضخة.",
+      "en": "Blood pressure measurement errors due to incorrect cuff placement or pump malfunction."
+    },
+    {
+      "ar": "مشكلة في محرك جهاز المشي مثل اهتزازات أو توقف مفاجئ.",
+      "en": "Treadmill motor issues such as vibrations or sudden stops."
+    },
+    {
+      "ar": "فقدان المعايرة لمستشعرات الأكسجين أو غازات التنفس.",
+      "en": "Loss of calibration for oxygen or respiratory gas sensors."
+    },
+    {
+      "ar": "مشاكل في طباعة التقارير أو حفظ البيانات نتيجة عطل في البرمجيات أو الذاكرة.",
+      "en": "Report printing or data saving problems due to software or memory faults."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي أو مشاكل في نظام إمداد الطاقة أثناء الاختبار.",
+      "en": "Power outages or issues with the power supply system during testing."
+    },
+    {
+      "ar": "ضعف الاتصال بالشبكة يؤدي إلى عدم نقل البيانات إلى نظام السجلات الطبية.",
+      "en": "Weak network connectivity preventing data transfer to medical records systems."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,278 @@
+{
+  "id": 60,
+  "name": {
+    "ar": "جهاز الطرد المركزي للدم",
+    "en": "Blood Centrifuge"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري يستخدم قوة الطرد المركزي لفصل مكونات الدم (البلازما، كريات الدم الحمراء، والصفائح) للتحليل والتشخيص",
+    "en": "Laboratory device that uses centrifugal force to separate blood components (plasma, red blood cells, and platelets) for analysis and diagnosis"
+  },
+  "images": [
+    "assets/image/Laboratory/Blood_Centrifuge/Blood_Centrifuge1.webp",
+    "assets/image/Laboratory/Blood_Centrifuge/Blood_Centrifuge2.webp",
+    "assets/image/Laboratory/Blood_Centrifuge/Blood_Centrifuge3.webp",
+    "assets/image/Laboratory/Blood_Centrifuge/Blood_Centrifuge4.webp"
+  ],
+  "description": {
+    "ar": "جهاز طرد مركزي متخصص يُستخدم في المختبرات الطبية وبنوك الدم لفصل مكونات الدم المختلفة بناءً على كثافتها. يعمل الجهاز بتدوير العينات بسرعات عالية جداً (تصل إلى 4000-5000 دورة/دقيقة) لتوليد قوة طرد مركزي تفصل بين البلازما، وكريات الدم الحمراء، والصفائح الدموية، والكريات البيضاء، مما يسمح بتحليل كل مكون على حدة.",
+    "en": "A specialized centrifuge used in medical laboratories and blood banks to separate different blood components based on their density. The device spins samples at very high speeds (up to 4000-5000 RPM) to generate centrifugal force that separates plasma, red blood cells, platelets, and white blood cells, allowing each component to be analyzed separately."
+  },
+  "uses": [
+    {
+      "ar": "فصل البلازما والمصل – فصل البلازما عن كريات الدم الحمراء لإجراء الفحوصات الكيميائية والهرمونية والمناعية.",
+      "en": "Plasma and serum separation – Separating plasma from red blood cells for chemical, hormonal, and immunological tests."
+    },
+    {
+      "ar": "تحضير الصفائح الدموية – فصل الصفائح الدموية من البلازما الغنية بالصفائح (PRP) للاستخدامات العلاجية.",
+      "en": "Platelet preparation – Separating platelets from platelet-rich plasma (PRP) for therapeutic applications."
+    },
+    {
+      "ar": "فصل كريات الدم البيضاء – عزل كريات الدم البيضاء للفحوصات المناعية والوراثية.",
+      "en": "White blood cell separation – Isolating white blood cells for immunological and genetic tests."
+    },
+    {
+      "ar": "تحضير عينات غسل كريات الدم الحمراء – في بنوك الدم لتحضير كريات الدم الحمراء المغسولة للمرضى ذوي الحساسية.",
+      "en": "Washed red blood cell preparation – In blood banks for preparing washed red blood cells for patients with sensitivities."
+    },
+    {
+      "ar": "فحوصات التخثر – تحضير البلازما الفقيرة بالصفائح (PPP) لاختبارات زمن البروثرومبين (PT) وزمن التجلط الجزئي (APTT).",
+      "en": "Coagulation tests – Preparing platelet-poor plasma (PPP) for Prothrombin Time (PT) and Partial Thromboplastin Time (APTT) tests."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر وضع أنابيب الدم في حوامل متوازنة (Rotors)، ثم تدوير المحرك الكهربائي بسرعة عالية (تصل إلى 4000-5000 دورة/دقيقة) لتوليد قوة طرد مركزي تفصل المكونات حسب الكثافة (ترسب الأثقل ككريات الدم الحمراء في القاع، وطفو الأخف كالبلازما في الأعلى)، مع التحكم في الوقت والسرعة، ثم التوقف التدريجي لمنع إعادة خلط المكونات.",
+    "en": "The system operates by placing blood tubes in balanced rotors, spinning the motor at high speeds (up to 4000-5000 RPM) to generate centrifugal force that separates components by density (heavier RBCs sedimenting at the bottom, lighter plasma floating on top), controlled by time and speed, and stopping gradually to prevent remixing."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير العينات: تُوضع أنابيب الدم في حوامل خاصة (Rotors) داخل الجهاز، مع التأكد من توزانها (Balancing) لمنع الاهتزازات.",
+      "en": "Sample preparation: Blood tubes are placed in special holders (Rotors) inside the device, ensuring they are balanced to prevent vibrations."
+    },
+    {
+      "ar": "التشغيل: يُشغل المحرك الكهربائي ليدور الدوار بسرعة عالية (تصل إلى 4000-5000 دورة/دقيقة)، مما يولد قوة طرد مركزي تصل إلى 3000-5000 × جاذبية (g).",
+      "en": "Operation: The electric motor spins the rotor at high speed (up to 4000-5000 RPM), generating centrifugal force up to 3000-5000 × gravity (g)."
+    },
+    {
+      "ar": "الفصل: بفعل قوة الطرد المركزي، تترسب المكونات الأثقل (كريات الدم الحمراء) في قاع الأنبوب، بينما تطفو المكونات الأخف (البلازما) في الأعلى، وتتوسط الصفائح والكريات البيضاء في الطبقة الوسطى (Buffy Coat).",
+      "en": "Separation: Due to centrifugal force, heavier components (red blood cells) sediment at the bottom of the tube, while lighter components (plasma) float on top, with platelets and white blood cells forming the middle layer (Buffy Coat)."
+    },
+    {
+      "ar": "التحكم بالوقت والسرعة: تُبرمج سرعة الدوران (RPM) والوقت حسب نوع العينة والفحص المطلوب. تتراوح أوقات الطرد بين 5-15 دقيقة.",
+      "en": "Speed and time control: Rotation speed (RPM) and time are programmed according to sample type and required test. Centrifugation times range from 5-15 minutes."
+    },
+    {
+      "ar": "التوقف: يتوقف الجهاز تدريجياً (باستخدام نظام كبح) لتجنب إعادة خلط المكونات المنفصلة.",
+      "en": "Stopping: The device stops gradually (using a braking system) to prevent remixing of separated components."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بشاشات رقمية لبرمجة السرعة والوقت، مع أنظمة توازن إلكتروني تمنع التشغيل في حالة عدم توازن العينات، وأنظمة تبريد للحفاظ على درجة حرارة العينات (4-10 درجة مئوية) أثناء الطرد لمنع تلف المكونات الحساسة للحرارة.",
+    "en": "Modern devices feature digital displays for programming speed and time, with electronic balancing systems that prevent operation in case of sample imbalance, and cooling systems to maintain sample temperature (4-10°C) during centrifugation to prevent damage to heat-sensitive components."
+  },
+  "components": [
+    {
+      "ar": "دوار (Rotor) لحمل الأنابيب",
+      "en": "Rotor for holding tubes"
+    },
+    {
+      "ar": "محرك كهربائي عالي السرعة",
+      "en": "High-speed electric motor"
+    },
+    {
+      "ar": "نظام تحكم في السرعة (RPM/RCF)",
+      "en": "Speed control system (RPM/RCF)"
+    },
+    {
+      "ar": "مؤقت زمني (Timer) قابل للبرمجة",
+      "en": "Programmable timer"
+    },
+    {
+      "ar": "نظام تبريد (للأجهزة المبردة)",
+      "en": "Cooling system (for refrigerated models)"
+    },
+    {
+      "ar": "نظام توازن إلكتروني (للأمان)",
+      "en": "Electronic balancing system (for safety)"
+    },
+    {
+      "ar": "شاشة رقمية (سرعة، زمن، درجة حرارة)",
+      "en": "Digital display (speed, time, temperature)"
+    },
+    {
+      "ar": "نظام إنذار (خلل أو انتهاء التشغيل)",
+      "en": "Alarm system (malfunction or completion)"
+    },
+    {
+      "ar": "طابعة مدمجة (اختياري)",
+      "en": "Built-in printer (optional)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز طرد مركزي للدم نموذجي (Hettich Rotofix 32A أو Eppendorf 5810)",
+    "en": "Example: Typical blood centrifuge (Hettich Rotofix 32A or Eppendorf 5810)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "السرعة القصوى",
+        "en": "Maximum speed"
+      },
+      "value": {
+        "ar": "4000 – 5000 دورة/دقيقة (RPM)",
+        "en": "4000 – 5000 RPM"
+      }
+    },
+    {
+      "label": {
+        "ar": "قوة الطرد المركزي القصوى",
+        "en": "Maximum centrifugal force"
+      },
+      "value": {
+        "ar": "3000 – 5000 × جاذبية (g)",
+        "en": "3000 – 5000 × g"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة العينات",
+        "en": "Sample capacity"
+      },
+      "value": {
+        "ar": "6 – 30 أنبوب (حسب الدوار)",
+        "en": "6 – 30 tubes (depending on rotor)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الأنبوب المدعوم",
+        "en": "Supported tube size"
+      },
+      "value": {
+        "ar": "3 – 15 مل (حسب الحامل)",
+        "en": "3 – 15 mL (depending on holder)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التشغيل",
+        "en": "Run time"
+      },
+      "value": {
+        "ar": "1 – 60 دقيقة (قابل للبرمجة)",
+        "en": "1 – 60 minutes (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى درجة الحرارة (للأجهزة المبردة)",
+        "en": "Temperature range (for refrigerated models)"
+      },
+      "value": {
+        "ar": "-20 إلى 40 درجة مئوية (قابل للبرمجة)",
+        "en": "-20 to 40°C (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التبريد (للأجهزة المبردة)",
+        "en": "Cooling system (for refrigerated models)"
+      },
+      "value": {
+        "ar": "ضاغط تبريد (Compressor)",
+        "en": "Refrigeration compressor"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise level"
+      },
+      "value": {
+        "ar": "≤ 65 ديسيبل",
+        "en": "≤ 65 dB"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LED أو LCD (سرعة، زمن، درجة حرارة)",
+        "en": "Digital LED or LCD (speed, time, temperature)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عدم توازن العينات يؤدي إلى اهتزاز شديد وتلف المحرك.",
+      "en": "Sample imbalance causing severe vibration and motor damage."
+    },
+    {
+      "ar": "عطل في المحرك الكهربائي يؤدي إلى عدم الدوران أو سرعة غير منتظمة.",
+      "en": "Motor failure leading to no rotation or irregular speed."
+    },
+    {
+      "ar": "خلل في نظام التحكم في السرعة (قراءة غير دقيقة للـ RPM).",
+      "en": "Speed control system malfunction (inaccurate RPM reading)."
+    },
+    {
+      "ar": "عطل في المؤقت الزمني (لا يتوقف أو يبدأ في الوقت المحدد).",
+      "en": "Timer malfunction (does not stop or start at the set time)."
+    },
+    {
+      "ar": "عطل في نظام التبريد (للأجهزة المبردة) يؤدي إلى ارتفاع حرارة العينات.",
+      "en": "Cooling system failure (for refrigerated models) causing sample overheating."
+    },
+    {
+      "ar": "تلف الدوار أو الحوامل نتيجة الاستخدام المكثف أو الصدمات.",
+      "en": "Damaged rotor or holders due to heavy use or impacts."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة خلل في حساسات النظام.",
+      "en": "False alarms due to sensor system malfunctions."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

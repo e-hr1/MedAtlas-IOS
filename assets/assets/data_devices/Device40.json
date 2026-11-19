@@ -1,0 +1,296 @@
+{
+  "id": 40,
+  "name": {
+    "ar": "جهاز التصوير بالرنين المغناطيسي",
+    "en": "MRI (Magnetic Resonance Imaging)"
+  },
+  "category": "radiology",
+  "icon": "magnet",
+  "shortDescription": {
+    "ar": "نظام تصوير تشخيصي متقدم – يستخدم المجالات المغناطيسية وموجات الراديو لإنتاج صور عالية التباين للأنسجة الرخوة",
+    "en": "Advanced Diagnostic Imaging System – Uses magnetic fields and radio waves to produce high-contrast images of soft tissues"
+  },
+  "images": [
+    "assets/image/Radiology/MRI/MRI1.webp",
+    "assets/image/Radiology/MRI/MRI2.webp",
+    "assets/image/Radiology/MRI/MRI3.webp",
+    "assets/image/Radiology/MRI/MRI4.webp"
+  ],
+  "description": {
+    "ar": "التصوير بالرنين المغناطيسي (Magnetic Resonance Imaging) هو تقنية تصوير طبي غير جراحية تستخدم مجالاً مغناطيسياً قوياً وموجات الراديو لتوليد صور تفصيلية للهياكل الداخلية للجسم. يُعتبر MRI الأداة المثالية لتصوير الأنسجة الرخوة مثل الدماغ، الحبل الشوكي، العضلات، الأربطة، والأعضاء الداخلية، حيث يوفر تبايناً فائقاً مقارنة بالأشعة السينية أو CT.",
+    "en": "Magnetic Resonance Imaging (MRI) is a non-invasive medical imaging technique that uses a strong magnetic field and radio waves to generate detailed images of the internal structures of the body. MRI is considered the ideal tool for imaging soft tissues such as the brain, spinal cord, muscles, ligaments, and internal organs, offering superior contrast compared to X-ray or CT."
+  },
+  "uses": [
+    {
+      "ar": "تصوير الدماغ والأعصاب: تشخيص الأورام، التصلب المتعدد، السكتات الدماغية، الصرع، وأمراض الزهايمر.",
+      "en": "Brain and Neurological Imaging: Diagnosis of tumors, multiple sclerosis, strokes, epilepsy, and Alzheimer's disease."
+    },
+    {
+      "ar": "تصوير العمود الفقري: تقييم الانزلاق الغضروفي، تضيق القناة الشوكية، والأورام النخاعية.",
+      "en": "Spinal Imaging: Evaluation of herniated discs, spinal stenosis, and spinal cord tumors."
+    },
+    {
+      "ar": "تصوير العظام والمفاصل: تشخيص تمزقات الأربطة والغضاريف، والتهابات المفاصل.",
+      "en": "Bone and Joint Imaging: Diagnosis of ligament and cartilage tears, and joint inflammation."
+    },
+    {
+      "ar": "تصوير القلب والأوعية: تقييم بنية القلب، وظائف البطينين، وتشخيص أمراض الشريان التاجي (تصوير الأوعية بالرنين MRA).",
+      "en": "Cardiac and Vascular Imaging: Assessment of heart structure, ventricular function, and coronary artery disease (MRA - MR Angiography)."
+    },
+    {
+      "ar": "تصوير البطن والحوض: تشخيص أورام الكبد، البنكرياس، الكلى، البروستاتا، والرحم.",
+      "en": "Abdominal and Pelvic Imaging: Diagnosis of liver, pancreatic, kidney, prostate, and uterine tumors."
+    },
+    {
+      "ar": "التصوير الوظيفي (fMRI): قياس النشاط الدماغي من خلال تتبع تدفق الدم، ويُستخدم في الأبحاث العصبية والتخطيط الجراحي.",
+      "en": "Functional Imaging (fMRI): Measures brain activity by tracking blood flow, used in neuroscience research and surgical planning."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يستخدم الجهاز مغناطيساً فائق التوصيل لمحاذاة بروتونات الهيدروجين، ثم يرسل نبضات راديوية لتعطيل هذه المحاذاة مؤقتاً، ومع عودتها لحالتها الأصلية تُطلق إشارات تستقبلها الملفات وتحولها إلى صور عالية التباين.",
+    "en": "The system uses a superconducting magnet to align hydrogen protons, sends radio pulses to temporarily disrupt this alignment, and as they relax back, they emit signals received by coils and converted into high-contrast images."
+  },
+  "workingSteps": [
+    {
+      "ar": "المجال المغناطيسي الأساسي (B₀): يولد المغناطيس فائق التوصيل مجالاً مغناطيسياً قوياً (1.5 – 3 تسلا) لمحاذاة بروتونات الهيدروجين في اتجاه واحد.",
+      "en": "Main Magnetic Field (B₀): A superconducting magnet generates a strong magnetic field (1.5 – 3 Tesla) to align hydrogen protons in one direction."
+    },
+    {
+      "ar": "نبضات التردد الراديوي (RF Pulses): تُرسل نبضات راديوية بتردد لارمور عبر الملفات لامتصاص الطاقة وانقلاب اتجاه البروتونات (الرنين المغناطيسي النووي).",
+      "en": "Radiofrequency Pulses (RF Pulses): RF pulses at Larmor frequency are transmitted via coils to make protons absorb energy and flip orientation (NMR)."
+    },
+    {
+      "ar": "تدرجات المجال المغناطيسي (Gradient Coils): تحدد ملفات التدرج الموقع المكاني الدقيق للبروتونات في الفضاء ثلاثي الأبعاد.",
+      "en": "Magnetic Field Gradients (Gradient Coils): Gradient coils precisely determine the spatial location of protons in 3D space."
+    },
+    {
+      "ar": "استقبال الإشارة والاسترخاء: بعد إيقاف النبضات، تعود البروتونات لحالتها الأصلية مطلقة إشارات راديوية تلتقطها ملفات الاستقبال وتعالج لإعادة بناء الصور.",
+      "en": "Signal Reception and Relaxation: After stopping pulses, protons return to their original state releasing radio signals captured by receiver coils and processed into images."
+    }
+  ],
+  "highlight": {
+    "ar": "يعتمد تباين الصور على الخصائص المغناطيسية للأنسجة دون استخدام إشعاعات مؤينة، مما يجعله آمناً تماماً شريطة الالتزام بالاحتياطات الصارمة ضد المواد الحديدية.",
+    "en": "Image contrast relies on magnetic properties of tissues without ionizing radiation, making it completely safe provided strict precautions against ferromagnetic materials are followed."
+  },
+  "components": [
+    {
+      "ar": "المغناطيس الأساسي (Superconducting Magnet)",
+      "en": "Main Magnet (Superconducting)"
+    },
+    {
+      "ar": "نظام التبريد (هيليوم سائل + نيتروجين)",
+      "en": "Cooling System (Liquid Helium + Nitrogen)"
+    },
+    {
+      "ar": "ملفات التدرج (Gradient Coils X, Y, Z)",
+      "en": "Gradient Coils (X, Y, Z)"
+    },
+    {
+      "ar": "نظام التردد الراديوي (RF Transmitter & Receiver)",
+      "en": "RF System (Transmitter & Receiver)"
+    },
+    {
+      "ar": "ملفات استقبال (Surface & Volume Coils)",
+      "en": "Receiver Coils (Surface & Volume)"
+    },
+    {
+      "ar": "طاولة الفحص (Patient Table)",
+      "en": "Patient Table"
+    },
+    {
+      "ar": "مولد التدرج (Gradient Amplifier)",
+      "en": "Gradient Amplifier"
+    },
+    {
+      "ar": "حاسوب التحكم وإعادة البناء",
+      "en": "Control and Reconstruction Computer"
+    },
+    {
+      "ar": "محطة عمل متقدمة ببرامج تحليل ثلاثية الأبعاد",
+      "en": "Advanced Workstation with 3D Analysis Software"
+    },
+    {
+      "ar": "نظام الحماية والسلامة (نظام الإنذار وقفل الغرفة)",
+      "en": "Safety and Protection System (Alarms and Room Interlock)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لجهاز MRI سريري عالي المجال (High-Field)",
+    "en": "Typical specifications for a high-field clinical MRI system"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "قوة المجال المغناطيسي",
+        "en": "Magnetic Field Strength"
+      },
+      "value": {
+        "ar": "1.5 تسلا – 3.0 تسلا (في الأجهزة السريرية)",
+        "en": "1.5 Tesla – 3.0 Tesla (in clinical systems)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المغناطيس",
+        "en": "Magnet Type"
+      },
+      "value": {
+        "ar": "فائق التوصيل (Superconducting)",
+        "en": "Superconducting"
+      }
+    },
+    {
+      "label": {
+        "ar": "قطر النفق (Bore)",
+        "en": "Bore Diameter"
+      },
+      "value": {
+        "ar": "60 – 70 سم (للأجهزة المغلقة)، 70 – 80 سم (للأجهزة المفتوحة)",
+        "en": "60 – 70 cm (closed systems), 70 – 80 cm (open systems)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول النفق",
+        "en": "Bore Length"
+      },
+      "value": {
+        "ar": "1.5 – 2.0 متر",
+        "en": "1.5 – 2.0 meters"
+      }
+    },
+    {
+      "label": {
+        "ar": "تردد الرنين (لارمور)",
+        "en": "Resonance Frequency (Larmor)"
+      },
+      "value": {
+        "ar": "63.8 MHz (لـ 1.5T)، 127.7 MHz (لـ 3.0T)",
+        "en": "63.8 MHz (for 1.5T), 127.7 MHz (for 3.0T)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التدرج (Gradient Strength)",
+        "en": "Gradient Strength"
+      },
+      "value": {
+        "ar": "30 – 80 mT/m",
+        "en": "30 – 80 mT/m"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل صعود التدرج (Slew Rate)",
+        "en": "Slew Rate"
+      },
+      "value": {
+        "ar": "100 – 200 T/m/s",
+        "en": "100 – 200 T/m/s"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد القنوات RF",
+        "en": "RF Channels"
+      },
+      "value": {
+        "ar": "8 – 32 قناة (أكثر في الأجهزة المتطورة)",
+        "en": "8 – 32 channels (more in advanced systems)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الصورة المكانية",
+        "en": "Spatial Resolution"
+      },
+      "value": {
+        "ar": "0.5 – 1.0 مم (حسب البروتوكول)",
+        "en": "0.5 – 1.0 mm (depending on protocol)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق مع المعايير",
+        "en": "Standards Compliance"
+      },
+      "value": {
+        "ar": "DICOM 3.0، معتمد من (FDA & CE)",
+        "en": "DICOM 3.0, (FDA & CE Certified)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تبخر الهيليوم السائل (Quench) نتيجة خلل في نظام التبريد يؤدي إلى فقدان المغناطيسية.",
+      "en": "Liquid Helium boil-off (Quench) due to cooling system failure leading to loss of magnetism."
+    },
+    {
+      "ar": "عطل في ملفات التدرج (Gradient Coils) يسبب تشوهاً في الصور أو ضجيجاً غير طبيعي.",
+      "en": "Gradient Coil failure causing image distortion or abnormal noise."
+    },
+    {
+      "ar": "فشل نظام التردد الراديوي (RF Amplifier) يؤدي إلى ضعف الإشارة أو انعدامها.",
+      "en": "RF System failure (RF Amplifier) leading to weak or no signal."
+    },
+    {
+      "ar": "تلف ملفات الاستقبال (Coils) يؤدي إلى تدهور جودة الصورة أو ظهور مناطق مظلمة.",
+      "en": "Receiver Coil damage leading to degraded image quality or dark areas."
+    },
+    {
+      "ar": "أعطال في طاولة الفحص تمنع الحركة الدقيقة أو التموضع الصحيح.",
+      "en": "Patient Table malfunctions preventing precise movement or positioning."
+    },
+    {
+      "ar": "مشاكل في الحاسوب أو البرمجيات تؤدي إلى بطء شديد أو تعطل أثناء المسح.",
+      "en": "Computer or software issues causing severe slowdown or scan interruptions."
+    },
+    {
+      "ar": "خلل في نظام السلامة (قفل الغرفة، إنذار المجال المغناطيسي).",
+      "en": "Safety system failure (room interlock, magnetic field alarm)."
+    },
+    {
+      "ar": "تداخل الترددات (RF Interference) من مصادر خارجية يؤثر على جودة الصورة.",
+      "en": "RF Interference from external sources affecting image quality."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Click on the image to enlarge"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "التطبيقات السريرية الرئيسية:",
+      "en": "Main Clinical Applications:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

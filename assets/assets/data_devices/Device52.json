@@ -1,0 +1,280 @@
+{
+  "id": 52,
+  "name": {
+    "ar": "جهاز غسالة الإليزا",
+    "en": "ELISA Washer"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري آلي لغسل ألواح الإليزا لإزالة المواد غير المرتبطة وتقليل الخلفية في الاختبارات المناعية",
+    "en": "Automated laboratory instrument for washing ELISA microplates to remove unbound materials and reduce background in immunoassays"
+  },
+  "images": [
+    "assets/image/Laboratory/ELISA_Washer/ELISA_Washer1.webp",
+    "assets/image/Laboratory/ELISA_Washer/ELISA_Washer2.webp"
+  ],
+  "description": {
+    "ar": "جهاز مخبري آلي يستخدم لغسل ألواح الإليزا (Microplates) بعد كل خطوة من خطوات اختبار الإليزا. يقوم الجهاز بشفط السوائل من الآبار وحقن محلول الغسيل لإزالة الأجسام المضادة أو المستضدات غير المرتبطة، والمواد المتفاعلة بشكل غير نوعي، مما يقلل من الخلفية (Background) ويحسن دقة النتائج.",
+    "en": "An automated laboratory instrument used to wash ELISA microplates after each step of the ELISA test. The device aspirates liquids from the wells and injects wash buffer to remove unbound antibodies, antigens, and non-specifically reacting materials, thereby reducing background and improving result accuracy."
+  },
+  "uses": [
+    {
+      "ar": "غسل ألواح الإليزا – إزالة المواد غير المرتبطة بين خطوات الإضافة المتعاقبة (العينة، الجسم المضاد الأولي، الجسم المضاد الثانوي المرتبط بالإنزيم).",
+      "en": "ELISA plate washing – Removing unbound materials between successive incubation steps (sample, primary antibody, enzyme-linked secondary antibody)."
+    },
+    {
+      "ar": "غسل ألواح Western Blot – تستخدم في بعض التطبيقات لغسل الأغشية البروتينية.",
+      "en": "Western blot washing – Used in some applications for washing protein membranes."
+    },
+    {
+      "ar": "غسل ألواح تفاعل البلمرة المتسلسل (PCR) – في بعض التطبيقات الخاصة.",
+      "en": "PCR plate washing – In some specialized applications."
+    },
+    {
+      "ar": "التحضير لجهاز قارئ الإليزا – ضمان نظافة الآبار قبل القراءة الضوئية للحصول على قراءات دقيقة.",
+      "en": "Preparation for ELISA readers – Ensuring well cleanliness before optical reading for accurate measurements."
+    },
+    {
+      "ar": "التوحيد القياسي – توفير غسيل موحد ومتكرر لجميع الآبار لضمان تكرارية النتائج.",
+      "en": "Standardization – Providing uniform and reproducible washing for all wells to ensure result consistency."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بوضع الصفيحة في الحامل، ثم شفط السوائل من الآبار بواسطة نظام تفريغ هوائي متصل بإبر دقيقة، يليها توزيع محلول الغسيل بكمية محددة باستخدام مضخة دقيقة، ثم النقع الاختياري لتفكيك المواد غير المرتبطة، وتكرار عملية الشفط والتوزيع لعدة دورات حسب البروتوكول، وأخيراً التجفيف النهائي للآبار.",
+    "en": "The system operates through plate placement, vacuum aspiration of liquids from wells using fine needles, dispensing wash buffer via precision pump, optional soaking to dislodge unbound materials, repeating aspiration and dispensing cycles, and final drying before adding substrate."
+  },
+  "workingSteps": [
+    {
+      "ar": "وضع الصفيحة: توضع الصفيحة البلاستيكية ذات الآبار (96 أو 384 بئراً) في حامل الجهاز.",
+      "en": "Plate placement: The microplate (96 or 384 wells) is placed in the device holder."
+    },
+    {
+      "ar": "الشفط: تُسحب السوائل الموجودة في الآبار (العينة، الكواشف، أو الغسيل السابق) بواسطة نظام تفريغ هوائي (Vacuum) متصل بإبر أو أنابيب دقيقة.",
+      "en": "Aspiration: Fluids in the wells (samples, reagents, or previous wash) are aspirated using a vacuum system connected to fine needles or tubes."
+    },
+    {
+      "ar": "التوزيع: يُضخ محلول الغسيل (Wash Buffer) إلى كل بئر بكمية محددة (عادة 200-400 ميكروليتر) باستخدام مضخة دقيقة.",
+      "en": "Dispensing: Wash buffer is pumped into each well at a specified volume (typically 200-400 microliters) using a precision pump."
+    },
+    {
+      "ar": "النقع (اختياري): تُترك الصفيحة لبضع ثوانٍ (10-60 ثانية) للسماح للمحلول بتفكيك المواد غير المرتبطة.",
+      "en": "Soaking (optional): The plate is left for a few seconds (10-60 seconds) to allow the buffer to dislodge unbound materials."
+    },
+    {
+      "ar": "التكرار: تتكرر عملية الشفط والتوزيع لعدة دورات (عادة 3-5 دورات) حسب بروتوكول الاختبار.",
+      "en": "Repetition: The aspiration and dispensing process is repeated for several cycles (typically 3-5 cycles) according to the test protocol."
+    },
+    {
+      "ar": "التجفيف النهائي: بعد آخر دورة غسيل، تُسحب كل السوائل وتُترك الآبار جافة قبل إضافة الركيزة (Substrate) للتفاعل الأنزيمي.",
+      "en": "Final drying: After the last wash cycle, all fluid is aspirated and wells are left dry before adding the substrate for the enzymatic reaction."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة تدعم برمجة عدد الدورات، حجم الغسيل، وقت النقع، وسرعة الشفط، مع أنظمة كشف لمستوى السائل لتجنب جفاف الآبار أو فيضانها.",
+    "en": "Modern devices support programming of cycle number, wash volume, soak time, and aspiration speed, with liquid level detection systems to prevent well drying or overflow."
+  },
+  "components": [
+    {
+      "ar": "حامل الصفيحات (96/384 بئراً)",
+      "en": "Microplate holder (96/384 wells)"
+    },
+    {
+      "ar": "خزان محلول الغسيل (1-2 لتر)",
+      "en": "Wash buffer reservoir (1-2 liters)"
+    },
+    {
+      "ar": "خزان النفايات (2-3 لتر)",
+      "en": "Waste reservoir (2-3 liters)"
+    },
+    {
+      "ar": "مضخة توزيع دقيقة",
+      "en": "Precision dispensing pump"
+    },
+    {
+      "ar": "نظام تفريغ هوائي (Vacuum Pump)",
+      "en": "Vacuum pump system"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية",
+      "en": "Electronic control unit"
+    },
+    {
+      "ar": "شاشة عرض وبرمجة",
+      "en": "Display and programming interface"
+    },
+    {
+      "ar": "نظام كشف مستوى السائل",
+      "en": "Liquid level detection system"
+    },
+    {
+      "ar": "رأس غسيل قابل للتبديل",
+      "en": "Interchangeable wash head"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز غسالة إليزا نموذجي (BioTek 405 TS أو Tecan Columbus)",
+    "en": "Example: Typical ELISA washer (BioTek 405 TS or Tecan Columbus)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "عدد الآبار",
+        "en": "Number of wells"
+      },
+      "value": {
+        "ar": "96 أو 384 بئراً (حسب الرأس)",
+        "en": "96 or 384 wells (depending on head)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الغسيل",
+        "en": "Wash volume"
+      },
+      "value": {
+        "ar": "50 – 400 ميكروليتر/بئر (قابل للبرمجة)",
+        "en": "50 – 400 microliters/well (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد دورات الغسيل",
+        "en": "Wash cycles"
+      },
+      "value": {
+        "ar": "1 – 25 دورة (قابل للبرمجة)",
+        "en": "1 – 25 cycles (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت النقع",
+        "en": "Soak time"
+      },
+      "value": {
+        "ar": "0 – 600 ثانية (قابل للبرمجة)",
+        "en": "0 – 600 seconds (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة خزان الغسيل",
+        "en": "Wash reservoir capacity"
+      },
+      "value": {
+        "ar": "1 – 2 لتر",
+        "en": "1 – 2 liters"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة خزان النفايات",
+        "en": "Waste reservoir capacity"
+      },
+      "value": {
+        "ar": "2 – 3 لتر",
+        "en": "2 – 3 liters"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الرأس",
+        "en": "Wash head type"
+      },
+      "value": {
+        "ar": "عمودي (8/12 قناة) أو صف (96 قناة)",
+        "en": "Vertical (8/12 channel) or array (96 channel)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت الغسيل",
+        "en": "Wash time"
+      },
+      "value": {
+        "ar": "30 – 90 ثانية (لصفيحة 96 بئراً)",
+        "en": "30 – 90 seconds (for 96-well plate)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "لمسة ملونة 5-7 بوصة أو واجهة أزرار",
+        "en": "5-7 inch color touchscreen or button interface"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نقص أو انقطاع محلول الغسيل في الخزان.",
+      "en": "Low or depleted wash buffer in reservoir."
+    },
+    {
+      "ar": "امتلاء خزان النفايات مما يوقف عملية الغسيل.",
+      "en": "Waste reservoir full, stopping the washing process."
+    },
+    {
+      "ar": "انسداد إبر الشفط أو التوزيع نتيجة تراكم البروتينات أو الأملاح.",
+      "en": "Clogged aspiration or dispensing needles due to protein or salt buildup."
+    },
+    {
+      "ar": "ضعف نظام التفريغ (Vacuum) يؤدي إلى شفط غير كامل للسوائل.",
+      "en": "Weak vacuum system leading to incomplete fluid aspiration."
+    },
+    {
+      "ar": "تسرب في نظام الأنابيب أو المضخات يسبب نقص في حجم الغسيل.",
+      "en": "Leakage in tubing or pump system causing wash volume deficiency."
+    },
+    {
+      "ar": "عدم استواء الصفيحة أو انزلاقها أثناء التشغيل.",
+      "en": "Uneven plate placement or slipping during operation."
+    },
+    {
+      "ar": "أعطال برمجية في بروتوكولات الغسيل المبرمجة.",
+      "en": "Software faults in programmed wash protocols."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

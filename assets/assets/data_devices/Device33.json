@@ -1,0 +1,256 @@
+{
+  "id": 33,
+  "name": {
+    "ar": "جهاز البخاخة",
+    "en": "Nebulizer"
+  },
+  "category": "respiratory",
+  "icon": "compress",
+  "shortDescription": {
+    "ar": "جهاز طبي يحول الأدوية السائلة إلى رذاذ دقيق للاستنشاق، يستخدم لعلاج أمراض الجهاز التنفسي مثل الربو والالتهاب الشعبي",
+    "en": "A medical device that converts liquid medications into a fine mist for inhalation, used to treat respiratory diseases such as asthma and bronchitis"
+  },
+  "images": [
+    "assets/image/Respiratory/Nebulizer/Nebulizer1.webp",
+    "assets/image/Respiratory/Nebulizer/Nebulizer2.webp",
+    "assets/image/Respiratory/Nebulizer/Nebulizer3.webp",
+    "assets/image/Respiratory/Nebulizer/Nebulizer4.webp"
+  ],
+  "description": {
+    "ar": "جهاز البخاخة (Nebulizer) هو جهاز طبي يعمل على تحويل الأدوية السائلة إلى رذاذ دقيق جداً (ضباب) يمكن استنشاقه بسهولة إلى الرئتين. يعتبر بديلاً فعالاً للبخاخات اليدوية، خاصة للأطفال وكبار السن أو المرضى الذين يعانون من صعوبة في استخدام أجهزة الاستنشاق التقليدية.",
+    "en": "A Nebulizer is a medical device that converts liquid medications into a very fine mist (aerosol) that can be easily inhaled into the lungs. It is an effective alternative to manual inhalers, especially for children, the elderly, or patients who have difficulty using traditional inhaler devices."
+  },
+  "uses": [
+    {
+      "ar": "علاج الربو: توصيل موسعات الشعب الهوائية (مثل السالبوتامول) مباشرة إلى المجرى التنفسي لتخفيف النوبات.",
+      "en": "Asthma Treatment: Delivers bronchodilators (such as salbutamol) directly to the airways to relieve attacks."
+    },
+    {
+      "ar": "أمراض الرئة المزمنة: علاج COPD والتهاب الشعب الهوائية المزمن باستخدام أدوية الكورتيزون أو المضادات الحيوية.",
+      "en": "Chronic Lung Diseases: Treats COPD and chronic bronchitis using corticosteroid medications or antibiotics."
+    },
+    {
+      "ar": "التهابات الجهاز التنفسي: توصيل أدوية مضادة للفيروسات أو مضادات حيوية مستنشقة لعلاج الالتهابات الرئوية.",
+      "en": "Respiratory Infections: Delivers antiviral medications or inhaled antibiotics to treat pulmonary infections."
+    },
+    {
+      "ar": "مرضى التليف الكيسي: توصيل أدوية مذيبة للمخاط لتسهيل إخراج الإفرازات الرئوية.",
+      "en": "Cystic Fibrosis Patients: Delivers mucolytic medications to facilitate the removal of pulmonary secretions."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يحول الجهاز الدواء السائل إلى جزيئات دقيقة جداً عبر تقنيات مختلفة (ضاغط هواء، موجات فوق صوتية، أو شبكة اهتزازية) ليقوم المريض استنشاقها عبر قطعة فم أو قناع وجه لتمتصها الأنسجة الرئوية بكفاءة.",
+    "en": "The device converts liquid medication into very fine particles using various technologies (air compressor, ultrasonic waves, or vibrating mesh) for the patient to inhale via a mouthpiece or face mask for efficient pulmonary absorption."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحويل الدواء إلى رذاذ: يقوم الجهاز بتحويل الدواء السائل إلى جزيئات دقيقة جداً (قطرها 1-5 ميكرون) باستخدام الضاغط، الموجات فوق الصوتية، أو الشبكة الاهتزازية.",
+      "en": "Medication Aerosolization: The device converts liquid medication into very fine particles (1-5 microns in diameter) using a compressor, ultrasonic waves, or a vibrating mesh."
+    },
+    {
+      "ar": "الاستنشاق: يستنشق المريض الرذاذ عبر قطعة فم أو قناع وجه، حيث تصل الجزيئات الدقيقة إلى الشعب الهوائية والرئتين.",
+      "en": "Inhalation: The patient inhales the aerosol through a mouthpiece or face mask, where fine particles reach the airways and lungs."
+    },
+    {
+      "ar": "الامتصاص: تمتص الأنسجة الرئوية الدواء بسرعة وكفاءة عالية مقارنة بالطرق الفموية.",
+      "en": "Absorption: Lung tissue absorbs the medication quickly and efficiently compared to oral routes."
+    }
+  ],
+  "highlight": {
+    "ar": "أجهزة Mesh Nebulizer هي الأحدث والأكثر كفاءة، حيث تنتج جزيئات أصغر وتعمل بصمت مع فقدان ضئيل للدواء.",
+    "en": "Mesh Nebulizers are the newest and most efficient, producing smaller particles, operating silently, and having minimal drug loss."
+  },
+  "components": [
+    {
+      "ar": "ضاغط هواء (للأنواع النفاثة)",
+      "en": "Air Compressor (for jet types)"
+    },
+    {
+      "ar": "بلورة كهرضغطية (للأنواع فوق الصوتية)",
+      "en": "Piezoelectric Crystal (for ultrasonic types)"
+    },
+    {
+      "ar": "غشاء شبكي (للأنواع Mesh)",
+      "en": "Mesh Membrane (for Mesh types)"
+    },
+    {
+      "ar": "حاوية الدواء (Cup)",
+      "en": "Medication Cup"
+    },
+    {
+      "ar": "أنبوب توصيل",
+      "en": "Connecting Tube"
+    },
+    {
+      "ar": "قطعة فم أو قناع وجه",
+      "en": "Mouthpiece or Face Mask"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية",
+      "en": "Electronic Control Unit"
+    },
+    {
+      "ar": "بطارية (في الأجهزة المحمولة)",
+      "en": "Battery (in portable devices)"
+    },
+    {
+      "ar": "شاشة عرض (في الطرازات المتطورة)",
+      "en": "Display Screen (in advanced models)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: أنواع مختلفة من أجهزة البخاخة",
+    "en": "Example: Different types of Nebulizer devices"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "حجم الجزيئات",
+        "en": "Particle Size"
+      },
+      "value": {
+        "ar": "1 – 5 ميكرون (للوصول إلى الرئتين)",
+        "en": "1 – 5 microns (to reach the lungs)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التبخير",
+        "en": "Nebulization Rate"
+      },
+      "value": {
+        "ar": "0.2 – 0.5 مل/دقيقة (حسب النوع)",
+        "en": "0.2 – 0.5 ml/min (depending on type)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة حاوية الدواء",
+        "en": "Medication Cup Capacity"
+      },
+      "value": {
+        "ar": "2 – 10 مل",
+        "en": "2 – 10 ml"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت الجلسة",
+        "en": "Session Duration"
+      },
+      "value": {
+        "ar": "5 – 20 دقيقة",
+        "en": "5 – 20 minutes"
+      }
+    },
+    {
+      "label": {
+        "ar": "فقدان الدواء",
+        "en": "Drug Loss"
+      },
+      "value": {
+        "ar": "≈ 10% – 30% (حسب النوع)",
+        "en": "≈ 10% – 30% (depending on type)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء (Jet)",
+        "en": "Noise Level (Jet)"
+      },
+      "value": {
+        "ar": "≈ 50 – 65 ديسيبل",
+        "en": "≈ 50 – 65 dB"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء (Mesh/Ultrasonic)",
+        "en": "Noise Level (Mesh/Ultrasonic)"
+      },
+      "value": {
+        "ar": "≈ 25 – 35 ديسيبل (صامت)",
+        "en": "≈ 25 – 35 dB (silent)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاستهلاك الكهربائي",
+        "en": "Power Consumption"
+      },
+      "value": {
+        "ar": "30 – 150 واط",
+        "en": "30 – 150 Watts"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد فوهة الجهاز بسبب تراكم الأدوية المجففة.",
+      "en": "Nozzle blockage due to dried medication buildup."
+    },
+    {
+      "ar": "انسداد مرشح الهواء (في الأنواع النفاثة) مما يقلل من كفاءة التبخير.",
+      "en": "Air filter blockage (in jet types) reducing nebulization efficiency."
+    },
+    {
+      "ar": "تسرب الدواء من حاوية الدواء بسبب تلف الأجزاء البلاستيكية.",
+      "en": "Medication leakage from the cup due to damaged plastic parts."
+    },
+    {
+      "ar": "تلف البلورة الكهرضغطية (في الأنواع فوق الصوتية).",
+      "en": "Piezoelectric crystal damage (in ultrasonic types)."
+    },
+    {
+      "ar": "تلف الغشاء الشبكي أو انسداده (في أنواع Mesh).",
+      "en": "Mesh membrane damage or blockage (in Mesh types)."
+    },
+    {
+      "ar": "فشل وحدة التحكم أو انقطاع مصدر الطاقة.",
+      "en": "Control unit failure or power supply interruption."
+    },
+    {
+      "ar": "ضعف البطارية في الأجهزة المحمولة.",
+      "en": "Weak battery in portable devices."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

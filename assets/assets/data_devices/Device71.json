@@ -1,0 +1,279 @@
+{
+  "id": 71,
+  "name": {
+    "ar": "جهاز الختم الحراري",
+    "en": "Heat Sealer Machine"
+  },
+  "category": "sterilization",
+  "icon": "fire",
+  "shortDescription": {
+    "ar": "جهاز متخصص لإغلاق أكياس التغليف الطبية حرارياً، مما يضمن حماية الأدوات المعقمة من التلوث الخارجي والحفاظ على تعقيمها حتى لحظة الاستخدام، مع توفير إغلاق محكم وآمن يتحمل ظروف التخزين والنقل.",
+    "en": "A specialized device for heat-sealing medical packaging pouches, ensuring protection of sterile instruments from external contamination and maintaining their sterility until the moment of use, providing a secure and reliable seal that withstands storage and transportation conditions."
+  },
+  "images": [
+    "assets/image/Sterilization/HeatSealer/sealer1.webp",
+    "assets/image/Sterilization/HeatSealer/sealer2.webp"
+  ],
+  "description": {
+    "ar": "جهاز الختم الحراري (Heat Sealer) هو جهاز يستخدم في وحدات التعقيم المركزي (CSSD) والمختبرات الطبية لإغلاق أكياس التغليف المصنوعة من مواد خاصة (مثل الورق/البلاستيك أو البولي إيثيلين) باستخدام الحرارة والضغط. يضمن الختم الحراري إغلاقاً محكاماً يمنع دخول الميكروبات والرطوبة إلى الحزمة المعقمة، مع الحفاظ على نفاذية الغازات (مثل البخار أو أكسيد الإيثيلين) أثناء عملية التعقيم. يعتبر الختم الحراري خطوة حاسمة في الحفاظ على تعقيم الأدوات حتى لحظة فتحها في غرفة العمليات.",
+    "en": "A heat sealer is a device used in Central Sterile Supply Departments (CSSD) and medical laboratories to seal packaging pouches made of special materials (such as paper/plastic or polyethylene) using heat and pressure. The heat seal ensures a tight closure that prevents microbial and moisture entry into the sterile package, while maintaining gas permeability (such as steam or ethylene oxide) during the sterilization process. Heat sealing is a critical step in maintaining instrument sterility until it is opened in the operating room."
+  },
+  "uses": [
+    {
+      "ar": "تغليف الأدوات الجراحية: إغلاق أكياس التغليف التي تحتوي على أدوات جراحية معقمة، مثل المشابك والماسكات والمقصات.",
+      "en": "Packaging surgical instruments: Sealing pouches containing sterile surgical instruments such as clamps, forceps, and scissors."
+    },
+    {
+      "ar": "تغليف المناظير والأجهزة الدقيقة: حماية المناظير الجراحية والأجهزة الإلكترونية الحساسة من التلوث الخارجي.",
+      "en": "Packaging endoscopes and delicate devices: Protecting surgical endoscopes and sensitive electronic devices from external contamination."
+    },
+    {
+      "ar": "تغليف المواد الاستهلاكية: إغلاق أكياس تحتوي على محاقن، إبر، خيوط جراحية، ومواد أخرى معقمة.",
+      "en": "Packaging consumables: Sealing pouches containing syringes, needles, surgical sutures, and other sterile materials."
+    },
+    {
+      "ar": "تغليف العلب الجراحية: تغليف العلب المعدنية التي تحتوي على مجموعات جراحية كاملة (Sets) لحمايتها أثناء التخزين والنقل.",
+      "en": "Packaging surgical trays: Wrapping metal trays containing complete surgical sets for protection during storage and transport."
+    },
+    {
+      "ar": "التحقق من جودة الختم: تُستخدم أجهزة الختم الحراري المزودة بأنظمة مراقبة لضمان جودة الإغلاق وتوثيق بيانات الختم (درجة الحرارة، الضغط، الوقت).",
+      "en": "Seal quality verification: Heat sealers with monitoring systems are used to ensure seal quality and document sealing data (temperature, pressure, time)."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز الختم الحراري عبر خمس مراحل: تحضير الكيس حيث توضع الأدوات المراد تعقيمها داخل كيس التغليف المناسب مع ترك مساحة كافية للفتحة للإغلاق، ثم ضبط الإعدادات حيث يتم ضبط درجة الحرارة (عادة 150-200 درجة مئوية) والضغط (الذي يحدد قوة الإغلاق) وزمن الختم (1-5 ثوانٍ) حسب نوع مادة الكيس وسمكها، ثم وضع الكيس في الجهاز حيث يتم إدخال فتحة الكيس بين الفكين الساخنين مع التأكد من محاذاة الحافة بشكل مستقيم، ثم عملية الختم حيث ينغلق الفكان على الكيس مع تطبيق الحرارة والضغط المحددين مسبقاً مما يؤدي إلى انصهار الطبقات الداخلية للكيس والتصاقها ببعضها البعض لتكوين ختم محكم، ثم التبريد والتحقق حيث يبقى الفكان مغلقين لفترة قصيرة للتبريد ثم ينفتحان لإخراج الكيس ويتم فحص جودة الختم للتأكد من عدم وجود تسريبات أو تجاعيد.",
+    "en": "The heat sealer operates through five stages: Pouch preparation where instruments to be sterilized are placed inside the appropriate packaging pouch leaving enough space at the opening for sealing, then settings adjustment where temperature (typically 150-200°C), pressure (which determines seal strength), and sealing time (1-5 seconds) are set according to the pouch material type and thickness, then placing the pouch in the device where the pouch opening is inserted between the heated jaws ensuring the edge is aligned straight, then the sealing process where the jaws close on the pouch applying the preset heat and pressure causing the inner layers of the pouch to melt and adhere to each other forming a tight seal, then cooling and verification where the jaws remain closed for a short cooling period then open to release the pouch and the seal quality is inspected to ensure there are no leaks or wrinkles."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير الكيس (التغليف): توضع الأدوات المراد تعقيمها داخل كيس التغليف المناسب (حسب حجم الأداة ونوع التعقيم)، مع ترك مساحة كافية من الفتحة للإغلاق.",
+      "en": "Pouch Preparation (Packaging): The instruments to be sterilized are placed inside the appropriate packaging pouch (according to instrument size and sterilization type), leaving enough space at the opening for sealing."
+    },
+    {
+      "ar": "ضبط الإعدادات: يتم ضبط درجة الحرارة (عادة 150-200 درجة مئوية)، والضغط (الذي يحدد قوة الإغلاق)، وزمن الختم (1-5 ثوانٍ) حسب نوع مادة الكيس وسمكها.",
+      "en": "Settings Adjustment: Temperature (typically 150-200°C), pressure (which determines seal strength), and sealing time (1-5 seconds) are set according to the pouch material type and thickness."
+    },
+    {
+      "ar": "وضع الكيس في الجهاز: يتم إدخال فتحة الكيس بين الفكين الساخنين للجهاز (الفك العلوي والسفلي)، مع التأكد من محاذاة الحافة بشكل مستقيم.",
+      "en": "Placing the Pouch in the Device: The pouch opening is inserted between the heated jaws of the device (upper and lower jaws), ensuring the edge is aligned straight."
+    },
+    {
+      "ar": "عملية الختم: عند الضغط على الزر أو الدواسة، ينغلق الفكان على الكيس مع تطبيق الحرارة والضغط المحددين مسبقاً، مما يؤدي إلى انصهار الطبقات الداخلية للكيس والتصاقها ببعضها البعض لتكوين ختم محكم.",
+      "en": "Sealing Process: When the button or foot pedal is pressed, the jaws close on the pouch applying the preset heat and pressure, causing the inner layers of the pouch to melt and adhere to each other, forming a tight seal."
+    },
+    {
+      "ar": "التبريد والتحقق: بعد انتهاء زمن الختم، يبقى الفكان مغلقين لفترة قصيرة للتبريد (لضمان ثبات الختم)، ثم ينفتحان لإخراج الكيس. يتم فحص جودة الختم (نظرياً وباستخدام مؤشرات خاصة) للتأكد من عدم وجود تسريبات أو تجاعيد.",
+      "en": "Cooling and Verification: After the sealing time ends, the jaws remain closed for a short cooling period (to ensure seal stability), then open to release the pouch. The seal quality is inspected (visually and using special indicators) to ensure there are no leaks or wrinkles."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم أجهزة الختم الحراري المتطورة نظام (Integrity Check) الذي يتحقق من جودة الختم تلقائياً عن طريق قياس الضغط أو استخدام تقنيات التصوير الحراري، مع طباعة تقرير لكل عملية ختم لتوثيق الجودة والامتثال للمعايير (مثل ISO 11607).",
+    "en": "Advanced heat sealers feature an Integrity Check system that automatically verifies seal quality by measuring pressure or using thermal imaging techniques, printing a report for each sealing operation to document quality and ensure compliance with standards (such as ISO 11607)."
+  },
+  "components": [
+    {
+      "ar": "عناصر تسخين (Heating Elements) مصنوعة من سبائك خاصة (مثل النحاس أو الألومنيوم)",
+      "en": "Heating elements made of special alloys (such as copper or aluminum)"
+    },
+    {
+      "ar": "حساسات درجة حرارة دقيقة (Thermocouples) لضبط الحرارة ومنع ارتفاعها المفرط",
+      "en": "Precision temperature sensors (Thermocouples) for temperature regulation and overheat protection"
+    },
+    {
+      "ar": "نظام ضغط (Pneumatic أو ميكانيكي) لضغط الفكين على الكيس بقوة محددة",
+      "en": "Pressure system (Pneumatic or mechanical) to apply specific force on the pouch"
+    },
+    {
+      "ar": "مؤقت رقمي (Digital Timer) لضبط زمن الختم بدقة",
+      "en": "Digital timer for precise sealing time adjustment"
+    },
+    {
+      "ar": "وحدة تحكم منطقية (PLC) مع شاشة عرض رقمية لضبط الإعدادات وعرض الحالة",
+      "en": "Logic controller (PLC) with digital display for settings adjustment and status display"
+    },
+    {
+      "ar": "طابعة مدمجة (اختيارية) لطباعة بيانات الختم (التاريخ، الوقت، رقم الدفعة)",
+      "en": "Built-in printer (optional) for printing sealing data (date, time, batch number)"
+    },
+    {
+      "ar": "نظام أمان (مستشعرات للحماية من الحروق، زر طوارئ، حماية من التيار الزائد)",
+      "en": "Safety system (burn protection sensors, emergency stop, overcurrent protection)"
+    },
+    {
+      "ar": "نظام تبريد (Cooling System) لتبريد الفكين بعد كل ختم لضمان جودة الإغلاق",
+      "en": "Cooling system to cool the jaws after each seal to ensure seal quality"
+    },
+    {
+      "ar": "أدوات معايرة (Calibration Tools) للتحقق الدوري من درجة الحرارة والضغط",
+      "en": "Calibration tools for periodic verification of temperature and pressure"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز ختم حراري نموذجي (مثل Bosch أو Hawo أو Accu-Seal)",
+    "en": "Example: Specifications of a typical heat sealer (e.g., Bosch, Hawo, or Accu-Seal)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع الجهاز",
+        "en": "Device type"
+      },
+      "value": {
+        "ar": "يدوي، شبه آلي، أو آلي (حسب الطراز)",
+        "en": "Manual, semi-automatic, or automatic (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عرض الختم",
+        "en": "Seal width"
+      },
+      "value": {
+        "ar": "5 – 15 ملم (حسب التصميم)",
+        "en": "5 – 15 mm (depending on design)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول الختم",
+        "en": "Seal length"
+      },
+      "value": {
+        "ar": "200 – 1000 ملم (حسب الطراز، أجهزة الطاولة أو الأرضية)",
+        "en": "200 – 1000 mm (depending on model, benchtop or floor-standing)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "100 – 250 درجة مئوية (قابلة للتعديل)",
+        "en": "100 – 250°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الختم",
+        "en": "Sealing time"
+      },
+      "value": {
+        "ar": "0.5 – 10 ثوانٍ (قابل للبرمجة)",
+        "en": "0.5 – 10 seconds (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الضغط المطبق",
+        "en": "Applied pressure"
+      },
+      "value": {
+        "ar": "0.5 – 2 بار (حسب النظام الهوائي أو الميكانيكي)",
+        "en": "0.5 – 2 bar (depending on pneumatic or mechanical system)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع مواد التغليف",
+        "en": "Packaging materials"
+      },
+      "value": {
+        "ar": "أكياس ورق/بلاستيك، بولي إيثيلين، بولي بروبيلين، ومواد مركبة",
+        "en": "Paper/plastic pouches, polyethylene, polypropylene, and composite materials"
+      }
+    },
+    {
+      "label": {
+        "ar": "المعايير",
+        "en": "Standards"
+      },
+      "value": {
+        "ar": "متوافق مع معايير (ISO 11607, EN 868) لتغليف الأجهزة الطبية",
+        "en": "Compliant with (ISO 11607, EN 868) standards for medical device packaging"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزات إضافية",
+        "en": "Additional features"
+      },
+      "value": {
+        "ar": "شاشة تعمل باللمس، نظام مراقبة الجودة، توثيق آلي، اتصال شبكي",
+        "en": "Touchscreen display, quality monitoring system, automatic documentation, network connectivity"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في عناصر التسخين يؤدي إلى عدم وصول الحرارة للدرجة المطلوبة، مما ينتج ختماً ضعيفاً أو غير مكتمل.",
+      "en": "Heating element failure prevents reaching the required temperature, resulting in a weak or incomplete seal."
+    },
+    {
+      "ar": "تلف حساسات درجة الحرارة يؤدي إلى قراءات خاطئة، مما قد يسبب ارتفاعاً مفرطاً للحرارة (يحرق الكيس) أو انخفاضاً (يضعف الختم).",
+      "en": "Damaged temperature sensors lead to incorrect readings, potentially causing excessive heat (burning the pouch) or insufficient heat (weak seal)."
+    },
+    {
+      "ar": "ضعف في نظام الضغط (هوائي أو ميكانيكي) يؤدي إلى عدم تطبيق ضغط كافٍ، مما ينتج ختماً غير محكم أو به تجاعيد.",
+      "en": "Weak pressure system (pneumatic or mechanical) results in insufficient pressure application, producing a non-tight seal or wrinkles."
+    },
+    {
+      "ar": "خلل في المؤقت يؤدي إلى زيادة أو نقصان زمن الختم، مما يؤثر على جودة الإغلاق بشكل مباشر.",
+      "en": "Timer malfunction leads to increased or decreased sealing time, directly affecting seal quality."
+    },
+    {
+      "ar": "عطل في الطابعة المدمجة (إن وجدت) يؤدي إلى فقدان سجلات الختم المهمة للتوثيق والمراجعة.",
+      "en": "Built-in printer failure (if present) results in loss of important sealing records for documentation and review."
+    },
+    {
+      "ar": "مشكلة في نظام الأمان مثل عدم عمل زر الطوارئ أو ارتفاع حرارة السطح الخارجي، مما يشكل خطراً على المشغل.",
+      "en": "Safety system issues such as emergency stop failure or excessive external surface temperature, posing a risk to the operator."
+    },
+    {
+      "ar": "ضعف نظام التبريد يؤدي إلى خروج الفكين ساخنين، مما يسبب تشوهاً في الختم أو التصاق الكيس بالفكين.",
+      "en": "Weak cooling system causes the jaws to remain hot, resulting in seal deformation or pouch sticking to the jaws."
+    },
+    {
+      "ar": "عدم معايرة الجهاز بشكل دوري يؤدي إلى انحراف في قراءات الحرارة والضغط، مما ينتج ختماً غير موثوق ولا يتوافق مع المعايير.",
+      "en": "Lack of periodic calibration leads to deviation in temperature and pressure readings, producing unreliable seals that do not meet standards."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

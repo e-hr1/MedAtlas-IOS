@@ -1,0 +1,280 @@
+{
+  "id": 69,
+  "name": {
+    "ar": "جهاز الغسيل والتعقيم",
+    "en": "Washer Disinfector (WD)"
+  },
+  "category": "sterilization",
+  "icon": "shield-alt",
+  "shortDescription": {
+    "ar": "وحدة متكاملة للغسيل الآلي والتعقيم الحراري للأدوات الجراحية والمعدات الطبية، تجمع بين التنظيف الميكانيكي بالماء والمنظفات، والتعقيم بالماء الساخن أو البخار، مع التجفيف التلقائي، لتحضير الأدوات لعملية التعقيم النهائية.",
+    "en": "An integrated unit for automated washing and thermal disinfection of surgical instruments and medical equipment, combining mechanical cleaning with water and detergents, thermal disinfection with hot water or steam, and automatic drying, to prepare instruments for the final sterilization process."
+  },
+  "images": [
+    "assets/image/Sterilization/WasherDisinfector/washer1.webp",
+    "assets/image/Sterilization/WasherDisinfector/washer2.webp"
+  ],
+  "description": {
+    "ar": "جهاز الغسيل والتعقيم (Washer Disinfector) هو جهاز آلي يستخدم في وحدات التعقيم المركزي (CSSD) لتنظيف وتعقيم الأدوات الجراحية والمعدات الطبية القابلة للغسيل. يجمع الجهاز بين عدة مراحل متتالية: الغسيل بالماء والمنظفات، الشطف، التعقيم الحراري بالماء الساخن (عند 90-95°م) أو البخار، وأخيراً التجفيف بالهواء الساخن. يضمن الجهاز إزالة جميع الملوثات العضوية وغير العضوية، ويقلل من الحمل الميكروبي بشكل كبير، مما يجعل الأدوات جاهزة للتعقيم النهائي في الأوتوكلاف.",
+    "en": "A washer disinfector is an automated device used in Central Sterile Supply Departments (CSSD) to clean and thermally disinfect surgical instruments and washable medical equipment. The device combines several consecutive stages: washing with water and detergents, rinsing, thermal disinfection with hot water (at 90-95°C) or steam, and finally hot air drying. It ensures the removal of all organic and inorganic contaminants and significantly reduces the microbial load, making instruments ready for final sterilization in an autoclave."
+  },
+  "uses": [
+    {
+      "ar": "غسيل وتعقيم الأدوات الجراحية – المشابك، الماسكات، المقصات، والملاقط بجميع أنواعها.",
+      "en": "Washing and disinfecting surgical instruments – Clamps, forceps, scissors, and tweezers of all types."
+    },
+    {
+      "ar": "تنظيف أنابيب وقنوات المناظير الجراحية – باستخدام نظام توصيل خاص لضمان وصول المحلول إلى جميع القنوات الداخلية.",
+      "en": "Cleaning tubes and channels of surgical endoscopes – Using a special connection system to ensure solution reaches all internal channels."
+    },
+    {
+      "ar": "غسيل الأطباق والعلب الجراحية – الح حاويات المعدنية التي تحوي الأدوات المعقمة.",
+      "en": "Washing surgical trays and containers – Metal containers that hold sterile instruments."
+    },
+    {
+      "ar": "تعقيم الأجهزة المطاطية والبلاستيكية – الأنابيب والقفازات والمواد التي تتحمل الحرارة حتى 95°م.",
+      "en": "Disinfecting rubber and plastic devices – Tubes, gloves, and materials that can withstand temperatures up to 95°C."
+    },
+    {
+      "ar": "مرحلة ما قبل التعقيم النهائي – تعتبر خطوة أساسية وأكثر تقدماً من التنظيف بالموجات فوق الصوتية، حيث تجمع بين التنظيف والتعقيم الحراري في دورة واحدة.",
+      "en": "Pre-final sterilization step – Considered a more advanced step than ultrasonic cleaning, combining cleaning and thermal disinfection in a single cycle."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر مراحل متتالية تبدأ بالشطف الأولي بالماء البارد، ثم الغسيل الرئيسي الساخن مع المنظفات، يليها الشطف الوسيط، ثم التعقيم الحراري النهائي بماء عالي النقاء عند 90-95°م (أو البخار) لقتل الميكروبات بناءً على معامل (A0)، وتختتم بمرحلة التجفيف بالهواء الساخن المُرشح.",
+    "en": "The system operates through consecutive stages starting with an initial cold water pre-rinse, main hot wash with detergents, intermediate rinse, final thermal disinfection with high-purity water at 90-95°C (or steam) to kill microbes based on the (A0) value, and concluding with filtered hot air drying."
+  },
+  "workingSteps": [
+    {
+      "ar": "مرحلة ما قبل الغسيل (Pre-Wash): شطف أولي بالماء البارد لإزالة الدم والبقايا الكبيرة، مع تفريغ المياه الملوثة.",
+      "en": "Pre-Wash Phase: Initial rinse with cold water to remove blood and large debris, with drainage of contaminated water."
+    },
+    {
+      "ar": "مرحلة الغسيل الرئيسي (Main Wash): غسيل بالماء الساخن (55-65°م) مع منظف قلوي أو إنزيمي، مع دوران قوي للمحلول لضمان وصوله لجميع أسطح الأدوات. يتم ضبط زمن الغسيل حسب نوع الأوساخ.",
+      "en": "Main Wash Phase: Washing with hot water (55-65°C) with alkaline or enzymatic detergent, with strong solution circulation to ensure it reaches all instrument surfaces. Wash time is adjusted according to the type of soil."
+    },
+    {
+      "ar": "مرحلة الشطف الوسيط (Intermediate Rinse): شطف بالماء الساخن لإزالة بقايا المنظف والملوثات الذائبة.",
+      "en": "Intermediate Rinse Phase: Rinsing with hot water to remove detergent residues and dissolved contaminants."
+    },
+    {
+      "ar": "مرحلة الشطف النهائي والتعقيم (Final Rinse & Thermal Disinfection): شطف نهائي بماء عالي النقاء (مقطر أو منزوع الأيونات) عند درجة حرارة 90-95°م لمدة لا تقل عن 5-10 دقائق، مما يضمن تعقيم الأدوات حراريًا (قتل معظم الميكروبات والفيروسات).",
+      "en": "Final Rinse & Thermal Disinfection Phase: Final rinse with high-purity water (distilled or deionized) at 90-95°C for at least 5-10 minutes, ensuring thermal disinfection of instruments (killing most microbes and viruses)."
+    },
+    {
+      "ar": "مرحلة التجفيف (Drying): يتم تجفيف الأدوات باستخدام هواء ساخن مُرشح (60-120°م)، لمنع تكون الصدأ ونمو الميكروبات خلال التخزين.",
+      "en": "Drying Phase: Instruments are dried using filtered hot air (60-120°C) to prevent rust formation and microbial growth during storage."
+    }
+  ],
+  "highlight": {
+    "ar": "تعتمد فعالية التعقيم الحراري على معامل (A0) الذي يقيس وقت التعرض لدرجة الحرارة. قيمة (A0 = 600) تعني تعريض الأدوات لدرجة 80°م لمدة 10 دقائق أو ما يعادلها، وهي كافية للقضاء على معظم البكتيريا والفيروسات (باستثناء الأبواغ التي تحتاج تعقيمًا حراريًا جافًا لاحقًا).",
+    "en": "The effectiveness of thermal disinfection depends on the (A0) value, which measures the time of exposure to temperature. A value of (A0 = 600) means exposing instruments to 80°C for 10 minutes or its equivalent, which is sufficient to eliminate most bacteria and viruses (excluding spores that require subsequent dry heat sterilization)."
+  },
+  "components": [
+    {
+      "ar": "حجرة الغسيل (Chamber) من الفولاذ المقاوم للصدأ (SUS316L)",
+      "en": "Washing chamber made of stainless steel (SUS316L)"
+    },
+    {
+      "ar": "نظام مضخات جرعات المنظفات (Detergent & Neutralizer dosing pumps)",
+      "en": "Detergent and neutralizer dosing pump system"
+    },
+    {
+      "ar": "نظام تسخين الماء (Heating system) حتى 95°م",
+      "en": "Water heating system up to 95°C"
+    },
+    {
+      "ar": "مضخة تدوير قوية (Circulation Pump) لضمان وصول المحلول لكل مكان",
+      "en": "Powerful circulation pump to ensure solution reaches every area"
+    },
+    {
+      "ar": "نظام تجفيف بالهواء الساخن (Hot Air Drying) بفلتر HEPA",
+      "en": "Hot air drying system with HEPA filter"
+    },
+    {
+      "ar": "حساسات درجة حرارة وضغط ومستوى الماء",
+      "en": "Temperature, pressure, and water level sensors"
+    },
+    {
+      "ar": "وحدة تحكم منطقية قابلة للبرمجة (PLC) مع شاشة تعمل باللمس",
+      "en": "Programmable logic controller (PLC) with touchscreen display"
+    },
+    {
+      "ar": "طابعة مدمجة لتسجيل دورات الغسيل والتعقيم",
+      "en": "Built-in printer for recording wash and disinfection cycles"
+    },
+    {
+      "ar": "نظام أمان (قفل باب آمن، حماية من الحرارة، إنذار تسرب)",
+      "en": "Safety system (secure door lock, overheat protection, leak alarm)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات جهاز غسيل وتعقيم نموذجي (مثل Miele أو Getinge أو Belimed)",
+    "en": "Example: Specifications of a typical washer disinfector (e.g., Miele, Getinge, or Belimed)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "سعة الحجرة",
+        "en": "Chamber capacity"
+      },
+      "value": {
+        "ar": "100 – 600 لتر (حسب الطراز، مخبري، سريري، صناعي)",
+        "en": "100 – 600 liters (depending on model, laboratory, clinical, industrial)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التعقيم الحراري",
+        "en": "Thermal disinfection temperature"
+      },
+      "value": {
+        "ar": "85 – 95 درجة مئوية (قابلة للتعديل)",
+        "en": "85 – 95°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن الدورة الكاملة",
+        "en": "Full cycle time"
+      },
+      "value": {
+        "ar": "35 – 60 دقيقة (حسب البرنامج ودرجة الحرارة)",
+        "en": "35 – 60 minutes (depending on program and temperature)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التجفيف",
+        "en": "Drying temperature"
+      },
+      "value": {
+        "ar": "60 – 120 درجة مئوية (قابلة للتعديل)",
+        "en": "60 – 120°C (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصادر التغذية",
+        "en": "Supply sources"
+      },
+      "value": {
+        "ar": "مياه نقية (RO/DI)، بخار (في بعض الموديلات)، كهرباء 380 فولت",
+        "en": "Pure water (RO/DI), steam (in some models), 380V electricity"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise level"
+      },
+      "value": {
+        "ar": "< 65 ديسيبل (مع عزل صوتي)",
+        "en": "< 65 dB (with sound insulation)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معيار التعقيم",
+        "en": "Disinfection standard"
+      },
+      "value": {
+        "ar": "متوافق مع معايير (EN ISO 15883) لضمان كفاءة التعقيم الحراري",
+        "en": "Compliant with (EN ISO 15883) standards for thermal disinfection efficiency"
+      }
+    },
+    {
+      "label": {
+        "ar": "التحكم",
+        "en": "Control"
+      },
+      "value": {
+        "ar": "شاشة لمس (HMI) مع إمكانية برمجة حتى 50 دورة مختلفة",
+        "en": "Touchscreen (HMI) with up to 50 programmable cycles"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوصيلات",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "شبكة إيثرنت، USB، منفذ لتحديث البرامج، ونظام مراقبة عن بعد",
+        "en": "Ethernet, USB, software update port, and remote monitoring system"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "عطل في نظام التسخين يؤدي إلى عدم وصول الماء لدرجة الحرارة المطلوبة، مما يفشل عملية التعقيم الحراري ويترك الأدوات غير معقمة.",
+      "en": "Heating system failure prevents water from reaching the required temperature, failing the thermal disinfection process and leaving instruments non-disinfected."
+    },
+    {
+      "ar": "انسداد أو خلل في نظام جرعات المنظفات يؤدي إلى عدم إضافة الكمية المناسبة من المنظف، مما يقلل من كفاءة الغسيل ويترك بقايا دهنية على الأدوات.",
+      "en": "Clogged or faulty detergent dosing system results in insufficient detergent addition, reducing washing efficiency and leaving greasy residues on instruments."
+    },
+    {
+      "ar": "ضعف في مضخة التدوير أو انسداد الفلاتر يؤدي إلى ضعف وصول المحلول إلى الأدوات، خاصة في المناطق البعيدة أو القنوات الضيقة.",
+      "en": "Weak circulation pump or clogged filters leads to poor solution reach to instruments, especially in distant areas or narrow channels."
+    },
+    {
+      "ar": "عطل في نظام التجفيف (مروحة أو سخان) يؤدي إلى خروج الأدوات رطبة، مما يسبب الصدأ ونمو البكتيريا.",
+      "en": "Drying system (fan or heater) malfunction leaves instruments wet, causing rust and bacterial growth."
+    },
+    {
+      "ar": "خلل في نظام قفل الباب أو حساسات السلامة، مما يمنع بدء الدورة أو يؤدي إلى تسرب الماء الساخن أثناء التشغيل.",
+      "en": "Door locking mechanism or safety sensor malfunction prevents cycle start or causes hot water leakage during operation."
+    },
+    {
+      "ar": "تلف حساسات درجة الحرارة أو الضغط يؤدي إلى قراءات خاطئة، مما قد يتسبب في إيقاف الدورة بشكل مفاجئ أو عدم تحقيق التعقيم المطلوب.",
+      "en": "Damaged temperature or pressure sensors give false readings, potentially causing sudden cycle interruption or failure to achieve required disinfection."
+    },
+    {
+      "ar": "عطل في الطابعة المدمجة أو وحدة تخزين البيانات، مما يفقد سجلات الدورات المهمة للتوثيق والمراجعة.",
+      "en": "Built-in printer or data storage unit failure results in loss of important cycle records for documentation and review."
+    },
+    {
+      "ar": "مشاكل كهربائية مثل انقطاع التيار أو تقلبات الجهد، مما قد يؤدي إلى تلف المكونات الإلكترونية الحساسة.",
+      "en": "Electrical issues such as power outages or voltage fluctuations, which may damage sensitive electronic components."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الرئيسية للجهاز",
+      "en": "Main Components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical Specifications"
+    },
+    "faults": {
+      "ar": "الأعطال والمشكلات الشائعة",
+      "en": "Common Faults and Issues"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

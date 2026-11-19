@@ -1,0 +1,230 @@
+{
+  "id": 1,
+  "name": {
+    "ar": "مُزيل الرجفان",
+    "en": "Defibrillator"
+  },
+  "category": "emergency",
+  "icon": "bolt",
+  "shortDescription": {
+    "ar": "جهاز طبي يرسل صدمة كهربائية للقلب لإيقاف الرجفان البطيني واستعادة النظم الطبيعي.",
+    "en": "A medical device that delivers an electric shock to the heart to stop ventricular fibrillation and restore a normal rhythm."
+  },
+  "images": [
+    "assets/image/Emergency/Defibrillator/Defibrillator1.webp",
+    "assets/image/Emergency/Defibrillator/Defibrillator2.webp",
+    "assets/image/Emergency/Defibrillator/Defibrillator3.webp",
+    "assets/image/Emergency/Defibrillator/Defibrillator4.webp"
+  ],
+  "description": {
+    "ar": "مُزيل الرجفان (Defibrillator) هو جهاز طبي يرسل صدمة كهربائية للقلب لإيقاف الرجفان البطيني واستعادة النظم الطبيعي. يشمل ثلاثة أنواع: AED للعامة في الأماكن العامة، واليدوي للطواقم الطبية، والمزروع (ICD) داخل الجسم الذي يعطي صدمات تلقائياً.",
+    "en": "A defibrillator is a medical device that delivers an electric shock to the heart to stop ventricular fibrillation and restore a normal rhythm. It includes three types: AED for public use in public places, manual for medical teams, and implantable (ICD) inside the body that delivers shocks automatically."
+  },
+  "uses": [
+    {
+      "ar": "AED – للعامة في الأماكن العامة.",
+      "en": "AED – for public use in public places."
+    },
+    {
+      "ar": "يدوي – للطواقم الطبية.",
+      "en": "Manual – for medical teams."
+    },
+    {
+      "ar": "مزروع (ICD) – داخل الجسم، يعطي صدمات تلقائياً.",
+      "en": "Implantable (ICD) – inside the body, delivers shocks automatically."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز على ثلاثة مراحل: الكشف حيث تقرأ الأقطاب نظم القلب، ثم الشحن حيث يُرفع الجهد إلى آلاف الفولتات ويُخزَّن في مكثف، ثم الإطلاق حيث يُفرَّغ المكثف كصدمة ثنائية الطور (100-200 جول). الصدمات ثنائية الطور أكثر فعالية وأقل ضرراً.",
+    "en": "The device works in three stages: detection where electrodes read the heart's rhythm, charging where voltage is raised to thousands of volts and stored in a capacitor, and delivery where the capacitor discharges as a biphasic shock (100-200 joules). Biphasic shocks are more effective and cause less damage."
+  },
+  "workingSteps": [
+    {
+      "ar": "الكشف: الأقطاب تقرأ نظم القلب.",
+      "en": "Detection: electrodes read the heart's rhythm."
+    },
+    {
+      "ar": "الشحن: رفع الجهد إلى آلاف الفولتات وتخزينه في مكثف.",
+      "en": "Charging: voltage is raised to thousands of volts and stored in a capacitor."
+    },
+    {
+      "ar": "الإطلاق: تفريغ المكثف كصدمة ثنائية الطور (100-200 جول).",
+      "en": "Delivery: the capacitor discharges as a biphasic shock (100-200 joules)."
+    }
+  ],
+  "highlight": {
+    "ar": "الصدمات ثنائية الطور أكثر فعالية وأقل ضرراً.",
+    "en": "Biphasic shocks are more effective and cause less damage."
+  },
+  "components": [
+    {
+      "ar": "بطارية",
+      "en": "Battery"
+    },
+    {
+      "ar": "مذبذب",
+      "en": "Oscillator"
+    },
+    {
+      "ar": "محول رافع",
+      "en": "Step-up Transformer"
+    },
+    {
+      "ar": "مُقوّم",
+      "en": "Rectifier"
+    },
+    {
+      "ar": "مكثف عالي",
+      "en": "High-Voltage Capacitor"
+    },
+    {
+      "ar": "معالج",
+      "en": "Processor"
+    },
+    {
+      "ar": "دائرة خرج",
+      "en": "Output Circuit"
+    },
+    {
+      "ar": "أقطاب",
+      "en": "Electrodes"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز مزروع S-ICD A209",
+    "en": "Example: Implantable device S-ICD A209"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": "83.1 × 69.1 × 12.7 mm"
+    },
+    {
+      "label": {
+        "ar": "الحجم / الوزن",
+        "en": "Volume / Weight"
+      },
+      "value": {
+        "ar": "59.5 سم³ / 130 جم",
+        "en": "59.5 cm³ / 130 g"
+      }
+    },
+    {
+      "label": {
+        "ar": "الطاقة المُخرجة",
+        "en": "Output Energy"
+      },
+      "value": {
+        "ar": "حتى 80 جول",
+        "en": "Up to 80 joules"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمر البطارية",
+        "en": "Battery Life"
+      },
+      "value": {
+        "ar": "≈ 8-9 سنوات",
+        "en": "≈ 8-9 years"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد التفريغ",
+        "en": "Discharge Voltage"
+      },
+      "value": {
+        "ar": "600 – 1800 فولت",
+        "en": "600 – 1800 volts"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدة الصدمة",
+        "en": "Shock Duration"
+      },
+      "value": {
+        "ar": "30-100 ميكروثانية",
+        "en": "30-100 microseconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "شكل الموجة",
+        "en": "Waveform"
+      },
+      "value": {
+        "ar": "ثنائي الطور (Biphasic)",
+        "en": "Biphasic"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نفاد البطارية أو انتهاء عمرها.",
+      "en": "Battery depletion or end of life."
+    },
+    {
+      "ar": "صفير مستمر (فشل التشغيل الذاتي).",
+      "en": "Continuous beeping (self-test failure)."
+    },
+    {
+      "ar": "أقطاب منتهية الصلاحية أو ضعف توصيل.",
+      "en": "Expired electrodes or poor connection."
+    },
+    {
+      "ar": "تأخر الشحن أو فشل إعطاء الصدمة.",
+      "en": "Charging delay or failure to deliver shock."
+    },
+    {
+      "ar": "شاشة غير مستجيبة.",
+      "en": "Unresponsive screen."
+    },
+    {
+      "ar": "أخطاء داخلية (أضواء حمراء).",
+      "en": "Internal errors (red indicator lights)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

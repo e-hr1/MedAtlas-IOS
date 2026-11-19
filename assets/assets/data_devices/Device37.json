@@ -1,0 +1,263 @@
+ {
+  "id": 37,
+  "name": {
+    "ar": "مختبر القسطرة القلبية",
+    "en": "Cardiac Catheterization Laboratory (Cath Lab)"
+  },
+  "category": "cardiology",
+  "icon": "x-ray",
+  "shortDescription": {
+    "ar": "وحدة تشخيصية وعلاجية متطورة تستخدم لتصوير الأوعية الدموية للقلب باستخدام الأشعة السينية، وإجراء تدخلات مثل تركيب الدعامات وعلاج انسدادات الشرايين التاجية",
+    "en": "An advanced diagnostic and therapeutic unit that uses X-ray imaging to visualize the heart's blood vessels, and perform interventions such as stent placement and treatment of coronary artery blockages."
+  },
+  "images": [
+    "assets/image/Cardiology/CathLab/cathlab1.webp",
+    "assets/image/Cardiology/CathLab/cathlab2.webp",
+    "assets/image/Cardiology/CathLab/cathlab3.webp",
+    "assets/image/Cardiology/CathLab/cathlab4.webp"
+  ],
+  "description": {
+    "ar": "مختبر القسطرة القلبية (Cath Lab) هو وحدة طبية متخصصة مجهزة بأحدث أجهزة التصوير الشعاعي التداخلي، حيث يتم إدخال قسطرة رفيعة عبر شريان في الفخذ أو الرسغ وصولاً إلى القلب. يستخدم المختبر لإجراء فحوصات تشخيصية (قسطرة تشخيصية) وعلاجية (قسطرة تداخلية) مثل رأب الأوعية (البالون) وتركيب الدعامات.",
+    "en": "The Cardiac Catheterization Laboratory (Cath Lab) is a specialized medical unit equipped with state-of-the-art interventional radiology imaging devices. A thin catheter is inserted through an artery in the groin or wrist to reach the heart. The lab is used for both diagnostic (diagnostic catheterization) and therapeutic (interventional catheterization) procedures, such as angioplasty (balloon) and stent placement."
+  },
+  "uses": [
+    {
+      "ar": "تصوير الأوعية التاجية (Coronary Angiography): حقن مادة ظللة تحت الأشعة السينية لتصوير الشرايين التاجية وتحديد أماكن الانسدادات.",
+      "en": "Coronary Angiography: Injecting contrast dye under X-ray to visualize the coronary arteries and identify blockages."
+    },
+    {
+      "ar": "رأب الأوعية بالبالون (PTCA): فتح الشرايين المسدودة باستخدام بالون صغير يُنفخ داخل الشريان.",
+      "en": "Balloon Angioplasty (PTCA): Opening blocked arteries using a small balloon that is inflated inside the artery."
+    },
+    {
+      "ar": "تركيب الدعامات (Stenting): وضع دعامة معدنية داخل الشريان للحفاظ عليه مفتوحاً بعد توسيعه.",
+      "en": "Stenting: Placing a metal stent inside the artery to keep it open after dilation."
+    },
+    {
+      "ar": "القسطرة العلاجية للجلطات: سحب الجلطات الدموية أو حقن أدوية مذيبة للجلطات مباشرة في موقع الانسداد.",
+      "en": "Therapeutic Thrombus Management: Removing blood clots or injecting clot-dissolving medications directly at the blockage site."
+    },
+    {
+      "ar": "إجراءات هيكلية: مثل إغلاق الثقبة البيضاوية (PFO) أو استبدال الصمامات عن طريق الجلد (TAVI).",
+      "en": "Structural Procedures: Such as closing a Patent Foramen Ovale (PFO) or percutaneous valve replacement (TAVI)."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يتم إدخال قسطرة رفيعة عبر شريان المريض وتوجيهها بالأشعة السينية (الفلوروسكوبي) إلى الشرايين التاجية، ثم حقن مادة التباين لتصوير تدفق الدم وتقييم التضيقات وإجراء التدخل العلاجي اللازم.",
+    "en": "A thin catheter is inserted through an artery and guided under X-ray fluoroscopy to the coronary arteries, where contrast dye is injected to image blood flow, evaluate stenoses, and perform necessary therapeutic interventions."
+  },
+  "workingSteps": [
+    {
+      "ar": "التحضير والتخدير: يتم تعقيم المنطقة (الفخذ أو الرسغ) وتخديرها موضعياً، مع إعطاء المريض مسكنات ومهدئات خفيفة.",
+      "en": "Preparation and Anesthesia: The insertion site (groin or wrist) is sterilized and locally anesthetized, with the patient given mild sedatives and pain relievers."
+    },
+    {
+      "ar": "إدخال القسطرة: يتم إدخال قسطرة رفيعة عبر الوعاء الدموي تحت توجيه الأشعة السينية (الفلوروسكوبي) حتى تصل إلى الشرايين التاجية.",
+      "en": "Catheter Insertion: A thin catheter is inserted through the blood vessel under X-ray guidance (fluoroscopy) until it reaches the coronary arteries."
+    },
+    {
+      "ar": "حقن المادة الظللة: يتم حقن مادة تباين (صبغة) عبر القسطرة، وتظهر الصور الفورية على الشاشات عالية الدقة، مما يوضح تدفق الدم وأي تضيقات.",
+      "en": "Contrast Injection: A contrast dye is injected through the catheter, with real-time images appearing on high-resolution monitors, showing blood flow and any narrowings."
+    },
+    {
+      "ar": "التدخل العلاجي (إن لزم): في حال وجود انسداد، يتم إدخال سلك توجيه وبالون صغير لتوسيع الشريان، ثم وضع دعامة دائمة.",
+      "en": "Therapeutic Intervention (if needed): If a blockage is found, a guidewire and small balloon are inserted to widen the artery, followed by placement of a permanent stent."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم أنظمة التصوير المتطورة مثل (IVUS) و (OCT) لتوفير صور ثلاثية الأبعاد عالية الدقة داخل الشرايين، مما يساعد في تقييم حجم وطبيعة اللويحات بدقة أكبر.",
+    "en": "Advanced imaging systems such as IVUS and OCT provide high-resolution 3D images inside the arteries, helping to more accurately assess the size and nature of plaques."
+  },
+  "components": [
+    {
+      "ar": "جهاز تصوير فلوروسكوبي (C-Arm)",
+      "en": "Fluoroscopic Imaging System (C-Arm)"
+    },
+    {
+      "ar": "شاشات عرض عالية الدقة (4K)",
+      "en": "High-Resolution Display Monitors (4K)"
+    },
+    {
+      "ar": "مضخة حقن أوتوماتيكية للمادة الظللة",
+      "en": "Automatic Contrast Injector Pump"
+    },
+    {
+      "ar": "نظام مراقبة العلامات الحيوية (ضغط، نبض، أكسجين)",
+      "en": "Vital Signs Monitoring System (Pressure, Pulse, Oxygen)"
+    },
+    {
+      "ar": "جهاز تخطيط قلب (ECG) متعدد القنوات",
+      "en": "Multi-channel ECG Machine"
+    },
+    {
+      "ar": "عدة القسطرة (أسلاك توجيه، بالونات، دعامات)",
+      "en": "Catheterization Kit (Guidewires, Balloons, Stents)"
+    },
+    {
+      "ar": "نظام تخزين الصور (PACS) وأرشفة البيانات",
+      "en": "Image Storage System (PACS) and Data Archiving"
+    },
+    {
+      "ar": "جهاز مزيل الرجفان (Defibrillator) للطوارئ",
+      "en": "Emergency Defibrillator"
+    },
+    {
+      "ar": "مضخة شفط وجهاز إنعاش قلبي رئوي متكامل",
+      "en": "Suction Pump and Integrated CPR Device"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: نظام مختبر قسطرة نموذجي (Siemens Artis أو GE Innova)",
+    "en": "Example: Typical Cath Lab System (Siemens Artis or GE Innova)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع جهاز التصوير",
+        "en": "Imaging System Type"
+      },
+      "value": {
+        "ar": "C-Arm ثنائي المستوى أو أحادي المستوى",
+        "en": "Bi-plane or Single-plane C-Arm"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الصورة",
+        "en": "Image Resolution"
+      },
+      "value": {
+        "ar": "حتى 2048 × 2048 بكسل (مصفوفة عالية)",
+        "en": "Up to 2048 × 2048 pixels (high matrix)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل الإطارات",
+        "en": "Frame Rate"
+      },
+      "value": {
+        "ar": "15 – 30 إطار/ثانية (فلوروسكوبي)",
+        "en": "15 – 30 frames/second (fluoroscopy)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المادة الظللة",
+        "en": "Contrast Type"
+      },
+      "value": {
+        "ar": "مادة تباين يودية غير أيونية (منخفضة الأسموية)",
+        "en": "Non-ionic iodine contrast (low osmolality)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط الحقن",
+        "en": "Injection Pressure"
+      },
+      "value": {
+        "ar": "300 – 1200 PSI (قابل للبرمجة)",
+        "en": "300 – 1200 PSI (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة المساعدة",
+        "en": "Assisted Systems"
+      },
+      "value": {
+        "ar": "تصحيح التنفس، تحديد مسار الأوعية، قياسات تلقائية",
+        "en": "Breath correction, vessel tracking, automatic measurements"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "ربط مع نظام HIS، PACS، وسجلات المرضى الإلكترونية",
+        "en": "Integration with HIS, PACS, and Electronic Medical Records"
+      }
+    },
+    {
+      "label": {
+        "ar": "الجرعة الإشعاعية",
+        "en": "Radiation Dose"
+      },
+      "value": {
+        "ar": "تقنيات تقليل الجرعة (مثل فلتر نحاسي، نبض الأشعة)",
+        "en": "Dose reduction technologies (e.g., copper filter, pulsed radiation)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "خلل في جهاز الفلوروسكوبي يسبب صوراً مشوشة أو غير واضحة، مما يؤثر على دقة التشخيص.",
+      "en": "Fluoroscopy system malfunction causing blurry or unclear images, affecting diagnostic accuracy."
+    },
+    {
+      "ar": "عطل في مضخة حقن المادة الظللة يؤدي إلى عدم وصول الصبغة بالضغط المطلوب.",
+      "en": "Contrast injector pump failure preventing the dye from being delivered at the required pressure."
+    },
+    {
+      "ar": "مشاكل في نظام مراقبة الضغط الدموي تؤدي إلى قراءات خاطئة أثناء الإجراء.",
+      "en": "Blood pressure monitoring system issues leading to incorrect readings during the procedure."
+    },
+    {
+      "ar": "نقص أو خلل في المعدات الاستهلاكية (أسلاك، بالونات، دعامات) مما يعيق إتمام التدخل.",
+      "en": "Shortage or malfunction of consumable equipment (wires, balloons, stents) hindering the intervention."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي أو عطل في نظام الطوارئ (UPS) مما قد يوقف الإجراء بشكل مفاجئ.",
+      "en": "Power outage or UPS failure potentially stopping the procedure unexpectedly."
+    },
+    {
+      "ar": "فشل في نقل أو حفظ الصور على نظام PACS، مما يتسبب في فقدان البيانات أو تأخير التقارير.",
+      "en": "Failure to transfer or save images to PACS, causing data loss or report delays."
+    },
+    {
+      "ar": "مشكلات في التواصل بين أفراد الفريق الطبي أثناء الإجراءات الطارئة.",
+      "en": "Communication issues among medical team members during emergency procedures."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور المختبر",
+      "en": "Laboratory images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Click on an image to enlarge"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الرئيسية للمختبر",
+      "en": "Main laboratory components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال والمشكلات الشائعة",
+      "en": "Common faults and issues"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

@@ -1,0 +1,266 @@
+{
+  "id": 45,
+  "name": {
+    "ar": "نظام التصوير الإشعاعي المحوسب (CR)",
+    "en": "Computed Radiography System"
+  },
+  "category": "radiology",
+  "icon": "desktop",
+  "shortDescription": {
+    "ar": "تقنية انتقال رقمية – تعتمد على ألواح الفوسفور القابلة للتحفيز لتحديث غرف الأشعة التقليدية إلى النظام الرقمي",
+    "en": "Digital Transition Technology – Uses photostimulable phosphor plates to upgrade traditional X-ray rooms to digital systems"
+  },
+  "images": [
+    "assets/image/Radiology/CR/CR1.webp",
+    "assets/image/Radiology/CR/CR2.webp"
+  ],
+  "description": {
+    "ar": "نظام التصوير الإشعاعي المحوسب (Computed Radiography) هو حلقة الوصل التقنية التي مكنت المستشفيات من الانتقال من التصوير التقليدي بالأفلام والمحمضات الكيميائية إلى التصوير الرقمي. يعتمد النظام على استخدام كاسيتات خاصة تحتوي على لوح فوسفوري لتخزين الطاقة الإشعاعية، ومن ثم قراءتها عبر جهاز مسح ليزري ميكانيكي لإنتاج صورة رقمية عالية الجودة.",
+    "en": "Computed Radiography (CR) is the technological bridge that enabled hospitals to transition from traditional film-based imaging and chemical processing to digital imaging. The system uses special cassettes containing photostimulable phosphor plates to store radiation energy, which are then read by a mechanical laser scanner to produce high-quality digital images."
+  },
+  "uses": [
+    {
+      "ar": "تحديث الأنظمة التقليدية (Retrofitting) – تشغيل غرف الأشعة السينية التقليدية وتحويلها إلى نظام رقمي دون الحاجة لاستبدال أنبوب الأشعة أو المولد الرئيسي.",
+      "en": "Retrofitting Traditional Systems – Operating conventional X-ray rooms and converting them to digital systems without needing to replace the X-ray tube or main generator."
+    },
+    {
+      "ar": "تصوير العظام والصدر (General Radiography) – فحص الكسور، والخلع العظمي، والتهابات الرئة، ومتابعة الحالات الروتينية بإنتاجية أعلى من الأفلام التقليدية.",
+      "en": "General Radiography (Bone and Chest) – Examining fractures, bone dislocations, lung infections, and following up on routine cases with higher productivity than conventional films."
+    },
+    {
+      "ar": "التصوير النقال (Mobile X-Ray) – استخدام الكاسيتات الفوسفورية مع أجهزة الأشعة المحمولة في العناية المركزة (ICU) وغرف الطوارئ بسهولة مرنة.",
+      "en": "Mobile X-Ray Imaging – Using phosphor cassettes with portable X-ray devices in ICUs and emergency rooms with flexible ease."
+    },
+    {
+      "ar": "أرشفة وسهولة نقل الصور – إنتاج صور رقمية بصيغة دايكوم (DICOM) يسهل إرسالها فوراً إلى نظام الـ PACS أو طباعتها على طابعات حرارية جافة.",
+      "en": "Archiving and Easy Image Transfer – Producing digital images in DICOM format, enabling immediate transmission to the PACS system or printing on dry thermal printers."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل النظام عبر عدة مراحل تبدأ بالتعريض وتخزين الصورة الكامنة حيث تصطدم الأشعة السينية النافذة بلوح الفوسفور القابل للتحفيز بالضوء (PSP) داخل الكاسيت وتحتفظ بالطاقة في فخاخ ذرية، ثم المسح بالليزر بإدخال الكاسيت في قارئ الـ CR وسحب اللوح عبر محرك ميكانيكي وتوجيه شعاع ليزر أحمر لمسحه، تليها الانبعاث الضوئي المحفز لتحرير الطاقة على شكل ضوء أزرق مرئي، ثم التقاط الضوء والتحويل الرقمي عبر أنبوب مضاعف ضوئي ومحول (ADC)، وأخيراً مسح اللوح وإعادة الاستخدام بتعريضه لضوء أبيض مكثف لمسح أي طاقة متبقية.",
+    "en": "The system operates through stages starting with exposure and latent image storage where X-rays strike the PSP plate inside the cassette and store energy in atomic lattices, laser scanning where the cassette is inserted into the CR reader and a red laser scans the plate, photostimulated luminescence (PSL) releasing stored energy as visible blue light, light capture and digital conversion via a photomultiplier tube and ADC, and finally plate erasure and reuse under intense white light to clear remaining energy."
+  },
+  "workingSteps": [
+    {
+      "ar": "التعريض وتخزين الصورة الكامنة: تصطدم الأشعة السينية النافذة من جسم المريض بلوح الفوسفور القابل للتحفيز بالضوء (PSP) داخل الكاسيت. تمتص بلورات الفوسفور (المطعمة باليوربيوم) طاقة الأشعة وتحتفظ بها في فخاخ ذرية، مكونة ما يسمى بـ \"الصورة الكامنة\" (Latent Image).",
+      "en": "Exposure and Latent Image Storage: X-rays transmitted through the patient's body strike the photostimulable phosphor (PSP) plate inside the cassette. The phosphor crystals (doped with europium) absorb the radiation energy and trap it in atomic lattices, forming what is called the \"Latent Image\"."
+    },
+    {
+      "ar": "المسح بالليزر (Laser Scanning): يتم إدخال الكاسيت في جهاز القارئ (CR Reader)، حيث يقوم محرك ميكانيكي بسحب اللوح الفوسفوري، ويوجه شعاع ليزر أحمر (نيون-هيليوم أو صمام ثنائي) بدقة لمسح سطح اللوح.",
+      "en": "Laser Scanning: The cassette is inserted into the CR Reader, where a mechanical drive system pulls the phosphor plate and directs a red laser beam (helium-neon or diode) with precision to scan the plate's surface."
+    },
+    {
+      "ar": "الانبعاث الضوئي المحفز (PSL): يقوم شعاع الليزر بتحرير الطاقة المخزنة في الفوسفور، فتنبعث منها طاقة على شكل ضوء أزرق مرئي يتناسب طردياً مع كمية الأشعة السينية التي امتصتها سابقاً.",
+      "en": "Photostimulated Luminescence (PSL): The laser beam releases the stored energy in the phosphor, emitting visible blue light proportional to the amount of X-rays previously absorbed."
+    },
+    {
+      "ar": "التقاط الضوء والتحويل الرقمي: يقوم دليل ضوئي بتجميع الضوء الأزرق وتوجيهه إلى أنبوب مضاعف ضوئي (PMT) أو كاشف صمام ثنائي، والذي يحول الضوء إلى إشارة كهربائية تماثلية، ثم يقوم محول (ADC) بتحويلها إلى إشارة رقمية.",
+      "en": "Light Capture and Digital Conversion: A light guide collects the blue light and directs it to a photomultiplier tube (PMT) or diode detector, which converts it to an analog electrical signal, then an Analog-to-Digital Converter (ADC) converts it to a digital signal."
+    },
+    {
+      "ar": "مسح اللوح وإعادة الاستخدام (Erasure): بعد القراءة، يمر اللوح الفوسفوري تحت ضوء أبيض مكثف جداً لإخراج أي طاقة متبقية ومسح الصورة تماماً، مما يجعل الكاسيت جاهزاً للاستخدام آلاف المرات مجدداً.",
+      "en": "Plate Erasure and Reuse: After reading, the phosphor plate passes under a very intense white light to release any remaining energy and completely erase the image, making the cassette ready for thousands of subsequent uses."
+    }
+  ],
+  "highlight": {
+    "ar": "يجب قراءة الكاسيت الفوسفوري في جهاز الـ CR بأسرع وقت ممكن بعد تعريض المريض للأشعة؛ حيث تفقد الصورة الكامنة المخزنة في لوح الفوسفور حوالي 25% من طاقتها وبياناتها الطبية إذا تُركت دون قراءة لمدة تزيد عن 8 ساعات نتيجة ظاهرة التلاشي الطبيعي.",
+    "en": "The phosphor cassette must be read in the CR system as quickly as possible after patient exposure; the latent image stored on the phosphor plate loses approximately 25% of its energy and diagnostic data if left unread for more than 8 hours due to natural fading."
+  },
+  "components": [
+    {
+      "ar": "كاسيتات التصوير (CR Cassettes) بأحجامها القياسية المختلفة",
+      "en": "CR Cassettes in various standard sizes"
+    },
+    {
+      "ar": "ألواح الفوسفور الحساسة القابلة للتحفيز (PSP Imaging Plates)",
+      "en": "Photostimulable Phosphor (PSP) Imaging Plates"
+    },
+    {
+      "ar": "وحدة الليزر الأحمر (Laser Source) المخصصة لتحفيز بلورات الفوسفور",
+      "en": "Red Laser Unit for stimulating phosphor crystals"
+    },
+    {
+      "ar": "أنبوب المضاعف الضوئي (PMT) أو كاشف السيليكون لتجميع الإشارات الضوئية",
+      "en": "Photomultiplier Tube (PMT) or Silicon Detector for light signal collection"
+    },
+    {
+      "ar": "محرك ميكانيكي دقيق (Precision Drive System) لتحريك اللوح بسلاسة",
+      "en": "Precision Mechanical Drive System for smooth plate movement"
+    },
+    {
+      "ar": "نظام مصابيح المسح الضوئي المكثف (Erasure Lamps) لتصفير اللوح",
+      "en": "Intense Erasure Lamps for resetting the plate"
+    },
+    {
+      "ar": "محطة عمل برمجية (CR Workstation) لمعاينة الصور وضبط معالمها",
+      "en": "Software Workstation for image preview and parameter adjustment"
+    },
+    {
+      "ar": "وحدة معالجة وتعديل التباين الرقمي التلقائي للصور",
+      "en": "Automatic Digital Contrast Processing Unit"
+    },
+    {
+      "ar": "منافذ اتصال شبكية لبث ملفات DICOM لنظام الأرشفة أو الطابعات",
+      "en": "Network Ports for transmitting DICOM files to PACS or printers"
+    },
+    {
+      "ar": "فلاتر تنقية الهواء الداخلية لمنع استقرار الغبار على المكونات البصرية",
+      "en": "Air Intake Filters to prevent dust accumulation on optical components"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لقارئ تصوير إشعاعي محوسب (CR Reader) حديث",
+    "en": "Typical specifications for a modern CR Reader system"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "إنتاجية الجهاز (Throughput)",
+        "en": "System Throughput"
+      },
+      "value": {
+        "ar": "من 60 إلى 90 كاسيت في الساعة (حسب حجم الكاسيت والدقة المطلوبة)",
+        "en": "60 to 90 cassettes per hour (depending on cassette size and required resolution)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأحجام المدعومة للكاسيتات",
+        "en": "Supported Cassette Sizes"
+      },
+      "value": {
+        "ar": "35 x 43 cm, 24 x 30 cm, 18 x 24 cm (وأحجام خاصة بالأطفال)",
+        "en": "35 x 43 cm, 24 x 30 cm, 18 x 24 cm (and pediatric sizes)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أبعاد البكسل وقدرة المسح (Pixel Pitch)",
+        "en": "Pixel Pitch and Scanning Resolution"
+      },
+      "value": {
+        "ar": "50 ميكرومتر إلى 100 ميكرومتر (مسح دقيق جداً)",
+        "en": "50 micrometers to 100 micrometers (very fine scanning)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمق البيانات الرقمية (A/D Conversion)",
+        "en": "Digital Data Depth (A/D Conversion)"
+      },
+      "value": {
+        "ar": "16-bit لمستويات التدرج الرمادي (65,536 مستوى رمادي)",
+        "en": "16-bit grayscale levels (65,536 gray levels)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول موجة ليزر التحفيز",
+        "en": "Stimulation Laser Wavelength"
+      },
+      "value": {
+        "ar": "حوالي 633 نانومتر (شعاع ليزر أحمر ثابت)",
+        "en": "Approximately 633 nm (stable red laser beam)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول موجة ضوء الانبعاث (PSL)",
+        "en": "Emission Light Wavelength (PSL)"
+      },
+      "value": {
+        "ar": "حوالي 390 نانومتر (ضوء أزرق مرئي ملتقط)",
+        "en": "Approximately 390 nm (visible blue light captured)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن ظهور الصورة على الشاشة",
+        "en": "Image Display Time"
+      },
+      "value": {
+        "ar": "يتراوح بين 15 إلى 25 ثانية من وقت إدخال الكاسيت",
+        "en": "Ranges from 15 to 25 seconds from cassette insertion"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن والتصميم الهيكلي",
+        "en": "Physical Design"
+      },
+      "value": {
+        "ar": "تصميم مكتبي مدمج (Tabletop) موفر للمساحة في غرف التحكم صغيرة الحجم",
+        "en": "Compact tabletop design, space-saving for small control rooms"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ظهور خطوط بيضاء مستمرة في الصور نتيجة خدوش ميكانيكية على سطح اللوح الفوسفوري الحساس.",
+      "en": "Continuous white lines appearing in images due to mechanical scratches on the sensitive phosphor plate surface."
+    },
+    {
+      "ar": "تلوث المرآة البصرية أو عدسات الليزر بالغبار، مما يتسبب في تراجع حدة التباين وظهور بقع ضبابية.",
+      "en": "Contamination of optical mirrors or laser lenses with dust, causing reduced contrast sharpness and blurry spots."
+    },
+    {
+      "ar": "انحشار الكاسيت ميكانيكياً (Cassette Jamming) داخل القارئ نتيجة خلل في تروس السحب والالتقاط.",
+      "en": "Cassette Jamming inside the reader due to faults in the pick-up and feed gears."
+    },
+    {
+      "ar": "ضعف أو تلف وحدة الليزر الأحمر مما يؤدي إلى فشل كامل في تحفيز البلورات الفوسفورية وسقوط الصورة.",
+      "en": "Weakening or damage to the red laser unit leading to complete failure to stimulate phosphor crystals and image loss."
+    },
+    {
+      "ar": "تلف أحد مصابيح التصفير (Erasure Lamp Failure) مما يترك ظلالاً من الفحص السابق تظهر مدمجة مع الفحص الجديد (Ghost Images).",
+      "en": "Erasure Lamp Failure leaving shadows from previous examinations merged with the new scan (Ghost Images)."
+    },
+    {
+      "ar": "تعطل نظام البرمجيات وقاعدة البيانات المحلية ومشاكل في الاتصال الشبكي مع سيرفر الـ PACS.",
+      "en": "Software system failure, local database corruption, or network connectivity issues with the PACS server."
+    },
+    {
+      "ar": "تآكل الأقفال الميكانيكية الخارجية للكاسيت مما يسمح بتسرب الضوء الخارجي للوح وتلف الصورة الكامنة قبل قراءتها.",
+      "en": "Wear of external mechanical locks on cassettes, allowing external light to leak in and damage the latent image before reading."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,255 @@
+{
+  "id": 77,
+  "name": {
+    "ar": "مقياس الانكسار الآلي",
+    "en": "Auto Refractometer"
+  },
+  "category": "eye",
+  "icon": "eye",
+  "shortDescription": {
+    "ar": "جهاز بصري آلي يستخدم لقياس الأخطاء الانكسارية للعين (قصر النظر، طول النظر، والاستجماتيزم) بسرعة ودقة عالية، دون الحاجة إلى تدخل يدوي من الفاحص.",
+    "en": "An automated optical device used to measure refractive errors of the eye (myopia, hyperopia, and astigmatism) quickly and accurately, without the need for manual intervention from the examiner."
+  },
+  "images": [
+    "assets/image/Eye/AutoRefractometer/AutoRefractometer1.webp",
+    "assets/image/Eye/AutoRefractometer/AutoRefractometer2.webp"
+  ],
+  "description": {
+    "ar": "مقياس الانكسار الآلي (Auto Refractometer) هو جهاز بصري إلكتروني يُستخدم لقياس الأخطاء الانكسارية للعين بشكل تلقائي وسريع. يقوم الجهاز بإرسال شعاع ضوئي إلى العين، ثم يقيس كيفية انعكاسه من الشبكية لتحديد قوة العدسة المطلوبة لتصحيح الرؤية. يُعد هذا الجهاز أداة أساسية في عيادات البصريات وطب العيون لإجراء الفحوصات الأولية وتحديد وصفة النظارات الطبية.",
+    "en": "An Auto Refractometer is an electronic optical device used to automatically and quickly measure refractive errors of the eye. The device sends a beam of light into the eye and measures how it reflects from the retina to determine the lens power required for vision correction. This device is an essential tool in optometry and ophthalmology clinics for initial examinations and determining eyeglass prescriptions."
+  },
+  "uses": [
+    {
+      "ar": "قياس الأخطاء الانكسارية: تحديد درجات قصر النظر (Myopia)، طول النظر (Hyperopia)، والاستجماتيزم (Astigmatism).",
+      "en": "Measuring refractive errors: Determining the degrees of myopia (nearsightedness), hyperopia (farsightedness), and astigmatism."
+    },
+    {
+      "ar": "الفحص الروتيني للرؤية: ضمن برامج الفحص الشامل للعيون، خاصة للأطفال وكبار السن.",
+      "en": "Routine vision screening: As part of comprehensive eye examination programs, especially for children and the elderly."
+    },
+    {
+      "ar": "تحديد وصفة النظارات: توفير قراءة أولية دقيقة لوصفة العدسات الطبية.",
+      "en": "Determining eyeglass prescriptions: Providing accurate preliminary readings for prescription lenses."
+    },
+    {
+      "ar": "مراقبة تغيرات الرؤية: متابعة تطور الأخطاء الانكسارية مع مرور الوقت.",
+      "en": "Monitoring vision changes: Tracking the progression of refractive errors over time."
+    },
+    {
+      "ar": "التقييم ما قبل الجراحة: قبل عمليات الليزك وزراعة العدسات داخل العين.",
+      "en": "Pre-surgical evaluation: Before LASIK and intraocular lens implantation procedures."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد مقياس الانكسار الآلي على مبدأ قياس انعكاس الضوء من الشبكية (Retinoscopy الآلي) عبر خمس مراحل: إصدار الأشعة حيث يُصدر الجهاز شعاعاً ضوئياً من الأشعة تحت الحمراء (بطول موجي حوالي 850 نانومتر) نحو العين، ثم دخول الضوء إلى العين حيث يمر الضوء عبر القرنية والعدسة ليصل إلى الشبكية، ثم انعكاس الضوء حيث ينعكس الضوء من الشبكية ويعود عبر مسار العين نفسه، ثم تحليل الانعكاس حيث يقوم الجهاز بتحليل نمط انعكاس الضوء باستخدام حساسات ضوئية متقدمة لتحديد شكل وحجم البقعة الضوئية المرتدة، ثم حساب الانكسار حيث يحسب الجهاز قوة الانكسار المطلوبة لتصحيح الرؤية لكل عين على حدة ويُظهر النتائج على شاشة العرض كقيم كروية واسطوانية ومحور.",
+    "en": "The Auto Refractometer operates on the principle of automated retinoscopy through five stages: Light Emission where the device emits a beam of near-infrared light (wavelength approximately 850 nm) towards the eye, then Light Entry where the light passes through the cornea and lens to reach the retina, then Light Reflection where the light reflects from the retina and returns through the same eye path, then Reflection Analysis where the device analyzes the reflection pattern using advanced optical sensors to determine the shape and size of the returning light spot, then Refraction Calculation where the device calculates the refractive power required to correct vision for each eye individually displaying the results on the screen as spherical, cylindrical, and axis values."
+  },
+  "workingSteps": [
+    {
+      "ar": "إصدار الأشعة: يُصدر الجهاز شعاعاً ضوئياً من الأشعة تحت الحمراء (بطول موجي حوالي 850 نانومتر) نحو العين.",
+      "en": "Light Emission: The device emits a beam of near-infrared light (wavelength approximately 850 nm) towards the eye."
+    },
+    {
+      "ar": "دخول الضوء إلى العين: يمر الضوء عبر القرنية والعدسة ليصل إلى الشبكية.",
+      "en": "Light Entry: The light passes through the cornea and lens to reach the retina."
+    },
+    {
+      "ar": "انعكاس الضوء: ينعكس الضوء من الشبكية ويعود عبر مسار العين نفسه.",
+      "en": "Light Reflection: The light reflects from the retina and returns through the same eye path."
+    },
+    {
+      "ar": "تحليل الانعكاس: يقوم الجهاز بتحليل نمط انعكاس الضوء باستخدام حساسات ضوئية متقدمة لتحديد شكل وحجم البقعة الضوئية المرتدة.",
+      "en": "Reflection Analysis: The device analyzes the reflection pattern using advanced optical sensors to determine the shape and size of the returning light spot."
+    },
+    {
+      "ar": "حساب الانكسار: بناءً على تحليل انعكاس الضوء، يحسب الجهاز قوة الانكسار المطلوبة لتصحيح الرؤية لكل عين على حدة، ويُظهر النتائج على شاشة العرض كقيم كروية واسطوانية ومحور.",
+      "en": "Refraction Calculation: Based on the light reflection analysis, the device calculates the refractive power required to correct vision for each eye individually, displaying the results on the screen as spherical, cylindrical, and axis values."
+    }
+  ],
+  "highlight": {
+    "ar": "توفر أجهزة الـ Auto Refractometer الحديثة خاصية قياس الانكسار دون توسيع حدقة العين (Non-Mydriatic)، مما يسرع الفحص ويقلل من إزعاج المريض.",
+    "en": "Modern Auto Refractometers feature Non-Mydriatic measurement capability, which speeds up the examination and reduces patient discomfort by eliminating the need for pupil dilation."
+  },
+  "components": [
+    {
+      "ar": "مصدر ضوء (لمبة الأشعة تحت الحمراء)",
+      "en": "Light source (Infrared LED)"
+    },
+    {
+      "ar": "نظام عدسات بصري متقدم",
+      "en": "Advanced optical lens system"
+    },
+    {
+      "ar": "كاميرا أو حساس ضوئي (CCD / CMOS)",
+      "en": "Camera or optical sensor (CCD / CMOS)"
+    },
+    {
+      "ar": "وحدة معالجة إلكترونية",
+      "en": "Electronic processing unit"
+    },
+    {
+      "ar": "شاشة عرض LCD لعرض النتائج",
+      "en": "LCD display screen for results"
+    },
+    {
+      "ar": "طابعة مدمجة (في بعض الطرازات)",
+      "en": "Built-in printer (on some models)"
+    },
+    {
+      "ar": "نظام تثبيت الرأس (دعم الذقن والجبهة)",
+      "en": "Head stabilization system (chin and forehead rest)"
+    },
+    {
+      "ar": "مصدر طاقة (بطارية أو كهربائي)",
+      "en": "Power source (battery or electrical)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز مقياس الانكسار الآلي",
+    "en": "Example: Typical specifications for an Auto Refractometer"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق القياس (الجزء الكروي)",
+        "en": "Measurement Range (Sphere)"
+      },
+      "value": {
+        "ar": "-20.00 D إلى +20.00 D (بخطوات 0.12 D)",
+        "en": "-20.00 D to +20.00 D (in 0.12 D steps)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق القياس (الجزء الأسطواني)",
+        "en": "Measurement Range (Cylinder)"
+      },
+      "value": {
+        "ar": "0.00 D إلى ±10.00 D (بخطوات 0.12 D)",
+        "en": "0.00 D to ±10.00 D (in 0.12 D steps)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق المحور",
+        "en": "Axis Range"
+      },
+      "value": {
+        "ar": "0° إلى 180° (بخطوات 1°)",
+        "en": "0° to 180° (in 1° steps)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة القياس",
+        "en": "Measurement Accuracy"
+      },
+      "value": {
+        "ar": "0.01 D (كروي وأسطواني)",
+        "en": "0.01 D (sphere and cylinder)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول الموجة الضوئية",
+        "en": "Light Wavelength"
+      },
+      "value": {
+        "ar": "850 نانومتر (الأشعة تحت الحمراء)",
+        "en": "850 nm (Near-infrared)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت الفحص",
+        "en": "Examination Time"
+      },
+      "value": {
+        "ar": "0.1 – 0.5 ثانية لكل عين",
+        "en": "0.1 – 0.5 seconds per eye"
+      }
+    },
+    {
+      "label": {
+        "ar": "الواجهة",
+        "en": "Interface"
+      },
+      "value": {
+        "ar": "شاشة لمس (Touch Screen) أو أزرار تحكم",
+        "en": "Touch Screen or control buttons"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "ضعف أو تلف مصدر الضوء، مما يؤثر على دقة القراءة.",
+      "en": "Weak or damaged light source, affecting reading accuracy."
+    },
+    {
+      "ar": "اتساخ أو خدوش في العدسات البصرية، مما يسبب تشويشاً في الصورة.",
+      "en": "Dirty or scratched optical lenses, causing image distortion."
+    },
+    {
+      "ar": "عطل في الكاميرا أو الحساس الضوئي، مما يؤدي إلى قراءات خاطئة.",
+      "en": "Camera or sensor malfunction, leading to incorrect readings."
+    },
+    {
+      "ar": "خلل في وحدة المعالجة الإلكترونية أو البرمجيات الداخلية.",
+      "en": "Electronic processing unit or internal software malfunction."
+    },
+    {
+      "ar": "مشاكل في شاشة العرض مثل ظهور خطوط أو بكسلات ميتة.",
+      "en": "Display screen issues such as lines or dead pixels."
+    },
+    {
+      "ar": "عطل في الطابعة المدمجة أو مشاكل في الورق.",
+      "en": "Built-in printer malfunction or paper jams."
+    },
+    {
+      "ar": "عدم ثبات نظام تثبيت الرأس، مما يسبب حركة المريض أثناء الفحص.",
+      "en": "Unstable head rest causing patient movement during examination."
+    },
+    {
+      "ar": "مشاكل في البطارية أو التوصيلات الكهربائية.",
+      "en": "Battery or electrical connection problems."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

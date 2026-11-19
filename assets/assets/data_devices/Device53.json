@@ -1,0 +1,276 @@
+{
+  "id": 53,
+  "name": {
+    "ar": "جهاز الحاضنة",
+    "en": "Incubator"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري يوفر بيئة محكمة من حيث درجة الحرارة والرطوبة وغاز ثاني أكسيد الكربون لنمو الكائنات الحية الدقيقة والخلايا",
+    "en": "Laboratory device providing a controlled environment of temperature, humidity, and carbon dioxide gas for the growth of microorganisms and cells"
+  },
+  "images": [
+    "assets/image/Laboratory/Incubator/Incubator1.webp",
+    "assets/image/Laboratory/Incubator/Incubator2.webp"
+  ],
+  "description": {
+    "ar": "جهاز مخبري أساسي يُستخدم لتوفير ظروف بيئية محكمة ومضبوطة لنمو وتكاثر الكائنات الحية الدقيقة مثل البكتيريا والفطريات، وكذلك لزراعة الخلايا الحية والأنسجة. يحافظ الجهاز على درجة حرارة ثابتة (عادة 37 درجة مئوية)، ورطوبة مناسبة، وتركيز محدد من غاز ثاني أكسيد الكربون (CO₂) عند الحاجة.",
+    "en": "An essential laboratory device used to provide controlled environmental conditions for the growth and reproduction of microorganisms such as bacteria and fungi, as well as for cell and tissue culture. The device maintains a constant temperature (typically 37°C), appropriate humidity, and a specific concentration of carbon dioxide (CO₂) when required."
+  },
+  "uses": [
+    {
+      "ar": "زراعة البكتيريا – تحضين العينات البكتيرية على الأوساط الزراعية لتشخيص العدوى.",
+      "en": "Bacterial culture – Incubating bacterial samples on culture media for infection diagnosis."
+    },
+    {
+      "ar": "زراعة الخلايا – نمو الخلايا الحيوانية والنباتية في أبحاث الأحياء الجزيئية والطب التجديدي.",
+      "en": "Cell culture – Growing animal and plant cells in molecular biology and regenerative medicine research."
+    },
+    {
+      "ar": "اختبارات الحساسية للمضادات الحيوية – تحديد فعالية المضادات الحيوية ضد البكتيريا الممرضة.",
+      "en": "Antibiotic susceptibility testing – Determining the effectiveness of antibiotics against pathogenic bacteria."
+    },
+    {
+      "ar": "تخمير الأغذية – في المختبرات الغذائية لإنتاج الزبادي والخميرة والجبن.",
+      "en": "Food fermentation – In food laboratories for producing yogurt, yeast, and cheese."
+    },
+    {
+      "ar": "حضانة الأجنة – في مختبرات أطفال الأنابيب لتوفير ظروف مثالية لنمو الأجنة.",
+      "en": "Embryo incubation – In IVF laboratories to provide optimal conditions for embryo development."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بضبط درجة الحرارة بواسطة نظام تسخين كهربائي ومستشعرات دقيقة، مع عزل حراري للحجرة الداخلية، والتحكم الاختياري بالرطوبة عبر خزان ماء، والتحكم بغاز CO₂ في الحاضنات المخصصة للحفاظ على توازن الحموضة لزراعة الخلايا، بالإضافة إلى مروحة داخلية لضمان تجانس توزيع الهواء والحرارة.",
+    "en": "The system operates through temperature regulation via an electric heating system and sensors, thermal insulation, optional humidity control using a water reservoir, CO₂ control for cell cultures, and an internal fan ensuring uniform heat and air distribution."
+  },
+  "workingSteps": [
+    {
+      "ar": "ضبط درجة الحرارة: يقوم نظام تسخين كهربائي مع مستشعرات دقيقة (Thermistor أو RTD) برفع درجة حرارة الحجرة الداخلية إلى القيمة المطلوبة (عادة 25-60 درجة مئوية، وأكثرها شيوعاً 37°C).",
+      "en": "Temperature regulation: An electric heating system with precision sensors (Thermistor or RTD) raises the internal chamber temperature to the required value (typically 25-60°C, most commonly 37°C)."
+    },
+    {
+      "ar": "العزل الحراري: تُحاط الحجرة الداخلية بطبقات عازلة من الألياف الزجاجية أو البولي يوريثان للحفاظ على ثبات الحرارة ومنع تسربها.",
+      "en": "Thermal insulation: The internal chamber is surrounded by insulating layers of fiberglass or polyurethane foam to maintain temperature stability and prevent heat loss."
+    },
+    {
+      "ar": "التحكم بالرطوبة (اختياري): بعض الحاضنات تحتوي على خزان ماء داخلي أو نظام ترطيب للحفاظ على رطوبة نسبية عالية (90-95%) لمنع جفاف الأوساط الزراعية.",
+      "en": "Humidity control (optional): Some incubators contain an internal water reservoir or humidification system to maintain high relative humidity (90-95%) to prevent culture media from drying out."
+    },
+    {
+      "ar": "التحكم بغاز CO₂ (اختياري): في حاضنات CO₂، يُحقن غاز ثاني أكسيد الكربون بنسبة 5% (أو حسب الحاجة) للحفاظ على درجة حموضة (pH) متوازنة في أوساط زراعة الخلايا، مع مستشعرات للأشعة تحت الحمراء (IR) لمراقبة التركيز.",
+      "en": "CO₂ control (optional): In CO₂ incubators, carbon dioxide is injected at 5% (or as needed) to maintain balanced pH in cell culture media, with infrared (IR) sensors to monitor concentration."
+    },
+    {
+      "ar": "دوران الهواء: تستخدم مروحة داخلية لتدوير الهواء الساخن وضمان توزيع متجانس للحرارة والرطوبة في جميع أنحاء الحجرة.",
+      "en": "Air circulation: An internal fan circulates hot air to ensure uniform distribution of heat and humidity throughout the chamber."
+    }
+  ],
+  "highlight": {
+    "ar": "الحاضنات الحديثة مزودة بشاشات رقمية لعرض درجة الحرارة وCO₂، وأنظمة إنذار صوتية ومرئية عند انحراف الظروف عن الحدود المسموحة، بالإضافة إلى أنظمة تعقيم بالأشعة فوق البنفسجية أو الحرارة الجافة.",
+    "en": "Modern incubators feature digital displays for temperature and CO₂, audible and visual alarm systems for deviations from allowable limits, as well as UV or dry heat sterilization systems."
+  },
+  "components": [
+    {
+      "ar": "عناصر تسخين كهربائية",
+      "en": "Electric heating elements"
+    },
+    {
+      "ar": "مستشعرات حرارة (Thermistors/RTDs)",
+      "en": "Temperature sensors (Thermistors/RTDs)"
+    },
+    {
+      "ar": "نظام ترطيب (خزان ماء)",
+      "en": "Humidification system (water reservoir)"
+    },
+    {
+      "ar": "مروحة دوران هواء",
+      "en": "Air circulation fan"
+    },
+    {
+      "ar": "نظام حقن غاز CO₂ (للحاضنات المخصصة)",
+      "en": "CO₂ injection system (for dedicated incubators)"
+    },
+    {
+      "ar": "مستشعر CO₂ بالأشعة تحت الحمراء",
+      "en": "Infrared CO₂ sensor"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية (PID Controller)",
+      "en": "Electronic control unit (PID Controller)"
+    },
+    {
+      "ar": "شاشة عرض رقمية ولوحة تحكم",
+      "en": "Digital display and control panel"
+    },
+    {
+      "ar": "نظام إنذار للانحرافات الحرارية",
+      "en": "Thermal deviation alarm system"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: حاضنة مختبرية نموذجية (Binder BD 56 أو Memmert IN 55)",
+    "en": "Example: Typical laboratory incubator (Binder BD 56 or Memmert IN 55)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى درجة الحرارة",
+        "en": "Temperature range"
+      },
+      "value": {
+        "ar": "محیط +5 درجة مئوية إلى 80 درجة مئوية",
+        "en": "Ambient +5°C to 80°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الحرارة",
+        "en": "Temperature accuracy"
+      },
+      "value": {
+        "ar": "± 0.1 درجة مئوية",
+        "en": "± 0.1°C"
+      }
+    },
+    {
+      "label": {
+        "ar": "تجانُس الحرارة",
+        "en": "Temperature uniformity"
+      },
+      "value": {
+        "ar": "± 0.3 – 0.5 درجة مئوية (في جميع أنحاء الحجرة)",
+        "en": "± 0.3 – 0.5°C (throughout the chamber)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة الحجرة",
+        "en": "Chamber capacity"
+      },
+      "value": {
+        "ar": "15 – 800 لتر (حسب الطراز)",
+        "en": "15 – 800 liters (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق CO₂ (للحاضنات المخصصة)",
+        "en": "CO₂ range (for dedicated incubators)"
+      },
+      "value": {
+        "ar": "0 – 20% (دقة ± 0.1%)",
+        "en": "0 – 20% (accuracy ± 0.1%)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الرطوبة النسبية",
+        "en": "Relative humidity"
+      },
+      "value": {
+        "ar": "حتى 95% (مع نظام الترطيب)",
+        "en": "Up to 95% (with humidification system)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التسخين",
+        "en": "Heat-up time"
+      },
+      "value": {
+        "ar": "10 – 30 دقيقة (حسب الحجم)",
+        "en": "10 – 30 minutes (depending on size)"
+      }
+    },
+    {
+      "label": {
+        "ar": "المواد الداخلية",
+        "en": "Internal material"
+      },
+      "value": {
+        "ar": "ستانلس ستيل (مقاوم للصدأ) لسهولة التنظيف",
+        "en": "Stainless steel (corrosion-resistant) for easy cleaning"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LED أو LCD لعرض الحرارة والوقت",
+        "en": "Digital LED or LCD for temperature and time"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انحراف درجة الحرارة نتيجة عطل في عناصر التسخين أو مستشعرات الحرارة.",
+      "en": "Temperature deviation due to faulty heating elements or temperature sensors."
+    },
+    {
+      "ar": "جفاف الأوساط الزراعية بسبب نقص الماء في خزان الترطيب.",
+      "en": "Culture media drying out due to insufficient water in the humidification reservoir."
+    },
+    {
+      "ar": "عطل في مروحة دوران الهواء يؤدي إلى عدم تجانس الحرارة.",
+      "en": "Air circulation fan failure leading to temperature non-uniformity."
+    },
+    {
+      "ar": "خلل في نظام حقن CO₂ أو تسرب في الغاز يؤدي إلى تغير تركيزه.",
+      "en": "CO₂ injection system malfunction or gas leakage affecting concentration."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة التحكم أو في برنامج المعايرة.",
+      "en": "Software faults in the control unit or calibration program."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة اتساخ مستشعرات الحرارة أو CO₂.",
+      "en": "False alarms due to dirty temperature or CO₂ sensors."
+    },
+    {
+      "ar": "تلوث الحاضنة بالأوساخ أو العفن نتيجة عدم التنظيف الدوري.",
+      "en": "Contamination of the incubator with dirt or mold due to lack of regular cleaning."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

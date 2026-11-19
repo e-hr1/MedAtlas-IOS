@@ -1,0 +1,284 @@
+{
+  "id": 54,
+  "name": {
+    "ar": "جهاز التعقيم",
+    "en": "Autoclave"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري يستخدم البخار المضغوط عالي الحرارة لتعقيم الأدوات والأوساط الزراعية والمواد المخبرية",
+    "en": "Laboratory device using high-temperature pressurized steam to sterilize instruments, culture media, and laboratory materials"
+  },
+  "images": [
+    "assets/image/Laboratory/Autoclave/Autoclave1.webp",
+    "assets/image/Laboratory/Autoclave/Autoclave2.webp"
+  ],
+  "description": {
+    "ar": "جهاز تعقيم بالبخار المضغوط يُستخدم في المختبرات الطبية والمستشفيات لقتل جميع أشكال الحياة الميكروبية بما فيها الأبواغ البكتيرية المقاومة. يعمل الجهاز بتسخين الماء إلى درجة حرارة تتراوح بين 121-134 درجة مئوية تحت ضغط عالٍ (15-30 رطل/بوصة مربعة)، مما يضمن تعقيم الأدوات الجراحية، والأوساط الزراعية، والأواني الزجاجية، والمحاليل، والنفايات البيولوجية.",
+    "en": "A pressurized steam sterilization device used in medical laboratories and hospitals to kill all forms of microbial life, including resistant bacterial spores. The device works by heating water to a temperature of 121-134°C under high pressure (15-30 psi), ensuring sterilization of surgical instruments, culture media, glassware, solutions, and biological waste."
+  },
+  "uses": [
+    {
+      "ar": "تعقيم الأدوات الجراحية – المشرط، الملقط، والمشابك الجراحية.",
+      "en": "Surgical instrument sterilization – Scalpels, forceps, and surgical clamps."
+    },
+    {
+      "ar": "تعقيم الأوساط الزراعية – تحضير الأوساط الغذائية للبكتيريا والفطريات.",
+      "en": "Culture media sterilization – Preparing nutrient media for bacteria and fungi."
+    },
+    {
+      "ar": "تعقيم المحاليل – المحاليل الفسيولوجية والمخازن المؤقتة.",
+      "en": "Solution sterilization – Physiological solutions and buffers."
+    },
+    {
+      "ar": "تعقيم النفايات البيولوجية – التخلص الآمن من العينات الملوثة قبل التخلص النهائي.",
+      "en": "Biological waste sterilization – Safe disposal of contaminated samples before final disposal."
+    },
+    {
+      "ar": "تعقيم أواني المختبر – الأطباق البترية، الأنابيب، والدوارق الزجاجية.",
+      "en": "Laboratory glassware sterilization – Petri dishes, tubes, and glass flasks."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر عدة مراحل تبدأ بوضع المواد في غرفة التعقيم، ثم إغلاق الغرفة بإحكام وتسخين الماء بواسطة عناصر تسخين كهربائية لتحويله إلى بخار مشبع، مع طرد الهواء لضمان تشبع كامل، ثم رفع الضغط والحرارة إلى 121-134 درجة مئوية وضغط 15-30 رطل/بوصة مربعة لمدة 15-30 دقيقة، وأخيراً التبريد وإطلاق الضغط تدريجياً.",
+    "en": "The system operates through material placement in the chamber, sealing the door, heating water to generate saturated steam, venting air to ensure saturation, increasing pressure and temperature to 121-134°C and 15-30 psi for 15-30 minutes, and gradual cooling and pressure release."
+  },
+  "workingSteps": [
+    {
+      "ar": "تحضير المواد: توضع المواد المراد تعقيمها في سلة أو حاوية داخل غرفة التعقيم (Chamber).",
+      "en": "Material preparation: Materials to be sterilized are placed in a basket or container inside the sterilization chamber."
+    },
+    {
+      "ar": "إغلاق الغرفة: يُغلق الباب بإحكام لضمان عدم تسرب البخار أو الضغط.",
+      "en": "Chamber sealing: The door is tightly closed to ensure no steam or pressure leakage."
+    },
+    {
+      "ar": "تسخين الماء: يُسخن الماء بواسطة عناصر تسخين كهربائية حتى يتحول إلى بخار مشبع.",
+      "en": "Water heating: Water is heated by electric heating elements until it turns into saturated steam."
+    },
+    {
+      "ar": "طرد الهواء: يُطرد الهواء من الغرفة عن طريق فتحة تهوية لضمان تشبع كامل بالبخار.",
+      "en": "Air removal: Air is expelled from the chamber through a vent to ensure full steam saturation."
+    },
+    {
+      "ar": "رفع الضغط والحرارة: يستمر تسخين البخار حتى تصل درجة الحرارة إلى 121-134 درجة مئوية والضغط إلى 15-30 رطل/بوصة مربعة.",
+      "en": "Pressure and temperature increase: Steam heating continues until the temperature reaches 121-134°C and pressure reaches 15-30 psi."
+    },
+    {
+      "ar": "وقت التعقيم: تُحافظ الظروف لمدة 15-30 دقيقة (حسب حجم الحمولة ونوع المادة).",
+      "en": "Sterilization time: Conditions are maintained for 15-30 minutes (depending on load size and material type)."
+    },
+    {
+      "ar": "التبريد وإطلاق الضغط: يُفتح صمام التهوية تدريجياً لخفض الضغط وتبريد الغرفة قبل فتح الباب.",
+      "en": "Cooling and pressure release: The vent valve is gradually opened to reduce pressure and cool the chamber before opening the door."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بأنظمة تحكم إلكترونية (متحكمات دقيقة) تراقب وتضبط الحرارة والضغط والوقت تلقائياً، مع أنظمة أمان تمنع فتح الباب أثناء التشغيل وتسجيل بيانات لكل دورة تعقيم.",
+    "en": "Modern devices are equipped with electronic control systems (microcontrollers) that automatically monitor and adjust temperature, pressure, and time, with safety systems that prevent door opening during operation and record data for each sterilization cycle."
+  },
+  "components": [
+    {
+      "ar": "خزان ماء (أو مصدر مياه متصل)",
+      "en": "Water reservoir (or connected water source)"
+    },
+    {
+      "ar": "عناصر تسخين كهربائية (Heaters)",
+      "en": "Electric heating elements"
+    },
+    {
+      "ar": "مستشعرات حرارة (Thermocouples/RTDs)",
+      "en": "Temperature sensors (Thermocouples/RTDs)"
+    },
+    {
+      "ar": "مستشعر ضغط (Pressure Transducer)",
+      "en": "Pressure sensor (Pressure Transducer)"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية (PID Controller)",
+      "en": "Electronic control unit (PID Controller)"
+    },
+    {
+      "ar": "شاشة عرض رقمية (حرارة، ضغط، وقت)",
+      "en": "Digital display (temperature, pressure, time)"
+    },
+    {
+      "ar": "طابعة مدمجة لتسجيل دورات التعقيم",
+      "en": "Built-in printer for sterilization cycle recording"
+    },
+    {
+      "ar": "نظام إنذار للضغط الزائد أو الحرارة الزائدة",
+      "en": "Overpressure and overtemperature alarm system"
+    },
+    {
+      "ar": "باب محكم الغلق مع قفل أمان",
+      "en": "Airtight door with safety lock"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز تعقيم نموذجي (Tuttnauer 3870EA أو Hirayama HVE-50)",
+    "en": "Example: Typical autoclave (Tuttnauer 3870EA or Hirayama HVE-50)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "سعة الغرفة",
+        "en": "Chamber capacity"
+      },
+      "value": {
+        "ar": "20 – 200 لتر (حسب الطراز)",
+        "en": "20 – 200 liters (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة التعقيم",
+        "en": "Sterilization temperature"
+      },
+      "value": {
+        "ar": "121 – 134 درجة مئوية (قابلة للبرمجة)",
+        "en": "121 – 134°C (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الضغط التشغيلي",
+        "en": "Operating pressure"
+      },
+      "value": {
+        "ar": "15 – 30 رطل/بوصة مربعة (1-2 بار)",
+        "en": "15 – 30 psi (1-2 bar)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التعقيم",
+        "en": "Sterilization time"
+      },
+      "value": {
+        "ar": "3 – 60 دقيقة (قابل للبرمجة)",
+        "en": "3 – 60 minutes (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت التسخين",
+        "en": "Heat-up time"
+      },
+      "value": {
+        "ar": "5 – 15 دقيقة (حسب الحجم)",
+        "en": "5 – 15 minutes (depending on size)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مصدر الطاقة",
+        "en": "Power supply"
+      },
+      "value": {
+        "ar": "220-240 فولت / 50-60 هرتز",
+        "en": "220-240V / 50-60Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "المواد الداخلية",
+        "en": "Internal material"
+      },
+      "value": {
+        "ar": "ستانلس ستيل 316 (مقاوم للصدأ والتآكل)",
+        "en": "Stainless steel 316 (corrosion-resistant)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام الأمان",
+        "en": "Safety system"
+      },
+      "value": {
+        "ar": "قفل باب أثناء التشغيل، صمام أمان للضغط",
+        "en": "Door lock during operation, pressure safety valve"
+      }
+    },
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Display"
+      },
+      "value": {
+        "ar": "رقمية LED أو LCD لعرض الحرارة والضغط والوقت",
+        "en": "Digital LED or LCD for temperature, pressure, and time"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نقص الماء في الخزان أو انقطاع مصدر المياه.",
+      "en": "Insufficent water in the reservoir or water supply interruption."
+    },
+    {
+      "ar": "تلف عناصر التسخين يؤدي إلى عدم الوصول إلى درجة الحرارة المطلوبة.",
+      "en": "Damaged heating elements preventing reaching the required temperature."
+    },
+    {
+      "ar": "عطل في مستشعرات الحرارة أو الضغط يعطي قراءات خاطئة.",
+      "en": "Faulty temperature or pressure sensors giving incorrect readings."
+    },
+    {
+      "ar": "تسرب البخار من باب الغرفة نتيجة تلف الحشية المطاطية (Gasket).",
+      "en": "Steam leakage from the chamber door due to damaged rubber gasket."
+    },
+    {
+      "ar": "عدم وصول الضغط إلى المستوى المطلوب بسبب خلل في المضخة أو صمامات التحكم.",
+      "en": "Pressure not reaching the required level due to pump or control valve malfunction."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة التحكم أو برامج الدورات.",
+      "en": "Software faults in the control unit or cycle programs."
+    },
+    {
+      "ar": "إنذارات كاذبة نتيجة اتساخ مستشعرات الضغط أو الحرارة.",
+      "en": "False alarms due to dirty pressure or temperature sensors."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,276 @@
+{
+  "id": 61,
+  "name": {
+    "ar": "جهاز الميكروتوم الدوار",
+    "en": "Rotary Microtome"
+  },
+  "category": "laboratory",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز مخبري دقيق لتقطيع العينات البيولوجية إلى شرائح رقيقة جداً (بسمك ميكرومتري) لفحصها تحت المجهر",
+    "en": "A precision laboratory instrument used to cut biological tissue samples into extremely thin slices (micrometer-thick) for microscopic examination"
+  },
+  "images": [
+    "assets/image/Laboratory/Rotary_Microtome/Rotary_Microtome1.webp",
+    "assets/image/Laboratory/Rotary_Microtome/Rotary_Microtome2.webp"
+  ],
+  "description": {
+    "ar": "جهاز الميكروتوم الدوار (Rotary Microtome) هو أداة مخبرية أساسية تستخدم لتقطيع العينات البيولوجية الصلبة (المثبتة والمضمنة في البارافين أو الراتنج) إلى شرائح رقيقة جداً بسمك يتراوح بين 1-100 ميكرومتر. تعتمد آلية عمله على حركة دورانية (دائرية) للذراع التي تحرك العينة بشكل رأسي تجاه شفرة حادة ثابتة، مما ينتج عنه شرائح متساوية السمك.",
+    "en": "The Rotary Microtome is an essential laboratory instrument used to cut solid biological samples (fixed and embedded in paraffin or resin) into very thin sections, typically 1–100 micrometers thick. Its operating principle relies on a rotary (circular) motion of the handwheel that moves the specimen vertically toward a fixed, sharp blade, producing uniform-thickness sections."
+  },
+  "uses": [
+    {
+      "ar": "علم الأنسجة المرضية (Histopathology) – تقطيع عينات الأورام والأنسجة المصابة لتشخيص الأمراض.",
+      "en": "Histopathology – Sectioning tumor and diseased tissue samples for diagnostic purposes."
+    },
+    {
+      "ar": "علم الأجنة والأحياء التطورية – دراسة مراحل تطور الأجنة.",
+      "en": "Embryology and Developmental Biology – Studying embryonic developmental stages."
+    },
+    {
+      "ar": "علم الأعصاب – تقطيع أنسجة الدماغ والنخاع الشوكي.",
+      "en": "Neuroscience – Sectioning brain and spinal cord tissues."
+    },
+    {
+      "ar": "التطبيقات النباتية – دراسة التشريح الداخلي للنباتات وأجزائها.",
+      "en": "Botanical Applications – Studying the internal anatomy of plants and their parts."
+    },
+    {
+      "ar": "التحضير للمجهر الإلكتروني – تقطيع عينات الراتنج لفحصها بالمجهر الإلكتروني النافذ.",
+      "en": "Electron Microscopy Preparation – Sectioning resin-embedded samples for transmission electron microscopy."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل الجهاز عبر تثبيت العينة في حامل معدني والشفرة الحادة، وضبط السماكة المطلوبة بالميكرومتر، ثم تدوير عجلة اليد بحركة دورانية منتظمة لتحريك العينة رأسياً نحو الأسفل لتقطيعها بواسطة الشفرة، تليها مرحلة جمع الشرائح في حمام مائي دافئ لإزالة التجاعيد قبل نقلها للشفافيات الزجاجية والتلوين.",
+    "en": "The system operates by securing the specimen block and cutting blade, setting the desired micrometer thickness, turning the handwheel in a continuous rotary motion to move the specimen vertically downward for slicing against the blade, followed by floating sections in a warm water bath to remove wrinkles before mounting on glass slides and staining."
+  },
+  "workingSteps": [
+    {
+      "ar": "تثبيت العينة: توضع العينة المضمنة في قالب البارافين أو الراتنج في حامل معدني (Chuck) ويتم تثبيتها بإحكام في مشبك العينة.",
+      "en": "Specimen Mounting: The embedded sample (in paraffin or resin block) is placed in a metal chuck and securely clamped in the specimen holder."
+    },
+    {
+      "ar": "تثبيت الشفرة: تُثبت شفرة القطع الحادة (عادة من الفولاذ المقاوم للصدأ أو الكربيد) في حامل الشفرة بزاوية محددة (عادة 5-10 درجات).",
+      "en": "Blade Fixation: A sharp cutting blade (usually stainless steel or carbide) is mounted in the blade holder at a specific angle (typically 5–10 degrees)."
+    },
+    {
+      "ar": "ضبط السماكة: يتم ضبط السماكة المطلوبة للشرائح (بالميكرومتر) باستخدام عجلة الضبط الدقيق أو نظام إلكتروني.",
+      "en": "Thickness Setting: The desired section thickness (in micrometers) is set using the fine adjustment wheel or an electronic control system."
+    },
+    {
+      "ar": "التقطيع: يدير المستخدم عجلة اليد (Handwheel) بحركة دورانية منتظمة، مما يؤدي إلى تحرك العينة رأسيًا نحو الأسفل بمقدار محدد، وتقوم الشفرة بقطع شريحة رقيقة جداً.",
+      "en": "Sectioning: The user rotates the handwheel in a smooth, continuous rotary motion. This drives the specimen vertically downward by a set amount, and the blade cuts an extremely thin slice."
+    },
+    {
+      "ar": "جمع الشرائح: تطفو الشرائح المقطوعة على سطح الماء (في حمام مائي دافئ) لتتخلص من التجاعيد، ثم تُنقل إلى شريحة زجاجية للفحص المجهري.",
+      "en": "Section Collection: The cut sections float on the surface of warm water (in a water bath) to eliminate wrinkles, then are transferred onto a glass slide for microscopic examination."
+    },
+    {
+      "ar": "التجفيف والتلوين: تُجفف الشرائح ثم تُصبغ بأصباغ خاصة (مثل H&E) لتظهر تفاصيل الخلايا والأنسجة.",
+      "en": "Drying and Staining: The sections are dried and then stained with special dyes (e.g., H&E) to reveal cellular and tissue details."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بأنظمة تحكم إلكترونية لضبط السرعة، وعداد للشرائح، ونظام أمان لإيقاف التشغيل عند اقتراب اليد من الشفرة.",
+    "en": "Modern microtomes feature electronic speed control, section counters, and safety systems that stop operation when the hand approaches the blade."
+  },
+  "components": [
+    {
+      "ar": "عجلة اليد (Handwheel)",
+      "en": "Handwheel"
+    },
+    {
+      "ar": "حامل العينة (Chuck)",
+      "en": "Specimen Chuck"
+    },
+    {
+      "ar": "حامل الشفرة (Blade Holder)",
+      "en": "Blade Holder"
+    },
+    {
+      "ar": "نظام ضبط السماكة الميكرومترية",
+      "en": "Micrometer Thickness Adjustment"
+    },
+    {
+      "ar": "نظام التثبيت والمشابك",
+      "en": "Clamping and Fixation System"
+    },
+    {
+      "ar": "حمام مائي لالتقاط الشرائح (اختياري)",
+      "en": "Water Bath (optional)"
+    },
+    {
+      "ar": "نظام قفل وتثبيت العينة",
+      "en": "Specimen Locking Mechanism"
+    },
+    {
+      "ar": "طاولة التشغيل (Base Plate)",
+      "en": "Base Plate"
+    },
+    {
+      "ar": "نظام تحكم في زاوية القطع",
+      "en": "Blade Angle Adjustment"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز ميكروتوم دوار نموذجي (Leica RM2235 أو Thermo Scientific Microm HM 325)",
+    "en": "Example: Typical Rotary Microtome (e.g., Leica RM2235 or Thermo Scientific Microm HM 325)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى السماكة",
+        "en": "Thickness Range"
+      },
+      "value": {
+        "ar": "1 – 100 ميكرومتر (قابل للبرمجة)",
+        "en": "1 – 100 µm (programmable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الضبط",
+        "en": "Adjustment Precision"
+      },
+      "value": {
+        "ar": "0.5 ميكرومتر",
+        "en": "0.5 µm"
+      }
+    },
+    {
+      "label": {
+        "ar": "أقصى حجم للعينة",
+        "en": "Max. Specimen Size"
+      },
+      "value": {
+        "ar": "40 × 50 مم (قطر 35 مم)",
+        "en": "40 × 50 mm (Ø 35 mm)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الشفرة",
+        "en": "Blade Type"
+      },
+      "value": {
+        "ar": "شفرة فولاذية أو كربيد قابلة للتبديل",
+        "en": "Interchangeable steel or carbide blade"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية الشفرة",
+        "en": "Blade Angle"
+      },
+      "value": {
+        "ar": "5° – 15° (قابلة للتعديل)",
+        "en": "5° – 15° (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طريقة التشغيل",
+        "en": "Operation Mode"
+      },
+      "value": {
+        "ar": "يدوية (عجلة) أو نصف آلية",
+        "en": "Manual (handwheel) or semi-automated"
+      }
+    },
+    {
+      "label": {
+        "ar": "الميزات الإضافية",
+        "en": "Additional Features"
+      },
+      "value": {
+        "ar": "عداد شرائح، قفل أمان، نظام تبريد (اختياري)",
+        "en": "Section counter, safety lock, cooling option"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأبعاد",
+        "en": "Dimensions"
+      },
+      "value": {
+        "ar": "~ 45 × 30 × 40 سم",
+        "en": "~ 45 × 30 × 40 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "~ 20 – 30 كغ",
+        "en": "~ 20 – 30 kg"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "شفرة غير حادة أو تالفة تؤدي إلى تمزق العينة أو شرائح غير متساوية.",
+      "en": "Dull or damaged blade causing torn tissue or uneven sections."
+    },
+    {
+      "ar": "مقاومة عالية عند تدوير العجلة نتيجة تصلب الزيت أو انحشار الميكانيزم.",
+      "en": "High resistance when turning the handwheel due to hardened lubricant or mechanical obstruction."
+    },
+    {
+      "ar": "ارتخاء في مشبك العينة يؤدي إلى حركة العينة أثناء القطع.",
+      "en": "Loose specimen clamp causing specimen movement during cutting."
+    },
+    {
+      "ar": "عدم دقة ضبط السماكة بسبب تلف الميكرومتر أو انزلاقه.",
+      "en": "Inaccurate thickness settings due to damaged micrometer or slippage."
+    },
+    {
+      "ar": "اهتزاز الجهاز أثناء التشغيل نتيجة عدم التثبيت الجيد على الطاولة.",
+      "en": "Vibration during operation from improper bench mounting."
+    },
+    {
+      "ar": "تجمع الرطوبة أو الأوساخ على الأجزاء المتحركة مما يؤثر على سلاسة الحركة.",
+      "en": "Moisture or debris accumulation on moving parts affecting smooth motion."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,299 @@
+{
+  "id": 6,
+  "name": {
+    "ar": "مقياس التأكسج النبضي",
+    "en": "Pulse Oximeter"
+  },
+  "category": "emergency",
+  "icon": "heart-pulse",
+  "shortDescription": {
+    "ar": "جهاز طبي غير باضع يقيس تشبع الأكسجين في الدم الشرياني (SpO₂) ومعدل نبض القلب عن طريق تمرير ضوء عبر الأنسجة (عادةً الإصبع أو شحمة الأذن).",
+    "en": "A non-invasive medical device that measures arterial blood oxygen saturation (SpO₂) and heart rate by passing light through tissue (usually a finger or earlobe)."
+  },
+  "images": [
+    "assets/image/Emergency/PulseOximeter/PulseOximeter1.webp",
+    "assets/image/Emergency/PulseOximeter/PulseOximeter2.webp",
+    "assets/image/Emergency/PulseOximeter/PulseOximeter3.webp",
+    "assets/image/Emergency/PulseOximeter/PulseOximeter4.webp"
+  ],
+  "description": {
+    "ar": "مقياس التأكسج النبضي (Pulse Oximeter) هو جهاز طبي غير باضع (غير جراحي) يقيس تشبع الأكسجين في الدم الشرياني (SpO₂) ومعدل نبض القلب عن طريق تمرير ضوء عبر الأنسجة (عادةً الإصبع أو شحمة الأذن). يعتمد على امتصاص الهيموغلوبين المؤكسج وغير المؤكسج للضوء عند طولين موجيين مختلفين (الأحمر والأشعة تحت الحمراء). تشمل استخداماته: غرفة الطوارئ للتقييم السريع لحالة الأكسجة، العناية المركزة (ICU) للمراقبة المستمرة للمرضى المصابين بأمراض تنفسية أو قلبية، التخدير والإنعاش لمتابعة تشبع الأكسجين أثناء العمليات الجراحية، الرعاية المنزلية لمتابعة مرضى الربو والانسداد الرئوي المزمن وكوفيد-19، والرياضة والطب العسكري لتقييم الأداء في الارتفاعات العالية.",
+    "en": "A pulse oximeter is a non-invasive (non-surgical) medical device that measures arterial blood oxygen saturation (SpO₂) and heart rate by passing light through tissue (usually a finger or earlobe). It relies on the absorption of oxygenated and deoxygenated hemoglobin at two different wavelengths (red and infrared). Its uses include: Emergency Room for rapid assessment of a patient's oxygenation status, Intensive Care (ICU) for continuous monitoring of patients with respiratory or cardiac conditions, Anesthesia and Resuscitation for monitoring oxygen saturation during surgical procedures, Home Care for monitoring patients with asthma, COPD, or COVID-19, and Sports and Military Medicine to evaluate performance at high altitudes."
+  },
+  "uses": [
+    {
+      "ar": "غرفة الطوارئ – تقييم سريع لحالة الأكسجة لدى المريض.",
+      "en": "Emergency Room – rapid assessment of a patient's oxygenation status."
+    },
+    {
+      "ar": "العناية المركزة (ICU) – مراقبة مستمرة للمرضى المصابين بأمراض تنفسية أو قلبية.",
+      "en": "Intensive Care (ICU) – continuous monitoring of patients with respiratory or cardiac conditions."
+    },
+    {
+      "ar": "التخدير والإنعاش – متابعة تشبع الأكسجين أثناء العمليات الجراحية.",
+      "en": "Anesthesia and Resuscitation – monitoring oxygen saturation during surgical procedures."
+    },
+    {
+      "ar": "الرعاية المنزلية – لمتابعة مرضى الربو، الانسداد الرئوي المزمن، أو كوفيد-19.",
+      "en": "Home Care – for monitoring patients with asthma, COPD, or COVID-19."
+    },
+    {
+      "ar": "الرياضة والطب العسكري – لتقييم الأداء في الارتفاعات العالية.",
+      "en": "Sports and Military Medicine – to evaluate performance at high altitudes."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد مقياس التأكسج النبضي على مبدأ امتصاص الضوء عبر الأنسجة، ويعمل عبر خمس مراحل: الإصدار الضوئي حيث يصدر الصمام الثنائي (LED) طولين موجيين من الضوء: أحمر (660 نانومتر) والأشعة تحت الحمراء (940 نانومتر)، ثم الامتصاص حيث يمر الضوء عبر الأنسجة والأوعية الدموية، ويمتص الهيموغلوبين المؤكسج (HbO₂) الأشعة تحت الحمراء أكثر، بينما يمتص الهيموغلوبين غير المؤكسج (Hb) الضوء الأحمر أكثر، ثم الكشف حيث يقوم الكاشف الضوئي (Photodetector) على الجانب الآخر بقياس كمية الضوء النافذة، ثم المعالجة حيث يحسب المعالج الداخلي نسبة امتصاص الضوءين، ومن خلال خوارزميات خاصة يستخلص نسبة تشبع الأكسجين (SpO₂) ومعدل النبض (HR)، وأخيراً العرض حيث تعرض الشاشة قيمة SpO₂ كنسبة مئوية (%) ومعدل النبض كعدد نبضات في الدقيقة (BPM)، بالإضافة إلى مخطط الموجة النبضية (Plethysmograph).",
+    "en": "The pulse oximeter relies on the principle of light absorption through tissue, operating through five stages: Light Emission where the LED emits two wavelengths of light: red (660 nm) and infrared (940 nm), then Absorption where light passes through tissue and blood vessels, where oxygenated hemoglobin (HbO₂) absorbs more infrared light while deoxygenated hemoglobin (Hb) absorbs more red light, then Detection where the photodetector on the opposite side measures the amount of transmitted light, then Processing where the internal processor calculates the ratio of absorption of the two lights and using specific algorithms derives the oxygen saturation percentage (SpO₂) and pulse rate (HR), and finally Display where the screen shows the SpO₂ value as a percentage (%) and pulse rate as beats per minute (BPM), along with a plethysmograph (pulse waveform)."
+  },
+  "workingSteps": [
+    {
+      "ar": "الإصدار الضوئي: يصدر الصمام الثنائي (LED) طولين موجيين من الضوء: أحمر (660 نانومتر) والأشعة تحت الحمراء (940 نانومتر).",
+      "en": "Light Emission: the LED emits two wavelengths of light: red (660 nm) and infrared (940 nm)."
+    },
+    {
+      "ar": "الامتصاص: يمر الضوء عبر الأنسجة والأوعية الدموية، حيث يمتص الهيموغلوبين المؤكسج (HbO₂) الأشعة تحت الحمراء أكثر، بينما يمتص الهيموغلوبين غير المؤكسج (Hb) الضوء الأحمر أكثر.",
+      "en": "Absorption: light passes through tissue and blood vessels, where oxygenated hemoglobin (HbO₂) absorbs more infrared light, while deoxygenated hemoglobin (Hb) absorbs more red light."
+    },
+    {
+      "ar": "الكشف: يقوم الكاشف الضوئي (Photodetector) على الجانب الآخر بقياس كمية الضوء النافذة.",
+      "en": "Detection: the photodetector on the opposite side measures the amount of transmitted light."
+    },
+    {
+      "ar": "المعالجة: يحسب المعالج الداخلي نسبة امتصاص الضوءين، ومن خلال خوارزميات خاصة يستخلص نسبة تشبع الأكسجين (SpO₂) ومعدل النبض (HR).",
+      "en": "Processing: the internal processor calculates the ratio of absorption of the two lights, and using specific algorithms, it derives the oxygen saturation percentage (SpO₂) and pulse rate (HR)."
+    },
+    {
+      "ar": "العرض: تعرض الشاشة قيمة SpO₂ كنسبة مئوية (%) ومعدل النبض كعدد نبضات في الدقيقة (BPM)، بالإضافة إلى مخطط الموجة النبضية (Plethysmograph).",
+      "en": "Display: the screen shows the SpO₂ value as a percentage (%) and pulse rate as beats per minute (BPM), along with a plethysmograph (pulse waveform)."
+    }
+  ],
+  "highlight": {
+    "ar": "القيمة الطبيعية لـ SpO₂ هي 95-100%، وتعتبر القيمة أقل من 90% علامة خطر تستدعي التدخل الطبي الفوري.",
+    "en": "Normal SpO₂ is 95-100%, a value below 90% is a warning sign requiring immediate medical intervention."
+  },
+  "components": [
+    {
+      "ar": "ثنائيات LED (أحمر / تحت الحمراء)",
+      "en": "LEDs (Red / Infrared)"
+    },
+    {
+      "ar": "كاشف ضوئي (Photodetector)",
+      "en": "Photodetector"
+    },
+    {
+      "ar": "معالج دقيق (MCU)",
+      "en": "Microcontroller (MCU)"
+    },
+    {
+      "ar": "دائرة معالجة الإشارات (ADC، مرشحات)",
+      "en": "Signal Processing Circuit (ADC, filters)"
+    },
+    {
+      "ar": "شاشة عرض (LCD / OLED)",
+      "en": "Display (LCD / OLED)"
+    },
+    {
+      "ar": "بطارية (ليثيوم أيون أو قلوية)",
+      "en": "Battery (Li-ion or Alkaline)"
+    },
+    {
+      "ar": "وحدة اتصال (Bluetooth / BLE)",
+      "en": "Communication Module (Bluetooth / BLE)"
+    },
+    {
+      "ar": "نظام إنذار (للحالات الحرجة)",
+      "en": "Alarm System (for critical conditions)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز مقياس التأكسج النبضي القياسي (Masimo Rad-5 أو ما شابه)",
+    "en": "Example: Standard Pulse Oximeter (Masimo Rad-5 or similar)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى SpO₂",
+        "en": "SpO₂ Range"
+      },
+      "value": {
+        "ar": "0 – 100% (دقة ±2% في المدى 70-100%)",
+        "en": "0 – 100% (accuracy ±2% in the 70-100% range)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى معدل النبض",
+        "en": "Pulse Rate Range"
+      },
+      "value": {
+        "ar": "25 – 250 نبضة/دقيقة (دقة ±3 نبضة/دقيقة)",
+        "en": "25 – 250 bpm (accuracy ±3 bpm)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة SpO₂",
+        "en": "SpO₂ Accuracy"
+      },
+      "value": {
+        "ar": "±2% (70-100%)، ±3% (50-69%)",
+        "en": "±2% (70-100%), ±3% (50-69%)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأطوال الموجية",
+        "en": "Wavelengths"
+      },
+      "value": {
+        "ar": "أحمر: 660 نانومتر، تحت الحمراء: 940 نانومتر",
+        "en": "Red: 660 nm, Infrared: 940 nm"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت القياس",
+        "en": "Measurement Time"
+      },
+      "value": {
+        "ar": "5-10 ثوانٍ للحصول على قراءة مستقرة",
+        "en": "5-10 seconds for a stable reading"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع المستشعر",
+        "en": "Sensor Type"
+      },
+      "value": {
+        "ar": "إصبعي (Fingertip) أو لشحمة الأذن أو للقدم (للأطفال)",
+        "en": "Fingertip, Earlobe, or Foot (for pediatric)"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "بطارية ليثيوم أيون قابلة للشحن أو خلايا AAA",
+        "en": "Rechargeable Li-ion or AAA cells"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "Bluetooth 5.0، بعض الموديلات مع Wi-Fi أو USB-C",
+        "en": "Bluetooth 5.0, some models with Wi-Fi or USB-C"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "40-100 جرام (حسب الموديل)",
+        "en": "40-100 grams (depending on model)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "حركة المريض الزائدة تؤدي إلى تشويش في الإشارة وقراءات غير دقيقة.",
+      "en": "Excessive patient movement causes signal noise and inaccurate readings."
+    },
+    {
+      "ar": "طلاء الأظافر أو الأظافر الاصطناعية تعيق مرور الضوء وتؤثر على الدقة.",
+      "en": "Nail polish or artificial nails hinder light transmission and affect accuracy."
+    },
+    {
+      "ar": "برودة الأطراف (ضعف التروية الدموية) تقلل من جودة الإشارة.",
+      "en": "Cold extremities (poor blood perfusion) reduce signal quality."
+    },
+    {
+      "ar": "انخفاض شحن البطارية أو انقطاع التيار الكهربائي.",
+      "en": "Low battery charge or power interruption."
+    },
+    {
+      "ar": "عدم معايرة الجهاز بشكل صحيح أو استخدام مستشعر غير مناسب.",
+      "en": "Incorrect calibration or using an inappropriate sensor."
+    },
+    {
+      "ar": "عطل في الصمامات الثنائية (LED) أو الكاشف الضوئي نتيجة الصدمات.",
+      "en": "Malfunction in the LEDs or photodetector due to shocks."
+    },
+    {
+      "ar": "تداخل مع أجهزة طبية أخرى (مثل أجهزة الكي الجراحي).",
+      "en": "Interference with other medical devices (e.g., electrosurgical units)."
+    }
+  ],
+  "tips": [
+    {
+      "ar": "تأكد من نظافة وجفاف المستشعر قبل وضعه على المريض.",
+      "en": "Ensure the sensor is clean and dry before placing it on the patient."
+    },
+    {
+      "ar": "ضع المستشعر بشكل صحيح بحيث يكون الصمام الثنائي والكاشف متقابلين تماماً.",
+      "en": "Position the sensor correctly so that the LED and detector are directly opposite each other."
+    },
+    {
+      "ar": "تجنب استخدامه في بيئات ذات إضاءة قوية (مثل أشعة الشمس المباشرة).",
+      "en": "Avoid using it in environments with strong lighting (e.g., direct sunlight)."
+    },
+    {
+      "ar": "في حال قراءات منخفضة مع نبض طبيعي، تحقق من وجود تروية دموية جيدة عند المريض.",
+      "en": "In case of low readings with a normal pulse, check for adequate blood perfusion in the patient."
+    },
+    {
+      "ar": "احتفظ بالجهاز في درجة حرارة الغرفة ولا تعرضه للرطوبة الزائدة.",
+      "en": "Store the device at room temperature and avoid excessive humidity."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "tips": {
+      "ar": "نصائح للاستخدام الدقيق",
+      "en": "Tips for accurate use"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

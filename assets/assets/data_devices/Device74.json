@@ -1,0 +1,235 @@
+{
+  "id": 74,
+  "name": {
+    "ar": "مقياس ضغط العين",
+    "en": "Tonometer"
+  },
+  "category": "eye",
+  "icon": "tachometer-alt",
+  "shortDescription": {
+    "ar": "جهاز طبي يستخدم لقياس الضغط داخل العين (IOP)، وهو أداة أساسية لتشخيص ومراقبة مرض الجلوكوما (الماء الأزرق).",
+    "en": "A medical device used to measure intraocular pressure (IOP), an essential tool for diagnosing and monitoring glaucoma."
+  },
+  "images": [
+    "assets/image/Eye/Tonometer/Tonometer1.webp",
+    "assets/image/Eye/Tonometer/Tonometer2.webp"
+  ],
+  "description": {
+    "ar": "مقياس ضغط العين (Tonometer) هو جهاز طبي يقيس الضغط داخل العين (Intraocular Pressure - IOP). يعد ارتفاع ضغط العين عامل الخطر الرئيسي للإصابة بالجلوكوما، والتي يمكن أن تؤدي إلى تلف العصب البصري وفقدان البصر إذا لم تُعالج.",
+    "en": "A Tonometer is a medical device that measures intraocular pressure (IOP). Elevated eye pressure is the main risk factor for glaucoma, which can lead to optic nerve damage and vision loss if left untreated."
+  },
+  "uses": [
+    {
+      "ar": "تشخيص الجلوكوما: الكشف المبكر عن ارتفاع ضغط العين.",
+      "en": "Diagnosing glaucoma: Early detection of elevated intraocular pressure."
+    },
+    {
+      "ar": "مراقبة العلاج: متابعة فعالية الأدوية الخافضة لضغط العين.",
+      "en": "Treatment monitoring: Tracking the effectiveness of IOP-lowering medications."
+    },
+    {
+      "ar": "الفحص الروتيني: ضمن فحوصات العين الدورية للأشخاص فوق سن الأربعين.",
+      "en": "Routine screening: As part of regular eye exams for individuals over 40."
+    },
+    {
+      "ar": "تقييم ما بعد الجراحة: بعد عمليات العين مثل الليزك أو جراحة المياه البيضاء.",
+      "en": "Post-operative assessment: After eye surgeries such as LASIK or cataract surgery."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تعتمد أجهزة قياس توتر العين على مبدأ قانون إيمرت-فيك (Imbert-Fick law)، والذي ينص على أن الضغط داخل كرة مثالية يساوي القوة المطلوبة لتسوية سطحها مقسومة على مساحة التسوية. تختلف طريقة التطبيق حسب نوع الجهاز: قياس التوتر بالتماس (Applanation Tonometer - غولدمان) وهو المعيار الذهبي حيث يتم تخدير العين بقطرة مخدرة ثم يُلامس مسبار الجهاز سطح القرنية بلطف لتسوية منطقة صغيرة ويُحسب الضغط من القوة المطلوبة، وقياس التوتر بالنفخ (Non-Contact Tonometer - NCT) حيث يستخدم نفخة هواء سريعة لتسوية سطح القرنية ويقيس كمية الضوء المنعكس لتحديد الضغط دون الحاجة لتخدير أو تلامس مع العين، ومقياس التوتر المحمول (iCare / Tonopen) وهي أجهزة صغيرة محمولة تستخدم آلية ارتداد أو إلكترونية لقياس الضغط بسرعة وسهولة.",
+    "en": "Tonometers operate on the principle of the Imbert-Fick law, which states that the pressure inside an ideal sphere equals the force required to flatten its surface divided by the area of flattening. The application method varies by device type: Applanation Tonometry (Goldmann) which is considered the gold standard where the eye is anesthetized with a topical drop then a probe gently contacts the corneal surface to flatten a small area and the pressure is calculated from the required force, Non-Contact Tonometry (NCT) which uses a rapid air puff to flatten the corneal surface and measures the amount of reflected light to determine pressure without requiring anesthesia or contact with the eye, and Portable Tonometers (iCare / Tonopen) which are small handheld devices that use rebound or electronic mechanisms to measure pressure quickly and easily."
+  },
+  "workingSteps": [
+    {
+      "ar": "قياس التوتر بالتماس (Applanation Tonometer - غولدمان): يعتبر المعيار الذهبي. يتم تخدير العين بقطرة مخدرة، ثم يُلامس مسبار الجهاز سطح القرنية بلطف لتسوية منطقة صغيرة، ويُحسب الضغط من القوة المطلوبة.",
+      "en": "Applanation Tonometry (Goldmann): Considered the gold standard. The eye is anesthetized with a topical drop, then a probe gently contacts the corneal surface to flatten a small area, and the pressure is calculated from the required force."
+    },
+    {
+      "ar": "قياس التوتر بالنفخ (Non-Contact Tonometer - NCT): يستخدم نفخة هواء سريعة لتسوية سطح القرنية، ويقيس كمية الضوء المنعكس لتحديد الضغط. لا يتطلب تخديراً أو تلامساً مع العين.",
+      "en": "Non-Contact Tonometry (NCT): Uses a rapid air puff to flatten the corneal surface and measures the amount of reflected light to determine pressure. Does not require anesthesia or contact with the eye."
+    },
+    {
+      "ar": "مقياس التوتر المحمول (iCare / Tonopen): أجهزة صغيرة محمولة تستخدم آلية ارتداد أو إلكترونية لقياس الضغط بسرعة وسهولة.",
+      "en": "Portable Tonometers (iCare / Tonopen): Small, handheld devices that use rebound or electronic mechanisms to measure pressure quickly and easily."
+    }
+  ],
+  "highlight": {
+    "ar": "جهاز غولدمان هو المعيار الذهبي لقياس ضغط العين، لكن الأجهزة اللاتلامسية (NCT) تُفضل للفحوصات السريعة والروتينية.",
+    "en": "The Goldmann applanation tonometer is the gold standard for IOP measurement, while non-contact tonometers (NCT) are preferred for rapid and routine screenings."
+  },
+  "components": [
+    {
+      "ar": "مسبار قياس (مخروطي أو مسطح)",
+      "en": "Measuring probe (cone or flat)"
+    },
+    {
+      "ar": "مجهر (في نوع غولدمان المركب على مصباح الشق)",
+      "en": "Microscope (for Goldmann type mounted on a slit lamp)"
+    },
+    {
+      "ar": "نظام تخدير (قطرات عينية)",
+      "en": "Anesthesia system (eye drops)"
+    },
+    {
+      "ar": "مستشعر ضغط إلكتروني",
+      "en": "Electronic pressure sensor"
+    },
+    {
+      "ar": "وحدة معالجة رقمية",
+      "en": "Digital processing unit"
+    },
+    {
+      "ar": "شاشة عرض رقمية",
+      "en": "Digital display screen"
+    },
+    {
+      "ar": "مصدر طاقة (بطارية أو كهربائي)",
+      "en": "Power source (battery or electrical)"
+    },
+    {
+      "ar": "طابعة (في بعض الطرازات) لطباعة النتائج",
+      "en": "Printer (on some models) for result printouts"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مقارنة بين أنواع مختلفة من مقاييس توتر العين",
+    "en": "Example: Comparison between different types of tonometers"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق القياس",
+        "en": "Measurement Range"
+      },
+      "value": {
+        "ar": "0 – 60 مم زئبقي (mmHg)",
+        "en": "0 – 60 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "الدقة",
+        "en": "Accuracy"
+      },
+      "value": {
+        "ar": "± 1.5 مم زئبقي (لغولدمان)",
+        "en": "± 1.5 mmHg (for Goldmann)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع القياس",
+        "en": "Measurement Type"
+      },
+      "value": {
+        "ar": "تماسي (غولدمان) / لاتماسي (NCT)",
+        "en": "Contact (Goldmann) / Non-contact (NCT)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وقت القياس",
+        "en": "Measurement Time"
+      },
+      "value": {
+        "ar": "2 – 5 ثوانٍ (NCT) / 5 – 10 ثوانٍ (غولدمان)",
+        "en": "2 – 5 seconds (NCT) / 5 – 10 seconds (Goldmann)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الحاجة للتخدير",
+        "en": "Anesthesia Required"
+      },
+      "value": {
+        "ar": "مطلوب (غولدمان) / غير مطلوب (NCT)",
+        "en": "Required (Goldmann) / Not required (NCT)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الحجم",
+        "en": "Form Factor"
+      },
+      "value": {
+        "ar": "ثابت (غولدمان) / محمول (iCare)",
+        "en": "Stationary (Goldmann) / Portable (iCare)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الواجهة",
+        "en": "Interface"
+      },
+      "value": {
+        "ar": "شاشة LCD رقمية",
+        "en": "Digital LCD screen"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف المسبار أو انحرافه (في أنواع التماس).",
+      "en": "Damaged or misaligned probe (in contact types)."
+    },
+    {
+      "ar": "انسداد فتحة النفخ (في الأنواع اللاتماسية NCT).",
+      "en": "Blocked air nozzle (in non-contact NCT types)."
+    },
+    {
+      "ar": "ضعف البطارية أو انقطاع التيار الكهربائي.",
+      "en": "Weak battery or power interruption."
+    },
+    {
+      "ar": "عطل في شاشة العرض أو وحدة المعالجة.",
+      "en": "Display screen or processing unit malfunction."
+    },
+    {
+      "ar": "تلوث أو اتساخ عدسة المستشعر مما يؤثر على دقة القراءة.",
+      "en": "Contaminated or dirty sensor lens affecting reading accuracy."
+    },
+    {
+      "ar": "حاجة الجهاز إلى معايرة (Calibration) دورية.",
+      "en": "Device requires periodic calibration."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

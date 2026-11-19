@@ -1,0 +1,270 @@
+{
+  "id": 44,
+  "name": {
+    "ar": "محطة عمل الـ PACS",
+    "en": "PACS Workstation"
+  },
+  "category": "radiology",
+  "icon": "desktop",
+  "shortDescription": {
+    "ar": "منظومة برمجية وعتادية متطورة – مخصصة لعرض، تحليل، تشخيص، وإدارة الصور الطبية الرقمية بجودة ومعايير عالية",
+    "en": "Advanced Software and Hardware Platform – Dedicated to displaying, analyzing, diagnosing, and managing digital medical images with high quality and standards"
+  },
+  "images": [
+    "assets/image/Radiology/PACS/PACS1.webp",
+    "assets/image/Radiology/PACS/PACS2.webp"
+  ],
+  "description": {
+    "ar": "هي نقطة التفاعل الأساسية بين أخصائي الأشعة ونظام أرشفة ونقل الصور الطبية (Picture Archiving and Communication System). تتكون من حاسوب ذو مواصفات متطورة وشاشات طبية عالية الدقة ومعايرة خصيصاً، تتيح للأطباء استقبال الصور الطبية من مختلف الأجهزة (مثل الرنين، الأشعة المقطعية، والماموغرافيا) واستعراضها، ومعالجتها، وكتابة التقارير التشخيصية عليها بسرعة وكفاءة.",
+    "en": "It is the primary interaction point between the radiologist and the Picture Archiving and Communication System. It consists of a high-performance computer and specially calibrated, high-resolution medical-grade displays, enabling physicians to receive images from various modalities (such as MRI, CT, and Mammography), review them, manipulate them, and write diagnostic reports efficiently and quickly."
+  },
+  "uses": [
+    {
+      "ar": "المعاينة والتشخيص الدقيق (Diagnostic Review) – عرض الصور الطبية بجودتها الأصلية الكاملة ودون أي فقدان في البيانات (Lossless) لتمكين الطبيب من كتابة التقرير النهائي.",
+      "en": "Diagnostic Review – Displaying medical images in their full original quality and without any data loss (Lossless) to enable the physician to provide the final report."
+    },
+    {
+      "ar": "أدوات معالجة الصور (Image Manipulation) – تكبير وتصغير الصور، ضبط السطوع والتباين (Windowing/Leveling)، القياسات (المسافات، الزوايا، الحجوم)، وإجراء التدوير والقلب.",
+      "en": "Image Manipulation Tools – Zooming, panning, adjusting brightness and contrast (Windowing/Leveling), measurements (distances, angles, volumes), and performing rotations and flips."
+    },
+    {
+      "ar": "إعادة البناء متقدمة الأبعاد (Advanced Reconstruction) – تشغيل أدوات مثل Multiplanar Reformation (MPR) و Maximum Intensity Projection (MIP) لعرض المقاطع الإشعاعية بصورة ثلاثية الأبعاد.",
+      "en": "Advanced 3D Reconstruction – Utilizing tools such as Multiplanar Reformation (MPR) and Maximum Intensity Projection (MIP) to display cross-sectional images in three-dimensional views."
+    },
+    {
+      "ar": "المقارنة التاريخية (Prior Studies Comparison) – فتح صور الفحوصات القديمة للمريض بجانب الفحص الحالي تلقائياً لمراقبة تطور الحالة المرضية.",
+      "en": "Prior Studies Comparison – Automatically opening the patient's previous studies alongside the current examination to monitor disease progression."
+    },
+    {
+      "ar": "التكامل مع الأنظمة الأخرى (Integration) – الربط المباشر مع نظام معلومات المستشفى (HIS) ونظام معلومات الأشعة (RIS) لعرض بيانات المريض الطبية وسجله المرضي بالتزامن مع الصور.",
+      "en": "System Integration – Direct integration with the Hospital Information System (HIS) and Radiology Information System (RIS) to display patient medical data and history simultaneously with the images."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل النظام عبر عدة مراحل تبدأ باستيراد الصور بصيغة DICOM القياسية من أجهزة التصوير إلى خادم الـ PACS المركزي، ثم الاستعلام وجلب البيانات بالبحث عن اسم المريض أو رقمه لجلب سلسلة الصور عبر شبكة المستشفى، تليها فك التشفير والمعالجة الفورية بواسطة كارت الشاشة والذاكرة العشوائية لترتيب المقاطع، ثم المعايرة التلقائية للشاشات وفق معيار DICOM GSDF لعرض الفروق الدقيقة في الأنسجة، وأخيراً تخزين التغييرات والتقارير كملفات ملحقة (Presentation States) وإرسالها للخادم لتوثيقها.",
+    "en": "The system operates through several stages starting with importing DICOM images from imaging modalities to the central PACS server, querying and retrieving data by searching for the patient to fetch image series over the local network, decoding and real-time processing via GPU and RAM to arrange cross-sectional slices, automatic display calibration using the DICOM GSDF standard to reveal subtle tissue density differences, and finally saving changes and reports as supplementary files (Presentation States) sent back to the server for documentation."
+  },
+  "workingSteps": [
+    {
+      "ar": "استيراد الصور عبر معيار DICOM: ترسل أجهزة التصوير الطبي (كالأشعة المقطعية أو الرنين) الصور بعد التقاطها مباشرة بصيغة DICOM القياسية إلى خادم الـ PACS المركزي.",
+      "en": "Image Import via DICOM Standard: Medical imaging devices (such as CT or MRI) send the acquired images directly in the standard DICOM format to the central PACS server."
+    },
+    {
+      "ar": "الاستعلام وجلب البيانات (Query & Retrieve): يقوم الطبيب بفتح محطة العمل والبحث عن اسم المريض أو رقمه الطبي، فتقوم المحطة بإرسال طلب إلى الخادم لجلب سلسلة الصور المطلوبة عبر شبكة المستشفى المحلية.",
+      "en": "Query & Retrieve: The physician opens the workstation and searches for the patient by name or medical record number. The workstation then sends a request to the server to retrieve the required image series over the hospital's local network."
+    },
+    {
+      "ar": "فك التشفير والمعالجة الفورية: تستقبل محطة العمل ملفات الـ DICOM، وتقوم بفك تشفيرها ومعالجتها بواسطة كارت الشاشة (GPU) والذاكرة العشوائية لترتيب المقاطع الإشعاعية المتسلسلة بسرعة عالية.",
+      "en": "Decoding and Real-Time Processing: The workstation receives the DICOM files, decodes and processes them using the Graphics Processing Unit (GPU) and Random Access Memory (RAM) to rapidly arrange the sequential cross-sectional slices."
+    },
+    {
+      "ar": "المعايرة التلقائية للشاشات (DICOM GSDF Calibration): تعرض الصور على الشاشات الطبية التي تطبق معيار المعايرة الرمادية بدقة متناهية، مما يضمن ظهور الفروق الدقيقة جداً في كثافة الأنسجة (كالتكلسات الصغيرة جداً).",
+      "en": "Automatic Display Calibration (DICOM GSDF): Images are displayed on medical monitors that adhere to the precise grayscale standard, ensuring the visualization of very subtle differences in tissue density (such as very small calcifications)."
+    },
+    {
+      "ar": "تخزين التغييرات والتقارير: عند قيام الطبيب بإضافة علامات، قياسات، أو كتابة تقرير تشخيصي، يتم حفظ هذه البيانات كملفات ملحقة (Presentation States) وإرسالها مجدداً للخادم لتوثيقها في ملف المريض.",
+      "en": "Saving Changes and Reports: When the physician adds annotations, measurements, or writes a diagnostic report, this data is saved as supplementary files (Presentation States) and sent back to the server for documentation in the patient's file."
+    }
+  ],
+  "highlight": {
+    "ar": "تختلف شاشات محطات عمل الـ PACS التشخيصية تماماً عن الشاشات المكتبية العادية؛ حيث تقاس دقتها بالميجابكسل (مثل شاشات 3MP أو 5MP)، وتتميز بقدرة سطوع هائلة وثبات عالي في التدرج الرمادي لتتوافق مع معايير الجمعية الأمريكية لفيزيائيي الطب (AAPM TG18).",
+    "en": "The displays used in diagnostic PACS workstations are fundamentally different from standard office monitors; their resolution is measured in megapixels (e.g., 3MP or 5MP monitors), and they feature high luminance and stable grayscale performance to comply with the American Association of Physicists in Medicine (AAPM TG18) standards."
+  },
+  "components": [
+    {
+      "ar": "شاشات طبية تشخيصية عالية الدقة (الرمادية أو الملونة معيار 3MP/5MP)",
+      "en": "High-Resolution Diagnostic Medical Monitors (Grayscale or Color, 3MP/5MP)"
+    },
+    {
+      "ar": "وحدة معالجة مركزية (CPU) قوية متعددة الأنوية لإدارة العمليات المعقدة",
+      "en": "Powerful Multi-Core Central Processing Unit (CPU) for complex operations"
+    },
+    {
+      "ar": "كارت شاشة احترافي (مثل Nvidia Quadro) يدعم معالجة الرسوميات الطبية",
+      "en": "Professional Graphics Card (e.g., Nvidia Quadro) supporting medical graphics processing"
+    },
+    {
+      "ar": "ذاكرة عشوائية (RAM) ذات سعة ضخمة (32GB أو أعلى) للتعامل مع آلاف المقاطع",
+      "en": "Large Capacity Random Access Memory (RAM) - 32GB or higher for handling thousands of slices"
+    },
+    {
+      "ar": "أقراص تخزين فائقة السرعة (NVMe SSD) للكاش المحرك لفتح الصور فوراً",
+      "en": "Ultra-Fast Storage Drives (NVMe SSD) for local cache to immediately open images"
+    },
+    {
+      "ar": "كارت شبكة فائق السرعة (10Gbps/1Gbps) لضمان نقل الصور الضخمة بدون تأخير",
+      "en": "High-Speed Network Card (10Gbps/1Gbps) to ensure fast transfer of large image files"
+    },
+    {
+      "ar": "لوحة مفاتيح وفأرة طبية مخصصة (تتحمل التعقيم) أو لوحة مفاتيح تفاعلية للـ PACS",
+      "en": "Medical-Grade Keyboard and Mouse (sterilizable) or Interactive PACS Keyboard"
+    },
+    {
+      "ar": "نظام إملاء صوتي رقمي (Dictation Microphone) لتحويل صوت الطبيب إلى تقرير مكتوب",
+      "en": "Digital Dictation System (Microphone) for converting speech into written reports"
+    },
+    {
+      "ar": "البرمجيات التطبيقية التشخيصية المرخصة (PACS Viewer Client Software)",
+      "en": "Licensed Diagnostic Application Software (PACS Viewer Client)"
+    },
+    {
+      "ar": "مستشعر معايرة مدمج أو خارجي (Photometer) لفحص جودة إضاءة الشاشة دورياً",
+      "en": "Integrated or External Calibration Sensor (Photometer) for periodic display quality checks"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لمحطة عمل تشخيصية متطورة (Diagnostic Workstation)",
+    "en": "Typical specifications for an advanced diagnostic workstation"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "دقة الشاشات الطبية (Resolution)",
+        "en": "Medical Display Resolution"
+      },
+      "value": {
+        "ar": "3 ميجابكسل (للعامة والمقطعي) / 5 ميجابكسل أو أكثر (للماموغرافيا)",
+        "en": "3 Megapixels (general and CT) / 5 Megapixels or higher (for Mammography)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أقصى سطوع للشاشة (Maximum Luminance)",
+        "en": "Maximum Display Luminance"
+      },
+      "value": {
+        "ar": "من 500 cd/m^2 إلى 1000 cd/m^2 (شمعة في المتر المربع)",
+        "en": "From 500 cd/m^2 to 1000 cd/m^2 (candelas per square meter)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمق الألوان والتدرج (Bit Depth)",
+        "en": "Color Depth and Grayscale"
+      },
+      "value": {
+        "ar": "10-bit أو 12-bit لقراءة وتكثيف التدرج الرمادي بدقة",
+        "en": "10-bit or 12-bit for precise grayscale rendering"
+      }
+    },
+    {
+      "label": {
+        "ar": "بروتوكولات الربط الشبكي",
+        "en": "Network Communication Protocols"
+      },
+      "value": {
+        "ar": "DICOM 3.0, HL7 interface لقراءة بيانات المرضى وجداول العمل",
+        "en": "DICOM 3.0, HL7 interface for patient data and worklists"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد الشاشات في المحطة الواحده",
+        "en": "Number of Displays per Workstation"
+      },
+      "value": {
+        "ar": "شاشتان تشخيصيتان متطابقتان + شاشة مكتبية ثالثة لكتابة التقارير والـ RIS",
+        "en": "Two matched diagnostic displays + a third office display for reporting and RIS"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة التخزين المؤقت الداخلي (Cache)",
+        "en": "Local Cache Storage Capacity"
+      },
+      "value": {
+        "ar": "1TB إلى 2TB SSD مخصص لملفات الفحوصات النشطة يومياً",
+        "en": "1TB to 2TB SSD dedicated to active daily examination files"
+      }
+    },
+    {
+      "label": {
+        "ar": "أدوات العرض المتقدمة",
+        "en": "Advanced Viewing Tools"
+      },
+      "value": {
+        "ar": "تكامل الذكاء الاصطناعي (AI Overlay) لتحديد مناطق الاشتباه تلقائياً",
+        "en": "Artificial Intelligence (AI) Overlay integration for automatic suspicious region detection"
+      }
+    },
+    {
+      "label": {
+        "ar": "توافق بيئة العمل (Ergonomics)",
+        "en": "Ergonomics"
+      },
+      "value": {
+        "ar": "حوامل شاشات مرنة قابلة للتعديل الارتفاعي والدوران لمكافحة إجهاد العين",
+        "en": "Flexible monitor arms with height and rotation adjustment to reduce eye strain"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "فشل معايرة الشاشة الطبية (Calibration Error) وخروج التدرج الرمادي عن معيار DICOM GSDF.",
+      "en": "Medical Display Calibration Failure, causing grayscale output to deviate from DICOM GSDF standard."
+    },
+    {
+      "ar": "بطء شديد في فتح الصور أو انقطاع التحميل نتيجة مشاكل في شبكة المستشفى أو اختناق السيرفر المركزي.",
+      "en": "Extreme slowness in image loading or interrupted downloads due to hospital network issues or central server congestion."
+    },
+    {
+      "ar": "عدم تطابق البيانات (Desynchronization) بين ملف المريض في نظام الـ RIS وصوره في نظام الـ PACS.",
+      "en": "Data desynchronization between the patient file in the RIS system and their images in the PACS system."
+    },
+    {
+      "ar": "ظهور بكسلات ميتة (Dead Pixels) على الشاشات التشخيصية مما قد يتشابه خطأً مع وجود تكلسات دقيقة في الأشعة.",
+      "en": "Dead pixels appearing on diagnostic displays, which could be mistakenly interpreted as microcalcifications in the image."
+    },
+    {
+      "ar": "تجمد أو انهيار برنامج العرض (Crash) أثناء معالجة المقاطع ثلاثية الأبعاد بسبب نقص الذاكرة العشوائية أو عطل تعريف كارت الشاشة.",
+      "en": "Viewer software freezing or crashing during 3D slice processing due to insufficient RAM or GPU driver failure."
+    },
+    {
+      "ar": "عدم استجابة أو خطأ في قراءة نظام الإملاء الصوتي الرقمي الملحق بالمحطة.",
+      "en": "Digital dictation system unresponsiveness or reading errors."
+    },
+    {
+      "ar": "امتلاء الذاكرة المؤقتة المحلية (Local Cache Full) مما يتسبب في توقف استقبال أو أرشفة الفحوصات الجديدة.",
+      "en": "Local cache storage becoming full (Local Cache Full), preventing reception or archiving of new studies."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

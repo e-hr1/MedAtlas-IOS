@@ -1,0 +1,299 @@
+{
+  "id": 14,
+  "name": {
+    "ar": "جهاز المراقبة متعددة المعايير",
+    "en": "Multiparameter Monitor"
+  },
+  "category": "emergency",
+  "icon": "heart-pulse",
+  "shortDescription": {
+    "ar": "جهاز مراقبة سريري متعدد المعايير يُستخدم في وحدات العناية المركزة (ICU) وغرف العمليات وأقسام الطوارئ، لمراقبة العلامات الحيوية للمريض آنياً وبشكل مستمر.",
+    "en": "A clinical multiparameter monitor used in intensive care units (ICU), operating rooms, and emergency departments to continuously monitor the patient's vital signs in real time."
+  },
+  "images": [
+    "assets/image/Emergency/PatientMonitor/PatientMonitor1.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor2.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor3.webp",
+    "assets/image/Emergency/PatientMonitor/PatientMonitor4.webp"
+  ],
+  "description": {
+    "ar": "جهاز المراقبة متعددة المعايير (Multiparameter Monitor) هو جهاز مراقبة سريري متعدد المعايير يُستخدم في وحدات العناية المركزة (ICU) وغرف العمليات وأقسام الطوارئ، لمراقبة العلامات الحيوية للمريض آنياً وبشكل مستمر. تشمل استخداماته السريرية: مراقبة ما بعد العمليات لمتابعة التعافي من التخدير، العناية المركزة للمرضى غير المستقرين ديناميكياً، الطوارئ للتقييم السريع للحالة أثناء النقل أو الاستقبال، وأقسام القلب لمتابعة نظم القلب وضغط الدم الغازي. المعايير المقاسة: ECG (3 أو 5 أو 12 مسرى)، SpO₂، NIBP (ضغط الدم غير الغازي)، IBP (ضغط الدم الغازي)، Temp، EtCO₂، وRR.",
+    "en": "A multiparameter monitor is a clinical monitor used in intensive care units (ICU), operating rooms, and emergency departments to continuously monitor the patient's vital signs in real time. Its clinical uses include: Post-operative monitoring for tracking recovery from anesthesia, Intensive care for hemodynamically unstable patients, Emergency for rapid assessment during transport or admission, and Cardiology departments for monitoring cardiac rhythms and invasive blood pressure. Measured parameters: ECG (3, 5, or 12 leads), SpO₂, NIBP, IBP, Temp, EtCO₂, and RR."
+  },
+  "uses": [
+    {
+      "ar": "مراقبة ما بعد العمليات – متابعة التعافي من التخدير.",
+      "en": "Post-operative monitoring – tracking recovery from anesthesia."
+    },
+    {
+      "ar": "العناية المركزة – للمرضى غير المستقرين ديناميكياً.",
+      "en": "Intensive care – for hemodynamically unstable patients."
+    },
+    {
+      "ar": "الطوارئ – تقييم سريع للحالة أثناء النقل أو الاستقبال.",
+      "en": "Emergency – rapid assessment during transport or admission."
+    },
+    {
+      "ar": "أقسام القلب – متابعة نظم القلب وضغط الدم الغازي.",
+      "en": "Cardiology departments – monitoring cardiac rhythms and invasive blood pressure."
+    },
+    {
+      "ar": "المعايير المقاسة: ECG (3 أو 5 أو 12 مسرى)، SpO₂، NIBP، IBP، Temp، EtCO₂، RR.",
+      "en": "Measured parameters: ECG (3, 5, or 12 leads), SpO₂, NIBP, IBP, Temp, EtCO₂, RR."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز المراقبة متعددة المعايير عبر ست مراحل: الاستشعار عبر أقطاب ECG ومسبار SpO₂ وكفة الضغط وقسطرة الضغط الغازي ومسبار الحرارة وخط التنفس (CO₂)، ثم التضخيم والتنقية حيث تمر الإشارات الحيوية الضعيفة جداً (ميكروفولت – ملي فولت) عبر مكبرات صافية (Instrumentation Amplifier) ومرشحات رقمية لإزالة التشويش (50/60 Hz، تداخل عضلاتي)، ثم التحويل الرقمي عبر محولات تناظرية-رقمية (ADC) عالية الدقة (16–24 بت) بتردد أخذ عينات ≥ 500 عينة/ثانية لـ ECG و≥ 100 عينة/ثانية للضغط، ثم المعالجة عبر معالج إشارات رقمية (DSP) أو ARM Cortex يقوم بحساب المشتقات (HR، RR، ST deviation، حوسبة الضغط الانقباضي/الانبساطي، قياسات CO₂)، ثم العرض برسم الأشكال الموجية (ECG، الضغط، CO₂) على شاشة LCD عالية الدقة مع عرض الأرقام الحيوية وتحديثها لحظياً، وأخيراً الإنذارات عبر نظام ذكي يصدر إنذارات بصرية وصوتية في حال تجاوز المعايير حدوداً معينة (مثل: تسرع القلب، نقص التأكسج، ارتفاع الضغط).",
+    "en": "The multiparameter monitor operates through six stages: sensing via ECG electrodes, SpO₂ probe, pressure cuff, invasive pressure catheter, temperature probe, and respiratory gas line (CO₂), then amplification and filtering where very weak vital signals (microvolts – millivolts) pass through instrumentation amplifiers and digital filters to remove noise (50/60 Hz, muscle artifact), then analog-to-digital conversion via high-resolution ADCs (16–24 bit) with sampling rates ≥ 500 samples/sec for ECG and ≥ 100 samples/sec for pressure, then processing via Digital Signal Processor (DSP) or ARM Cortex computing derivatives (HR, RR, ST deviation, systolic/diastolic pressure computation, CO₂ measurements), then display of waveforms (ECG, pressure, CO₂) on a high-resolution LCD screen with real-time numeric vital signs updates, and finally alarms via an intelligent system that issues visual and audible alarms when parameters exceed set limits (e.g., tachycardia, hypoxemia, hypertension)."
+  },
+  "workingSteps": [
+    {
+      "ar": "الاستشعار: أقطاب ECG، مسبار SpO₂، كفة الضغط، قسطرة الضغط الغازي، مسبار الحرارة، خط التنفس (CO₂).",
+      "en": "Sensing: ECG electrodes, SpO₂ probe, pressure cuff, invasive pressure catheter, temperature probe, respiratory gas line (CO₂)."
+    },
+    {
+      "ar": "التضخيم والتنقية: إشارات حيوية ضعيفة جداً (ميكروفولت – ملي فولت) تمر عبر مكبرات صافية (Instrumentation Amplifier) ومرشحات رقمية لإزالة التشويش (50/60 Hz، تداخل عضلاتي).",
+      "en": "Amplification and filtering: very weak vital signals (microvolts – millivolts) pass through instrumentation amplifiers and digital filters to remove noise (50/60 Hz, muscle artifact)."
+    },
+    {
+      "ar": "التحويل الرقمي: محولات تناظرية – رقمية (ADC) عالية الدقة (16–24 بت) بتردد أخذ عينات ≥ 500 عينة/ثانية لـ ECG، و ≥ 100 عينة/ثانية للضغط.",
+      "en": "Analog-to-digital conversion: high-resolution ADCs (16–24 bit) with sampling rates ≥ 500 samples/sec for ECG, and ≥ 100 samples/sec for pressure."
+    },
+    {
+      "ar": "المعالجة: معالج إشارات رقمية (DSP) أو ARM Cortex يقوم بحساب المشتقات (HR، RR، ST deviation، حوسبة الضغط الانقباضي/الانبساطي، قياسات CO₂).",
+      "en": "Processing: Digital Signal Processor (DSP) or ARM Cortex computing derivatives (HR, RR, ST deviation, systolic/diastolic pressure computation, CO₂ measurements)."
+    },
+    {
+      "ar": "العرض: رسم الأشكال الموجية (ECG، الضغط، CO₂) على شاشة LCD عالية الدقة، مع عرض الأرقام الحيوية وتحديثها لحظياً.",
+      "en": "Display: waveforms (ECG, pressure, CO₂) shown on a high-resolution LCD screen, with real-time numeric vital signs updates."
+    },
+    {
+      "ar": "الإنذارات: نظام ذكي يصدر إنذارات بصرية وصوتية في حال تجاوز المعايير حدوداً معينة (مثل: تسرع القلب، نقص التأكسج، ارتفاع الضغط).",
+      "en": "Alarms: an intelligent system that issues visual and audible alarms when parameters exceed set limits (e.g., tachycardia, hypoxemia, hypertension)."
+    }
+  ],
+  "highlight": {
+    "ar": "تستخدم معظم الأجهزة الحديثة تقنية DSP وخوارزميات كشف QRS (مثل خوارزمية Pan-Tompkins) لتحليل الإشارة في الزمن الحقيقي.",
+    "en": "Most modern devices use DSP technology and QRS detection algorithms (such as the Pan-Tompkins algorithm) for real-time signal analysis."
+  },
+  "components": [
+    {
+      "ar": "معالج رئيسي (ARM Cortex-A)",
+      "en": "Main processor (ARM Cortex-A)"
+    },
+    {
+      "ar": "وحدة تضخيم ECG (Front-End)",
+      "en": "ECG Front-End amplification unit"
+    },
+    {
+      "ar": "مولد نبضات للمقاومة (SpO₂)",
+      "en": "SpO₂ pulse generator"
+    },
+    {
+      "ar": "مستشعر ضغط (جسر ويتستون)",
+      "en": "Pressure sensor (Wheatstone bridge)"
+    },
+    {
+      "ar": "محول حرارة (ثرمستور / RTD)",
+      "en": "Temperature converter (Thermistor / RTD)"
+    },
+    {
+      "ar": "محلل غاز CO₂ (أشعة تحت الحمراء)",
+      "en": "CO₂ gas analyzer (Infrared)"
+    },
+    {
+      "ar": "مزود طاقة معزول (طبي)",
+      "en": "Isolated power supply (Medical grade)"
+    },
+    {
+      "ar": "ذاكرة تخزين (Flash / RAM)",
+      "en": "Storage memory (Flash / RAM)"
+    },
+    {
+      "ar": "وحدة اتصال (Ethernet / Wi-Fi / Bluetooth)",
+      "en": "Communication module (Ethernet / Wi-Fi / Bluetooth)"
+    },
+    {
+      "ar": "بطارية احتياطية (ليثيوم أيون)",
+      "en": "Backup battery (Lithium-ion)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز Mindray BeneVision N15 (مواصفات تقريبية للفئة العالية)",
+    "en": "Example: Mindray BeneVision N15 (approximate specifications for high-end class)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الشاشة",
+        "en": "Screen"
+      },
+      "value": {
+        "ar": "15 بوصة، دقة 1920×1080، سطوع 1000 cd/m²",
+        "en": "15 inch, 1920×1080 resolution, 1000 cd/m² brightness"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدخلات المريض",
+        "en": "Patient inputs"
+      },
+      "value": {
+        "ar": "ECG (12 قناة)، Resp (معاوقة)، SpO₂ (Masimo / Nellcor)",
+        "en": "ECG (12-lead), Resp (Impedance), SpO₂ (Masimo / Nellcor)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط الدم",
+        "en": "Blood pressure"
+      },
+      "value": {
+        "ar": "NIBP (يدوي/تلقائي)، IBP (قناتان، 0–300 mmHg)",
+        "en": "NIBP (Manual/Auto), IBP (2 channels, 0–300 mmHg)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة الحرارة",
+        "en": "Temperature"
+      },
+      "value": {
+        "ar": "مقياسين، دقة ±0.1 درجة مئوية (25–45 درجة)",
+        "en": "Two probes, ±0.1°C accuracy (25–45°C)"
+      }
+    },
+    {
+      "label": {
+        "ar": "EtCO₂",
+        "en": "EtCO₂"
+      },
+      "value": {
+        "ar": "نطاق 0–99 mmHg، دقة ±2 mmHg",
+        "en": "0–99 mmHg range, ±2 mmHg accuracy"
+      }
+    },
+    {
+      "label": {
+        "ar": "تردد أخذ العينات",
+        "en": "Sampling rate"
+      },
+      "value": {
+        "ar": "ECG: 1000 عينة/ث، IBP: 200 عينة/ث، CO₂: 100 عينة/ث",
+        "en": "ECG: 1000 samples/sec, IBP: 200 samples/sec, CO₂: 100 samples/sec"
+      }
+    },
+    {
+      "label": {
+        "ar": "الذاكرة",
+        "en": "Memory"
+      },
+      "value": {
+        "ar": "تخزين 72 ساعة من الأشكال الموجية (ضغط طبيعي)",
+        "en": "72 hours of waveform storage (standard compression)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاتصال",
+        "en": "Connectivity"
+      },
+      "value": {
+        "ar": "شبكة (HL7)، منفذ USB، DVI، منفذ تناظري",
+        "en": "Network (HL7), USB port, DVI, analog output"
+      }
+    },
+    {
+      "label": {
+        "ar": "التصنيف الطبي",
+        "en": "Medical classification"
+      },
+      "value": {
+        "ar": "IEC 60601-1 (الفئة الثانية، النوع CF – تطبيق مباشر للقلب)",
+        "en": "IEC 60601-1 (Class II, CF type – direct cardiac application)"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون 12V، 8Ah، تدوم 4 ساعات (في وضع التشغيل الكامل)",
+        "en": "Lithium-ion 12V, 8Ah, lasts 4 hours (full operation mode)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انقطاع التيار / البطارية – فشل مصدر الطاقة، أو نفاد البطارية دون شحن.",
+      "en": "Power failure / Battery – Power supply failure, or battery depleted without charging."
+    },
+    {
+      "ar": "إشارة ECG مشوشة – أقطاب غير لاصقة، أو تداخل من أجهزة أخرى، أو كابل تالف.",
+      "en": "Noisy ECG signal – Non-adherent electrodes, interference from other devices, or damaged cable."
+    },
+    {
+      "ar": "قراءة SpO₂ غير صحيحة – مسبار متسخ، أو ضعف التروية الطرفية، أو طلاء أظافر.",
+      "en": "Incorrect SpO₂ reading – Dirty probe, poor peripheral perfusion, or nail polish."
+    },
+    {
+      "ar": "خطأ في ضغط الدم NIBP – تسرب في الكفة، أو وضع غير صحيح للذراع، أو اهتزاز.",
+      "en": "NIBP error – Cuff leak, incorrect arm positioning, or patient movement."
+    },
+    {
+      "ar": "إنذار وهمي مستمر – إعدادات حدود غير مناسبة، أو تداخل كهربائي، أو حساسية مفرطة.",
+      "en": "Continuous false alarm – Inappropriate limit settings, electrical interference, or excessive sensitivity."
+    },
+    {
+      "ar": "شاشة سوداء / تجميد – فشل البرامج الثابتة (Firmware)، أو ارتفاع حرارة المعالج.",
+      "en": "Black screen / Freezing – Firmware failure, or processor overheating."
+    },
+    {
+      "ar": "فشل المعايرة – انحراف حساسية مستشعرات الضغط أو الحرارة مع الوقت.",
+      "en": "Calibration failure – Drift in pressure or temperature sensor sensitivity over time."
+    },
+    {
+      "ar": "انقطاع الاتصال بالشبكة – كابل Ethernet مقطوع، أو ضعف إشارة Wi-Fi.",
+      "en": "Network disconnection – Cut Ethernet cable, or weak Wi-Fi signal."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

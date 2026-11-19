@@ -1,0 +1,257 @@
+{
+  "id": 78,
+  "name": {
+    "ar": "كرسي الأسنان",
+    "en": "Dental Chair"
+  },
+  "category": "dentistry",
+  "icon": "chair",
+  "shortDescription": {
+    "ar": "وحدة علاجية متكاملة تجمع بين راحة المريض وكفاءة الطبيب، وتحتوي على أنظمة متطورة للتحكم في الوضعية، والإضاءة، والأدوات المساعدة لإجراء كافة العلاجات السنية.",
+    "en": "An integrated treatment unit that combines patient comfort with doctor efficiency, featuring advanced systems for position control, lighting, and auxiliary instruments to perform all dental procedures."
+  },
+  "images": [
+    "assets/image/Dentistry/Dental Chair/chair1.webp",
+    "assets/image/Dentistry/Dental Chair/chair2.webp"
+  ],
+  "description": {
+    "ar": "كرسي الأسنان (وحدة الأسنان) هو قطعة أساسية في أي عيادة أسنان، صُمم لتوفير دعم مريح وآمن للمريض أثناء الفحص والعلاج. يتميز بقدرته على التعديل في عدة اتجاهات (رفع، خفض، إمالة للخلف، دوران) ليسهل على الطبيب الوصول إلى جميع مناطق الفم. كما يضم وحدة تحكم متكاملة للأدوات الدوارة (الحفر، التلميع) ونظام شفط وتدفق المياه.",
+    "en": "The dental chair (dental unit) is an essential piece of equipment in any dental clinic, designed to provide comfortable and safe support for the patient during examination and treatment. It features the ability to adjust in multiple directions (raise, lower, recline, rotate) to facilitate the doctor's access to all areas of the mouth. It also includes an integrated control unit for rotary instruments (handpieces, polishers) and a suction and water delivery system."
+  },
+  "uses": [
+    {
+      "ar": "إجراءات الحشو وعلاج التسوس: إزالة التسوس وتحضير السن للحشوات.",
+      "en": "Filling and caries treatment procedures: Removing decay and preparing the tooth for fillings."
+    },
+    {
+      "ar": "علاج الجذور (العصب): توفير وضعية مريحة للطبيب أثناء العمل المجهري داخل السن.",
+      "en": "Root canal treatment (endodontics): Providing a comfortable position for the doctor during microscopic work inside the tooth."
+    },
+    {
+      "ar": "التركيبات والتيجان: تحضير السن لاستقبال التيجان والجسور الثابتة.",
+      "en": "Restorations and crowns: Preparing the tooth to receive crowns and fixed bridges."
+    },
+    {
+      "ar": "تنظيف الجير وتلميع الأسنان: باستخدام الأدوات المرتبطة بالوحدة.",
+      "en": "Scaling and teeth polishing: Using the instruments connected to the unit."
+    },
+    {
+      "ar": "العمليات الجراحية البسيطة: مثل خلع الأسنان وزراعة الغرسات (مع وحدات متطورة).",
+      "en": "Minor surgical procedures: Such as tooth extraction and implant placement (with advanced units)."
+    },
+    {
+      "ar": "علاج أمراض اللثة: إجراءات التقليح وكشط الجذور.",
+      "en": "Periodontal disease treatment: Scaling and root planing procedures."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعتمد عمل كرسي الأسنان على تكامل ثلاثة أنظمة رئيسية: النظام الهيدروليكي والكهربائي حيث تتحكم محركات كهربائية ومضخات هيدروليكية بحركة الكرسي (رفع، خفض، طي الظهر، إمالة المقعد) استجابةً لأوامر الطبيب عبر دواسة القدم أو لوحة التحكم، ونظام الأدوات الدوارة الذي يعمل بواسطة ضغط الهواء المضغوط (توربين) أو محركات كهربائية دقيقة (مايكرو موتور) لتشغيل الحفارات (Handpieces) بسرعات تتراوح بين 20,000 إلى 400,000 دورة في الدقيقة، ونظام السوائل والشفط الذي يوفر الماء والهواء لتبريد الأداة أثناء العمل ونظام شفط قوي (سوبر سوكشن) لإزالة اللعاب والمياه والدماء من فم المريض.",
+    "en": "The operation of the dental chair relies on the integration of three main systems: the Hydraulic and Electrical System where electric motors and hydraulic pumps control the chair's movement (raise, lower, recline back, tilt the seat) in response to the doctor's commands via a foot pedal or control panel, the Rotary Instrument System operated by compressed air pressure (turbine) or precision electric motors (micromotor) powering handpieces at speeds ranging from 20,000 to 400,000 revolutions per minute, and the Fluids and Suction System which provides water and air to cool the instrument during work and a powerful suction system (super suction) to remove saliva, water, and blood from the patient's mouth."
+  },
+  "workingSteps": [
+    {
+      "ar": "النظام الهيدروليكي والكهربائي: محركات كهربائية ومضخات هيدروليكية تتحكم بحركة الكرسي (رفع، خفض، طي الظهر، إمالة المقعد) استجابةً لأوامر الطبيب عبر دواسة القدم أو لوحة التحكم.",
+      "en": "Hydraulic and Electrical System: Electric motors and hydraulic pumps control the chair's movement (raise, lower, recline back, tilt the seat) in response to the doctor's commands via a foot pedal or control panel."
+    },
+    {
+      "ar": "نظام الأدوات الدوارة: يعمل بواسطة ضغط الهواء المضغوط (توربين) أو محركات كهربائية دقيقة (مايكرو موتور)، لتشغيل الحفارات (Handpieces) بسرعات تتراوح بين 20,000 إلى 400,000 دورة في الدقيقة.",
+      "en": "Rotary Instrument System: Operated by compressed air pressure (turbine) or precision electric motors (micromotor), powering handpieces at speeds ranging from 20,000 to 400,000 revolutions per minute."
+    },
+    {
+      "ar": "نظام السوائل والشفط: يوفر الماء والهواء لتبريد الأداة أثناء العمل، ونظام شفط قوي (سوبر سوكشن) لإزالة اللعاب والمياه والدماء من فم المريض.",
+      "en": "Fluids and Suction System: Provides water and air to cool the instrument during work, and a powerful suction system (super suction) to remove saliva, water, and blood from the patient's mouth."
+    }
+  ],
+  "highlight": {
+    "ar": "تم تطوير الأنظمة الحديثة لتشمل شاشات لمس مدمجة، وإضاءة LED عالية الكثافة، وحماية ذكية ضد ارتفاع درجة الحرارة، مما يجعل التجربة أكثر أماناً وراحة للطبيب والمريض.",
+    "en": "Modern systems have been developed to include built-in touch screens, high-intensity LED lighting, and intelligent protection against overheating, making the experience safer and more comfortable for both doctor and patient."
+  },
+  "components": [
+    {
+      "ar": "هيكل الكرسي المتحرك (قاعدة، مقعد، ظهر، مساند)",
+      "en": "Movable chair structure (base, seat, backrest, armrests)"
+    },
+    {
+      "ar": "نظام حقن الماء والهواء (Syringe)",
+      "en": "Water and air injection system (Syringe)"
+    },
+    {
+      "ar": "نظام الشفط (Vacuum Suction)",
+      "en": "Suction system (Vacuum Suction)"
+    },
+    {
+      "ar": "مصباح إضاءة (دنتال لايت)",
+      "en": "Illumination lamp (Dental Light)"
+    },
+    {
+      "ar": "وحدة الأدوات (الحفارات، الملمع، المطرقة الهوائية)",
+      "en": "Instrument unit (handpieces, polisher, air scaler)"
+    },
+    {
+      "ar": "لوحة تحكم (قدم أو يدوية) مع شاشة عرض",
+      "en": "Control panel (foot or manual) with display screen"
+    },
+    {
+      "ar": "نظام الماء الساخن والبارد",
+      "en": "Hot and cold water system"
+    },
+    {
+      "ar": "خزان الهواء المضغوط (Compressor) - خارجي في الغالب",
+      "en": "Compressed air tank (Compressor) - mostly external"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لكرسي أسنان متطور (فئة الرفاهية)",
+    "en": "Example: Typical specifications for an advanced (premium class) dental chair"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى ارتفاع الكرسي",
+        "en": "Chair height range"
+      },
+      "value": {
+        "ar": "38 – 80 سم (قابل للتعديل)",
+        "en": "38 – 80 cm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية إمالة الظهر",
+        "en": "Backrest reclining angle"
+      },
+      "value": {
+        "ar": "0° إلى 90° (وضعية الاستلقاء الكامل)",
+        "en": "0° to 90° (full supine position)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة الحفارة (توربين)",
+        "en": "Handpiece speed (Turbine)"
+      },
+      "value": {
+        "ar": "300,000 – 400,000 دورة/دقيقة",
+        "en": "300,000 – 400,000 rpm"
+      }
+    },
+    {
+      "label": {
+        "ar": "سرعة المايكرو موتور",
+        "en": "Micromotor speed"
+      },
+      "value": {
+        "ar": "20,000 – 40,000 دورة/دقيقة",
+        "en": "20,000 – 40,000 rpm"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط الهواء التشغيلي",
+        "en": "Operating air pressure"
+      },
+      "value": {
+        "ar": "5 – 8 بار",
+        "en": "5 – 8 bar"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد التشغيل",
+        "en": "Operating voltage"
+      },
+      "value": {
+        "ar": "220-240 فولت / 50-60 هرتز",
+        "en": "220-240 V / 50-60 Hz"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الكرسي",
+        "en": "Chair weight"
+      },
+      "value": {
+        "ar": "130 – 180 كجم (حسب الموديل والملحقات)",
+        "en": "130 – 180 kg (depending on model and accessories)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الإضاءة",
+        "en": "Lighting type"
+      },
+      "value": {
+        "ar": "LED بقوة 20,000 - 50,000 لوكس",
+        "en": "LED with 20,000 - 50,000 lux"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "توقف حركة الكرسي عن العمل (خلل في المحرك أو المضخة الهيدروليكية).",
+      "en": "Chair movement stops working (fault in motor or hydraulic pump)."
+    },
+    {
+      "ar": "تسريب في نظام المياه أو انسداد خراطيم الحقن.",
+      "en": "Leak in the water system or blockage of injection hoses."
+    },
+    {
+      "ar": "ضعف قوة الشفط نتيجة انسداد الفلتر أو خرطوم الشفط.",
+      "en": "Weak suction power due to clogged filter or suction hose."
+    },
+    {
+      "ar": "مشاكل في التوصيلات الكهربائية أو انقطاع التيار عن وحدة التحكم.",
+      "en": "Problems with electrical connections or power interruption to the control unit."
+    },
+    {
+      "ar": "توقف الحفارة (التوربين) عن العمل بسبب نقص زيت التشحيم أو تلف الرمانات.",
+      "en": "Handpiece (turbine) stops working due to lack of lubrication oil or damaged bearings."
+    },
+    {
+      "ar": "ضعف أو انطفاء مصباح الإضاءة (دنتال لايت) نتيجة احتراق اللمبة أو تلف المحول.",
+      "en": "Dim or extinguished illumination lamp (Dental Light) due to burnt bulb or faulty transformer."
+    },
+    {
+      "ar": "خلل في برمجة لوحة التحكم أو شاشة اللمس (في الموديلات الحديثة).",
+      "en": "Programming fault in the control panel or touch screen (in modern models)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

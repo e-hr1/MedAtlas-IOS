@@ -1,0 +1,292 @@
+{
+  "id": 25,
+  "name": {
+    "ar": "جهاز C-Arm",
+    "en": "C-Arm"
+  },
+  "category": "operating",
+  "icon": "camera",
+  "shortDescription": {
+    "ar": "مكثف الصورة المتجول – جهاز تصوير بالأشعة السينية المتنقل للاستخدام داخل غرفة العمليات",
+    "en": "Mobile Image Intensifier – A mobile X-ray imaging device for use in the operating room"
+  },
+  "images": [
+    "assets/image/Operating/CArm/CArm1.webp",
+    "assets/image/Operating/CArm/CArm2.webp",
+    "assets/image/Operating/CArm/CArm3.webp",
+    "assets/image/Operating/CArm/CArm4.webp"
+  ],
+  "description": {
+    "ar": "جهاز تصوير طبي متنقل يعمل بالأشعة السينية، يتميز بذراع على شكل حرف C يربط بين مصدر الأشعة (أنبوب الأشعة) والمستقبل (مكثف الصورة أو الكاشف المسطح). يُستخدم بشكل رئيسي في غرف العمليات لتوفير تصوير فلوري (تسلسلي) وثنائي الأبعاد أثناء العمليات الجراحية، خاصة في جراحة العظام، جراحة الأعصاب، وجراحة الأوعية الدموية.",
+    "en": "A mobile medical imaging device that uses X-rays, featuring a C-shaped arm connecting the X-ray source (X-ray tube) and the receiver (image intensifier or flat panel detector). It is primarily used in operating rooms to provide real-time fluoroscopic (sequential) and 2D imaging during surgical procedures, especially in orthopedics, neurosurgery, and vascular surgery."
+  },
+  "uses": [
+    {
+      "ar": "توجيه الجراح: توفير صور فورية لتوجيه الجراح أثناء إدخال المسامير، الشرائح، القساطر، أو الأدوات الجراحية الأخرى.",
+      "en": "Surgeon Guidance: Providing real-time images to guide the surgeon during the insertion of screws, plates, catheters, or other surgical instruments."
+    },
+    {
+      "ar": "التصوير أثناء العملية: التأكد من دقة وضع الغرسات والأجهزة قبل إغلاق الجرح.",
+      "en": "Intraoperative Imaging: Confirming the accurate placement of implants and devices before closing the wound."
+    },
+    {
+      "ar": "تصوير الأوعية (Angiography): في عمليات القلب والأوعية الدموية لتقييم تدفق الدم وموقع الانسدادات.",
+      "en": "Angiography: In cardiac and vascular procedures to assess blood flow and the location of blockages."
+    },
+    {
+      "ar": "تصوير العمود الفقري: في جراحات الانزلاق الغضروفي وتثبيت الفقرات.",
+      "en": "Spinal Imaging: In herniated disc surgeries and vertebral fixation procedures."
+    },
+    {
+      "ar": "جراحة الحوض والكسور: لتأكيد محاذاة العظام بعد التثبيت الداخلي.",
+      "en": "Pelvic and Fracture Surgery: Confirming bone alignment after internal fixation."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يصدر أنبوب الأشعة حزمة أشعة تخترق المريض ليتم التقاطها عبر مكثف الصورة أو الكاشف المسطح وتحويلها إلى صورة رقمية معروضة على الشاشة. تقوم وحدة المعالجة بتحسين الصور فورياً، بينما يتحكم الفريق بزوايا ذراع C وجرعة الإشعاع بدقة.",
+    "en": "The X-ray tube emits a beam penetrating the patient, captured by the image intensifier or flat panel detector and converted into a digital image displayed on screen. The processing unit enhances images in real-time, while the team controls C-arm angles and radiation dose precisely."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الأشعة: يصدر أنبوب الأشعة الموجود في الطرف السفلي من ذراع C حزمة من الأشعة السينية تخترق جسم المريض.",
+      "en": "X-Ray Generation: The X-ray tube located at the lower end of the C-arm emits a beam of X-rays that penetrate the patient's body."
+    },
+    {
+      "ar": "الكشف: تلتقط الأشعة التي تعبر المريض بواسطة مكثف الصورة (Image Intensifier) أو الكاشف المسطح (Flat Panel Detector) الموجود في الطرف العلوي من ذراع C.",
+      "en": "Detection: The X-rays that pass through the patient are captured by the Image Intensifier or Flat Panel Detector located at the upper end of the C-arm."
+    },
+    {
+      "ar": "التحويل: يحول المستقبل الأشعة السينية إلى إشارة ضوئية، ثم إلى إشارة إلكترونية، ثم إلى صورة رقمية يتم عرضها على شاشة عرض عالية الدقة.",
+      "en": "Conversion: The receiver converts the X-rays into an optical signal, then into an electronic signal, and finally into a digital image displayed on a high-resolution screen."
+    },
+    {
+      "ar": "المعالجة: تقوم وحدة المعالجة المركزية بتحسين الصورة (تقليل الضوضاء، تحسين التباين، إزالة التشويش) وتقديمها للجراح بوقت حقيقي (Live Fluoroscopy) أو كصور ثابتة.",
+      "en": "Processing: The central processing unit enhances the image (noise reduction, contrast enhancement, artifact removal) and presents it to the surgeon in real-time (Live Fluoroscopy) or as still images."
+    }
+  ],
+  "highlight": {
+    "ar": "تتميز الأجهزة الحديثة بتقنية التصوير ثلاثي الأبعاد (3D Imaging) التي تسمح بإعادة بناء مقطعية للجسم وتوفير صور محورية عالية الدقة، مع نظام ملاحة جراحية لتوجيه الأدوات بدقة فائقة.",
+    "en": "Modern systems feature 3D imaging technology that allows for tomographic reconstruction of the body and provides high-resolution cross-sectional images, along with a surgical navigation system for ultra-precise instrument guidance."
+  },
+  "components": [
+    {
+      "ar": "أنبوب توليد الأشعة السينية",
+      "en": "X-Ray Tube"
+    },
+    {
+      "ar": "مكثف الصورة (Image Intensifier)",
+      "en": "Image Intensifier"
+    },
+    {
+      "ar": "كاشف مسطح (Flat Panel) - في الموديلات الحديثة",
+      "en": "Flat Panel Detector (in modern models)"
+    },
+    {
+      "ar": "وحدة معالجة وتحسين الصورة",
+      "en": "Image Processing and Enhancement Unit"
+    },
+    {
+      "ar": "شاشة عرض (LCD عالية الدقة)",
+      "en": "Display Screen (High-Resolution LCD)"
+    },
+    {
+      "ar": "ذراع C (متحرك متعدد المحاور)",
+      "en": "C-Arm (Multi-Axis Mobile)"
+    },
+    {
+      "ar": "وحدة تحكم (جهاز تحكم عن بعد / دواسات)",
+      "en": "Control Unit (Remote Control / Foot Pedals)"
+    },
+    {
+      "ar": "وحدة تخزين وتسجيل الصور",
+      "en": "Image Storage and Recording Unit"
+    },
+    {
+      "ar": "نظام حماية من الإشعاع (كوليميتر، مرشحات)",
+      "en": "Radiation Protection System (Collimator, Filters)"
+    },
+    {
+      "ar": "مصدر طاقة ومولد كهربائي عالي الجهد",
+      "en": "Power Supply and High-Voltage Generator"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز C-Arm نموذجي (Ziehm Vision RFD أو Philips Veradius)",
+    "en": "Example: Typical C-Arm (Ziehm Vision RFD or Philips Veradius)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مدى الجهد (kVp)",
+        "en": "Voltage Range (kVp)"
+      },
+      "value": {
+        "ar": "40 – 120 كيلوفولت (قابل للتعديل)",
+        "en": "40 – 120 kV (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى التيار (mA)",
+        "en": "Current Range (mA)"
+      },
+      "value": {
+        "ar": "0.5 – 25 ملي أمبير",
+        "en": "0.5 – 25 mA"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم مكثف الصورة",
+        "en": "Image Intensifier Size"
+      },
+      "value": {
+        "ar": "9 – 12 بوصة (حسب الموديل)",
+        "en": "9 – 12 inches (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حقل الرؤية (FOV)",
+        "en": "Field of View (FOV)"
+      },
+      "value": {
+        "ar": "4.5 – 9 بوصة (قابل للتغيير)",
+        "en": "4.5 – 9 inches (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الصورة",
+        "en": "Image Resolution"
+      },
+      "value": {
+        "ar": "1 – 2 مليون بكسل (على الشاشة)",
+        "en": "1 – 2 Megapixels (on screen)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد إطارات التصوير المتسلسل",
+        "en": "Fluoroscopic Frame Rate"
+      },
+      "value": {
+        "ar": "1 – 30 إطار/ثانية (فلوروسكوبي)",
+        "en": "1 – 30 frames/second"
+      }
+    },
+    {
+      "label": {
+        "ar": "مدى دوران ذراع C",
+        "en": "C-Arm Rotation Range"
+      },
+      "value": {
+        "ar": "180 درجة (دوران) / 120 درجة (إمالة)",
+        "en": "180 degrees (rotation) / 120 degrees (tilt)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الحركة الرأسية للذراع",
+        "en": "Vertical Arm Movement"
+      },
+      "value": {
+        "ar": "رفع وخفض 30 – 40 سم",
+        "en": "30 – 40 cm lift/lower"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية",
+        "en": "Battery"
+      },
+      "value": {
+        "ar": "ليثيوم أيون، تدوم 2 – 4 ساعات للحركة",
+        "en": "Lithium-Ion, lasts 2 – 4 hours for mobility"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الجهاز",
+        "en": "Device Weight"
+      },
+      "value": {
+        "ar": "150 – 250 كجم",
+        "en": "150 – 250 kg"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تلف أنبوب الأشعة يؤدي إلى ضعف أو انقطاع الإشعاع.",
+      "en": "X-ray tube damage causing weak or no radiation output."
+    },
+    {
+      "ar": "تلف مكثف الصورة يؤدي إلى صور مشوشة أو ضبابية.",
+      "en": "Image intensifier damage resulting in blurred or hazy images."
+    },
+    {
+      "ar": "شاشة عرض تالفة أو غير مستجيبة.",
+      "en": "Damaged or unresponsive display screen."
+    },
+    {
+      "ar": "تلف في ذراع C أو مفاصله يمنع الحركة أو يسبب اهتزازاً أثناء التصوير.",
+      "en": "C-arm or joint damage preventing movement or causing vibration during imaging."
+    },
+    {
+      "ar": "أعطال في وحدة المعالجة تؤدي إلى بطء في عرض الصور أو تشويش.",
+      "en": "Processing unit failures causing slow image display or noise."
+    },
+    {
+      "ar": "عطل في نظام الكوليميتر يسبب تعرض المريض أو الفريق لإشعاع زائد.",
+      "en": "Collimator system failure causing excessive patient or staff radiation exposure."
+    },
+    {
+      "ar": "ضعف البطارية يؤدي إلى عدم قدرة الجهاز على الحركة.",
+      "en": "Weak battery preventing device mobility."
+    },
+    {
+      "ar": "فشل في نظام تخزين الصور أو تسجيل الفيديو.",
+      "en": "Image storage or video recording system failure."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,298 @@
+{
+  "id": 24,
+  "name": {
+    "ar": "طاولة العمليات",
+    "en": "Operating Table"
+  },
+  "category": "operating",
+  "icon": "bed",
+  "shortDescription": {
+    "ar": "سرير العمليات الجراحية – منصة متعددة الحركات تدعم المريض وتوفر الوصول الأمثل للجراح",
+    "en": "Surgical Operating Table – A multi-motion platform that supports the patient and provides optimal access for the surgeon"
+  },
+  "images": [
+    "assets/image/Operating/OperatingTable/Table1.webp",
+    "assets/image/Operating/OperatingTable/Table2.webp",
+    "assets/image/Operating/OperatingTable/Table3.webp",
+    "assets/image/Operating/OperatingTable/Table4.webp"
+  ],
+  "description": {
+    "ar": "جهاز طبي أساسي في غرفة العمليات، يُستخدم لوضع المريض في الوضعية الجراحية المناسبة وتثبيته أثناء العملية. تتميز الطاولة بإمكانية تعديل أوضاعها (الارتفاع، الميلان الجانبي، الانحناء، الفصل بين الأجزاء) لتوفير أفضل وصول للجراح لمنطقة العملية مع الحفاظ على سلامة المريض وراحته.",
+    "en": "An essential medical device in the operating room, used to position and secure the patient during surgery. The table features adjustable positions (height, lateral tilt, bending, leg separation) to provide the surgeon with optimal access to the surgical site while maintaining patient safety and comfort."
+  },
+  "uses": [
+    {
+      "ar": "التحكم الكهربائي أو الهيدروليكي: معظم الطاولات الحديثة تعمل بأنظمة تحكم كهربائية أو هيدروليكية لتعديل الوضع بدقة وسهولة.",
+      "en": "Electric or Hydraulic Control: Most modern tables use electric or hydraulic control systems for precise and easy positioning."
+    },
+    {
+      "ar": "الأجزاء القابلة للتعديل: تنقسم الطاولة إلى عدة أجزاء متحركة (الظهر، المقعد، الساقين، الرأس) يمكن تعديل كل منها بشكل مستقل.",
+      "en": "Adjustable Sections: The table is divided into several movable sections (backrest, seat, legs, head) that can be adjusted independently."
+    },
+    {
+      "ar": "الوضعيات الجراحية: تدعم الطاولة مجموعة واسعة من الوضعيات مثل الاستلقاء، الانبطاح، الجانبية، وفوق المقعد.",
+      "en": "Surgical Positions: The table supports a wide range of positions including supine, prone, lateral, and lithotomy."
+    },
+    {
+      "ar": "مواد التوافق ونظم التثبيت: مصنوعة من مواد غير قابلة للصدأ مع حشوات شفافة للأشعة وأشرطة لتثبيت المريض بأمان.",
+      "en": "Compatible Materials & Securing Systems: Made from stainless steel with radiolucent padding and straps to safely secure the patient."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يتم تحضير الطاولة واختيار الملحقات، ثم يُنقل المريض ويُثبت بالأشرطة. يقوم الفريق باستخدام وحدة التحكم لتعديل الارتفاع، الميلان الجانبي، الانحناء، ووضعية الترندلنبورغ، ثم تُقفل جميع المفاصل بنظام قفل هوائي أو ميكانيكي لضمان الثبات التام أثناء الجراحة.",
+    "en": "The table is prepared and accessories selected, then the patient is transferred and secured. Using the control unit, the team adjusts height, lateral tilt, bending, and Trendelenburg position, after which all joints are locked using pneumatic or mechanical systems to ensure stability during surgery."
+  },
+  "workingSteps": [
+    {
+      "ar": "التحضير: يحدد الجراح وفريق التمريض الوضعية المناسبة للعملية، ويتم اختيار الملحقات المطلوبة (دعامات الرأس، مساند الأطراف، أشرطة التثبيت).",
+      "en": "Preparation: The surgeon and nursing team determine the appropriate position for the procedure, and select the required accessories (head rests, limb supports, securing straps)."
+    },
+    {
+      "ar": "النقل والتثبيت: يُنقل المريض من سرير النقل إلى طاولة العمليات باستخدام لوح نقل، ثم يُثبت المريض بالأشرطة والمساند حسب الوضعية المطلوبة.",
+      "en": "Transfer and Securing: The patient is transferred from the transport stretcher to the operating table using a transfer board, then secured with straps and supports according to the required position."
+    },
+    {
+      "ar": "التعديل: باستخدام وحدة التحكم، يقوم الفريق بتعديل الارتفاع، الميلان الجانبي، انحناء الظهر، رفع المقعد، فصل الساقين، ووضعية الترندلنبورغ.",
+      "en": "Adjustment: Using the control unit, the team adjusts height, lateral tilt, backrest, seat, leg section, and Trendelenburg position."
+    },
+    {
+      "ar": "التثبيت النهائي: بعد الوصول إلى الوضعية المطلوبة، تُقفل جميع المفاصل بواسطة نظام القفل الهوائي أو الميكانيكي لضمان الثبات أثناء العملية.",
+      "en": "Final Locking: Once the desired position is achieved, all joints are locked using pneumatic or mechanical locking systems to ensure stability during surgery."
+    }
+  ],
+  "highlight": {
+    "ar": "الطاولات الحديثة مزودة بأنظمة ذاكرة لتخزين الوضعيات المفضلة، ومزودة بمنافذ لتوصيل أجهزة أخرى مثل جهاز المنظار أو جهاز الأشعة المتنقل (C-Arm).",
+    "en": "Modern tables feature memory systems to store preferred positions, and are equipped with ports for connecting other devices such as endoscopes or mobile X-ray units (C-Arm)."
+  },
+  "components": [
+    {
+      "ar": "سطح الطاولة (مقسم إلى 4-5 أجزاء)",
+      "en": "Table Surface (Divided into 4-5 Sections)"
+    },
+    {
+      "ar": "نظام رفع (هيدروليكي/كهربائي)",
+      "en": "Lifting System (Hydraulic/Electric)"
+    },
+    {
+      "ar": "عمود رفع مركزي",
+      "en": "Central Lift Column"
+    },
+    {
+      "ar": "قاعدة متحركة بعجلات (قابلة للقفل)",
+      "en": "Mobile Base with Wheels (Lockable)"
+    },
+    {
+      "ar": "مفاصل دوارة (دوران 360 درجة)",
+      "en": "Rotating Joints (360° Rotation)"
+    },
+    {
+      "ar": "نظام قفل هوائي/ميكانيكي",
+      "en": "Pneumatic/Mechanical Locking System"
+    },
+    {
+      "ar": "وحدة تحكم (عن بعد أو لوحة)",
+      "en": "Control Unit (Remote or Panel)"
+    },
+    {
+      "ar": "بطارية احتياطية (للطوارئ)",
+      "en": "Backup Battery (Emergency)"
+    },
+    {
+      "ar": "وحدة تحكم إلكترونية (CPU)",
+      "en": "Electronic Control Unit (CPU)"
+    },
+    {
+      "ar": "منافذ طاقة وتوصيل",
+      "en": "Power and Connection Ports"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: طاولة عمليات نموذجية (Maquet 1118.06B2 أو Steris 5085S)",
+    "en": "Example: Typical Operating Table (Maquet 1118.06B2 or Steris 5085S)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق الارتفاع",
+        "en": "Height Range"
+      },
+      "value": {
+        "ar": "45 – 105 سم (قابل للتعديل)",
+        "en": "45 – 105 cm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة الحمولة القصوى",
+        "en": "Maximum Load Capacity"
+      },
+      "value": {
+        "ar": "180 – 250 كجم (حسب الموديل)",
+        "en": "180 – 250 kg (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "طول الطاولة",
+        "en": "Table Length"
+      },
+      "value": {
+        "ar": "195 – 210 سم",
+        "en": "195 – 210 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "عرض الطاولة",
+        "en": "Table Width"
+      },
+      "value": {
+        "ar": "45 – 55 سم",
+        "en": "45 – 55 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية الترندلنبورغ",
+        "en": "Trendelenburg Angle"
+      },
+      "value": {
+        "ar": "±30 درجة (أمامي/خلفي)",
+        "en": "±30 degrees (front/back)"
+      }
+    },
+    {
+      "label": {
+        "ar": "زاوية الميلان الجانبي",
+        "en": "Lateral Tilt Angle"
+      },
+      "value": {
+        "ar": "±20 درجة (يسار/يمين)",
+        "en": "±20 degrees (left/right)"
+      }
+    },
+    {
+      "label": {
+        "ar": "انحناء الظهر",
+        "en": "Backrest Bend"
+      },
+      "value": {
+        "ar": "0 – 80 درجة (رفع) / 0 – 30 درجة (خفض)",
+        "en": "0 – 80 degrees (up) / 0 – 30 degrees (down)"
+      }
+    },
+    {
+      "label": {
+        "ar": "فصل الساقين",
+        "en": "Leg Separation"
+      },
+      "value": {
+        "ar": "0 – 90 درجة للأسفل / 0 – 30 درجة للخارج",
+        "en": "0 – 90 degrees down / 0 – 30 degrees outward"
+      }
+    },
+    {
+      "label": {
+        "ar": "دوران الطاولة",
+        "en": "Table Rotation"
+      },
+      "value": {
+        "ar": "360 درجة (مع قفل)",
+        "en": "360 degrees (with lock)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التحكم",
+        "en": "Control System"
+      },
+      "value": {
+        "ar": "كهربائي (220-240 فولت) مع بطارية احتياطية",
+        "en": "Electric (220-240V) with backup battery"
+      }
+    },
+    {
+      "label": {
+        "ar": "المواد",
+        "en": "Materials"
+      },
+      "value": {
+        "ar": "ستانلس ستيل، حشوات عازلة للأشعة (شفافة)",
+        "en": "Stainless Steel, Radiolucent Padding (Transparent)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "نفاد البطارية الاحتياطية مما يؤدي إلى عدم قدرة الطاولة على الحركة أو التعديل.",
+      "en": "Battery drain causing the table to lose movement or adjustment capability."
+    },
+    {
+      "ar": "عطل في المحرك الكهربائي أو النظام الهيدروليكي يمنع رفع أو خفض الطاولة.",
+      "en": "Electric motor or hydraulic system failure preventing raising or lowering."
+    },
+    {
+      "ar": "تلف نظام القفل مما يتسبب في حركة غير مرغوبة للطاولة أثناء العملية.",
+      "en": "Locking system failure causing unwanted table movement during surgery."
+    },
+    {
+      "ar": "عطل في وحدة التحكم (جهاز التحكم عن بعد) أو عدم استجابتها للأوامر.",
+      "en": "Control unit malfunction (remote control) or unresponsiveness."
+    },
+    {
+      "ar": "تلف الحشوات أو تمزقها بسبب التعرض للمواد الكيميائية أو الأدوات الحادة.",
+      "en": "Padding damage or tearing due to chemical exposure or sharp instruments."
+    },
+    {
+      "ar": "تلف في آلية الرفع الهيدروليكية يؤدي إلى بطء أو عدم القدرة على التعديل.",
+      "en": "Hydraulic lift mechanism damage causing slow or no adjustment."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة التحكم الإلكترونية تؤدي إلى قراءات خاطئة أو أوامر غير دقيقة.",
+      "en": "Software glitches in the electronic control unit leading to incorrect readings or commands."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي أو تلف الكابلات يمنع تشغيل الطاولة.",
+      "en": "Power outage or cable damage preventing table operation."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

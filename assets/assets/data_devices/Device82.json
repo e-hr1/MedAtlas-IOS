@@ -1,0 +1,261 @@
+{
+  "id": 82,
+  "name": {
+    "ar": "جهاز ضغط الهواء لطب الأسنان",
+    "en": "Dental Compressor"
+  },
+  "category": "dentistry",
+  "icon": "gauge-high",
+  "shortDescription": {
+    "ar": "وحدة تزويد الهواء المضغوط الجاف والنظيف، القلب النابض لعيادة الأسنان، حيث يغذي جميع الأدوات الدوارة (الحفارات، الملمعات، المطارق الهوائية) وأنظمة البلمرة الهوائية.",
+    "en": "The dry and clean compressed air supply unit, the beating heart of the dental clinic, powering all rotary instruments (handpieces, polishers, air scalers) and pneumatic curing systems."
+  },
+  "images": [
+    "assets/image/Dentistry/Compressor/compressor1.webp",
+    "assets/image/Dentistry/Compressor/compressor2.webp"
+  ],
+  "description": {
+    "ar": "جهاز ضغط الهواء في عيادات الأسنان (Dental Compressor) هو نظام ميكانيكي مصمم خصيصاً لتوليد هواء مضغوط عالي النقاء والجفاف، لتشغيل الأدوات السنية الهوائية (توربينات، مايكرو موتورات، مطارق جراحية)، ونفخ الهواء لتجفيف الأسنان، وتشغيل أنظمة البلمرة. يتميز بتقنيات عزل الصوت، وأنظمة تجفيف الهواء، وفلاتر متعددة المراحل لضمان هواء خالٍ من الزيوت والرطوبة والشوائب.",
+    "en": "The dental compressor is a mechanical system specifically designed to generate high-purity, dry compressed air to power pneumatic dental instruments (turbines, micromotors, surgical hammers), air drying for teeth, and pneumatic curing systems. It features sound insulation technologies, air drying systems, and multi-stage filters to ensure oil-free, moisture-free, and contaminant-free air."
+  },
+  "uses": [
+    {
+      "ar": "تغذية الحفارات الهوائية (التوربينات): لتوليد سرعات عالية تصل إلى 400,000 دورة/دقيقة.",
+      "en": "Powering air-driven handpieces (turbines): To generate high speeds up to 400,000 rpm."
+    },
+    {
+      "ar": "تشغيل المايكرو موتورات الهوائية: للتحضيرات الدقيقة والتيجان والجسور.",
+      "en": "Operating pneumatic micromotors: For precision preparations, crowns, and bridges."
+    },
+    {
+      "ar": "تزويد نظام البلمرة الهوائية: في بعض أجهزة الضوء المعالج.",
+      "en": "Supplying pneumatic curing systems: For some curing light devices."
+    },
+    {
+      "ar": "تشغيل المطارق الهوائية الجراحية: لخلع الأسنان ورفع الجيوب الأنفية.",
+      "en": "Powering surgical air hammers: For tooth extraction and sinus lifting."
+    },
+    {
+      "ar": "نفخ الهواء للتجفيف: في حقن الهواء/الماء/الرذاذ (3-way syringe).",
+      "en": "Air drying: In air/water/spray syringes (3-way syringe)."
+    },
+    {
+      "ar": "تشغيل أنظمة التلميع والتنظيف الهوائية.",
+      "en": "Operating pneumatic polishing and cleaning systems."
+    },
+    {
+      "ar": "تغذية أنظمة معالجة العصب الهوائية (مثل نظام Endo).",
+      "en": "Supplying pneumatic endodontic systems (e.g., Endo systems)."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يقوم جهاز ضغط الهواء بتحويل الطاقة الكهربائية إلى طاقة هوائية مضغوطة عبر دورات ميكانيكية متتالية، مع أنظمة تنقية وتجفيف تضمن هواءً مثالياً للأدوات الحساسة عبر ثلاث مراحل: مرحلة السحب والضغط حيث يسحب المحرك الكهربائي الهواء الجوي عبر فلتر دخول ثم يقوم نظام المكبس (Piston) أو الحلزوني (Screw) بضغط الهواء داخل الأسطوانة مما يرفع ضغطه إلى المستوى المطلوب (عادة 5-8 بار)، ثم مرحلة التبريد والتجفيف حيث يمر الهواء المضغوط الساخن عبر مبرد (باستخدام مراوح تبريد أو مبادل حراري) ثم عبر مصيدة رطوبة (مزيل للمكثفات) وفاصل زيتي (في الأنظمة الخالية من الزيت) لإزالة الرطوبة والزيوت المتبقية، ثم مرحلة التخزين والتنقية حيث يخزن الهواء في خزان ضغط (Receiver Tank) لضمان تدفق مستقر ثم يمر عبر فلاتر نهائية (غبار، كربون نشط، وفلتر دقيق 0.01 ميكرون) قبل وصوله إلى خطوط التوزيع وأدوات العيادة.",
+    "en": "The dental compressor converts electrical energy into compressed air energy through successive mechanical cycles, with purification and drying systems ensuring ideal air for sensitive instruments through three stages: Intake and compression stage where the electric motor draws atmospheric air through an intake filter then the piston or screw system compresses the air inside the cylinder raising its pressure to the required level (usually 5-8 bar), then Cooling and drying stage where the hot compressed air passes through a cooler (using cooling fans or a heat exchanger) then through a moisture trap (condensate remover) and oil separator (in oil-free systems) to remove moisture and residual oils, then Storage and purification stage where the air is stored in a pressure tank (Receiver Tank) to ensure stable flow then passes through final filters (dust, activated carbon, and 0.01 micron fine filter) before reaching the distribution lines and clinic instruments."
+  },
+  "workingSteps": [
+    {
+      "ar": "مرحلة السحب والضغط: يسحب المحرك الكهربائي الهواء الجوي عبر فلتر دخول، ثم يقوم نظام المكبس (Piston) أو الحلزوني (Screw) بضغط الهواء داخل الأسطوانة، مما يرفع ضغطه إلى المستوى المطلوب (عادة 5-8 بار).",
+      "en": "Intake and compression stage: The electric motor draws atmospheric air through an intake filter, then the piston or screw system compresses the air inside the cylinder, raising its pressure to the required level (usually 5-8 bar)."
+    },
+    {
+      "ar": "مرحلة التبريد والتجفيف: يمر الهواء المضغوط الساخن عبر مبرد (باستخدام مراوح تبريد أو مبادل حراري)، ثم عبر مصيدة رطوبة (مزيل للمكثفات) وفاصل زيتي (في الأنظمة الخالية من الزيت) لإزالة الرطوبة والزيوت المتبقية.",
+      "en": "Cooling and drying stage: The hot compressed air passes through a cooler (using cooling fans or a heat exchanger), then through a moisture trap (condensate remover) and oil separator (in oil-free systems) to remove moisture and residual oils."
+    },
+    {
+      "ar": "مرحلة التخزين والتنقية: يخزن الهواء في خزان ضغط (Receiver Tank) لضمان تدفق مستقر، ثم يمر عبر فلاتر نهائية (غبار، كربون نشط، وفلتر دقيق 0.01 ميكرون) قبل وصوله إلى خطوط التوزيع وأدوات العيادة.",
+      "en": "Storage and purification stage: The air is stored in a pressure tank (Receiver Tank) to ensure stable flow, then passes through final filters (dust, activated carbon, and 0.01 micron fine filter) before reaching the distribution lines and clinic instruments."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنظمة الحديثة مزودة بمجففات هواء مدمجة (Refrigerated Dryers) وكواشف رطوبة ذكية، وتعمل بمحركات DC بدون فرش (Brushless) لتوفير الطاقة ولتكون أكثر هدوءاً، مع أنظمة تحكم إلكترونية تراقب الضغط ودرجة الحرارة ومواعيد الصيانة.",
+    "en": "Modern systems feature built-in refrigerated air dryers and smart moisture detectors, operate with brushless DC motors for energy efficiency and quieter operation, and include electronic control systems that monitor pressure, temperature, and maintenance schedules."
+  },
+  "components": [
+    {
+      "ar": "محرك كهربائي (AC/DC) مع علبة تروس",
+      "en": "Electric motor (AC/DC) with gearbox"
+    },
+    {
+      "ar": "نظام الضغط (مكبس أو حلزوني أو غشاء)",
+      "en": "Compression system (piston, screw, or diaphragm)"
+    },
+    {
+      "ar": "خزان الضغط (سعة 10-100 لتر)",
+      "en": "Pressure tank (10-100 liter capacity)"
+    },
+    {
+      "ar": "نظام التبريد (مراوح مبرد ومبادل حراري)",
+      "en": "Cooling system (cooling fans and heat exchanger)"
+    },
+    {
+      "ar": "مصيدة الرطوبة وفاصل الزيت",
+      "en": "Moisture trap and oil separator"
+    },
+    {
+      "ar": "فلاتر متعددة المراحل (مدخل، خشن، دقيق 0.01 ميكرون)",
+      "en": "Multi-stage filters (intake, coarse, 0.01 micron fine)"
+    },
+    {
+      "ar": "منظم ضغط مع مقياس (Regulator & Manometer)",
+      "en": "Pressure regulator with manometer"
+    },
+    {
+      "ar": "لوحة تحكم (ضبط الضغط، مؤشرات الصيانة، حماية حرارية)",
+      "en": "Control panel (pressure adjustment, maintenance indicators, thermal protection)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: مواصفات نموذجية لجهاز ضغط هواء سني متطور (نظام عديم الزيت - Oil-Free)",
+    "en": "Example: Typical specifications for an advanced dental compressor (Oil-Free system)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "الضغط التشغيلي",
+        "en": "Operating pressure"
+      },
+      "value": {
+        "ar": "5 – 8 بار (قابل للتعديل)",
+        "en": "5 – 8 bar (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التدفق (الخالي من الزيت)",
+        "en": "Flow rate (oil-free)"
+      },
+      "value": {
+        "ar": "80 – 250 لتر/دقيقة (حسب الموديل)",
+        "en": "80 – 250 liters/minute (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة خزان الضغط",
+        "en": "Tank capacity"
+      },
+      "value": {
+        "ar": "25 – 100 لتر (حسب الاستخدام)",
+        "en": "25 – 100 liters (depending on usage)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الضاغط",
+        "en": "Compressor type"
+      },
+      "value": {
+        "ar": "مكبس 1-2 أسطوانة / حلزوني / غشائي (خالي من الزيت)",
+        "en": "1-2 cylinder piston / screw / diaphragm (oil-free)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise level"
+      },
+      "value": {
+        "ar": "50 – 68 ديسيبل (بفضل العزل الصوتي)",
+        "en": "50 – 68 dB (thanks to sound insulation)"
+      }
+    },
+    {
+      "label": {
+        "ar": "جهد التشغيل",
+        "en": "Operating voltage"
+      },
+      "value": {
+        "ar": "220-240 فولت / 50-60 هرتز (أو 380 فولت للطرازات الكبيرة)",
+        "en": "220-240 V / 50-60 Hz (or 380 V for larger models)"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الجهاز",
+        "en": "Device weight"
+      },
+      "value": {
+        "ar": "30 – 120 كجم (حسب الموديل والخزان)",
+        "en": "30 – 120 kg (depending on model and tank)"
+      }
+    },
+    {
+      "label": {
+        "ar": "مرشحات الخروج",
+        "en": "Outlet filters"
+      },
+      "value": {
+        "ar": "0.01 ميكرون (خالي من الزيت والرطوبة والغبار)",
+        "en": "0.01 micron (oil-free, moisture-free, dust-free)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض الضغط أو التدفق (تسريب في الخطوط، تلف الحلقات المطاطية، أو عطل في منظم الضغط).",
+      "en": "Low pressure or flow (leaks in lines, damaged O-rings, or faulty pressure regulator)."
+    },
+    {
+      "ar": "خروج ماء أو رطوبة مع الهواء (انسداد أو عطل في مصيدة الرطوبة، أو فشل نظام التجفيف).",
+      "en": "Water or moisture in the air output (clogged or faulty moisture trap, or drying system failure)."
+    },
+    {
+      "ar": "خروج زيت مع الهواء (في الأنظمة غير الخالية من الزيت، نتيجة تلف الفواصل أو زيادة الزيت).",
+      "en": "Oil in the air output (in non-oil-free systems, due to damaged separators or excessive oil)."
+    },
+    {
+      "ar": "ارتفاع حرارة المحرك (سخونة زائدة، نقص التهوية، أو عطل في مروحة التبريد).",
+      "en": "Motor overheating (overheating, poor ventilation, or cooling fan failure)."
+    },
+    {
+      "ar": "ارتفاع صوت الضاغط بشكل غير طبيعي (تلف المحامل، أو خلل في المكبس، أو ارتخاء القواعد).",
+      "en": "Abnormally loud compressor noise (damaged bearings, piston issue, or loose base)."
+    },
+    {
+      "ar": "عدم تشغيل المحرك (عطل كهربائي، تلف المكثف، أو فصل الحماية الحرارية).",
+      "en": "Motor not starting (electrical fault, capacitor failure, or thermal protection tripped)."
+    },
+    {
+      "ar": "انسداد الفلاتر (يؤدي إلى ضعف التدفق وارتفاع استهلاك الطاقة).",
+      "en": "Clogged filters (leading to reduced flow and increased power consumption)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

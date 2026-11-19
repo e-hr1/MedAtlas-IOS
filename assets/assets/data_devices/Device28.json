@@ -1,0 +1,284 @@
+{
+  "id": 28,
+  "name": {
+    "ar": "نظام الغازات الطبية",
+    "en": "Medical Gas System"
+  },
+  "category": "operating",
+  "icon": "database",
+  "shortDescription": {
+    "ar": "شبكة إمداد الغازات – البنية التحتية الحيوية التي تزود المستشفى بالغازات الطبية اللازمة للرعاية الحرجة",
+    "en": "Gas Supply Network – The vital infrastructure that supplies the hospital with medical gases necessary for critical care"
+  },
+  "images": [
+    "assets/image/Operating/GasSystem/Gas1.webp",
+    "assets/image/Operating/GasSystem/Gas2.webp",
+    "assets/image/Operating/GasSystem/Gas3.webp",
+    "assets/image/Operating/GasSystem/Gas4.webp"
+  ],
+  "description": {
+    "ar": "نظام بنية تحتية متكامل في المستشفى يقوم بتوليد وتخزين وتوزيع الغازات الطبية عبر شبكة من الأنابيب إلى جميع نقاط الاستخدام (غرف العمليات، العناية المركزة، الطوارئ، الأجنحة). يُعد النظام شريان الحياة للمريض، حيث يوفر الغازات الأساسية اللازمة للتنفس والتخدير والعمليات الجراحية.",
+    "en": "An integrated infrastructure system in the hospital that generates, stores, and distributes medical gases through a network of pipelines to all points of use (operating rooms, intensive care units, emergency rooms, wards). The system is the patient's lifeline, providing the essential gases needed for breathing, anesthesia, and surgical procedures."
+  },
+  "uses": [
+    {
+      "ar": "الأكسجين (O₂): يُعطى للمرضى الذين يعانون من نقص الأكسجة أو فشل تنفسي، ويُفر عبر اسطوانات أو خزانات سائلة.",
+      "en": "Oxygen (O₂): Administered to patients suffering from hypoxia or respiratory failure, supplied from cylinders or central liquid tanks."
+    },
+    {
+      "ar": "الهواء الطبي (Medical Air): هواء مضغوط نقي خالٍ من الزيوت والرطوبة، يُستخدم في أجهزة التنفس الصناعي والغازات.",
+      "en": "Medical Air: Purified compressed air free of oil and moisture, used in ventilators and gas mixing."
+    },
+    {
+      "ar": "أكسيد النيتروز (N₂O): غاز مخدر ومسكن يستخدم مع الأكسجين في التخدير العام والولادة لتخفيف الألم.",
+      "en": "Nitrous Oxide (N₂O): An anesthetic and analgesic gas used with oxygen in general anesthesia and labor for pain relief."
+    },
+    {
+      "ar": "ثاني أكسيد الكربون (CO₂): يُستخدم في عمليات تنظير البطن لنفخ تجويف البطن، وفي التطبيقات المخبرية.",
+      "en": "Carbon Dioxide (CO₂): Used in laparoscopy to inflate the abdominal cavity and in laboratory applications."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يتم توليد أو تخزين الغازات مركزياً (عبر خزانات سائلة أو مولدات PSA أو ضواغط هواء) وتوزيعها عبر شبكة أنابيب نحاسية أو فولاذية مزودة بمحطات تخفيض الضغط، وصمامات إغلاق، وأنظمة إنذار وصولاً إلى نقاط الاستخدام في غرف العمليات والعناية المركزة.",
+    "en": "Gases are generated or stored centrally (via liquid tanks, PSA generators, or air compressors) and distributed through copper or steel pipeline networks equipped with pressure reduction stations, shut-off valves, and alarm systems to points of use in operating rooms and ICUs."
+  },
+  "workingSteps": [
+    {
+      "ar": "المصدر (التوليد أو التخزين): تخزين الغازات في خزانات مركزية، أو إنتاجها عبر مولدات الأكسجين (PSA) وضاغطات الهواء الطبي، مع وجود اسطوانات احتياطية.",
+      "en": "Source (Generation or Storage): Gases are stored in central tanks or produced via oxygen generators (PSA) and medical air compressors, with backup cylinders."
+    },
+    {
+      "ar": "الشبكة الداخلية (التوزيع): تمر الغازات عبر شبكة من الأنابيب النحاسية أو الفولاذية المزودة بمحطات تخفيض الضغط وصمامات إغلاق وأنظمة إنذار ومنافذ توصيل آمنة.",
+      "en": "Internal Network (Distribution): Gases pass through copper or steel pipelines equipped with pressure reduction stations, zone valves, alarm systems, and safe connection outlets."
+    },
+    {
+      "ar": "الاستخدام النهائي: يتصل الجهاز الطبي (جهاز التنفس، التخدير، المنظار) بمنفذ الغاز المخصص، حيث يتم تنظيم الضغط والتدفق حسب الحاجة السريرية.",
+      "en": "Final Use: The medical device connects to the dedicated gas outlet, where pressure and flow are regulated according to clinical needs."
+    }
+  ],
+  "highlight": {
+    "ar": "لكل غاز موصل خاص به لمنع توصيل الغاز الخاطئ. وتتميز الأنظمة الحديثة بأنظمة تحكم ذكية تراقب الاستهلاك وتنبّه الطاقم الفني عند نقصان أي غاز، مع إمكانية التكامل مع نظام إدارة المباني (BMS).",
+    "en": "Each gas has its own specific connector to prevent incorrect connection. Modern systems feature smart control systems that monitor consumption and alert technical staff when any gas is low, with BMS integration capability."
+  },
+  "components": [
+    {
+      "ar": "خزانات تخزين مركزية (سائلة/مضغوطة)",
+      "en": "Central Storage Tanks (Liquid/Compressed)"
+    },
+    {
+      "ar": "مولد أكسجين (PSA) / ضاغط هواء",
+      "en": "Oxygen Generator (PSA) / Air Compressor"
+    },
+    {
+      "ar": "منظمو ضغط (Pressure Regulators)",
+      "en": "Pressure Regulators"
+    },
+    {
+      "ar": "شبكة أنابيب نحاسية/فولاذية",
+      "en": "Copper/Steel Pipeline Network"
+    },
+    {
+      "ar": "صمامات إغلاق تقسيمية (Zone Valves)",
+      "en": "Zone Shut-off Valves"
+    },
+    {
+      "ar": "لوحة إنذار ومراقبة (Alarm Panel)",
+      "en": "Alarm and Monitoring Panel"
+    },
+    {
+      "ar": "منافذ توصيل (Outlets) مع قفل تشفير",
+      "en": "Outlets with Safety Lock"
+    },
+    {
+      "ar": "نظام قياس تدفق واستهلاك",
+      "en": "Flow and Consumption Measurement System"
+    },
+    {
+      "ar": "اسطوانات احتياطية (Backup)",
+      "en": "Backup Cylinders"
+    },
+    {
+      "ar": "منظمات أمان ومنع خلط الغازات",
+      "en": "Safety Regulators and Gas Mix Prevention"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مواصفات نموذجية لنظام الغازات الطبية وفق المعايير الدولية (ISO 7396-1، NFPA 99)",
+    "en": "Typical specifications for a Medical Gas System according to international standards (ISO 7396-1, NFPA 99)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "ضغط تشغيل الأكسجين (O₂)",
+        "en": "Oxygen (O₂) Operating Pressure"
+      },
+      "value": {
+        "ar": "4 – 5 بار (قابل للتعديل في بعض النقاط)",
+        "en": "4 – 5 bar (adjustable at some points)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط تشغيل الهواء الطبي",
+        "en": "Medical Air Operating Pressure"
+      },
+      "value": {
+        "ar": "5 – 7 بار (حسب التطبيق)",
+        "en": "5 – 7 bar (depending on application)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط تشغيل أكسيد النيتروز (N₂O)",
+        "en": "Nitrous Oxide (N₂O) Operating Pressure"
+      },
+      "value": {
+        "ar": "4 – 5 بار",
+        "en": "4 – 5 bar"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط تشغيل ثاني أكسيد الكربون (CO₂)",
+        "en": "Carbon Dioxide (CO₂) Operating Pressure"
+      },
+      "value": {
+        "ar": "4 – 5 بار",
+        "en": "4 – 5 bar"
+      }
+    },
+    {
+      "label": {
+        "ar": "نقاء الأكسجين الطبي",
+        "en": "Medical Oxygen Purity"
+      },
+      "value": {
+        "ar": "≥ 99.5% (وفق دستور الأدوية)",
+        "en": "≥ 99.5% (per Pharmacopoeia)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نقاء الهواء الطبي",
+        "en": "Medical Air Purity"
+      },
+      "value": {
+        "ar": "ندرة الرطوبة ≤ 5 ملجم/م³، خالٍ من الزيوت",
+        "en": "Moisture ≤ 5 mg/m³, oil-free"
+      }
+    },
+    {
+      "label": {
+        "ar": "مادة الأنابيب",
+        "en": "Pipe Material"
+      },
+      "value": {
+        "ar": "نحاس صحي أو فولاذ مقاوم للصدأ (ASTM B819)",
+        "en": "Medical Copper or Stainless Steel (ASTM B819)"
+      }
+    },
+    {
+      "label": {
+        "ar": "منافذ التوصيل",
+        "en": "Outlet Connections"
+      },
+      "value": {
+        "ar": "DISS (Diameter Index Safety System) أو Probes",
+        "en": "DISS (Diameter Index Safety System) or Probes"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة الإنذار",
+        "en": "Alarm Systems"
+      },
+      "value": {
+        "ar": "مراقبة الضغط، مستوى الغاز، تسرب، درجة الحرارة",
+        "en": "Pressure monitoring, gas level, leak, temperature"
+      }
+    },
+    {
+      "label": {
+        "ar": "الاحتياطي (البديل)",
+        "en": "Backup Supply"
+      },
+      "value": {
+        "ar": "اسطوانات احتياطية تكفي 24-72 ساعة",
+        "en": "Reserve cylinders sufficient for 24-72 hours"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "تسرب في شبكة الأنابيب يؤدي إلى فقدان الضغط وتهديد حياة المريض.",
+      "en": "Leak in the pipeline network causing pressure loss and threatening patient life."
+    },
+    {
+      "ar": "انخفاض الضغط أو تذبذبه نتيجة عطل في منظمات الضغط.",
+      "en": "Low or fluctuating pressure due to regulator failure."
+    },
+    {
+      "ar": "إنذارات خاطئة أو عدم استجابة لوحات الإنذار.",
+      "en": "False alarms or unresponsive alarm panels."
+    },
+    {
+      "ar": "نقص الغاز في الخزانات المركزية أو الاسطوانات الاحتياطية.",
+      "en": "Gas shortage in central tanks or backup cylinders."
+    },
+    {
+      "ar": "عطل في مولد الأكسجين (PSA) أو ضاغط الهواء.",
+      "en": "Oxygen generator (PSA) or air compressor malfunction."
+    },
+    {
+      "ar": "تلف أو انسداد منافذ التوصيل (Outlets) يمنع وصول الغاز للجهاز.",
+      "en": "Damaged or blocked outlets preventing gas from reaching the device."
+    },
+    {
+      "ar": "تراكم الرطوبة أو الزيوت في الهواء الطبي بسبب فشل أنظمة التجفيف والترشيح.",
+      "en": "Moisture or oil accumulation in medical air due to drying and filtration system failure."
+    },
+    {
+      "ar": "خلل في نظام التحكم الذكي أو قياس التدفق.",
+      "en": "Smart control or flow measurement system malfunction."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور النظام",
+      "en": "System images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

@@ -1,0 +1,264 @@
+{
+  "id": 30,
+  "name": {
+    "ar": "جهاز BiPAP",
+    "en": "BiPAP Machine"
+  },
+  "category": "respiratory",
+  "icon": "lungs",
+  "shortDescription": {
+    "ar": "جهاز تنفس غير اجتياحي يوفر ضغطين مختلفين للشهيق والزفير، يستخدم لعلاج فشل التنفس واضطرابات النوم المتقدمة",
+    "en": "A non-invasive ventilation device that provides two different pressures for inhalation and exhalation, used to treat respiratory failure and advanced sleep disorders"
+  },
+  "images": [
+    "assets/image/Respiratory/BiPAP/BiPAP1.webp",
+    "assets/image/Respiratory/BiPAP/BiPAP2.webp",
+    "assets/image/Respiratory/BiPAP/BiPAP3.webp",
+    "assets/image/Respiratory/BiPAP/BiPAP4.webp"
+  ],
+  "description": {
+    "ar": "جهاز BiPAP (Bilevel Positive Airway Pressure) هو جهاز تنفس غير اجتياحي (Non-Invasive Ventilation - NIV) يوفر مستويين مختلفين من الضغط الإيجابي: ضغط أعلى أثناء الشهيق (IPAP) وضغط أقل أثناء الزفير (EPAP). هذا يسمح بدعم تنفسي أكثر راحة وفعالية مقارنة بجهاز CPAP.",
+    "en": "A BiPAP (Bilevel Positive Airway Pressure) machine is a non-invasive ventilation (NIV) device that provides two different levels of positive pressure: higher pressure during inhalation (IPAP) and lower pressure during exhalation (EPAP). This allows for more comfortable and effective respiratory support compared to CPAP devices."
+  },
+  "uses": [
+    {
+      "ar": "فشل التنفس المزمن: دعم المرضى الذين يعانون من أمراض الرئة المزمنة مثل COPD والربو الحاد.",
+      "en": "Chronic Respiratory Failure: Supports patients with chronic lung diseases such as COPD and severe asthma."
+    },
+    {
+      "ar": "اضطرابات النوم المتقدمة: علاج حالات انقطاع التنفس المركزي أو المختلط أثناء النوم.",
+      "en": "Advanced Sleep Disorders: Treats central or mixed sleep apnea cases."
+    },
+    {
+      "ar": "مرضى ALS والعضلات العصبية: دعم المرضى الذين يعانون من ضعف عضلات التنفس.",
+      "en": "ALS and Neuromuscular Patients: Supports patients with weak respiratory muscles."
+    },
+    {
+      "ar": "قصور القلب الاحتقاني: تحسين التهوية وتقليل عمل التنفس لدى مرضى القلب.",
+      "en": "Congestive Heart Failure: Improves ventilation and reduces the work of breathing in cardiac patients."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يوفر الجهاز ضغطاً أعلى أثناء الشهيق (IPAP) وضغطاً أقل أثناء الزفير (EPAP) عبر مزامنة التنفس مع دورة المريض الطبيعية، مع مراقبة المستشعرات وتوفير دعم إضافي في وضع S/T.",
+    "en": "The device delivers higher pressure during inhalation (IPAP) and lower pressure during exhalation (EPAP) by synchronizing with the patient's natural breathing cycle, monitored by sensors with backup support in S/T mode."
+  },
+  "workingSteps": [
+    {
+      "ar": "ضغط الشهيق (IPAP): يوفر الجهاز ضغطاً أعلى (عادة 8-25 سم ماء) أثناء الشهيق لدعم دخول الهواء إلى الرئتين.",
+      "en": "Inspiratory Pressure (IPAP): The device delivers higher pressure (typically 8-25 cm H₂O) during inhalation to support air entry into the lungs."
+    },
+    {
+      "ar": "ضغط الزفير (EPAP): ينخفض الضغط إلى مستوى أقل (عادة 4-12 سم ماء) أثناء الزفير لتسهيل خروج الهواء وتقليل جهد التنفس.",
+      "en": "Expiratory Pressure (EPAP): Pressure drops to a lower level (typically 4-12 cm H₂O) during exhalation to facilitate air outflow and reduce breathing effort."
+    },
+    {
+      "ar": "مزامنة التنفس: تستشعر أجهزة الاستشعار المدمجة محاولات المريض للتنفس وتقوم بتعديل الضغوط تزامناً مع دورة التنفس الطبيعية.",
+      "en": "Breath Synchronization: Built-in sensors detect the patient's breathing attempts and adjust pressures in sync with the natural breathing cycle."
+    },
+    {
+      "ar": "دعم التهوية: الفرق بين IPAP و EPAP (ΔP) يحدد حجم الهواء المتبادل (Tidal Volume) الذي يصل للمريض.",
+      "en": "Ventilation Support: The difference between IPAP and EPAP (ΔP) determines the tidal volume delivered to the patient."
+    },
+    {
+      "ar": "المراقبة المستمرة: تراقب المستشعرات معدل التنفس، حجم الهواء، وتسرب الهواء من القناع لتعديل الأداء.",
+      "en": "Continuous Monitoring: Sensors monitor breathing rate, air volume, and mask leakage to adjust performance."
+    }
+  ],
+  "highlight": {
+    "ar": "بعض الأجهزة المتطورة توفر وضع S/T (Spontaneous/Timed) حيث تعطي دعم إضافي إذا لم يبدأ المريض بالتنفس خلال فترة زمنية محددة.",
+    "en": "Some advanced devices offer S/T (Spontaneous/Timed) mode, providing additional support if the patient does not initiate breathing within a specified time period."
+  },
+  "components": [
+    {
+      "ar": "فلتر هواء مزدوج (دقيق وخشن)",
+      "en": "Dual Air Filter (Fine and Coarse)"
+    },
+    {
+      "ar": "مروحة ضغط عالية الأداء",
+      "en": "High-Performance Pressure Fan"
+    },
+    {
+      "ar": "معالج دقيق للتحكم بالضغوط",
+      "en": "Microprocessor for Pressure Control"
+    },
+    {
+      "ar": "مستشعرات ضغط وتدفق عالية الدقة",
+      "en": "High-Precision Pressure and Flow Sensors"
+    },
+    {
+      "ar": "شاشة ملونة تعرض موجات التنفس",
+      "en": "Color Display Showing Breathing Waveforms"
+    },
+    {
+      "ar": "مرطب حراري بتحكم دقيق",
+      "en": "Heated Humidifier with Precise Control"
+    },
+    {
+      "ar": "دائرة تنفس مزدوجة (مريض)",
+      "en": "Dual Breathing Circuit (Patient)"
+    },
+    {
+      "ar": "قناع مخصص (أنفي أو وجه كامل)",
+      "en": "Specialized Mask (Nasal or Full Face)"
+    },
+    {
+      "ar": "بطارية احتياطية (اختيارية)",
+      "en": "Backup Battery (Optional)"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز BiPAP نموذجي (Philips Respironics BiPAP AVAPS أو ResMed Lumis)",
+    "en": "Example: Typical BiPAP device (Philips Respironics BiPAP AVAPS or ResMed Lumis)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق IPAP",
+        "en": "IPAP Range"
+      },
+      "value": {
+        "ar": "4 – 40 سم ماء",
+        "en": "4 – 40 cm H₂O"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق EPAP",
+        "en": "EPAP Range"
+      },
+      "value": {
+        "ar": "4 – 25 سم ماء",
+        "en": "4 – 25 cm H₂O"
+      }
+    },
+    {
+      "label": {
+        "ar": "الفرق بين الضغوط (ΔP)",
+        "en": "Pressure Difference (ΔP)"
+      },
+      "value": {
+        "ar": "0 – 30 سم ماء",
+        "en": "0 – 30 cm H₂O"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل التنفس الداعم",
+        "en": "Backup Breathing Rate"
+      },
+      "value": {
+        "ar": "0 – 40 نفس/دقيقة (في وضع S/T)",
+        "en": "0 – 40 breaths/min (in S/T mode)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حساسية البدء",
+        "en": "Trigger Sensitivity"
+      },
+      "value": {
+        "ar": "قابلة للتعديل (منخفضة/متوسطة/عالية)",
+        "en": "Adjustable (Low/Medium/High)"
+      }
+    },
+    {
+      "label": {
+        "ar": "ميزة AVAPS",
+        "en": "AVAPS Feature"
+      },
+      "value": {
+        "ar": "ضبط تلقائي لحجم الهواء المتبادل",
+        "en": "Automatic Tidal Volume Adjustment"
+      }
+    },
+    {
+      "label": {
+        "ar": "مستوى الضوضاء",
+        "en": "Noise Level"
+      },
+      "value": {
+        "ar": "≈ 27 ديسيبل",
+        "en": "≈ 27 dB"
+      }
+    },
+    {
+      "label": {
+        "ar": "سعة خزان المرطب",
+        "en": "Humidifier Chamber Capacity"
+      },
+      "value": {
+        "ar": "380 مل",
+        "en": "380 ml"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد الفلتر مما يقلل من كفاءة الضغط ويسبب ضوضاء عالية.",
+      "en": "Filter blockage reducing pressure efficiency and causing high noise levels."
+    },
+    {
+      "ar": "تسرب كبير من القناع يقلل من فعالية الضغط ويسبب إنذار تسرب.",
+      "en": "Significant mask leakage reducing pressure effectiveness and triggering leak alarms."
+    },
+    {
+      "ar": "نمو البكتيريا في خزان المرطب أو الأنابيب بسبب سوء التنظيف.",
+      "en": "Bacterial growth in the humidifier chamber or tubing due to poor cleaning."
+    },
+    {
+      "ar": "فشل مستشعرات التدفق أو الضغط يعطي قراءات غير دقيقة.",
+      "en": "Flow or pressure sensor failure providing inaccurate readings."
+    },
+    {
+      "ar": "خلل في مزامنة التنفس مما يسبب مقاومة للمريض أثناء الزفير.",
+      "en": "Breathing synchronization issues causing patient resistance during exhalation."
+    },
+    {
+      "ar": "تلف البطارية الداخلية أو انقطاع التيار الكهربائي.",
+      "en": "Internal battery damage or power outage."
+    },
+    {
+      "ar": "تآكل الأنابيب أو القناع مما يسبب تشقق أو تسريب غير مرئي.",
+      "en": "Tubing or mask wear causing invisible cracks or leaks."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

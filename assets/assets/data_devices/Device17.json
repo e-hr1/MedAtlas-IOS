@@ -1,0 +1,245 @@
+{
+  "id": 17,
+  "name": {
+    "ar": "جهاز غسيل الكلى",
+    "en": "Dialysis Machine"
+  },
+  "category": "icu",
+  "icon": "heart-pulse",
+  "shortDescription": {
+    "ar": "جهاز طبي حيوي متطور يُعرف باسم \"الكلية الاصطناعية\"، يُستخدم لتنقية دم المرضى الذين يعانون من الفشل الكلوي الحاد أو المزمن عن طريق سحب الدم وتمريره عبر فلتر خاص لإزالة السموم واليوريا والأملاح الزائدة والسوائل المتراكمة ثم إعادة الدم نقياً إلى الجسم.",
+    "en": "An advanced vital medical device known as an \"artificial kidney,\" used to purify the blood of patients suffering from acute or chronic renal failure by drawing the blood and passing it through a special filter to remove toxins, urea, excess salts, and accumulated fluids, then returning the purified blood to the body."
+  },
+  "images": [
+    "assets/image/ICU/DialysisMachine/DialysisMachine1.webp",
+    "assets/image/ICU/DialysisMachine/DialysisMachine2.webp",
+    "assets/image/ICU/DialysisMachine/DialysisMachine3.webp",
+    "assets/image/ICU/DialysisMachine/DialysisMachine4.webp"
+  ],
+  "description": {
+    "ar": "جهاز غسيل الكلى (Dialysis Machine) هو جهاز طبي حيوي متطور يُعرف باسم \"الكلية الاصطناعية\"، يُستخدم لتنقية دم المرضى الذين يعانون من الفشل الكلوي الحاد أو المزمن. يقوم الجهاز بسحب دم المريض وتمريره عبر فلتر خاص لإزالة السموم، اليوريا، الأملاح الزائدة، والسوائل المتراكمة، ثم إعادة الدم نقياً إلى الجسم. تشمل استخداماته الرئيسية: الفشل الكلوي المزمن (ESRD) كعلاج دوري مستمر (غالباً 3 مرات أسبوعياً) لمرضى المرحلة النهائية لتأمين استمرارية الحياة، الفشل الكلوي الحاد (AKI) لدعم وظائف الكلى مؤقتاً في وحدات العناية المركزة نتيجة الصدمات أو التسمم الحاد حتى تستعيد الكلى عافيتها، إزالة السوائل الزائدة لمرضى الاستسقاء والوذمة الرئوية الناتجة عن عجز الكلى أو فشل القلب الاحتقاني، وتصحيح اضطرابات الدم لإعادة التوازن الحامضي والقلوي وضبط مستويات البوتاسيوم والصوديوم بجرعات دقيقة جداً. أنواعه: غسيل الكلى الدموي المستمر (CRRT) يُستخدم في العناية المركزة ببطء شديد على مدار 24 ساعة للمرضى غير المستقرين ديناميكياً، وغسيل الكلى الدموي التقليدي (Intermittent HD) الغسيل المعتاد الذي يستغرق من 3 إلى 5 ساعات في مراكز الغسيل الكلوية.",
+    "en": "A dialysis machine is an advanced vital medical device known as an \"artificial kidney,\" used to purify the blood of patients suffering from acute or chronic renal failure. The machine draws the patient's blood, passes it through a special filter to remove toxins, urea, excess salts, and accumulated fluids, then returns the purified blood to the body. Its main uses include: Chronic Kidney Disease (ESRD) as ongoing periodic therapy (typically 3 times per week) for end-stage patients to sustain life; Acute Kidney Injury (AKI) to temporarily support kidney function in intensive care units due to trauma or acute toxicity until the kidneys recover; Fluid removal for patients with ascites and pulmonary edema resulting from renal failure or congestive heart failure; and Blood disorder correction to restore acid-base balance and precisely adjust potassium and sodium levels with very accurate dosing. Types: Continuous Renal Replacement Therapy (CRRT) used in intensive care at very slow rates over 24 hours for hemodynamically unstable patients, and Intermittent Hemodialysis (HD) conventional dialysis lasting 3 to 5 hours in dialysis centers."
+  },
+  "uses": [
+    {
+      "ar": "الفشل الكلوي المزمن (ESRD) – كعلاج دوري مستمر (غالباً 3 مرات أسبوعياً) لمرضى المرحلة النهائية لتأمين استمرارية الحياة.",
+      "en": "Chronic Kidney Disease (ESRD) – as ongoing periodic therapy (typically 3 times per week) for end-stage patients to sustain life."
+    },
+    {
+      "ar": "الفشل الكلوي الحاد (AKI) – لدعم وظائف الكلى مؤقتاً في وحدات العناية المركزة نتيجة الصدمات أو التسمم الحاد حتى تستعيد الكلى عافيتها.",
+      "en": "Acute Kidney Injury (AKI) – to temporarily support kidney function in intensive care units due to trauma or acute toxicity until the kidneys recover."
+    },
+    {
+      "ar": "إزالة السوائل الزائدة – لمرضى الاستسقاء والوذمة الرئوية الناتجة عن عجز الكلى أو فشل القلب الاحتقاني.",
+      "en": "Fluid removal – for patients with ascites and pulmonary edema resulting from renal failure or congestive heart failure."
+    },
+    {
+      "ar": "تصحيح اضطرابات الدم – لإعادة التوازن الحامضي والقلوي وضبط مستويات البوتاسيوم والصوديوم بجرعات دقيقة جداً.",
+      "en": "Blood disorder correction – to restore acid-base balance and precisely adjust potassium and sodium levels with very accurate dosing."
+    },
+    {
+      "ar": "غسيل الكلى الدموي المستمر (CRRT) – يُستخدم في العناية المركزة ببطء شديد على مدار 24 ساعة للمرضى غير المستقرين ديناميكياً.",
+      "en": "Continuous Renal Replacement Therapy (CRRT) – used in intensive care at very slow rates over 24 hours for hemodynamically unstable patients."
+    },
+    {
+      "ar": "غسيل الكلى الدموي التقليدي (Intermittent HD) – الغسيل المعتاد الذي يستغرق من 3 إلى 5 ساعات في مراكز الغسيل الكلوية.",
+      "en": "Intermittent Hemodialysis (HD) – conventional dialysis lasting 3 to 5 hours in dialysis centers."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز غسيل الكلى عبر ثلاث مراحل: دورة الدم الخرجية حيث تقوم مضخة الدم بسحب الدم من المريض عبر قسطرة أو وصلة شريانية وريدية وتوجيهه نحو المصفاة (Dialyzer)، ثم الانتشار والنفاذية (Dialysis) حيث يتدفق الدم داخل شعيرات دقيقة جداً داخل الفلتر بينما يتدفق سائل الغسيل (Dialysate) في الاتجاه المعاكس خارج هذه الشعيرات مما يسمح للسموم والأملاح بالانتقال من الدم عالي التركيز إلى سائل الغسيل منخفض التركيز عبر غشاء شبه نفاذ، ثم الترشيح الفائق والتحكم حيث يولّد الجهاز ضغطاً هيدروستاتيكياً سالباً وموجباً لبرمجة كمية السوائل الزائدة المراد سحبها بدقة بينما تقوم المستشعرات بفحص سلامة الدم قبل إعادته للمريض. يعتمد نجاح العملية على آلية تدفق السوائل المتعاكس (Counter-current flow) والتي تضمن الحفاظ على أعلى معدل تركيز لانتشار النفايات من الدم إلى سائل الترشيح طوال فترة الجلسة.",
+    "en": "The dialysis machine operates through three stages: extracorporeal blood circuit where the blood pump draws blood from the patient via an arteriovenous fistula or catheter and directs it toward the filter (Dialyzer), then diffusion and permeability (Dialysis) where blood flows through very fine capillaries inside the filter while dialysate fluid flows in the opposite direction outside these capillaries, allowing toxins and salts to move from the high-concentration blood to the low-concentration dialysate through a semipermeable membrane, then ultrafiltration and control where the machine generates positive and negative hydrostatic pressure to precisely program the amount of excess fluid to be removed while sensors check blood integrity before returning it to the patient. The success of the process depends on the counter-current flow mechanism, which ensures the highest concentration gradient for waste diffusion from blood to dialysate throughout the entire session."
+  },
+  "workingSteps": [
+    {
+      "ar": "دورة الدم الخرجية: تقوم مضخة الدم بسحب الدم من المريض عبر قسطرة أو وصلة شريانية وريدية وتوجيهه نحو المصفاة (Dialyzer).",
+      "en": "Extracorporeal Blood Circuit: the blood pump draws blood from the patient via an arteriovenous fistula or catheter and directs it toward the filter (Dialyzer)."
+    },
+    {
+      "ar": "الانتشار والنفاذية (Dialysis): يتدفق الدم داخل شعيرات دقيقة جداً داخل الفلتر، بينما يتدفق سائل الغسيل (Dialysate) في الاتجاه المعاكس خارج هذه الشعيرات، مما يسمح للسموم والأملاح بالانتقال من الدم عالي التركيز إلى سائل الغسيل منخفض التركيز عبر غشاء شبه نفاذ.",
+      "en": "Diffusion and Permeability (Dialysis): blood flows through very fine capillaries inside the filter, while dialysate fluid flows in the opposite direction outside these capillaries, allowing toxins and salts to move from the high-concentration blood to the low-concentration dialysate through a semipermeable membrane."
+    },
+    {
+      "ar": "الترشيح الفائق والتحكم: يولّد الجهاز ضغطاً هيدروستاتيكياً سالباً وموجباً لبرمجة كمية السوائل الزائدة المراد سحبها بدقة، بينما تقوم المستشعرات بفحص سلامة الدم قبل إعادته للمريض.",
+      "en": "Ultrafiltration and Control: the machine generates positive and negative hydrostatic pressure to precisely program the amount of excess fluid to be removed, while sensors check blood integrity before returning it to the patient."
+    }
+  ],
+  "highlight": {
+    "ar": "يعتمد نجاح العملية على آلية تدفق السوائل المتعاكس (Counter-current flow)، والتي تضمن الحفاظ على أعلى معدل تركيز لانتشار النفايات من الدم إلى سائل الترشيح طوال فترة الجلسة.",
+    "en": "The success of the process depends on the counter-current flow mechanism, which ensures the highest concentration gradient for waste diffusion from blood to dialysate throughout the entire session."
+  },
+  "components": [
+    {
+      "ar": "مضخة الهيبارين (لمنع التجلط)",
+      "en": "Heparin pump (anticoagulation)"
+    },
+    {
+      "ar": "مستشعرات ضغط الدم (الشرياني والوريدي)",
+      "en": "Blood pressure sensors (arterial and venous)"
+    },
+    {
+      "ar": "مضخة الدم الرئيسية (Peristaltic Pump)",
+      "en": "Main blood pump (Peristaltic Pump)"
+    },
+    {
+      "ar": "مستشعر فقاعات الهواء والمصيدة الوريدية",
+      "en": "Air bubble sensor and venous trap"
+    },
+    {
+      "ar": "نظام خلط وتوصيل سائل الغسيل (Dialysate Module)",
+      "en": "Dialysate mixing and delivery system"
+    },
+    {
+      "ar": "سخان ومستشعر حرارة سائل الغسيل",
+      "en": "Dialysate heater and temperature sensor"
+    },
+    {
+      "ar": "مستشعر تسريب الدم (Blood Leak Detector)",
+      "en": "Blood leak detector"
+    },
+    {
+      "ar": "المعالجات الدقيقة ونظم الإنذار المزدوجة",
+      "en": "Microprocessors and dual alarm systems"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز غسيل كلى نموذجي (Fresenius Medical Care 5008 مثلاً)",
+    "en": "Example: Typical dialysis machine (e.g., Fresenius Medical Care 5008)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نطاق تدفق الدم (Blood Flow Rate)",
+        "en": "Blood Flow Rate Range"
+      },
+      "value": {
+        "ar": "30 – 600 مل/دقيقة",
+        "en": "30 – 600 ml/min"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق تدفق سائل الغسيل (Dialysate Flow)",
+        "en": "Dialysate Flow Range"
+      },
+      "value": {
+        "ar": "100 – 1000 مل/دقيقة",
+        "en": "100 – 1000 ml/min"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل الترشيح الفائق (Ultrafiltration Rate)",
+        "en": "Ultrafiltration Rate"
+      },
+      "value": {
+        "ar": "0.00 – 4.00 لتر/ساعة (بدقة عالية)",
+        "en": "0.00 – 4.00 L/hr (high precision)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة سائل الغسيل",
+        "en": "Dialysate Temperature"
+      },
+      "value": {
+        "ar": "34.0°C – 39.0°C (قابل للتعديل بدقة ± 0.2°C)",
+        "en": "34.0°C – 39.0°C (adjustable with ± 0.2°C accuracy)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام الإنذار الحرج",
+        "en": "Critical Alarm System"
+      },
+      "value": {
+        "ar": "تسريب دم، وجود هواء، ضغط وريدي مرتفع، اختلال الموصلية الكهربائية (Conductivity)",
+        "en": "Blood leak, air presence, high venous pressure, conductivity imbalance"
+      }
+    },
+    {
+      "label": {
+        "ar": "البطارية الاحتياطية",
+        "en": "Backup Battery"
+      },
+      "value": {
+        "ar": "بطارية مدمجة للطوارئ لتشغيل مضخة الدم والمستشعرات (تصل إلى 30 دقيقة)",
+        "en": "Integrated emergency battery for blood pump and sensors (up to 30 minutes)"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام معالجة المياه المدعم",
+        "en": "Supported Water Treatment"
+      },
+      "value": {
+        "ar": "يتطلب الربط بنظام مياه منقى عالي الجودة (RO Water) ومراقبة مستمرة للموصلية",
+        "en": "Requires connection to high-quality purified water system (RO Water) with continuous conductivity monitoring"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "إنذار تسريب الدم (Blood Leak) نتيجة تمزق الغشاء الداخلي للمرِشح الفلتر.",
+      "en": "Blood Leak Alarm due to rupture of the filter's internal membrane."
+    },
+    {
+      "ar": "خلل في الموصلية الكهربائية (Conductivity Alarm) بسبب عدم توازن تركيز الأملاح المحضرة.",
+      "en": "Conductivity Alarm due to imbalance in prepared salt concentrations."
+    },
+    {
+      "ar": "انحراف درجة حرارة سائل الغسيل عن المدى المسموح مما يسبب إنذار الحرارة وتفعيل خط التحويل (Bypass).",
+      "en": "Dialysate temperature deviation beyond acceptable range, triggering temperature alarm and bypass activation."
+    },
+    {
+      "ar": "إنذار دخول الهواء (Air Detector Alarm) في الخط الوريدي وتنشيط المكبس الحابس فوراً لحماية المريض.",
+      "en": "Air Detector Alarm in the venous line, immediately activating the clamp to protect the patient."
+    },
+    {
+      "ar": "إنذار ضغط مرتفع/منخفض في الخط الشرياني أو الوريدي نتيجة التواء الأنابيب أو تجلط الدم.",
+      "en": "High/Low Pressure Alarm in arterial or venous lines due to tubing kinking or blood clotting."
+    },
+    {
+      "ar": "انسداد أو تلف في فلاتر التطهير الداخلي للجهاز (مثل فلاتر الدياسيف DIASAFE).",
+      "en": "Blockage or damage to internal disinfection filters (e.g., DIASAFE filters)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

@@ -1,0 +1,245 @@
+{
+  "id": 18,
+  "name": {
+    "ar": "محلل غازات الدم",
+    "en": "ABG Analyzer"
+  },
+  "category": "icu",
+  "icon": "vial",
+  "shortDescription": {
+    "ar": "جهاز طبي مخبري وحيوي يُستخدم في أقسام العناية المركزة والطوارئ لقياس مستويات الأكسجين وثاني أكسيد الكربون ودرجة حموضة الدم (pH) من عينة دم شريانية، لتوفير تقييم دقيق ولحظي للحالة التنفسية والأيضية للمريض.",
+    "en": "A laboratory and clinical device used in intensive care and emergency departments to measure oxygen and carbon dioxide levels, along with blood pH, from an arterial blood sample to provide an accurate and immediate assessment of the patient's respiratory and metabolic status."
+  },
+  "images": [
+    "assets/image/ICU/ABGAnalyzer/ABGAnalyzer1.webp",
+    "assets/image/ICU/ABGAnalyzer/ABGAnalyzer2.webp",
+    "assets/image/ICU/ABGAnalyzer/ABGAnalyzer3.webp",
+    "assets/image/ICU/ABGAnalyzer/ABGAnalyzer4.webp"
+  ],
+  "description": {
+    "ar": "محلل غازات الدم (ABG Analyzer) هو جهاز طبي مخبري وحيوي يُستخدم في أقسام العناية المركزة والطوارئ لقياس مستويات الأكسجين وثاني أكسيد الكربون، بالإضافة إلى درجة حموضة الدم (pH). تعتمد القراءة بشكل أساسي على عينة دم شريانية (Arterial Blood) لتوفير تقييم دقيق ولحظي للحالة التنفسية والأيضية للمريض. تشمل استخداماته الرئيسية: تقييم الفشل التنفسي لمراقبة كفاءة الرئتين في أكسجة الدم والتخلص من ثاني أكسيد الكربون، اضطرابات الحموضة للكشف الفوري عن حالات الحماض (Acidosis) أو القلوية (Alkalosis) سواء كانت تنفسية أو أيضية، متابعة مرضى التنفس الاصطناعي لمساعدة الأطباء في ضبط إعدادات جهاز التنفس الصناعي بناءً على النتائج، ومراقبة الحالات الحرجة مثل الصدمات والفشل الكلوي والغيبوبة السكرية وفشل القلب الاحتقاني. أنواعه: المحلل الثابت (Benchtop Analyzer) أجهزة كبيرة الحجم توضع في المختبرات أو داخل العناية المركزة وتدعم حجم عينات كبير، والمحلل المحمول (Point-of-Care POC) أجهزة صغيرة تعمل بالبطارية وتستخدم خراطيش جاهزة بجانب السرير لنتائج فائقة السرعة.",
+    "en": "An ABG Analyzer is a laboratory and clinical device used in intensive care and emergency departments to measure oxygen and carbon dioxide levels, along with blood pH. The reading primarily relies on an arterial blood sample to provide an accurate and immediate assessment of the patient's respiratory and metabolic status. Its main uses include: Respiratory failure assessment to monitor lung efficiency in oxygenating blood and eliminating carbon dioxide; Acid-base disorders for immediate detection of acidosis or alkalosis, whether respiratory or metabolic; Mechanical ventilation monitoring to help physicians adjust ventilator settings based on results; and Critical care monitoring such as shock, renal failure, diabetic coma, and congestive heart failure. Types: Benchtop Analyzer (large devices placed in laboratories or within intensive care units, supporting large sample volumes) and Point-of-Care (POC) Analyzer (small battery-operated devices using ready-to-use cartridges at the bedside for ultra-fast results)."
+  },
+  "uses": [
+    {
+      "ar": "تقييم الفشل التنفسي – لمراقبة كفاءة الرئتين في أكسجة الدم والتخلص من ثاني أكسيد الكربون.",
+      "en": "Respiratory failure assessment – to monitor lung efficiency in oxygenating blood and eliminating carbon dioxide."
+    },
+    {
+      "ar": "اضطرابات الحموضة – الكشف الفوري عن حالات الحماض (Acidosis) أو القلوية (Alkalosis) سواء كانت تنفسية أو أيضية.",
+      "en": "Acid-base disorders – immediate detection of acidosis or alkalosis, whether respiratory or metabolic."
+    },
+    {
+      "ar": "متابعة مرضى التنفس الاصطناعي – يساعد الأطباء في ضبط إعدادات جهاز التنفس الصناعي (Ventilator) بناءً على النتائج.",
+      "en": "Mechanical ventilation monitoring – helps physicians adjust ventilator settings based on results."
+    },
+    {
+      "ar": "مراقبة الحالات الحرجة – مثل الصدمات، الفشل الكلوي، الغيبوبة السكرية، وفشل القلب الاحتقاني.",
+      "en": "Critical care monitoring – such as shock, renal failure, diabetic coma, and congestive heart failure."
+    },
+    {
+      "ar": "المحلل الثابت (Benchtop Analyzer) – أجهزة كبيرة الحجم توضع في المختبرات أو داخل العناية المركزة، وتدعم حجم عينات كبير.",
+      "en": "Benchtop Analyzer – large devices placed in laboratories or within intensive care units, supporting large sample volumes."
+    },
+    {
+      "ar": "المحلل المحمول (Point-of-Care POC) – أجهزة صغيرة تعمل بالبطارية وتستخدم خراطيش (Cartridges) جاهزة بجانب السرير لنتائج فائقة السرعة.",
+      "en": "Point-of-Care (POC) Analyzer – small battery-operated devices using ready-to-use cartridges at the bedside for ultra-fast results."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل محلل غازات الدم عبر ثلاث مراحل: سحب وحقن العينة حيث يتم إدخال عينة الدم الشريانية (المسحوبة في سرنجة تحتوي على الهيبارين لمنع التجلط) إلى داخل الجهاز عبر منفذ الحقن، ثم القياس الكهروكيميائي حيث تمر العينة على أقطاب كهربائية متخصصة (Electrodes) مثل قطب Severinghaus لقياس PCO₂ وقطب Clark لقياس PO₂ وقطب الزجاج لقياس pH، وتنتج هذه الأقطاب إشارات كهربائية تتناسب طردياً مع تركيز الغازات، ثم المعالجة والحساب حيث يقوم المعالج الدقيق بتحويل الإشارات إلى قيم رقمية وحساب المؤشرات الأخرى تلقائياً مثل البيكربونات (HCO₃⁻) والتشبع بالأكسجين (SO₂). يتطلب الجهاز عملية معايرة تلقائية دورية (Calibration) باستخدام غازات ومحاليل قياسية ذات تراكيز معلومة لضمان دقة النتائج ومنع الانحراف في القراءات.",
+    "en": "The ABG analyzer operates through three stages: sample aspiration and injection where the arterial blood sample (drawn in a heparinized syringe to prevent clotting) is inserted into the device through an injection port, then electrochemical measurement where the sample passes over specialized electrodes such as the Severinghaus electrode for measuring PCO₂, the Clark electrode for measuring PO₂, and the glass electrode for measuring pH, and these electrodes generate electrical signals directly proportional to the gas concentrations, then processing and calculation where the microprocessor converts the signals into digital values and automatically calculates other parameters such as bicarbonate (HCO₃⁻) and oxygen saturation (SO₂). The device requires periodic automatic calibration using standard gases and solutions with known concentrations to ensure result accuracy and prevent reading drift."
+  },
+  "workingSteps": [
+    {
+      "ar": "سحب وحقن العينة: يتم إدخال عينة الدم الشريانية (المسحوبة في سرنجة تحتوي على الهيبارين لمنع التجلط) إلى داخل الجهاز عبر منفذ الحقن.",
+      "en": "Sample aspiration: the arterial blood sample (drawn in a heparinized syringe to prevent clotting) is inserted into the device through an injection port."
+    },
+    {
+      "ar": "القياس الكهروكيميائي: تمر العينة على أقطاب كهربائية متخصصة (Electrodes) مثل قطب Severinghaus لقياس PCO₂، وقطب Clark لقياس PO₂، وقطب الزجاج لقياس pH. تنتج هذه الأقطاب إشارات كهربائية تتناسب طردياً مع تركيز الغازات.",
+      "en": "Electrochemical measurement: the sample passes over specialized electrodes such as the Severinghaus electrode for measuring PCO₂, the Clark electrode for measuring PO₂, and the glass electrode for measuring pH. These electrodes generate electrical signals directly proportional to the gas concentrations."
+    },
+    {
+      "ar": "المعالجة والحساب: يقوم المعالج الدقيق بتحويل الإشارات إلى قيم رقمية، وحساب المؤشرات الأخرى تلقائياً مثل البيكربونات (HCO₃⁻) والتشبع بالأكسجين (SO₂).",
+      "en": "Processing and calculation: the microprocessor converts the signals into digital values and automatically calculates other parameters such as bicarbonate (HCO₃⁻) and oxygen saturation (SO₂)."
+    }
+  ],
+  "highlight": {
+    "ar": "يتطلب الجهاز عملية معايرة تلقائية دورية (Calibration) باستخدام غازات ومحاليل قياسية ذات تراكيز معلومة لضمان دقة النتائج ومنع الانحراف في القراءات.",
+    "en": "The device requires periodic automatic calibration using standard gases and solutions with known concentrations to ensure result accuracy and prevent reading drift."
+  },
+  "components": [
+    {
+      "ar": "قطب قياس الحموضة (pH Electrode)",
+      "en": "pH Electrode"
+    },
+    {
+      "ar": "قطب الأكسجين (PO₂ Electrode)",
+      "en": "PO₂ Electrode"
+    },
+    {
+      "ar": "قطب ثاني أكسيد الكربون (PCO₂ Electrode)",
+      "en": "PCO₂ Electrode"
+    },
+    {
+      "ar": "مضخة تمعجية (Peristaltic Pump) لتحريك السوائل",
+      "en": "Peristaltic pump for fluid movement"
+    },
+    {
+      "ar": "وحدة معالجة مركزية (Microcontroller)",
+      "en": "Central processing unit (Microcontroller)"
+    },
+    {
+      "ar": "نظام التحكم بالحرارة (التدفئة إلى 37°C)",
+      "en": "Temperature control system (heating to 37°C)"
+    },
+    {
+      "ar": "صمامات التحكم بمسار المحاليل والعينات",
+      "en": "Control valves for fluid and sample pathways"
+    },
+    {
+      "ar": "مستودع مخلفات السوائل والعينات (Waste Container)",
+      "en": "Waste container for fluids and samples"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: محلل غازات دم نموذجي (Radiometer ABL90 FLEX مثلاً)",
+    "en": "Example: Typical blood gas analyzer (e.g., Radiometer ABL90 FLEX)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "حجم عينة الدم المطلوبة",
+        "en": "Required blood sample volume"
+      },
+      "value": {
+        "ar": "65 – 100 ميكرولتر",
+        "en": "65 – 100 µL"
+      }
+    },
+    {
+      "label": {
+        "ar": "زمن القياس وظهور النتيجة",
+        "en": "Measurement and result time"
+      },
+      "value": {
+        "ar": "35 – 60 ثانية",
+        "en": "35 – 60 seconds"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس درجة الحموضة (pH)",
+        "en": "pH measurement range"
+      },
+      "value": {
+        "ar": "6.000 – 8.000",
+        "en": "6.000 – 8.000"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس PCO₂",
+        "en": "PCO₂ measurement range"
+      },
+      "value": {
+        "ar": "5 – 250 مم زئبقي (mmHg)",
+        "en": "5 – 250 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "نطاق قياس PO₂",
+        "en": "PO₂ measurement range"
+      },
+      "value": {
+        "ar": "0 – 800 مم زئبقي (mmHg)",
+        "en": "0 – 800 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "المؤشرات المحسوبة تلقائياً",
+        "en": "Automatically calculated parameters"
+      },
+      "value": {
+        "ar": "HCO₃⁻، BE، sO₂، Anion Gap",
+        "en": "HCO₃⁻, BE, sO₂, Anion Gap"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة القياس الثابتة",
+        "en": "Fixed measurement temperature"
+      },
+      "value": {
+        "ar": "37°C (± 0.1°C)",
+        "en": "37°C (± 0.1°C)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انسداد مسارات السوائل والأنابيب الداخلية بسبب تخثر العينة (Clot Detection).",
+      "en": "Blockage of internal fluid pathways and tubing due to sample clotting (Clot Detection)."
+    },
+    {
+      "ar": "فشل المعايرة (Calibration Error) نتيجة نفاد المحاليل القياسية أو تلف الغشاء الواقي للأقطاب.",
+      "en": "Calibration failure due to depleted standard solutions or damaged electrode protective membranes."
+    },
+    {
+      "ar": "خطأ في درجة حرارة الحاضنة الداخلية (Temperature Deviation) مما يمنع التحليل.",
+      "en": "Internal incubator temperature error preventing analysis."
+    },
+    {
+      "ar": "وجود فقاعات هواء داخل مسار العينات مما يؤدي إلى قراءات أكسجين مرتفعة وهمياً.",
+      "en": "Air bubbles in the sample pathway leading to falsely elevated oxygen readings."
+    },
+    {
+      "ar": "عطل في المضخة التمعجية يؤدي إلى عدم سحب العينات أو المحاليل بشكل كافٍ.",
+      "en": "Peristaltic pump malfunction leading to insufficient sample or fluid aspiration."
+    },
+    {
+      "ar": "استهلاك كامل لرقاقة الكرتريج أو انتهاء صلاحية حزمة السوائل (Pack Expired).",
+      "en": "Complete consumption of the cartridge chip or expiration of the fluid pack."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

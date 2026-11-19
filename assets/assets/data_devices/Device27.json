@@ -1,0 +1,298 @@
+{
+  "id": 27,
+  "name": {
+    "ar": "برج المناظير",
+    "en": "Endoscopy Tower"
+  },
+  "category": "operating",
+  "icon": "desktop",
+  "shortDescription": {
+    "ar": "منظومة التنظير الداخلي – وحدة متكاملة تجمع مكونات التنظير في برج واحد للفحص والتدخلات الجراحية الباضعة",
+    "en": "Endoscopic System – An integrated unit that combines endoscopy components in a single tower for examination and minimally invasive surgical interventions"
+  },
+  "images": [
+    "assets/image/Operating/Endoscopy/Endoscopy1.webp",
+    "assets/image/Operating/Endoscopy/Endoscopy2.webp",
+    "assets/image/Operating/Endoscopy/Endoscopy3.webp",
+    "assets/image/Operating/Endoscopy/Endoscopy4.webp"
+  ],
+  "description": {
+    "ar": "وحدة متكاملة (برج متحرك على عجلات) تجمع جميع المكونات الأساسية اللازمة لإجراء عمليات التنظير الداخلي (Endoscopy) والمناظير الجراحية (Laparoscopy، Arthroscopy، Cystoscopy، وغيرها). صُمم البرج لتوفير منصة واحدة منظمة تتيح للفريق الطبي الوصول السريع إلى جميع الأدوات والشاشات والملحقات أثناء الإجراءات التداخلية.",
+    "en": "An integrated unit (mobile tower on wheels) that combines all the essential components needed to perform endoscopic procedures (Endoscopy) and surgical scopes (Laparoscopy, Arthroscopy, Cystoscopy, and others). The tower is designed to provide a single organized platform that allows the medical team quick access to all instruments, screens, and accessories during interventional procedures."
+  },
+  "uses": [
+    {
+      "ar": "وحدة الإضاءة: تولد ضوءاً عالي الكثافة (زينون أو LED) ينقل عبر كابل ألياف بصرية إلى المنظار لتوفير إضاءة مثالية.",
+      "en": "Light Source Unit: Generates high-intensity light (Xenon or LED) transmitted via a fiber optic cable to the endoscope for optimal illumination."
+    },
+    {
+      "ar": "كاميرا التنظير: مستشعر رقمي عالي الدقة يلتقط الصورة من المنظار ويحولها إلى إشارة فيديو عالية الجودة (HD أو 4K).",
+      "en": "Endoscopy Camera: A high-resolution digital sensor that captures the image from the endoscope and converts it into a high-quality video signal (HD or 4K)."
+    },
+    {
+      "ar": "شاشة عرض عالية الدقة: تعرض الصورة الحية من الكاميرا بحجم كبير بدقة عالية ووضوح ممتاز مع ألوان طبيعية.",
+      "en": "High-Resolution Display Screen: Displays the live image from the camera on a large screen with high resolution, clarity, and natural colors."
+    },
+    {
+      "ar": "مضخة نفخ CO₂: تستخدم في تنظير البطن لنفخ التجويف بغاز ثاني أكسيد الكربون لتوسيع مساحة العمل وتحسين الرؤية.",
+      "en": "CO₂ Insufflator: Used in laparoscopy to inflate the abdominal cavity with carbon dioxide gas to expand the working space and improve visualization."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يتم توصيل المنظار بوحدة الكاميرا ومصدر الإضاءة، حيث يرسل الأخير الضوء لتنوير التجويف الداخلي. تلتقط الكاميرا الصورة وتحولها إلى إشارة فيديو تعالجها وحدة المعالجة وتعرضها على الشاشة، مع إمكانية استخدام مضخات النفخ والري والشفط والتسجيل.",
+    "en": "The endoscope is connected to the camera and light source. The light source illuminates the cavity, the camera captures the reflected image converting it to a digital video processed by the unit and displayed on screen, alongside insufflation, irrigation, suction, and recording capabilities."
+  },
+  "workingSteps": [
+    {
+      "ar": "التوصيل: يتم توصيل المنظار الداخلي بوحدة الكاميرا ومصدر الإضاءة عبر كابلات مخصصة.",
+      "en": "Connection: The endoscope is connected to the camera unit and light source via dedicated cables."
+    },
+    {
+      "ar": "الإضاءة: يرسل مصدر الإضاءة الضوء عبر كابل الألياف البصرية إلى المنظار، حيث يضيء التجويف الداخلي للجسم.",
+      "en": "Illumination: The light source sends light through the fiber optic cable to the endoscope, illuminating the internal body cavity."
+    },
+    {
+      "ar": "التقاط الصورة: تلتقط الكاميرا الموجودة في رأس المنظار الصورة المنعكسة من الأنسجة وتحولها إلى إشارة فيديو رقمية.",
+      "en": "Image Capture: The camera located in the endoscope head captures the reflected image from the tissues and converts it into a digital video signal."
+    },
+    {
+      "ar": "المعالجة والعرض: تعالج وحدة معالجة الفيديو الإشارة وتحسين جودتها، ثم تعرضها على الشاشة عالية الدقة في الوقت الفعلي.",
+      "en": "Processing and Display: The video processor unit processes the signal, enhances its quality, and displays it on the high-resolution screen in real-time."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنظمة الحديثة تدعم تقنية الـ 4K و 3D (ثلاثية الأبعاد) لتوفير رؤية أكثر دقة وعمق، مع أنظمة ذكاء اصطناعي للكشف المبكر عن الآفات والأورام خلال التنظير.",
+    "en": "Modern systems support 4K and 3D technology for more precise and depth-enhanced visualization, with artificial intelligence systems for early detection of lesions and tumors during endoscopy."
+  },
+  "components": [
+    {
+      "ar": "وحدة إضاءة (زينون/LED)",
+      "en": "Light Source Unit (Xenon/LED)"
+    },
+    {
+      "ar": "كاميرا منظار (CCD/CMOS)",
+      "en": "Endoscope Camera (CCD/CMOS)"
+    },
+    {
+      "ar": "شاشة عرض (HD/4K)",
+      "en": "Display Screen (HD/4K)"
+    },
+    {
+      "ar": "مضخة نفخ CO₂ (Insufflator)",
+      "en": "CO₂ Insufflator"
+    },
+    {
+      "ar": "مضخة ريّ جراحية",
+      "en": "Irrigation Pump"
+    },
+    {
+      "ar": "جهاز شفط (Suction)",
+      "en": "Suction Unit"
+    },
+    {
+      "ar": "وحدة معالجة صور (Video Processor)",
+      "en": "Video Processor Unit"
+    },
+    {
+      "ar": "مسجل فيديو (DVD / HDD)",
+      "en": "Video Recorder (DVD / HDD)"
+    },
+    {
+      "ar": "طابعة صور (اختياري)",
+      "en": "Image Printer (Optional)"
+    },
+    {
+      "ar": "نظام توزيع الطاقة والكابلات",
+      "en": "Power Distribution and Cabling System"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: برج مناظير نموذجي (Olympus CV-190 أو Storz TC200)",
+    "en": "Example: Typical Endoscopy Tower (Olympus CV-190 or Storz TC200)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "مصدر الإضاءة",
+        "en": "Light Source"
+      },
+      "value": {
+        "ar": "زينون 300 وات أو LED (قابل للتعديل)",
+        "en": "Xenon 300W or LED (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الكاميرا",
+        "en": "Camera Resolution"
+      },
+      "value": {
+        "ar": "Full HD (1920×1080) أو 4K (3840×2160)",
+        "en": "Full HD (1920×1080) or 4K (3840×2160)"
+      }
+    },
+    {
+      "label": {
+        "ar": "حجم الشاشة",
+        "en": "Screen Size"
+      },
+      "value": {
+        "ar": "24 – 32 بوصة، دقة 4K أو Full HD",
+        "en": "24 – 32 inches, 4K or Full HD resolution"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط نفخ CO₂",
+        "en": "CO₂ Insufflation Pressure"
+      },
+      "value": {
+        "ar": "0 – 30 مم زئبق (قابل للتعديل)",
+        "en": "0 – 30 mmHg (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "معدل تدفق CO₂",
+        "en": "CO₂ Flow Rate"
+      },
+      "value": {
+        "ar": "0 – 40 لتر/دقيقة",
+        "en": "0 – 40 L/min"
+      }
+    },
+    {
+      "label": {
+        "ar": "ضغط مضخة الريّ",
+        "en": "Irrigation Pump Pressure"
+      },
+      "value": {
+        "ar": "0 – 750 مم زئبق",
+        "en": "0 – 750 mmHg"
+      }
+    },
+    {
+      "label": {
+        "ar": "قوة الشفط",
+        "en": "Suction Power"
+      },
+      "value": {
+        "ar": "0.5 – 0.8 بار",
+        "en": "0.5 – 0.8 bar"
+      }
+    },
+    {
+      "label": {
+        "ar": "دعم التقنيات",
+        "en": "Supported Technologies"
+      },
+      "value": {
+        "ar": "NBI، FICE، i-SCAN، تصوير ثلاثي الأبعاد (اختياري)",
+        "en": "NBI, FICE, i-SCAN, 3D Imaging (optional)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التخزين",
+        "en": "Storage"
+      },
+      "value": {
+        "ar": "قرص صلب داخلي (1 تيرابايت) + منافذ USB",
+        "en": "Internal Hard Drive (1 TB) + USB Ports"
+      }
+    },
+    {
+      "label": {
+        "ar": "منافذ الاتصال",
+        "en": "Connection Ports"
+      },
+      "value": {
+        "ar": "HDMI، DVI، USB، Ethernet، S-Video",
+        "en": "HDMI, DVI, USB, Ethernet, S-Video"
+      }
+    },
+    {
+      "label": {
+        "ar": "الأبعاد (البرج)",
+        "en": "Dimensions (Tower)"
+      },
+      "value": {
+        "ar": "ارتفاع 150 – 180 سم، عرض 60 – 70 سم",
+        "en": "Height 150 – 180 cm, Width 60 – 70 cm"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "احتراق لمبة الإضاءة مما يؤدي إلى انقطاع الرؤية تماماً أو ضعفها.",
+      "en": "Light bulb burnout causing complete loss of vision or severe dimming."
+    },
+    {
+      "ar": "عطل في الكاميرا أو كابل التوصيل يؤدي إلى فقدان الإشارة أو صورة مشوشة.",
+      "en": "Camera or connection cable failure leading to signal loss or distorted image."
+    },
+    {
+      "ar": "تلف الشاشة أو انقطاع الفيديو يعرض رسائل خطأ أو شاشة سوداء.",
+      "en": "Screen damage or video loss displaying error messages or black screen."
+    },
+    {
+      "ar": "تسرب أو عطل في مضخة CO₂ يؤدي إلى عدم القدرة على نفخ تجويف البطن أو انخفاض الضغط.",
+      "en": "CO₂ pump leak or malfunction preventing abdominal cavity insufflation or pressure drop."
+    },
+    {
+      "ar": "انسداد أو تلف مضخة الريّ مما يمنع تنظيف مجال الرؤية.",
+      "en": "Irrigation pump blockage or damage preventing field of view cleaning."
+    },
+    {
+      "ar": "ضعف الشفط نتيجة انسداد الأنابيب أو تلف المضخة.",
+      "en": "Weak suction due to tubing blockage or pump damage."
+    },
+    {
+      "ar": "أعطال برمجية في وحدة معالجة الصور تؤدي إلى بطء أو تجمد الفيديو.",
+      "en": "Software glitches in the image processing unit causing slow or frozen video."
+    },
+    {
+      "ar": "مشاكل في الكابلات أو التوصيلات تؤدي إلى انقطاع الإشارة بين المكونات.",
+      "en": "Cable or connection issues causing signal interruption between components."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 

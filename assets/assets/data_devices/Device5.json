@@ -1,0 +1,251 @@
+{
+  "id": 5,
+  "name": {
+    "ar": "جهاز الأشعة السينية المحمول",
+    "en": "Portable X-ray Machine"
+  },
+  "category": "emergency",
+  "icon": "x-ray",
+  "shortDescription": {
+    "ar": "جهاز أشعة سينية متنقل ومكتفٍ ذاتيًا، يُستخدم لإجراء تصوير شعاعي (X-ray) للمرضى الذين لا يمكن نقلهم إلى غرفة الأشعة الثابتة، مثل مرضى العناية المركزة أو الطوارئ أو الحالات الحرجة.",
+    "en": "A self-contained, mobile X-ray device used for radiographic imaging of patients who cannot be moved to a fixed radiology room, such as ICU, emergency, or critically ill patients."
+  },
+  "images": [
+    "assets/image/Emergency/PortableXray/PortableXray1.webp",
+    "assets/image/Emergency/PortableXray/PortableXray2.webp",
+    "assets/image/Emergency/PortableXray/PortableXray3.webp",
+    "assets/image/Emergency/PortableXray/PortableXray4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الأشعة السينية المحمول (Portable X-ray Machine) هو جهاز أشعة سينية متنقل ومكتفٍ ذاتيًا، يُستخدم لإجراء تصوير شعاعي للمرضى الذين لا يمكن نقلهم إلى غرفة الأشعة الثابتة، مثل مرضى العناية المركزة أو الطوارئ أو الحالات الحرجة. تشمل استخداماته: العناية المركزة (ICU) لتصوير الصدر للمرضى على أجهزة التنفس، غرفة الطوارئ للتقييم السريع للكسور أو استرواح الصدر، أجنحة التنويم لمتابعة المرضى غير القادرين على الحركة، والعمليات الجراحية للتحقق من موضع الأدوات أو التثبيت الداخلي.",
+    "en": "A portable X-ray machine is a self-contained, mobile X-ray device used for radiographic imaging of patients who cannot be moved to a fixed radiology room, such as ICU, emergency, or critically ill patients. Its uses include: Intensive Care Unit (ICU) for chest imaging of patients on ventilators, Emergency Room for rapid assessment of fractures or pneumothorax, Wards for follow-up of patients with limited mobility, and Operating Theaters for verification of instrument placement or internal fixation."
+  },
+  "uses": [
+    {
+      "ar": "العناية المركزة (ICU) – تصوير الصدر للمرضى على أجهزة التنفس.",
+      "en": "Intensive Care Unit (ICU) – Chest imaging for patients on ventilators."
+    },
+    {
+      "ar": "غرفة الطوارئ – تقييم سريع للكسور أو استرواح الصدر.",
+      "en": "Emergency Room – Rapid assessment of fractures or pneumothorax."
+    },
+    {
+      "ar": "أجنحة التنويم – متابعة المرضى غير القادرين على الحركة.",
+      "en": "Wards – Follow-up for patients with limited mobility."
+    },
+    {
+      "ar": "العمليات الجراحية – التحقق من موضع الأدوات أو التثبيت الداخلي.",
+      "en": "Operating Theaters – Verification of instrument placement or internal fixation."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز الأشعة السينية المحمول عبر أربع مراحل: توليد الأشعة حيث تصدر أنبوبة الأشعة السينية حزمة من الفوتونات عالية الطاقة عند تمرير تيار عالي الجهد، ثم توجيه الحزمة حيث يتم تركيزها عبر مرشحات وكوليماتور لتحديد منطقة التصوير وتقليل التشتت، ثم اختراق الأنسجة حيث تخترق الأشعة الجسم وتضعف حسب كثافة الأنسجة (العظام تمتص أكثر، والأنسجة الرخوة تمرر أكثر)، وأخيراً التقاط الصورة حيث تلتقط اللوحة الرقمية (Digital Detector) أو الفيلم الأشعة المتبقية وتحولها إلى صورة شعاعية.",
+    "en": "The portable X-ray machine operates through four stages: X-ray generation where the X-ray tube emits a beam of high-energy photons when a high-voltage current is applied, then beam collimation where the beam is focused through filters and a collimator to define the imaging area and minimize scatter, then tissue penetration where X-rays penetrate the body and are attenuated according to tissue density (bones absorb more, soft tissues transmit more), and finally image capture where the digital detector or film captures the remaining X-rays and converts them into a radiographic image."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الأشعة: أنبوبة الأشعة السينية (X-ray tube) تصدر حزمة من الفوتونات عالية الطاقة عند تمرير تيار عالي الجهد.",
+      "en": "X-ray generation: the X-ray tube emits a beam of high-energy photons when a high-voltage current is applied."
+    },
+    {
+      "ar": "توجيه الحزمة: يتم تركيز الحزمة عبر مرشحات وكوليماتور لتحديد منطقة التصوير وتقليل التشتت.",
+      "en": "Beam collimation: the beam is focused through filters and a collimator to define the imaging area and minimize scatter."
+    },
+    {
+      "ar": "اختراق الأنسجة: تخترق الأشعة الجسم وتضعف حسب كثافة الأنسجة (العظام تمتص أكثر، والأنسجة الرخوة تمرر أكثر).",
+      "en": "Tissue penetration: X-rays penetrate the body and are attenuated according to tissue density (bones absorb more, soft tissues transmit more)."
+    },
+    {
+      "ar": "التقاط الصورة: تلتقط اللوحة الرقمية (Digital Detector) أو الفيلم الأشعة المتبقية وتحولها إلى صورة شعاعية.",
+      "en": "Image capture: the digital detector or film captures the remaining X-rays and converts them into a radiographic image."
+    }
+  ],
+  "highlight": {
+    "ar": "الأجهزة الحديثة مزودة بشاشة لمس وذاكرة داخلية واتصال لاسلكي لنقل الصور فورًا إلى نظام PACS.",
+    "en": "Modern devices feature a touchscreen, internal storage, and wireless connectivity for immediate image transfer to PACS."
+  },
+  "components": [
+    {
+      "ar": "مولد الجهد العالي",
+      "en": "High-voltage generator"
+    },
+    {
+      "ar": "أنبوبة الأشعة السينية",
+      "en": "X-ray tube"
+    },
+    {
+      "ar": "كوليماتور يدوي/كهربائي",
+      "en": "Manual / Electric collimator"
+    },
+    {
+      "ar": "كاشف رقمي (Flat Panel)",
+      "en": "Digital detector (Flat Panel)"
+    },
+    {
+      "ar": "حامل اللوحة أو الفيلم",
+      "en": "Plate or film holder"
+    },
+    {
+      "ar": "معالج الصور ومعزز الإشارة",
+      "en": "Image processor and signal amplifier"
+    },
+    {
+      "ar": "وحدة نقل لاسلكية (Wi-Fi/Bluetooth)",
+      "en": "Wireless unit (Wi-Fi/Bluetooth)"
+    },
+    {
+      "ar": "بطارية قابلة للشحن",
+      "en": "Rechargeable battery"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز أشعة محمول (Carestream DRX-Revolution)",
+    "en": "Example: Carestream DRX-Revolution portable X-ray system"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "نوع الأنبوبة",
+        "en": "Tube type"
+      },
+      "value": {
+        "ar": "أنبوبة ثنائية البؤرة (0.6 / 1.2 مم)",
+        "en": "Dual-focus tube (0.6 / 1.2 mm)"
+      }
+    },
+    {
+      "label": {
+        "ar": "الجهد الأقصى",
+        "en": "Maximum voltage"
+      },
+      "value": {
+        "ar": "125 كيلوفولت (kVp)",
+        "en": "125 kVp"
+      }
+    },
+    {
+      "label": {
+        "ar": "التيار الأقصى",
+        "en": "Maximum current"
+      },
+      "value": {
+        "ar": "400 ميللي أمبير (mA)",
+        "en": "400 mA"
+      }
+    },
+    {
+      "label": {
+        "ar": "نوع الكاشف",
+        "en": "Detector type"
+      },
+      "value": {
+        "ar": "كاشف سيليكون غير متبلور (a-Si) مع وميض (CsI)",
+        "en": "Amorphous silicon (a-Si) with scintillator (CsI)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الكاشف",
+        "en": "Detector resolution"
+      },
+      "value": {
+        "ar": "10 × 12 بوصة، 3072 × 2304 بكسل",
+        "en": "10 × 12 inches, 3072 × 2304 pixels"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن الجهاز",
+        "en": "Device weight"
+      },
+      "value": {
+        "ar": "≈ 250 كجم (مع البطارية والكاشف)",
+        "en": "≈ 250 kg (with battery and detector)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمر البطارية",
+        "en": "Battery life"
+      },
+      "value": {
+        "ar": "يصل إلى 60 صورة بشحنة واحدة",
+        "en": "Up to 60 images per charge"
+      }
+    },
+    {
+      "label": {
+        "ar": "التخزين",
+        "en": "Storage"
+      },
+      "value": {
+        "ar": "قرص صلب 256 جيجابايت (أكثر من 5000 صورة)",
+        "en": "256 GB SSD (over 5000 images)"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "فشل في تشغيل المولد أو انقطاع التيار أثناء التصوير.",
+      "en": "Generator fails to start or power interruption during imaging."
+    },
+    {
+      "ar": "ضعف البطارية أو عدم شحنها بشكل كافٍ.",
+      "en": "Weak battery or insufficient charging."
+    },
+    {
+      "ar": "صورة مشوشة أو ذات تباين ضعيف (جهد غير مناسب أو عطل في الكاشف).",
+      "en": "Blurry or poor contrast image (inappropriate voltage or detector fault)."
+    },
+    {
+      "ar": "تعطل آلية حركة الذراع أو صعوبة في توجيه الأنبوبة.",
+      "en": "Arm movement mechanism malfunction or difficulty positioning the tube."
+    },
+    {
+      "ar": "فشل في نقل الصور أو الاتصال بنظام PACS.",
+      "en": "Image transfer failure or PACS connection issue."
+    },
+    {
+      "ar": "ارتفاع حرارة الأنبوبة (يحتاج إلى تبريد قبل الاستخدام مرة أخرى).",
+      "en": "Tube overheating (requires cooling before further use)."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}

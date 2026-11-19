@@ -1,0 +1,263 @@
+{
+  "id": 20,
+  "name": {
+    "ar": "جهاز الموجات فوق الصوتية المحمول",
+    "en": "Portable Ultrasound"
+  },
+  "category": "icu",
+  "icon": "wave-square",
+  "shortDescription": {
+    "ar": "جهاز تصوير طبي محمول يستخدم موجات صوتية عالية التردد لإنتاج صور حية للأنسجة والأعضاء الداخلية في الوقت الفعلي، ويتميز بصغر حجمه وخفة وزنه مما يسمح باستخدامه بجانب سرير المريض وفي غرف الطوارئ والعيادات المتنقلة.",
+    "en": "A portable medical imaging device that uses high-frequency sound waves to produce real-time live images of internal tissues and organs, characterized by its small size and light weight, allowing use at the patient's bedside, in emergency rooms, and mobile clinics."
+  },
+  "images": [
+    "assets/image/ICU/PortableUltrasound/PortableUltrasound1.webp",
+    "assets/image/ICU/PortableUltrasound/PortableUltrasound2.webp",
+    "assets/image/ICU/PortableUltrasound/PortableUltrasound3.webp",
+    "assets/image/ICU/PortableUltrasound/PortableUltrasound4.webp"
+  ],
+  "description": {
+    "ar": "جهاز الموجات فوق الصوتية المحمول (Portable Ultrasound) هو جهاز تصوير طبي محمول يستخدم موجات صوتية عالية التردد (فوق صوتية) لإنتاج صور حية للأنسجة والأعضاء الداخلية في الوقت الفعلي. يتميز بصغر حجمه وخفة وزنه، مما يسمح باستخدامه بجانب سرير المريض، في غرف الطوارئ، العيادات المتنقلة، وحتى في الميدان. تشمل استخداماته الرئيسية: الفحص السريع (POCUS) في غرف الطوارئ والعناية المركزة لتقييم القلب والرئتين والبطن والأوعية الدموية بسرعة، التخدير والعناية المركزة لتوجيه إدخال القساطر المركزية والتخدير الناحي وتقييم حجم السوائل، طب الأسرة والعيادات لفحص الغدة الدرقية والثدي والمفاصل والأنسجة الرخوة، الحمل والنساء لمتابعة الحمل وتقييم الجنين وفحص أعضاء الحوض، والطب الرياضي والإصابات لتشخيص إصابات الأوتار والعضلات والأربطة. أنواعه: محولات (بروبس) مختلفة (خطي للأعضاء السطحية، محدب للبطن والحوض، وقطاعي للقلب عبر الصدر)، وحسب طريقة العرض بعضها يعرض على شاشة مدمجة والبعض الآخر يتصل بهاتف ذكي أو جهاز لوحي.",
+    "en": "A portable ultrasound is a portable medical imaging device that uses high-frequency sound waves (ultrasound) to produce real-time live images of internal tissues and organs. It is characterized by its small size and light weight, allowing use at the patient's bedside, in emergency rooms, mobile clinics, and even in the field. Its main uses include: Rapid assessment (POCUS) in emergency and intensive care units for rapid evaluation of the heart, lungs, abdomen, and blood vessels; Anesthesia and intensive care to guide central line insertion, regional anesthesia, and fluid status assessment; Family medicine and clinics for examining the thyroid, breast, joints, and soft tissues; Obstetrics and gynecology for pregnancy monitoring, fetal assessment, and pelvic organ examination; and Sports medicine and injuries for diagnosing tendon, muscle, and ligament injuries. Types: Different probes (transducers) – Linear (for superficial organs), Convex (for abdominal and pelvic), and Phased array (for transthoracic cardiac); Display methods – some have built-in screens, while others connect to smartphones or tablets."
+  },
+  "uses": [
+    {
+      "ar": "الفحص السريع (POCUS) – يستخدم بشكل موسع في غرف الطوارئ والعناية المركزة لتقييم القلب، الرئتين، البطن، والأوعية الدموية بسرعة.",
+      "en": "Rapid assessment (POCUS) – extensively used in emergency and intensive care units for rapid evaluation of the heart, lungs, abdomen, and blood vessels."
+    },
+    {
+      "ar": "التخدير والعناية المركزة – لتوجيه إدخال القساطر المركزية، التخدير الناحي، وتقييم حجم السوائل.",
+      "en": "Anesthesia and intensive care – to guide central line insertion, regional anesthesia, and fluid status assessment."
+    },
+    {
+      "ar": "طب الأسرة والعيادات – لفحص الغدة الدرقية، الثدي، المفاصل، والأنسجة الرخوة.",
+      "en": "Family medicine and clinics – for examining the thyroid, breast, joints, and soft tissues."
+    },
+    {
+      "ar": "الحمل والنساء – متابعة الحمل، تقييم الجنين، وفحص أعضاء الحوض.",
+      "en": "Obstetrics and gynecology – pregnancy monitoring, fetal assessment, and pelvic organ examination."
+    },
+    {
+      "ar": "الطب الرياضي والإصابات – لتشخيص إصابات الأوتار، العضلات، والأربطة.",
+      "en": "Sports medicine and injuries – for diagnosing tendon, muscle, and ligament injuries."
+    },
+    {
+      "ar": "محولات (بروبس) مختلفة – خطي (للأعضاء السطحية)، محدب (للبطن والحوض)، وقطاعي (للقلب عبر الصدر).",
+      "en": "Different probes (transducers) – Linear (for superficial organs), Convex (for abdominal and pelvic), and Phased array (for transthoracic cardiac)."
+    },
+    {
+      "ar": "حسب طريقة العرض – بعضها يعرض على شاشة مدمجة، والبعض الآخر يتصل بهاتف ذكي أو جهاز لوحي.",
+      "en": "Display methods – some have built-in screens, while others connect to smartphones or tablets."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "يعمل جهاز الموجات فوق الصوتية المحمول عبر أربع مراحل: إصدار الموجات حيث يولد المحول (البروب) موجات صوتية عالية التردد (2-15 ميجاهرتز) عبر بلورات بيزوكهربائية تهتز عند تطبيق تيار كهربائي، ثم انتشار الموجات حيث تنتقل هذه الموجات عبر الجلد والأنسجة وعندما تواجه حداً بين نسيجين مختلفين (مثل العضلات والدهون) ينعكس جزء منها (صدى) ويعود إلى المحول، ثم استقبال وتحويل حيث يستقبل المحول الأصداء المرتدة وتحول البلورات هذه الاهتزازات الميكانيكية إلى إشارات كهربائية، ثم معالجة وعرض الصورة حيث يعالج المعالج الدقيق الإشارات المستقبلة (زمن العودة، الشدة، التردد) ويبني صورة ثنائية الأبعاد (2D) تعرض على الشاشة في الوقت الفعلي مع إمكانية قياس الأبعاد والمسافات. الميزة الأهم للأجهزة المحمولة هي تقنية الذكاء الاصطناعي المدمج التي تساعد في تحسين جودة الصورة تلقائياً وتوجيه المستخدم لوضع البروب الصحيح مما يجعل التشخيص أكثر دقة حتى مع قلة الخبرة.",
+    "en": "The portable ultrasound operates through four stages: wave generation where the transducer (probe) generates high-frequency sound waves (2-15 MHz) through piezoelectric crystals that vibrate when an electrical current is applied, then wave propagation where these waves travel through the skin and tissues and when they encounter a boundary between two different tissues (e.g., muscle and fat) a portion of the wave is reflected (echo) and returns to the transducer, then reception and conversion where the transducer receives the returning echoes and the crystals convert these mechanical vibrations into electrical signals, then image processing and display where the microprocessor processes the received signals (return time, intensity, frequency) and constructs a two-dimensional (2D) image displayed on the screen in real time with the ability to measure dimensions and distances. The most important feature of portable devices is the built-in artificial intelligence technology that automatically improves image quality and guides the user on proper probe placement, making diagnosis more accurate even with less experience."
+  },
+  "workingSteps": [
+    {
+      "ar": "إصدار الموجات: يولد المحول (البروب) موجات صوتية عالية التردد (2-15 ميجاهرتز) عبر بلورات بيزوكهربائية تهتز عند تطبيق تيار كهربائي.",
+      "en": "Wave generation: the transducer (probe) generates high-frequency sound waves (2-15 MHz) through piezoelectric crystals that vibrate when an electrical current is applied."
+    },
+    {
+      "ar": "انتشار الموجات: تنتقل هذه الموجات عبر الجلد والأنسجة، وعندما تواجه حداً بين نسيجين مختلفين (مثل العضلات والدهون)، ينعكس جزء منها (صدى) ويعود إلى المحول.",
+      "en": "Wave propagation: these waves travel through the skin and tissues. When they encounter a boundary between two different tissues (e.g., muscle and fat), a portion of the wave is reflected (echo) and returns to the transducer."
+    },
+    {
+      "ar": "استقبال وتحويل: يستقبل المحول الأصداء المرتدة، وتحول البلورات هذه الاهتزازات الميكانيكية إلى إشارات كهربائية.",
+      "en": "Reception and conversion: the transducer receives the returning echoes, and the crystals convert these mechanical vibrations into electrical signals."
+    },
+    {
+      "ar": "معالجة وعرض الصورة: يعالج المعالج الدقيق الإشارات المستقبلة (زمن العودة، الشدة، التردد) ويبني صورة ثنائية الأبعاد (2D) تعرض على الشاشة في الوقت الفعلي، مع إمكانية قياس الأبعاد والمسافات.",
+      "en": "Image processing and display: the microprocessor processes the received signals (return time, intensity, frequency) and constructs a two-dimensional (2D) image displayed on the screen in real time, with the ability to measure dimensions and distances."
+    }
+  ],
+  "highlight": {
+    "ar": "الميزة الأهم للأجهزة المحمولة هي تقنية الذكاء الاصطناعي المدمج التي تساعد في تحسين جودة الصورة تلقائياً وتوجيه المستخدم لوضع البروب الصحيح، مما يجعل التشخيص أكثر دقة حتى مع قلة الخبرة.",
+    "en": "The most important feature of portable devices is the built-in artificial intelligence technology that automatically improves image quality and guides the user on proper probe placement, making diagnosis more accurate even with less experience."
+  },
+  "components": [
+    {
+      "ar": "محول (بروب) بالموجات فوق الصوتية",
+      "en": "Ultrasound transducer (probe)"
+    },
+    {
+      "ar": "مولد النبضات الكهربائية (Pulser)",
+      "en": "Pulse generator (Pulser)"
+    },
+    {
+      "ar": "وحدة استقبال الإشارات (Receiver)",
+      "en": "Signal receiver unit"
+    },
+    {
+      "ar": "معالج الإشارات الرقمية (DSP)",
+      "en": "Digital Signal Processor (DSP)"
+    },
+    {
+      "ar": "معالج مركزي (CPU) بوحدة معالجة رسومية (GPU)",
+      "en": "Central processor (CPU) with Graphics Processing Unit (GPU)"
+    },
+    {
+      "ar": "شاشة عرض عالية الدقة (LCD/TFT)",
+      "en": "High-resolution display screen (LCD/TFT)"
+    },
+    {
+      "ar": "بطارية ليثيوم أيون قابلة للشحن",
+      "en": "Rechargeable Lithium-ion battery"
+    },
+    {
+      "ar": "وحدة اتصال لاسلكي (Wi-Fi/Bluetooth) لنقل الصور",
+      "en": "Wireless communication module (Wi-Fi/Bluetooth) for image transfer"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: جهاز محمول نموذجي (Butterfly iQ+ أو Lumify)",
+    "en": "Example: Typical portable device (Butterfly iQ+ or Lumify)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "تردد الموجات (حسب البروب)",
+        "en": "Wave frequency (per probe)"
+      },
+      "value": {
+        "ar": "1 – 15 ميجاهرتز (قابل للتكيف)",
+        "en": "1 – 15 MHz (adaptive)"
+      }
+    },
+    {
+      "label": {
+        "ar": "أعماق التصوير",
+        "en": "Imaging depth"
+      },
+      "value": {
+        "ar": "حتى 30 سم (حسب البروب والتردد)",
+        "en": "Up to 30 cm (depending on probe and frequency)"
+      }
+    },
+    {
+      "label": {
+        "ar": "دقة الصورة",
+        "en": "Image resolution"
+      },
+      "value": {
+        "ar": "حتى 0.1 مم في الأوضاع عالية التردد",
+        "en": "Up to 0.1 mm in high-frequency modes"
+      }
+    },
+    {
+      "label": {
+        "ar": "أنظمة التصوير",
+        "en": "Imaging modes"
+      },
+      "value": {
+        "ar": "B-mode (ثنائي الأبعاد)، M-mode، Color Doppler، Pulsed Wave (PW) Doppler",
+        "en": "B-mode (2D), M-mode, Color Doppler, Pulsed Wave (PW) Doppler"
+      }
+    },
+    {
+      "label": {
+        "ar": "الوزن",
+        "en": "Weight"
+      },
+      "value": {
+        "ar": "300 – 800 جرام (حسب الطراز)",
+        "en": "300 – 800 grams (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمر البطارية",
+        "en": "Battery life"
+      },
+      "value": {
+        "ar": "2 – 4 ساعات من التشغيل المتواصل",
+        "en": "2 – 4 hours of continuous operation"
+      }
+    },
+    {
+      "label": {
+        "ar": "التوافق",
+        "en": "Compatibility"
+      },
+      "value": {
+        "ar": "iOS / Android (للتطبيقات المتصلة بالهواتف)",
+        "en": "iOS / Android (for smartphone-connected applications)"
+      }
+    },
+    {
+      "label": {
+        "ar": "التخزين",
+        "en": "Storage"
+      },
+      "value": {
+        "ar": "ذاكرة داخلية 32 – 128 جيجابايت + سحابة اختيارية",
+        "en": "32 – 128 GB internal memory + optional cloud storage"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "انخفاض أو تلف البطارية، وعدم القدرة على الشحن.",
+      "en": "Low or damaged battery, failure to charge."
+    },
+    {
+      "ar": "تشويش في الصورة أو ظهور خطوط (عطل في المحول أو كابل التوصيل).",
+      "en": "Image distortion or lines appearing (probe or cable malfunction)."
+    },
+    {
+      "ar": "فشل في الاتصال اللاسلكي أو نقل البيانات.",
+      "en": "Wireless connection failure or data transfer issues."
+    },
+    {
+      "ar": "ارتفاع حرارة الجهاز أثناء الاستخدام المطول.",
+      "en": "Device overheating during prolonged use."
+    },
+    {
+      "ar": "تلف في البروب نتيجة سقوطه أو تعرضه للسوائل.",
+      "en": "Probe damage from dropping or liquid exposure."
+    },
+    {
+      "ar": "أعطال في تحديث البرمجيات أو نظام التشغيل المدمج.",
+      "en": "Software update failures or embedded operating system issues."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+} 

@@ -1,0 +1,284 @@
+{
+  "id": 23,
+  "name": {
+    "ar": "الضوء الجراحي",
+    "en": "Surgical Light"
+  },
+  "category": "operating",
+  "icon": "lightbulb",
+  "shortDescription": {
+    "ar": "المصباح الجراحي – نظام إضاءة مركزية يوفر رؤية واضحة وخالية من الظلال في غرفة العمليات",
+    "en": "Surgical Light – A centralized lighting system that provides clear, shadow-free illumination in the operating room"
+  },
+  "images": [
+    "assets/image/Operating/SurgicalLight/Light1.webp",
+    "assets/image/Operating/SurgicalLight/Light2.webp",
+    "assets/image/Operating/SurgicalLight/Light3.webp",
+    "assets/image/Operating/SurgicalLight/Light4.webp"
+  ],
+  "description": {
+    "ar": "نظام إضاءة متخصص يُستخدم في غرف العمليات لتوفير إضاءة عالية الكثافة وخالية من الظلال على مجال الجراحة. صُمم لتقليل إجهاد عيون الجراح وتوفير رؤية دقيقة للأنسجة والأوعية الدموية بألوان طبيعية، مما يساعد على دقة الإجراءات الجراحية.",
+    "en": "A specialized lighting system used in operating rooms to provide high-intensity, shadow-free illumination on the surgical field. Designed to reduce surgeon eye strain and provide accurate visualization of tissues and blood vessels with natural colors, aiding in surgical precision."
+  },
+  "uses": [
+    {
+      "ar": "إضاءة خالية من الظلال: تصميم متعدد المصابيح (LED أو هالوجين) يلغي الظلال الناتجة عن يدي الجراح والأدوات.",
+      "en": "Shadow-free Illumination: Multi-light source design (LED or halogen) eliminates shadows cast by the surgeon's hands and instruments."
+    },
+    {
+      "ar": "تكبير العمق (Depth of Field): الحفاظ على وضوح الإضاءة حتى عند تغيير ارتفاع المصباح أو زاويته.",
+      "en": "Depth of Field: Maintains illumination clarity even when the light height or angle is changed."
+    },
+    {
+      "ar": "التحكم في شدة الإضاءة: إمكانية ضبط شدة الإضاءة بما يتناسب مع نوع العملية الجراحية وحاجة الجراح.",
+      "en": "Light Intensity Control: Adjustable light intensity to match the surgical procedure and surgeon preference."
+    },
+    {
+      "ar": "مؤشر درجة حرارة اللون (CRI): معامل عالٍ لإعادة إنتاج الألوان الطبيعية للأنسجة بدقة.",
+      "en": "Color Rendering Index (CRI): High CRI for accurate natural color reproduction of tissues."
+    }
+  ],
+  "workingPrinciple": {
+    "ar": "تستخدم المصابيح الجراحية الحديثة تقنية LED لإنتاج ضوء أبيض طبيعي، حيث تمر الأشعة عبر عدسات ومرايا موجهة لتخترق مجال العملية. يحتوي رأس المصباح على عدة مصادر ضوئية دائرية تعوض أي ظل ناتج عن يدي الجراح، مع وجود مراوح تبريد ولوحات تحكم رقمية لضبط الإضاءة.",
+    "en": "Modern surgical lights use LED technology to produce natural white light, passing rays through lenses and mirrors to concentrate on the surgical field. The light head contains multiple circular light sources to compensate for any shadow, supported by cooling fans and digital control panels for light adjustment."
+  },
+  "workingSteps": [
+    {
+      "ar": "توليد الضوء: تستخدم المصابيح الجراحية الحديثة تقنية LED (الصمامات الثنائية الباعثة للضوء) أو مصابيح الهالوجين عالية الكثافة. تنتج مصابيح LED ضوءاً أبيض طبيعياً بكفاءة عالية واستهلاك منخفض للطاقة.",
+      "en": "Light Generation: Modern surgical lights use LED (Light Emitting Diode) technology or high-intensity halogen lamps. LED lights produce natural white light with high efficiency and low power consumption."
+    },
+    {
+      "ar": "التوجيه والتركيز: تمر الأشعة الضوئية عبر نظام من العدسات والمرايا المقعرة المصممة بدقة لتجميع الضوء وتوجيهه إلى بقعة واحدة مركزة على مجال العملية.",
+      "en": "Focusing and Direction: Light rays pass through a system of precisely designed lenses and concave mirrors to collect and direct the light into a concentrated spot on the surgical field."
+    },
+    {
+      "ar": "إزالة الظلال: يحتوي رأس المصباح على عدة مصادر ضوئية (عادة 10-20 LED) موزعة بشكل دائري. عندما يحجب أحد المصادر ظله بواسطة يد الجراح، تعوض المصادر الأخرى النقص، مما ينتج إضاءة متجانسة وخالية من الظلال.",
+      "en": "Shadow Removal: The light head contains multiple light sources (typically 10-20 LEDs) arranged in a circular pattern. When one source's shadow is blocked by the surgeon's hand, other sources compensate, resulting in uniform, shadow-free illumination."
+    },
+    {
+      "ar": "تبريد الهواء: مزودة بمراوح تبريد هادئة لمنع ارتفاع حرارة المصباح وتلف المكونات الإلكترونية، مع تصفية الهواء لمنع دخول الغبار إلى العدسات.",
+      "en": "Air Cooling: Equipped with quiet cooling fans to prevent overheating and damage to electronic components, with air filtration to prevent dust ingress into the lenses."
+    }
+  ],
+  "highlight": {
+    "ar": "الأنظمة الحديثة مزودة بكاميرات مدمجة لنقل الصورة مباشرة إلى الشاشات، مع إمكانية تسجيل الفيديو والبث المباشر للأغراض التعليمية.",
+    "en": "Modern systems feature integrated cameras for direct image transmission to screens, with video recording and live streaming capabilities for educational purposes."
+  },
+  "components": [
+    {
+      "ar": "مصابيح LED أو هالوجين (متعددة)",
+      "en": "LED or Halogen Lamps (Multiple)"
+    },
+    {
+      "ar": "عدسات ومرايا موجهة",
+      "en": "Lenses and Reflective Mirrors"
+    },
+    {
+      "ar": "نظام تبريد (مراوح + مشتتات حرارة)",
+      "en": "Cooling System (Fans + Heat Sinks)"
+    },
+    {
+      "ar": "وحدة تحكم شدة الإضاءة",
+      "en": "Light Intensity Control Unit"
+    },
+    {
+      "ar": "معالج تحكم رقمي",
+      "en": "Digital Control Processor"
+    },
+    {
+      "ar": "مفاصل حركية (دوران، إمالة، رفع)",
+      "en": "Articulated Joints (Rotation, Tilt, Lift)"
+    },
+    {
+      "ar": "لوحة تحكم (لمسة أو أزرار)",
+      "en": "Control Panel (Touchscreen or Buttons)"
+    },
+    {
+      "ar": "كاميرا مدمجة (اختياري)",
+      "en": "Integrated Camera (Optional)"
+    },
+    {
+      "ar": "مصدر طاقة ومحول كهربائي",
+      "en": "Power Supply and Transformer"
+    }
+  ],
+  "specificationsNote": {
+    "ar": "مثال: ضوء جراحي LED نموذجي (Maquet PowerLED II أو Stryker 1688 AIM)",
+    "en": "Example: Typical LED Surgical Light (Maquet PowerLED II or Stryker 1688 AIM)"
+  },
+  "specifications": [
+    {
+      "label": {
+        "ar": "شدة الإضاءة المركزية (Illuminance)",
+        "en": "Central Illuminance"
+      },
+      "value": {
+        "ar": "80,000 – 160,000 لوكس (قابلة للتعديل)",
+        "en": "80,000 – 160,000 Lux (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "قطر بقعة الضوء",
+        "en": "Light Spot Diameter"
+      },
+      "value": {
+        "ar": "15 – 35 سم (قابل للتعديل)",
+        "en": "15 – 35 cm (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمق المجال (Depth of Field)",
+        "en": "Depth of Field"
+      },
+      "value": {
+        "ar": "50 – 120 سم",
+        "en": "50 – 120 cm"
+      }
+    },
+    {
+      "label": {
+        "ar": "معامل تجسيد الألوان (CRI)",
+        "en": "Color Rendering Index (CRI)"
+      },
+      "value": {
+        "ar": "≥ 95 (من 100)",
+        "en": "≥ 95 (out of 100)"
+      }
+    },
+    {
+      "label": {
+        "ar": "درجة حرارة اللون (Color Temperature)",
+        "en": "Color Temperature"
+      },
+      "value": {
+        "ar": "3800 – 5000 كلفن (قابلة للتعديل)",
+        "en": "3800 – 5000 Kelvin (adjustable)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عدد مصابيح LED",
+        "en": "Number of LED Lights"
+      },
+      "value": {
+        "ar": "20 – 60 (حسب الموديل)",
+        "en": "20 – 60 (depending on model)"
+      }
+    },
+    {
+      "label": {
+        "ar": "عمر المصابيح",
+        "en": "Lamp Life"
+      },
+      "value": {
+        "ar": "30,000 – 50,000 ساعة",
+        "en": "30,000 – 50,000 hours"
+      }
+    },
+    {
+      "label": {
+        "ar": "استهلاك الطاقة",
+        "en": "Power Consumption"
+      },
+      "value": {
+        "ar": "80 – 150 وات",
+        "en": "80 – 150 Watts"
+      }
+    },
+    {
+      "label": {
+        "ar": "وزن رأس المصباح",
+        "en": "Light Head Weight"
+      },
+      "value": {
+        "ar": "5 – 15 كجم",
+        "en": "5 – 15 kg"
+      }
+    },
+    {
+      "label": {
+        "ar": "نظام التركيب",
+        "en": "Mounting Type"
+      },
+      "value": {
+        "ar": "سقفي (ثابت/متحرك)، حائطي، أرضي متحرك",
+        "en": "Ceiling (fixed/mobile), Wall, Mobile Stand"
+      }
+    }
+  ],
+  "commonFaults": [
+    {
+      "ar": "احتراق أو تلف أحد مصابيح LED مما يسبب ضعفاً في الإضاءة أو ظلالاً.",
+      "en": "One or more LED lamps burning out or failing, causing weak illumination or shadows."
+    },
+    {
+      "ar": "توقف مروحة التبريد يؤدي إلى ارتفاع حرارة المصباح وإتلاف العدسات أو المصابيح.",
+      "en": "Cooling fan failure leading to overheating and damage to lenses or lamps."
+    },
+    {
+      "ar": "اتساخ العدسات أو المرايا بالغبار يؤدي إلى تشتت الضوء وانخفاض التركيز.",
+      "en": "Dirty lenses or mirrors from dust accumulation causing light scattering and reduced focus."
+    },
+    {
+      "ar": "تصلب أو عطل في المفاصل الحركية يمنع تحريك المصباح أو تثبيته.",
+      "en": "Stiff or faulty articulating joints preventing light positioning or locking."
+    },
+    {
+      "ar": "عدم استجابة لوحة التحكم بسبب خلل في الدائرة الإلكترونية أو انقطاع الكابلات.",
+      "en": "Control panel unresponsiveness due to electronic circuit failure or cable disconnection."
+    },
+    {
+      "ar": "انقطاع التيار الكهربائي عن المصباح نتيجة مشاكل في الأسلاك أو القابس.",
+      "en": "Power interruption to the light due to wiring or plug issues."
+    },
+    {
+      "ar": "عطل في الكاميرا المدمجة (في الموديلات المزودة بها) يؤدي إلى انقطاع البث.",
+      "en": "Integrated camera malfunction (in equipped models) causing streaming loss."
+    },
+    {
+      "ar": "أعطال برمجية في نظام التحكم الرقمي تؤدي إلى عدم استجابة أو قراءات خاطئة.",
+      "en": "Software glitches in the digital control system causing unresponsiveness or incorrect readings."
+    }
+  ],
+  "labels": {
+    "gallery": {
+      "ar": "صور الجهاز",
+      "en": "Device images"
+    },
+    "tapToZoom": {
+      "ar": "اضغط على الصورة للتكبير",
+      "en": "Tap an image to zoom"
+    },
+    "description": {
+      "ar": "الوصف",
+      "en": "Description"
+    },
+    "uses": {
+      "ar": "الاستخدامات الرئيسية:",
+      "en": "Main uses:"
+    },
+    "workingPrinciple": {
+      "ar": "مبدأ العمل",
+      "en": "Working principle"
+    },
+    "components": {
+      "ar": "المكونات الأساسية",
+      "en": "Main components"
+    },
+    "specifications": {
+      "ar": "المواصفات الفنية",
+      "en": "Technical specifications"
+    },
+    "faults": {
+      "ar": "الأعطال الشائعة",
+      "en": "Common faults"
+    },
+    "image": {
+      "ar": "صورة",
+      "en": "Image"
+    }
+  }
+}
+ 
