@@ -1,58 +1,189 @@
+
 <!DOCTYPE html>
-<html>
+<html lang="ar">
 <head>
-  <!--
-    If you are serving your web app in a path other than the root, change the
-    href value below to reflect the base path you are serving from.
-
-    The path provided below has to start and end with a slash "/" in order for
-    it to work correctly.
-
-    For more details:
-    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
-
-    This is a placeholder for base href that will be replaced by the value of
-    the `--base-href` argument provided to `flutter build`.
-  -->
-  <base href="/MedAtlas-IOS/">
+  <base href="/">
 
   <meta charset="UTF-8">
-  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
-  <meta name="description" content="A new Flutter project.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!--
-    Uncomment the tag below to lay the app out underneath the parts of the
-    screen that the device obstructs, such as a display cutout, the rounded
-    corners of the screen, or a home indicator.
+  <meta name="theme-color" content="#5A79F8">
+  <meta name="description" content="MedAtlas - موسوعة الأجهزة الطبية الشاملة">
 
-    Without it, the browser keeps the app clear of them, and `SafeArea` and
-    `MediaQuery.paddingOf` report no padding. With it, the app covers the whole
-    screen, and it is up to the app to keep its own content out of the way,
-    which is what `SafeArea` is for.
-  -->
-  <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"> -->
-
-  <!-- iOS meta tags & icons -->
   <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black">
-  <meta name="apple-mobile-web-app-title" content="medatlas">
+  <meta name="apple-mobile-web-app-title" content="MedAtlas">
+
+  <link rel="icon" href="favicon.png">
   <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="favicon.png"/>
-
-  <title>medatlas</title>
   <link rel="manifest" href="manifest.json">
-</head>
-<body>
-  <!--
-    You can customize the "flutter_bootstrap.js" script.
-    This is useful to provide a custom configuration to the Flutter loader
-    or to give the user feedback during the initialization process.
 
-    For more details:
-    * https://docs.flutter.dev/platform-integration/web/initialization
-  -->
+  <title>MedAtlas</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: #f8f9fc;
+    }
+
+    #loading-screen {
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: #f8f9fc;
+      transition: opacity .4s ease, visibility .4s ease;
+    }
+
+    #loading-screen.hide {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+    }
+
+    .logo {
+      width: 85px;
+      height: 85px;
+      border-radius: 22px;
+      background: #5A79F8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 38px;
+      font-weight: bold;
+      box-shadow: 0 8px 25px rgba(90,121,248,.25);
+      margin-bottom: 22px;
+    }
+
+    .app-name {
+      color: #26345c;
+      font-size: 27px;
+      font-weight: bold;
+      margin-bottom: 8px;
+    }
+
+    .description {
+      color: #7b8498;
+      font-size: 13px;
+      margin-bottom: 35px;
+    }
+
+    .loader {
+      width: 180px;
+      height: 5px;
+      background: #e3e8f8;
+      border-radius: 20px;
+      overflow: hidden;
+    }
+
+    .loader::after {
+      content: "";
+      display: block;
+      width: 40%;
+      height: 100%;
+      background: #5A79F8;
+      border-radius: 20px;
+      animation: loading 1.2s infinite ease-in-out;
+    }
+
+    @keyframes loading {
+      0% {
+        transform: translateX(-150%);
+      }
+      100% {
+        transform: translateX(350%);
+      }
+    }
+
+    .loading-text {
+      color: #8790a3;
+      font-size: 12px;
+      margin-top: 15px;
+    }
+
+    .footer {
+      position: absolute;
+      bottom: 30px;
+      color: #a0a7b5;
+      font-size: 11px;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      body, #loading-screen {
+        background: #1a1a1a;
+      }
+
+      .app-name {
+        color: #ffffff;
+      }
+
+      .description, .loading-text {
+        color: #aab0c0;
+      }
+
+      .loader {
+        background: #33394b;
+      }
+
+      .footer {
+        color: #777;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- شاشة الانتظار -->
+  <div id="loading-screen">
+
+    <div class="logo">M</div>
+
+    <div class="app-name">MedAtlas</div>
+
+    <div class="description">
+      موسوعة الأجهزة الطبية الشاملة
+    </div>
+
+    <div class="loader"></div>
+
+    <div class="loading-text">
+      جاري تجهيز التطبيق، يرجى الانتظار...
+    </div>
+
+    <div class="footer">
+      Medical Equipment Knowledge Platform
+    </div>
+
+  </div>
+
+  <!-- Flutter Application -->
+  <script>
+    window.addEventListener('flutter-first-frame', function () {
+      const screen = document.getElementById('loading-screen');
+
+      if (screen) {
+        screen.classList.add('hide');
+
+        setTimeout(function () {
+          screen.remove();
+        }, 500);
+      }
+    });
+  </script>
+
   <script src="flutter_bootstrap.js" async></script>
+
 </body>
 </html>
