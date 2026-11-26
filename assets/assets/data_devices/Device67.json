@@ -203,31 +203,59 @@
   "commonFaults": [
     {
       "ar": "عطل في مضخة التفريغ يؤدي إلى عدم تحقيق الضغط المطلوب، مما يمنع وصول المادة المعقمة إلى جميع الأدوات.",
-      "en": "Vacuum pump failure leading to insufficient pressure, preventing the sterilant from reaching all instruments."
+      "en": "Vacuum pump failure leading to insufficient pressure, preventing the sterilant from reaching all instruments.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "نقص أو تلوث المادة المعقمة (H₂O₂) مما يقلل من كفاءة التعقيم ويؤدي إلى فشل الدورة.",
-      "en": "Depletion or contamination of the sterilant (H₂O₂) reducing sterilization efficiency and causing cycle failure."
+      "en": "Depletion or contamination of the sterilant (H₂O₂) reducing sterilization efficiency and causing cycle failure.",
+      "solution": {
+        "ar": "أجرِ جرداً فورياً، واستبدل المواد الناقصة أو المنتهية بمواد سليمة ومعتمدة، وسجّل ذلك في قائمة الفحص. تحقّق من تواريخ الصلاحية والكميات ضمن الفحص الدوري قبل إتاحة الجهاز أو العربة للاستخدام.",
+        "en": "Perform an immediate inventory and replace missing or expired supplies with valid, approved items. Record the action on the checklist. Verify expiry dates and quantities during routine checks before making the device or cart available."
+      }
     },
     {
       "ar": "خلل في حساسات الحرارة أو الرطوبة يؤدي إلى قراءات خاطئة وإيقاف الدورة بشكل مفاجئ.",
-      "en": "Malfunctioning temperature or humidity sensors leading to incorrect readings and sudden cycle interruption."
+      "en": "Malfunctioning temperature or humidity sensors leading to incorrect readings and sudden cycle interruption.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "عطل في مولد البلازما (عدم توليد التفريغ الكهربائي المناسب) مما يمنع تكون الجذور الحرة الفعالة.",
-      "en": "Plasma generator failure (no proper electrical discharge) preventing the formation of active free radicals."
+      "en": "Plasma generator failure (no proper electrical discharge) preventing the formation of active free radicals.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز التعقيم بدرجة حرارة منخفضة إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز التعقيم بدرجة حرارة منخفضة from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "انسداد أو تلف في نظام تحويل الغاز (Catalytic Converter) مما يؤدي إلى تسرب غازات سامة إلى البيئة المحيطة.",
-      "en": "Blockage or damage to the gas conversion system (Catalytic Converter) causing toxic gas leaks into the surrounding environment."
+      "en": "Blockage or damage to the gas conversion system (Catalytic Converter) causing toxic gas leaks into the surrounding environment.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "خلل في الطابعة المدمجة أو وحدة تخزين البيانات مما يفقد سجلات الدورات المهمة للتوثيق.",
-      "en": "Fault in the built-in printer or data storage unit resulting in loss of important cycle records for documentation."
+      "en": "Fault in the built-in printer or data storage unit resulting in loss of important cycle records for documentation.",
+      "solution": {
+        "ar": "تحقق من نوع الورق واتجاه تركيبه وحالة الغطاء، ونظّف رأس الطباعة وفق تعليمات الشركة. استبدل الورق أو رأس الطباعة عند الحاجة، ثم اطبع عينة اختبار للتأكد من وضوح النتائج.",
+        "en": "Check the paper type, loading direction, and cover, and clean the print head according to the manufacturer’s instructions. Replace the paper or print head if necessary, then print a test sample to verify clarity."
+      }
     },
     {
       "ar": "عدم إحكام إغلاق باب الحجرة يؤدي إلى تسرب الهواء الداخلي وفشل دورة التعقيم.",
-      "en": "Improper sealing of the chamber door leading to air leakage and sterilization cycle failure."
+      "en": "Improper sealing of the chamber door leading to air leakage and sterilization cycle failure.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     }
   ],
   "labels": {
@@ -267,6 +295,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص خرطوشة/مادة التعقيم والباب والحشية والإنذارات.",
+        "en": "Inspect the Low Temperature Sterilizer condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "افحص مضخة التفريغ والمرشحات والحساسات وخطوط المادة ونظافة الحجرة.",
+        "en": "Perform scheduled preventive maintenance on the Low Temperature Sterilizer according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "تحقق من التسريب والضغط ومعايير الدورة والمؤشرات الكيميائية/البيولوجية حسب نوع التقنية.",
+        "en": "Use the appropriate analyzer or simulator to verify Low Temperature Sterilizer performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "قد تستخدم مواد كيميائية مؤكسدة؛ التزم بالتهوية ووسائل الوقاية وتعليمات التخلص.",
+        "en": "Low-temperature sterilizers may use hazardous chemicals. Follow ventilation, PPE, and chemical-handling instructions for the exact system."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

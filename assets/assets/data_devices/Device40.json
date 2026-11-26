@@ -223,35 +223,67 @@
   "commonFaults": [
     {
       "ar": "تبخر الهيليوم السائل (Quench) نتيجة خلل في نظام التبريد يؤدي إلى فقدان المغناطيسية.",
-      "en": "Liquid Helium boil-off (Quench) due to cooling system failure leading to loss of magnetism."
+      "en": "Liquid Helium boil-off (Quench) due to cooling system failure leading to loss of magnetism.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز التصوير بالرنين المغناطيسي إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز التصوير بالرنين المغناطيسي from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "عطل في ملفات التدرج (Gradient Coils) يسبب تشوهاً في الصور أو ضجيجاً غير طبيعي.",
-      "en": "Gradient Coil failure causing image distortion or abnormal noise."
+      "en": "Gradient Coil failure causing image distortion or abnormal noise.",
+      "solution": {
+        "ar": "افحص الأجزاء الميكانيكية والتثبيت والحركة والتهوية بحثاً عن ارتخاء أو تآكل أو عائق. نظّف وشدّ الأجزاء المسموح بصيانتها، واستبدل القطع التالفة بقطع معتمدة. أوقف الجهاز إذا ظهرت سخونة أو أصوات غير طبيعية حتى فحصه.",
+        "en": "Inspect mechanical parts, mounting, movement, and ventilation for looseness, wear, or obstruction. Clean and tighten serviceable parts and replace damaged components with approved parts. Stop using the device if overheating or abnormal noise occurs until it is inspected."
+      }
     },
     {
       "ar": "فشل نظام التردد الراديوي (RF Amplifier) يؤدي إلى ضعف الإشارة أو انعدامها.",
-      "en": "RF System failure (RF Amplifier) leading to weak or no signal."
+      "en": "RF System failure (RF Amplifier) leading to weak or no signal.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "تلف ملفات الاستقبال (Coils) يؤدي إلى تدهور جودة الصورة أو ظهور مناطق مظلمة.",
-      "en": "Receiver Coil damage leading to degraded image quality or dark areas."
+      "en": "Receiver Coil damage leading to degraded image quality or dark areas.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز التصوير بالرنين المغناطيسي إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز التصوير بالرنين المغناطيسي from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "أعطال في طاولة الفحص تمنع الحركة الدقيقة أو التموضع الصحيح.",
-      "en": "Patient Table malfunctions preventing precise movement or positioning."
+      "en": "Patient Table malfunctions preventing precise movement or positioning.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز التصوير بالرنين المغناطيسي إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز التصوير بالرنين المغناطيسي from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "مشاكل في الحاسوب أو البرمجيات تؤدي إلى بطء شديد أو تعطل أثناء المسح.",
-      "en": "Computer or software issues causing severe slowdown or scan interruptions."
+      "en": "Computer or software issues causing severe slowdown or scan interruptions.",
+      "solution": {
+        "ar": "أعد تشغيل الجهاز بالطريقة المحددة في دليل المستخدم بعد التأكد من عدم وجود خطر على التشغيل السريري. افحص التوصيلات وسجل رسائل الخطأ، ثم نفّذ الاختبارات التشخيصية وتحديث البرنامج أو إصلاح الشاشة بواسطة فني مؤهل إذا استمرت المشكلة.",
+        "en": "Restart the device as specified in the user manual after ensuring clinical operation is not at risk. Check connections and record error messages, then run diagnostic tests. A qualified technician should update the software or repair the display if the problem persists."
+      }
     },
     {
       "ar": "خلل في نظام السلامة (قفل الغرفة، إنذار المجال المغناطيسي).",
-      "en": "Safety system failure (room interlock, magnetic field alarm)."
+      "en": "Safety system failure (room interlock, magnetic field alarm).",
+      "solution": {
+        "ar": "اقرأ رمز ورسالة الإنذار في دليل الجهاز، وتحقق من السبب الفعلي مثل التوصيلات أو مصدر الطاقة أو ظروف التشغيل. لا تكتفِ بكتم الإنذار؛ عالج السبب، ثم نفّذ اختبار الإنذار الذاتي وتأكد من عودة الجهاز للعمل ضمن الحدود المحددة.",
+        "en": "Identify the alarm code and message in the device manual and check the underlying cause, such as connections, power supply, or operating conditions. Do not simply silence the alarm. Correct the cause, run the alarm self-test, and verify operation within specified limits."
+      }
     },
     {
       "ar": "تداخل الترددات (RF Interference) من مصادر خارجية يؤثر على جودة الصورة.",
-      "en": "RF Interference from external sources affecting image quality."
+      "en": "RF Interference from external sources affecting image quality.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز التصوير بالرنين المغناطيسي إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز التصوير بالرنين المغناطيسي from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     }
   ],
   "labels": {
@@ -291,6 +323,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص غرفة المغناطيس والملحقات والملفات والتهوية والإنذارات.",
+        "en": "Inspect the MRI (Magnetic Resonance Imaging) condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "افحص ملفات RF والكابلات والتبريد وأنظمة المراقبة والأبواب وفق تعليمات الموقع.",
+        "en": "Perform scheduled preventive maintenance on the MRI (Magnetic Resonance Imaging) according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "استخدم فانتوم MRI للتحقق من جودة الصورة والتجانس ونسبة الإشارة إلى الضوضاء.",
+        "en": "Use the appropriate analyzer or simulator to verify MRI (Magnetic Resonance Imaging) performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "مجال مغناطيسي قوي دائم؛ تحقق من سلامة MR للمواد والأدوات، ولا تتعامل مع quench إلا وفق خطة الطوارئ.",
+        "en": "The MRI magnetic field is always present. Screen all tools and equipment for MR safety; quench response must follow the site emergency plan."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

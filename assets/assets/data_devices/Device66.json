@@ -207,31 +207,59 @@
   "commonFaults": [
     {
       "ar": "ضعف أو انطفاء مصدر الضوء يؤدي إلى قراءات غير دقيقة أو عدم القدرة على القياس.",
-      "en": "Dim or failed light source leading to inaccurate readings or inability to measure."
+      "en": "Dim or failed light source leading to inaccurate readings or inability to measure.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "تلف الكاشف الضوئي أو اتساخ العدسة يؤثر على دقة قياس الضوء المنعكس.",
-      "en": "Damaged photodetector or dirty lens affecting reflected light measurement accuracy."
+      "en": "Damaged photodetector or dirty lens affecting reflected light measurement accuracy.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "انخفاض شحن البطارية أو تلفها يؤدي إلى انقطاع التشغيل المفاجئ.",
-      "en": "Low battery charge or battery failure causing sudden shutdown."
+      "en": "Low battery charge or battery failure causing sudden shutdown.",
+      "solution": {
+        "ar": "افحص مصدر الطاقة والكابل والمقبس، ثم تحقق من حالة البطارية ودائرة الشحن وفق دليل الشركة المصنعة. استبدل البطارية أو الجزء التالف بقطعة معتمدة، ولا تفتح دائرة الطاقة قبل فصل الجهاز وتأمينه.",
+        "en": "Check the power source, cable, and outlet, then verify the battery and charging circuit according to the manufacturer’s manual. Replace a faulty battery or component with an approved part. Isolate the device before servicing the power circuit."
+      }
     },
     {
       "ar": "فشل نظام المعايرة التلقائية مما يسبب أخطاء في القراءات.",
-      "en": "Automatic calibration system failure causing reading errors."
+      "en": "Automatic calibration system failure causing reading errors.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "عطل في شاشة العرض أو ظهور خطوط وبكسلات ميتة.",
-      "en": "Display screen malfunction or appearance of lines and dead pixels."
+      "en": "Display screen malfunction or appearance of lines and dead pixels.",
+      "solution": {
+        "ar": "أعد تشغيل الجهاز بالطريقة المحددة في دليل المستخدم بعد التأكد من عدم وجود خطر على التشغيل السريري. افحص التوصيلات وسجل رسائل الخطأ، ثم نفّذ الاختبارات التشخيصية وتحديث البرنامج أو إصلاح الشاشة بواسطة فني مؤهل إذا استمرت المشكلة.",
+        "en": "Restart the device as specified in the user manual after ensuring clinical operation is not at risk. Check connections and record error messages, then run diagnostic tests. A qualified technician should update the software or repair the display if the problem persists."
+      }
     },
     {
       "ar": "انحشار الورق أو عطل في الطابعة الحرارية المدمجة.",
-      "en": "Paper jam or built-in thermal printer malfunction."
+      "en": "Paper jam or built-in thermal printer malfunction.",
+      "solution": {
+        "ar": "تحقق من نوع الورق واتجاه تركيبه وحالة الغطاء، ونظّف رأس الطباعة وفق تعليمات الشركة. استبدل الورق أو رأس الطباعة عند الحاجة، ثم اطبع عينة اختبار للتأكد من وضوح النتائج.",
+        "en": "Check the paper type, loading direction, and cover, and clean the print head according to the manufacturer’s instructions. Replace the paper or print head if necessary, then print a test sample to verify clarity."
+      }
     },
     {
       "ar": "خلل في البرمجيات يؤدي إلى تجميد الجهاز أو إعادة التشغيل المتكرر.",
-      "en": "Software glitch causing device freezing or frequent rebooting."
+      "en": "Software glitch causing device freezing or frequent rebooting.",
+      "solution": {
+        "ar": "أعد تشغيل الجهاز بالطريقة المحددة في دليل المستخدم بعد التأكد من عدم وجود خطر على التشغيل السريري. افحص التوصيلات وسجل رسائل الخطأ، ثم نفّذ الاختبارات التشخيصية وتحديث البرنامج أو إصلاح الشاشة بواسطة فني مؤهل إذا استمرت المشكلة.",
+        "en": "Restart the device as specified in the user manual after ensuring clinical operation is not at risk. Check connections and record error messages, then run diagnostic tests. A qualified technician should update the software or repair the display if the problem persists."
+      }
     }
   ],
   "labels": {
@@ -271,6 +299,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص نافذة القياس ورأس المجس والبطارية والشاشة.",
+        "en": "Inspect the Transcutaneous Bilirubinometer condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "نظّف نافذة القياس وافحص المجس والغطاء المرجعي وأي ملحق معايرة.",
+        "en": "Perform scheduled preventive maintenance on the Transcutaneous Bilirubinometer according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "استخدم وحدة تحقق/مرجع الشركة لفحص الصفر والاستجابة وفق دليل الطراز.",
+        "en": "Use the appropriate analyzer or simulator to verify Transcutaneous Bilirubinometer performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "لا تعتبر القياس بديلاً عن الاختبار المخبري عندما يوصي البروتوكول بذلك.",
+        "en": "Before servicing, isolate the device when required and follow the exact manufacturer service manual and facility procedures. Specialized work must be performed by qualified, authorized personnel."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

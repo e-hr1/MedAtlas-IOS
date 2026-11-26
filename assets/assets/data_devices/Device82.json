@@ -193,31 +193,59 @@
   "commonFaults": [
     {
       "ar": "انخفاض الضغط أو التدفق (تسريب في الخطوط، تلف الحلقات المطاطية، أو عطل في منظم الضغط).",
-      "en": "Low pressure or flow (leaks in lines, damaged O-rings, or faulty pressure regulator)."
+      "en": "Low pressure or flow (leaks in lines, damaged O-rings, or faulty pressure regulator).",
+      "solution": {
+        "ar": "افحص جميع وصلات الخطوط بحثاً عن تسريب باستخدام ماء صابوني، استبدل الحلقات المطاطية التالفة (O-rings)، واختبر منظم الضغط واستبدله إن لزم. تأكد أيضاً من إحكام صمام الأمان وعدم انسداد الفلاتر.",
+        "en": "Check all line connections for leaks using soapy water, replace damaged O-rings, and test the pressure regulator, replacing it if necessary. Also ensure the safety valve is tight and the filters are not clogged."
+      }
     },
     {
       "ar": "خروج ماء أو رطوبة مع الهواء (انسداد أو عطل في مصيدة الرطوبة، أو فشل نظام التجفيف).",
-      "en": "Water or moisture in the air output (clogged or faulty moisture trap, or drying system failure)."
+      "en": "Water or moisture in the air output (clogged or faulty moisture trap, or drying system failure).",
+      "solution": {
+        "ar": "افرغ مصيدة الرطوبة من المكثفات بشكل دوري، نظّف أو استبدل فلتر المصيدة، وافحص عمل مجفف الهواء (إن وجد). في الأنظمة المبردة تحقق من المبادل الحراري ومراوح التبريد.",
+        "en": "Drain the moisture trap regularly, clean or replace the trap filter, and check the air dryer operation (if present). In refrigerated systems, inspect the heat exchanger and cooling fans."
+      }
     },
     {
       "ar": "خروج زيت مع الهواء (في الأنظمة غير الخالية من الزيت، نتيجة تلف الفواصل أو زيادة الزيت).",
-      "en": "Oil in the air output (in non-oil-free systems, due to damaged separators or excessive oil)."
+      "en": "Oil in the air output (in non-oil-free systems, due to damaged separators or excessive oil).",
+      "solution": {
+        "ar": "استبدل فاصل الزيت التالف، اضبط مستوى الزيت حسب دليل الصيانة، ونظّف الفلاتر النهائية. يُنصح بالتحول إلى نظام خالٍ من الزيت (Oil-Free) لتجنب تلوث خطوط الهواء.",
+        "en": "Replace the damaged oil separator, adjust the oil level according to the maintenance manual, and clean the final filters. Switching to an oil-free system is recommended to avoid air line contamination."
+      }
     },
     {
       "ar": "ارتفاع حرارة المحرك (سخونة زائدة، نقص التهوية، أو عطل في مروحة التبريد).",
-      "en": "Motor overheating (overheating, poor ventilation, or cooling fan failure)."
+      "en": "Motor overheating (overheating, poor ventilation, or cooling fan failure).",
+      "solution": {
+        "ar": "أوقف الجهاز واتركه يبرد، تأكد من تهوية مكان التركيب وعدم انسداد فتحات التبريد، افحص مروحة التبريد واستبدلها إن كانت معطلة، ونظّف زعانف المبادل الحراري من الغبار.",
+        "en": "Stop the device and let it cool, ensure the installation area is well-ventilated and the cooling vents are not blocked, check the cooling fan and replace it if faulty, and clean the heat exchanger fins from dust."
+      }
     },
     {
       "ar": "ارتفاع صوت الضاغط بشكل غير طبيعي (تلف المحامل، أو خلل في المكبس، أو ارتخاء القواعد).",
-      "en": "Abnormally loud compressor noise (damaged bearings, piston issue, or loose base)."
+      "en": "Abnormally loud compressor noise (damaged bearings, piston issue, or loose base).",
+      "solution": {
+        "ar": "اربط قواعد التثبيت جيداً، افحص المحامل واستبدلها إن كانت تالفة، تحقق من سلامة المكبس والاسطوانة، وتأكد من عدم تلامس الأجزاء المعدنية الداخلية.",
+        "en": "Tighten the mounting bases securely, inspect the bearings and replace them if damaged, check the piston and cylinder integrity, and ensure internal metal parts are not touching."
+      }
     },
     {
       "ar": "عدم تشغيل المحرك (عطل كهربائي، تلف المكثف، أو فصل الحماية الحرارية).",
-      "en": "Motor not starting (electrical fault, capacitor failure, or thermal protection tripped)."
+      "en": "Motor not starting (electrical fault, capacitor failure, or thermal protection tripped).",
+      "solution": {
+        "ar": "افحص التغذية الكهربائية والقاطع، اختبر المكثف واستبدله إن لزم، أعد ضبط الحماية الحرارية بعد التأكد من زوال سبب الفصل، وافحص أسلاك التوصيل بحثاً عن قطع أو احتراق.",
+        "en": "Check the power supply and circuit breaker, test the capacitor and replace it if needed, reset the thermal protection after ensuring the cause is resolved, and inspect wiring for cuts or burns."
+      }
     },
     {
       "ar": "انسداد الفلاتر (يؤدي إلى ضعف التدفق وارتفاع استهلاك الطاقة).",
-      "en": "Clogged filters (leading to reduced flow and increased power consumption)."
+      "en": "Clogged filters (leading to reduced flow and increased power consumption).",
+      "solution": {
+        "ar": "استبدل الفلاتر الميكانيكية الدقيقة (0.01 ميكرون) حسب الجدول الدوري، نظّف فلتر المدخل وفلتر الكربون النشط، وتأكد من تركيبها باتجاه السهم الصحيح.",
+        "en": "Replace the fine mechanical filters (0.01 micron) according to the maintenance schedule, clean the intake filter and activated carbon filter, and ensure they are installed in the correct arrow direction."
+      }
     }
   ],
   "labels": {
@@ -257,5 +285,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص ضغط الخرج ومستوى التصريف والمرشح والصوت والاهتزاز.",
+        "en": "Inspect the Dental Compressor condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "صرّف التكثف وافحص المرشحات والمجفف والسيور والتسريب وصمام الأمان وفق الدليل.",
+        "en": "Perform scheduled preventive maintenance on the Dental Compressor according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "تحقق من ضغط وتدفق الهواء وجودته وخلوه من الرطوبة/الزيت حسب مواصفات الوحدة.",
+        "en": "Use the appropriate analyzer or simulator to verify Dental Compressor performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "افصل الكهرباء وفرّغ الضغط قبل الصيانة، ولا تتجاوز ضغط التشغيل المسموح.",
+        "en": "Before servicing, isolate the device when required and follow the exact manufacturer service manual and facility procedures. Specialized work must be performed by qualified, authorized personnel."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
-} 
+}

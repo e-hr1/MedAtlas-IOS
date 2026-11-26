@@ -219,31 +219,59 @@
   "commonFaults": [
     {
       "ar": "تداخل شديد (50/60 هرتز): غالبًا بسبب ضعف توصيل قطب الرجل الأيمن (RL) أو ملامسة عالية المقاومة (> 10 كيلو أوم). يُحل باستخدام هلام موصل أو تنعيم الجلد.",
-      "en": "Excessive interference (50/60 Hz): often due to poor right leg (RL) electrode contact or high impedance (> 10 kΩ). Resolved by applying conductive gel or skin abrasion."
+      "en": "Excessive interference (50/60 Hz): often due to poor right leg (RL) electrode contact or high impedance (> 10 kΩ). Resolved by applying conductive gel or skin abrasion.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "انجراف خط الأساس (Baseline Wander): نتيجة تنفس المريض أو سوء التلامس. يُعالج بتفعيل مرشح HPF الرقمي بتردد 0.05 هرتز أو إعادة تطبيق الأقطاب.",
-      "en": "Baseline wander: caused by patient respiration or poor contact. Addressed by enabling the digital HPF at 0.05 Hz or reapplying electrodes."
+      "en": "Baseline wander: caused by patient respiration or poor contact. Addressed by enabling the digital HPF at 0.05 Hz or reapplying electrodes.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز تخطيط كهربية القلب إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز تخطيط كهربية القلب from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "تشويه مركب QRS (انخفاض الجهد): قد يكون بسبب عطل في مضخمات المدخلات (Op-Amp) أو انخفاض جهد البطارية مما يؤثر على دوائر الانحياز.",
-      "en": "QRS complex distortion (low voltage): may indicate a fault in the input Op-Amps or low battery voltage affecting bias circuits."
+      "en": "QRS complex distortion (low voltage): may indicate a fault in the input Op-Amps or low battery voltage affecting bias circuits.",
+      "solution": {
+        "ar": "افحص مصدر الطاقة والكابل والمقبس، ثم تحقق من حالة البطارية ودائرة الشحن وفق دليل الشركة المصنعة. استبدل البطارية أو الجزء التالف بقطعة معتمدة، ولا تفتح دائرة الطاقة قبل فصل الجهاز وتأمينه.",
+        "en": "Check the power source, cable, and outlet, then verify the battery and charging circuit according to the manufacturer’s manual. Replace a faulty battery or component with an approved part. Isolate the device before servicing the power circuit."
+      }
     },
     {
       "ar": "طباعة شاحبة أو غير واضحة: تلف رأس الطباعة الحرارية أو انتهاء عمر ورق الحساسية الحراري (تغير لونه).",
-      "en": "Faint or unclear printing: damaged thermal print head or expired thermal-sensitive paper (discoloration)."
+      "en": "Faint or unclear printing: damaged thermal print head or expired thermal-sensitive paper (discoloration).",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "رسالة \"Leads Off\": كشف دائرة فتح في أحد الأقطاب؛ غالبًا بسبب كسر في كابل المريض (يفحص باستخدام الأوميتر).",
-      "en": "\"Leads Off\" message: detects an open circuit in one of the leads; often due to a broken patient cable (check with an ohmmeter)."
+      "en": "\"Leads Off\" message: detects an open circuit in one of the leads; often due to a broken patient cable (check with an ohmmeter).",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "فشل معايرة 1mV: عطل في دائرة المذبذب المرجعي الداخلي أو انحراف الجهد المرجعي للـ ADC.",
-      "en": "1mV calibration failure: a fault in the internal reference oscillator circuit or ADC voltage reference drift."
+      "en": "1mV calibration failure: a fault in the internal reference oscillator circuit or ADC voltage reference drift.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "انقطاع الطاقة أثناء التشغيل: تلف خلايا البطارية (Li-ion) أو عطل في دائرة شحن الـ Flyback Converter.",
-      "en": "Power interruption during operation: damaged Li-ion battery cells or a faulty Flyback converter charging circuit."
+      "en": "Power interruption during operation: damaged Li-ion battery cells or a faulty Flyback converter charging circuit.",
+      "solution": {
+        "ar": "افحص مصدر الطاقة والكابل والمقبس، ثم تحقق من حالة البطارية ودائرة الشحن وفق دليل الشركة المصنعة. استبدل البطارية أو الجزء التالف بقطعة معتمدة، ولا تفتح دائرة الطاقة قبل فصل الجهاز وتأمينه.",
+        "en": "Check the power source, cable, and outlet, then verify the battery and charging circuit according to the manufacturer’s manual. Replace a faulty battery or component with an approved part. Isolate the device before servicing the power circuit."
+      }
     }
   ],
   "labels": {
@@ -283,5 +311,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص كابل المريض والأقطاب والموصلات والورق أو نظام التخزين.",
+        "en": "Inspect the Electrocardiograph (ECG) Machine condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "نظّف الأقطاب القابلة لإعادة الاستخدام وافحص الكابل بحثاً عن قطع أو تشقق، وتحقق من البطارية والطابعة.",
+        "en": "Perform scheduled preventive maintenance on the Electrocardiograph (ECG) Machine according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "تحقق من دقة الموجة والمعايرة باستخدام محاكي ECG، وافحص قنوات التسجيل والطباعة.",
+        "en": "Use the appropriate analyzer or simulator to verify Electrocardiograph (ECG) Machine performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "استخدم ملحقات معتمدة ونظّفها بين المرضى، وتحقق من سلامة العزل الكهربائي.",
+        "en": "Before servicing, isolate the device when required and follow the exact manufacturer service manual and facility procedures. Specialized work must be performed by qualified, authorized personnel."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }

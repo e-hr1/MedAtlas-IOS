@@ -7,8 +7,8 @@
   "category": "emergency",
   "icon": "bolt",
   "shortDescription": {
-    "ar": "جهاز طبي يرسل صدمة كهربائية للقلب لإيقاف الرجفان البطيني واستعادة النظم الطبيعي.",
-    "en": "A medical device that delivers an electric shock to the heart to stop ventricular fibrillation and restore a normal rhythm."
+    "ar": "جهاز طبي حيوي يرسل صدمة كهربائية منظمة للقلب لإيقاف الرجفان البطيني واستعادة النظم الكهربائي الطبيعي، وهو من أهم أجهزة الإنعاش في الحالات الطارئة.",
+    "en": "A vital medical device that delivers a controlled electric shock to the heart to stop ventricular fibrillation and restore a normal electrical rhythm. It is one of the most essential resuscitation devices in emergency situations."
   },
   "images": [
     "assets/image/Emergency/Defibrillator/Defibrillator1.webp",
@@ -17,82 +17,98 @@
     "assets/image/Emergency/Defibrillator/Defibrillator4.webp"
   ],
   "description": {
-    "ar": "مُزيل الرجفان (Defibrillator) هو جهاز طبي يرسل صدمة كهربائية للقلب لإيقاف الرجفان البطيني واستعادة النظم الطبيعي. يشمل ثلاثة أنواع: AED للعامة في الأماكن العامة، واليدوي للطواقم الطبية، والمزروع (ICD) داخل الجسم الذي يعطي صدمات تلقائياً.",
-    "en": "A defibrillator is a medical device that delivers an electric shock to the heart to stop ventricular fibrillation and restore a normal rhythm. It includes three types: AED for public use in public places, manual for medical teams, and implantable (ICD) inside the body that delivers shocks automatically."
+    "ar": "مُزيل الرجفان (Defibrillator) هو جهاز طبي متخصص في إرسال صدمة كهربائية محسوبة للقلب بهدف إيقاف الرجفان البطيني (Ventricular Fibrillation) واضطرابات النظم القاتلة، واستعادة النظم الكهربائي الطبيعي للقلب. يتوفر بثلاثة أنواع رئيسية: أجهزة الصدمات الآلية الخارجية (AED) المصممة للاستخدام العام في الأماكن العامة، والأجهزة اليدوية (Manual) التي تستخدمها الطواقم الطبية المتخصصة للتحكم الكامل بالطاقة والتوقيت، والأجهزة المزروعة (ICD) داخل الجسم والتي تراقب النظم القلبي وتطلق الصدمات تلقائياً عند الحاجة. يُعد الجهاز حجر الأساس في سلسلة البقاء على قيد الحياة (Chain of Survival) للحالات الطارئة.",
+    "en": "A defibrillator is a specialized medical device that delivers a calculated electric shock to the heart to stop ventricular fibrillation and fatal arrhythmias, restoring the heart's natural electrical rhythm. It comes in three main types: Automated External Defibrillators (AED) designed for public use, Manual defibrillators used by specialized medical teams for full control of energy and timing, and Implantable Cardioverter-Defibrillators (ICD) placed inside the body that monitor the heart rhythm and deliver shocks automatically when needed. It is a cornerstone of the Chain of Survival for emergency cases."
   },
   "uses": [
     {
-      "ar": "AED – للعامة في الأماكن العامة.",
-      "en": "AED – for public use in public places."
+      "ar": "AED – للعامة في الأماكن العامة: يستخدمه غير المتخصصين بفضل إرشاداته الصوتية والبصرية.",
+      "en": "AED – for public use in public places: Used by non-specialists thanks to its audio and visual prompts."
     },
     {
-      "ar": "يدوي – للطواقم الطبية.",
-      "en": "Manual – for medical teams."
+      "ar": "يدوي – للطواقم الطبية: يسمح باختيار مستوى الطاقة وشكل الموجة يدوياً بحسب حالة المريض.",
+      "en": "Manual – for medical teams: Allows manual selection of energy levels and waveform shape based on the patient's condition."
     },
     {
-      "ar": "مزروع (ICD) – داخل الجسم، يعطي صدمات تلقائياً.",
-      "en": "Implantable (ICD) – inside the body, delivers shocks automatically."
+      "ar": "مزروع (ICD) – داخل الجسم: يراقب النظم القلبي على مدار الساعة ويعطي صدمات تلقائياً.",
+      "en": "Implantable (ICD) – inside the body: Monitors the heart rhythm around the clock and delivers shocks automatically."
+    },
+    {
+      "ar": "علاج الرجفان الأذيني والبطيني في وحدات العناية المركزة.",
+      "en": "Treating atrial and ventricular fibrillation in intensive care units."
+    },
+    {
+      "ar": "إجراءات القلب الكهربائية (Cardioversion) المتزامنة لتصحيح اضطرابات النظم.",
+      "en": "Synchronized cardioversion procedures to correct rhythm disorders."
+    },
+    {
+      "ar": "الاستخدام في سيارات الإسعاف والطائرات والمستشفيات الميدانية.",
+      "en": "Use in ambulances, aircraft, and field hospitals."
     }
   ],
   "workingPrinciple": {
-    "ar": "يعمل الجهاز على ثلاثة مراحل: الكشف حيث تقرأ الأقطاب نظم القلب، ثم الشحن حيث يُرفع الجهد إلى آلاف الفولتات ويُخزَّن في مكثف، ثم الإطلاق حيث يُفرَّغ المكثف كصدمة ثنائية الطور (100-200 جول). الصدمات ثنائية الطور أكثر فعالية وأقل ضرراً.",
-    "en": "The device works in three stages: detection where electrodes read the heart's rhythm, charging where voltage is raised to thousands of volts and stored in a capacitor, and delivery where the capacitor discharges as a biphasic shock (100-200 joules). Biphasic shocks are more effective and cause less damage."
+    "ar": "يعمل مُزيل الرجفان عبر ثلاث مراحل متتالية: الأولى هي مرحلة الكشف (Detection) حيث تقوم الأقطاب الكهربائية (Electrodes) بقراءة النشاط الكهربائي للقلب عبر تخطيط القلب (ECG) وتحليل النظم لتحديد ما إذا كان هناك رجفان بطيني يحتاج إلى صدمة. الثانية هي مرحلة الشحن (Charging) حيث يقوم الجهاز برفع الجهد الكهربائي من البطارية (عادة 12 فولت) إلى آلاف الفولتات باستخدام محول رافع (Step-up Transformer) ومذبذب (Oscillator)، ثم يتم تخزين هذه الطاقة العالية في مكثف (Capacitor). الثالثة هي مرحلة الإطلاق (Delivery) حيث يتم تفريغ المكثف عبر الأقطاب في صدر المريض على شكل صدمة كهربائية ثنائية الطور (Biphasic) بطاقة تتراوح بين 100 و 200 جول، مما يؤدي إلى إزالة الاستقطاب المتزامن لخلايا عضلة القلب ويسمح للناظم الطبيعي (SA Node) باستعادة السيطرة على النظم.",
+    "en": "The defibrillator operates through three successive stages: First is the Detection stage where electrodes read the heart's electrical activity via ECG and analyze the rhythm to determine if there is ventricular fibrillation requiring a shock. Second is the Charging stage where the device raises the voltage from the battery (usually 12V) to thousands of volts using a step-up transformer and oscillator, then stores this high energy in a capacitor. Third is the Delivery stage where the capacitor discharges through the electrodes on the patient's chest as a biphasic electric shock with energy ranging between 100 and 200 joules, which simultaneously depolarizes the heart muscle cells and allows the natural pacemaker (SA Node) to regain control of the rhythm."
   },
   "workingSteps": [
     {
-      "ar": "الكشف: الأقطاب تقرأ نظم القلب.",
-      "en": "Detection: electrodes read the heart's rhythm."
+      "ar": "الكشف: الأقطاب الكهربائية تقرأ النشاط الكهربائي للقلب وتحلل النظم لتحديد الحاجة للصدمة.",
+      "en": "Detection: Electrodes read the heart's electrical activity and analyze the rhythm to determine the need for a shock."
     },
     {
-      "ar": "الشحن: رفع الجهد إلى آلاف الفولتات وتخزينه في مكثف.",
-      "en": "Charging: voltage is raised to thousands of volts and stored in a capacitor."
+      "ar": "الشحن: رفع الجهد إلى آلاف الفولتات وتخزينه في مكثف عالي السعة بانتظار أمر الإطلاق.",
+      "en": "Charging: Raising the voltage to thousands of volts and storing it in a high-capacity capacitor awaiting the delivery command."
     },
     {
-      "ar": "الإطلاق: تفريغ المكثف كصدمة ثنائية الطور (100-200 جول).",
-      "en": "Delivery: the capacitor discharges as a biphasic shock (100-200 joules)."
+      "ar": "الإطلاق: تفريغ المكثف كصدمة ثنائية الطور (100-200 جول) عبر الأقطاب لتصحيح النظم.",
+      "en": "Delivery: Discharging the capacitor as a biphasic shock (100-200 joules) through the electrodes to correct the rhythm."
+    },
+    {
+      "ar": "المراقبة بعد الصدمة: تحليل النظم مجدداً للتأكد من نجاح العملية أو تكرار الصدمة.",
+      "en": "Post-shock monitoring: Re-analyzing the rhythm to confirm success or repeat the shock."
     }
   ],
   "highlight": {
-    "ar": "الصدمات ثنائية الطور أكثر فعالية وأقل ضرراً.",
-    "en": "Biphasic shocks are more effective and cause less damage."
+    "ar": "الصدمات ثنائية الطور (Biphasic) أكثر فعالية وأقل ضرراً لأنسجة القلب من الصدمات أحادية الطور، وتستخدم طاقة أقل لتحقيق نفس النتيجة. كما أن أجهزة AED الحديثة مزودة بتحليل تلقائي للإيقاع وتوجيه صوتي وبصري خطوة بخطوة.",
+    "en": "Biphasic shocks are more effective and cause less damage to heart tissue than monophasic shocks, using less energy to achieve the same result. Modern AEDs are also equipped with automatic rhythm analysis and step-by-step audio-visual guidance."
   },
   "components": [
     {
-      "ar": "بطارية",
-      "en": "Battery"
+      "ar": "بطارية (Battery): مصدر الطاقة الرئيسي للجهاز.",
+      "en": "Battery: The main power source for the device."
     },
     {
-      "ar": "مذبذب",
-      "en": "Oscillator"
+      "ar": "مذبذب (Oscillator): يحول التيار المستمر إلى تيار متردد.",
+      "en": "Oscillator: Converts direct current to alternating current."
     },
     {
-      "ar": "محول رافع",
-      "en": "Step-up Transformer"
+      "ar": "محول رافع (Step-up Transformer): يرفع الجهد من 12 فولت إلى آلاف الفولتات.",
+      "en": "Step-up Transformer: Raises voltage from 12V to thousands of volts."
     },
     {
-      "ar": "مُقوّم",
-      "en": "Rectifier"
+      "ar": "مُقوّم (Rectifier): يحول التيار المتردد عالي الجهد إلى تيار مستمر.",
+      "en": "Rectifier: Converts high-voltage AC to DC."
     },
     {
-      "ar": "مكثف عالي",
-      "en": "High-Voltage Capacitor"
+      "ar": "مكثف عالي الجهد (High-Voltage Capacitor): يخزن الطاقة الكهربائية للصدمة.",
+      "en": "High-Voltage Capacitor: Stores electrical energy for the shock."
     },
     {
-      "ar": "معالج",
-      "en": "Processor"
+      "ar": "معالج (Processor): يحلل إشارات ECG ويتحكم في عملية الشحن والإطلاق.",
+      "en": "Processor: Analyzes ECG signals and controls the charging and delivery process."
     },
     {
-      "ar": "دائرة خرج",
-      "en": "Output Circuit"
+      "ar": "دائرة خرج (Output Circuit): تتحكم في شكل الموجة ومدة الصدمة.",
+      "en": "Output Circuit: Controls waveform shape and shock duration."
     },
     {
-      "ar": "أقطاب",
-      "en": "Electrodes"
+      "ar": "أقطاب (Electrodes/Pads): وسيلة توصيل الصدمة إلى صدر المريض.",
+      "en": "Electrodes/Pads: The medium for delivering the shock to the patient's chest."
     }
   ],
   "specificationsNote": {
-    "ar": "مثال: جهاز مزروع S-ICD A209",
-    "en": "Example: Implantable device S-ICD A209"
+    "ar": "مثال: جهاز مزروع S-ICD A209 (أحدث جيل من الأجهزة المزروعة)",
+    "en": "Example: Implantable device S-ICD A209 (latest generation of implantable devices)"
   },
   "specifications": [
     {
@@ -161,32 +177,74 @@
         "ar": "ثنائي الطور (Biphasic)",
         "en": "Biphasic"
       }
+    },
+    {
+      "label": {
+        "ar": "وقت الشحن",
+        "en": "Charge Time"
+      },
+      "value": {
+        "ar": "أقل من 10 ثوانٍ",
+        "en": "Less than 10 seconds"
+      }
     }
   ],
   "commonFaults": [
     {
-      "ar": "نفاد البطارية أو انتهاء عمرها.",
-      "en": "Battery depletion or end of life."
+      "ar": "نفاد البطارية أو انتهاء عمرها الافتراضي.",
+      "en": "Battery depletion or end of life.",
+      "solution": {
+        "ar": "يجب تغيير البطارية فوراً عند ظهور تحذير انخفاض الجهد. الأجهزة المزروعة (ICD) تستدعي تدخلاً جراحياً لاستبدال البطارية عندما تقترب من الانتهاء (يتم فحصها دورياً). أما الأجهزة الخارجية فيتم استبدال البطارية أو شحنها حسب الطراز.",
+        "en": "Replace the battery immediately when a low voltage warning appears. Implantable devices (ICD) require surgical intervention to replace the battery when it nears depletion (checked periodically). External devices require battery replacement or recharging depending on the model."
+      }
     },
     {
-      "ar": "صفير مستمر (فشل التشغيل الذاتي).",
-      "en": "Continuous beeping (self-test failure)."
+      "ar": "صفير مستمر (فشل التشغيل الذاتي Self-test).",
+      "en": "Continuous beeping (self-test failure).",
+      "solution": {
+        "ar": "الصفير المتكرر يدل على فشل اختبارات التشغيل الذاتي أو وجود خطأ داخلي. يجب التوقف عن استخدام الجهاز فوراً، فحصه بالبرنامج التشخيصي (Diagnostic Software)، وإرساله لمركز صيانة معتمد إذا استمر التحذير.",
+        "en": "Repeated beeping indicates failure of self-test operations or an internal error. Stop using the device immediately, check it with diagnostic software, and send it to an authorized service center if the warning persists."
+      }
     },
     {
       "ar": "أقطاب منتهية الصلاحية أو ضعف توصيل.",
-      "en": "Expired electrodes or poor connection."
+      "en": "Expired electrodes or poor connection.",
+      "solution": {
+        "ar": "تحقق من تاريخ انتهاء صلاحية الأقطاب، وتأكد من توصيلها بإحكام وجفاف الجلد قبل التطبيق. استبدل الأقطاب التالفة أو الجافة فوراً، واستخدم جل التوصيل إذا كان مطلوباً.",
+        "en": "Check the electrode expiration date, ensure they are firmly connected and the skin is dry before application. Replace damaged or dry electrodes immediately, and use conductive gel if required."
+      }
     },
     {
       "ar": "تأخر الشحن أو فشل إعطاء الصدمة.",
-      "en": "Charging delay or failure to deliver shock."
+      "en": "Charging delay or failure to deliver shock.",
+      "solution": {
+        "ar": "افحص البطارية والمكثف (Capacitor) فقد يكون هناك تلف فيهما. تأكد من سلامة دائرة الخرج (Output Circuit) والأقطاب. قد يحتاج الجهاز إلى إعادة معايرة أو استبدال مكونات داخلية، ويجب صيانته بواسطة مهندس أجهزة طبية مختص.",
+        "en": "Check the battery and capacitor as they may be damaged. Ensure the integrity of the output circuit and electrodes. The device may require recalibration or replacement of internal components, and must be serviced by a specialized biomedical engineer."
+      }
     },
     {
-      "ar": "شاشة غير مستجيبة.",
-      "en": "Unresponsive screen."
+      "ar": "شاشة غير مستجيبة أو تعطل البرنامج.",
+      "en": "Unresponsive screen or software crash.",
+      "solution": {
+        "ar": "حاول إعادة تشغيل الجهاز (Reset) وفقاً لدليل المستخدم. إذا استمرت المشكلة، فقد يكون هناك خلل في لوحة التحكم أو البرنامج، ويجب إعادة تثبيت البرنامج (Firmware) أو استبدال الشاشة.",
+        "en": "Try restarting (resetting) the device according to the user manual. If the problem persists, there may be a fault in the control board or software, requiring firmware reinstallation or screen replacement."
+      }
     },
     {
-      "ar": "أخطاء داخلية (أضواء حمراء).",
-      "en": "Internal errors (red indicator lights)."
+      "ar": "أخطاء داخلية (أضواء حمراء تحذيرية).",
+      "en": "Internal errors (red indicator lights).",
+      "solution": {
+        "ar": "الأضواء الحمراء تعني عادةً وجود خلل حرج (Critical Error) في الدوائر الداخلية. أوقف استخدام الجهاز فوراً، واعزله عن المرضى، وأبلغ قسم الهندسة الطبية لفحصه وإصلاحه.",
+        "en": "Red lights usually indicate a critical error in the internal circuits. Stop using the device immediately, isolate it from patients, and notify the biomedical engineering department for inspection and repair."
+      }
+    },
+    {
+      "ar": "تلف الكابل أو موصلات الأقطاب (Pads).",
+      "en": "Damaged cable or electrode connectors.",
+      "solution": {
+        "ar": "افحص الكابلات بحثاً عن تشققات أو انثناءات حادة، واستبدل الكابلات أو الأقطاب التالفة بأخرى أصلية ومعتمدة من الشركة المصنعة.",
+        "en": "Inspect cables for cracks or sharp bends, and replace damaged cables or electrodes with genuine, manufacturer-approved parts."
+      }
     }
   ],
   "labels": {
@@ -226,5 +284,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "تحقق من سلامة الأقطاب والكابلات ومؤشر جاهزية الجهاز وشحن البطارية.",
+        "en": "Inspect the Defibrillator condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "افحص البطارية والأقطاب وملحقات الصدمة، ونفّذ اختبار التشغيل الذاتي حسب تعليمات الطراز.",
+        "en": "Perform scheduled preventive maintenance on the Defibrillator according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "استخدم محلل مزيل الرجفان للتحقق من طاقة الخرج وزمن الشحن ومزامنة ECG عند توفرها.",
+        "en": "Use the appropriate analyzer or simulator to verify Defibrillator performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "خطر جهد عالٍ ومكثفات مخزنة للطاقة؛ لا تفتح الجهاز قبل إجراءات التفريغ والعزل المعتمدة.",
+        "en": "High-voltage capacitors may retain dangerous energy. Only trained service personnel may discharge and access the unit using the approved procedure."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }

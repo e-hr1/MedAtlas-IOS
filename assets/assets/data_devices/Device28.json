@@ -211,35 +211,67 @@
   "commonFaults": [
     {
       "ar": "تسرب في شبكة الأنابيب يؤدي إلى فقدان الضغط وتهديد حياة المريض.",
-      "en": "Leak in the pipeline network causing pressure loss and threatening patient life."
+      "en": "Leak in the pipeline network causing pressure loss and threatening patient life.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "انخفاض الضغط أو تذبذبه نتيجة عطل في منظمات الضغط.",
-      "en": "Low or fluctuating pressure due to regulator failure."
+      "en": "Low or fluctuating pressure due to regulator failure.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "إنذارات خاطئة أو عدم استجابة لوحات الإنذار.",
-      "en": "False alarms or unresponsive alarm panels."
+      "en": "False alarms or unresponsive alarm panels.",
+      "solution": {
+        "ar": "اقرأ رمز ورسالة الإنذار في دليل الجهاز، وتحقق من السبب الفعلي مثل التوصيلات أو مصدر الطاقة أو ظروف التشغيل. لا تكتفِ بكتم الإنذار؛ عالج السبب، ثم نفّذ اختبار الإنذار الذاتي وتأكد من عودة الجهاز للعمل ضمن الحدود المحددة.",
+        "en": "Identify the alarm code and message in the device manual and check the underlying cause, such as connections, power supply, or operating conditions. Do not simply silence the alarm. Correct the cause, run the alarm self-test, and verify operation within specified limits."
+      }
     },
     {
       "ar": "نقص الغاز في الخزانات المركزية أو الاسطوانات الاحتياطية.",
-      "en": "Gas shortage in central tanks or backup cylinders."
+      "en": "Gas shortage in central tanks or backup cylinders.",
+      "solution": {
+        "ar": "أجرِ جرداً فورياً، واستبدل المواد الناقصة أو المنتهية بمواد سليمة ومعتمدة، وسجّل ذلك في قائمة الفحص. تحقّق من تواريخ الصلاحية والكميات ضمن الفحص الدوري قبل إتاحة الجهاز أو العربة للاستخدام.",
+        "en": "Perform an immediate inventory and replace missing or expired supplies with valid, approved items. Record the action on the checklist. Verify expiry dates and quantities during routine checks before making the device or cart available."
+      }
     },
     {
       "ar": "عطل في مولد الأكسجين (PSA) أو ضاغط الهواء.",
-      "en": "Oxygen generator (PSA) or air compressor malfunction."
+      "en": "Oxygen generator (PSA) or air compressor malfunction.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "تلف أو انسداد منافذ التوصيل (Outlets) يمنع وصول الغاز للجهاز.",
-      "en": "Damaged or blocked outlets preventing gas from reaching the device."
+      "en": "Damaged or blocked outlets preventing gas from reaching the device.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "تراكم الرطوبة أو الزيوت في الهواء الطبي بسبب فشل أنظمة التجفيف والترشيح.",
-      "en": "Moisture or oil accumulation in medical air due to drying and filtration system failure."
+      "en": "Moisture or oil accumulation in medical air due to drying and filtration system failure.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "خلل في نظام التحكم الذكي أو قياس التدفق.",
-      "en": "Smart control or flow measurement system malfunction."
+      "en": "Smart control or flow measurement system malfunction.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     }
   ],
   "labels": {
@@ -279,6 +311,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص ضغط المصدر والإنذارات واللوحات والمخارج والتسميات.",
+        "en": "Inspect the Medical Gas System condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "افحص التسريب والمنظمات والصمامات والإنذارات ومخارج الغازات وفق خطة المنشأة.",
+        "en": "Perform scheduled preventive maintenance on the Medical Gas System according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "نفّذ اختبارات الهوية والنقاء والضغط والتدفق والتسريب بواسطة جهة مؤهلة وبأدوات معتمدة.",
+        "en": "Use the appropriate analyzer or simulator to verify Medical Gas System performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "لا تخلط الوصلات أو تستخدم زيوتاً/شحومًا؛ أعمال الشبكة تتطلب مختص غازات طبية.",
+        "en": "Medical gas systems require trained personnel. Never use oil/grease on oxygen fittings or interchange gas-specific connectors."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

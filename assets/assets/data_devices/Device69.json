@@ -207,35 +207,67 @@
   "commonFaults": [
     {
       "ar": "عطل في نظام التسخين يؤدي إلى عدم وصول الماء لدرجة الحرارة المطلوبة، مما يفشل عملية التعقيم الحراري ويترك الأدوات غير معقمة.",
-      "en": "Heating system failure prevents water from reaching the required temperature, failing the thermal disinfection process and leaving instruments non-disinfected."
+      "en": "Heating system failure prevents water from reaching the required temperature, failing the thermal disinfection process and leaving instruments non-disinfected.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "انسداد أو خلل في نظام جرعات المنظفات يؤدي إلى عدم إضافة الكمية المناسبة من المنظف، مما يقلل من كفاءة الغسيل ويترك بقايا دهنية على الأدوات.",
-      "en": "Clogged or faulty detergent dosing system results in insufficient detergent addition, reducing washing efficiency and leaving greasy residues on instruments."
+      "en": "Clogged or faulty detergent dosing system results in insufficient detergent addition, reducing washing efficiency and leaving greasy residues on instruments.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "ضعف في مضخة التدوير أو انسداد الفلاتر يؤدي إلى ضعف وصول المحلول إلى الأدوات، خاصة في المناطق البعيدة أو القنوات الضيقة.",
-      "en": "Weak circulation pump or clogged filters leads to poor solution reach to instruments, especially in distant areas or narrow channels."
+      "en": "Weak circulation pump or clogged filters leads to poor solution reach to instruments, especially in distant areas or narrow channels.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "عطل في نظام التجفيف (مروحة أو سخان) يؤدي إلى خروج الأدوات رطبة، مما يسبب الصدأ ونمو البكتيريا.",
-      "en": "Drying system (fan or heater) malfunction leaves instruments wet, causing rust and bacterial growth."
+      "en": "Drying system (fan or heater) malfunction leaves instruments wet, causing rust and bacterial growth.",
+      "solution": {
+        "ar": "أوقف استخدام جهاز الغسيل والتعقيم إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the جهاز الغسيل والتعقيم from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "خلل في نظام قفل الباب أو حساسات السلامة، مما يمنع بدء الدورة أو يؤدي إلى تسرب الماء الساخن أثناء التشغيل.",
-      "en": "Door locking mechanism or safety sensor malfunction prevents cycle start or causes hot water leakage during operation."
+      "en": "Door locking mechanism or safety sensor malfunction prevents cycle start or causes hot water leakage during operation.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "تلف حساسات درجة الحرارة أو الضغط يؤدي إلى قراءات خاطئة، مما قد يتسبب في إيقاف الدورة بشكل مفاجئ أو عدم تحقيق التعقيم المطلوب.",
-      "en": "Damaged temperature or pressure sensors give false readings, potentially causing sudden cycle interruption or failure to achieve required disinfection."
+      "en": "Damaged temperature or pressure sensors give false readings, potentially causing sudden cycle interruption or failure to achieve required disinfection.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "عطل في الطابعة المدمجة أو وحدة تخزين البيانات، مما يفقد سجلات الدورات المهمة للتوثيق والمراجعة.",
-      "en": "Built-in printer or data storage unit failure results in loss of important cycle records for documentation and review."
+      "en": "Built-in printer or data storage unit failure results in loss of important cycle records for documentation and review.",
+      "solution": {
+        "ar": "تحقق من نوع الورق واتجاه تركيبه وحالة الغطاء، ونظّف رأس الطباعة وفق تعليمات الشركة. استبدل الورق أو رأس الطباعة عند الحاجة، ثم اطبع عينة اختبار للتأكد من وضوح النتائج.",
+        "en": "Check the paper type, loading direction, and cover, and clean the print head according to the manufacturer’s instructions. Replace the paper or print head if necessary, then print a test sample to verify clarity."
+      }
     },
     {
       "ar": "مشاكل كهربائية مثل انقطاع التيار أو تقلبات الجهد، مما قد يؤدي إلى تلف المكونات الإلكترونية الحساسة.",
-      "en": "Electrical issues such as power outages or voltage fluctuations, which may damage sensitive electronic components."
+      "en": "Electrical issues such as power outages or voltage fluctuations, which may damage sensitive electronic components.",
+      "solution": {
+        "ar": "افحص مصدر الطاقة والكابل والمقبس، ثم تحقق من حالة البطارية ودائرة الشحن وفق دليل الشركة المصنعة. استبدل البطارية أو الجزء التالف بقطعة معتمدة، ولا تفتح دائرة الطاقة قبل فصل الجهاز وتأمينه.",
+        "en": "Check the power source, cable, and outlet, then verify the battery and charging circuit according to the manufacturer’s manual. Replace a faulty battery or component with an approved part. Isolate the device before servicing the power circuit."
+      }
     }
   ],
   "labels": {
@@ -275,6 +307,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص أذرع الرش والفلاتر ومستوى المنظف وسجل الدورة.",
+        "en": "Inspect the Washer Disinfector (WD) condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "نظّف الفلاتر والفوهات وافحص مضخات الجرعات والحشيات والسخانات وأذرع الرش.",
+        "en": "Perform scheduled preventive maintenance on the Washer Disinfector (WD) according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "تحقق من درجات الحرارة وأزمنة الدورة والجرعات وأداء التنظيف/التطهير بمؤشرات معتمدة.",
+        "en": "Use the appropriate analyzer or simulator to verify Washer Disinfector (WD) performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "لا تفتح الباب أثناء الدورة الساخنة؛ الأدوات الخارجة قد تكون ساخنة أو ملوثة.",
+        "en": "Hot water, chemicals, and contaminated instruments present hazards. Do not open the door during a cycle; use PPE for unloading."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

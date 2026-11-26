@@ -239,31 +239,59 @@
   "commonFaults": [
     {
       "ar": "انحراف درجة الحرارة عن النطاق المسموح (ارتفاع أو انخفاض شديد).",
-      "en": "Temperature deviation from the allowable range (high or low)."
+      "en": "Temperature deviation from the allowable range (high or low).",
+      "solution": {
+        "ar": "افحص الأجزاء الميكانيكية والتثبيت والحركة والتهوية بحثاً عن ارتخاء أو تآكل أو عائق. نظّف وشدّ الأجزاء المسموح بصيانتها، واستبدل القطع التالفة بقطع معتمدة. أوقف الجهاز إذا ظهرت سخونة أو أصوات غير طبيعية حتى فحصه.",
+        "en": "Inspect mechanical parts, mounting, movement, and ventilation for looseness, wear, or obstruction. Clean and tighten serviceable parts and replace damaged components with approved parts. Stop using the device if overheating or abnormal noise occurs until it is inspected."
+      }
     },
     {
       "ar": "عطل في الضاغط أو نظام التبريد المتعدد المراحل يؤدي إلى عدم التبريد الكافي.",
-      "en": "Compressor or multi-stage cooling system failure leading to insufficient cooling."
+      "en": "Compressor or multi-stage cooling system failure leading to insufficient cooling.",
+      "solution": {
+        "ar": "أوقف استخدام فريزر البلازما إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the فريزر البلازما from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "تراكم الجليد على ملفات المبخر (Evaporator Coils) بسبب الرطوبة العالية.",
-      "en": "Ice buildup on evaporator coils due to high humidity."
+      "en": "Ice buildup on evaporator coils due to high humidity.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "تلف الحشية المطاطية (Gasket) للباب يسبب تسرب الهواء وتكوين الجليد.",
-      "en": "Damaged door rubber gasket causing air leakage and ice formation."
+      "en": "Damaged door rubber gasket causing air leakage and ice formation.",
+      "solution": {
+        "ar": "افحص الخراطيم والوصلات والمرشحات ومصدر التغذية بحثاً عن تسريب أو انسداد أو تلف، وتحقق من الضغط/التدفق باستخدام أداة قياس مناسبة. نظّف أو استبدل الأجزاء الاستهلاكية وفق دليل الشركة، ثم أجرِ اختبار الأداء قبل إعادة الجهاز للخدمة.",
+        "en": "Inspect hoses, connectors, filters, and the supply source for leaks, blockages, or damage. Verify pressure/flow with a suitable measuring instrument. Clean or replace consumable parts according to the manufacturer’s manual, then perform a performance test before returning the device to service."
+      }
     },
     {
       "ar": "ضعف أو تلف البطارية الاحتياطية يؤدي إلى فقدان الإنذارات عند انقطاع التيار.",
-      "en": "Weak or damaged backup battery causing loss of alarms during power outage."
+      "en": "Weak or damaged backup battery causing loss of alarms during power outage.",
+      "solution": {
+        "ar": "افحص مصدر الطاقة والكابل والمقبس، ثم تحقق من حالة البطارية ودائرة الشحن وفق دليل الشركة المصنعة. استبدل البطارية أو الجزء التالف بقطعة معتمدة، ولا تفتح دائرة الطاقة قبل فصل الجهاز وتأمينه.",
+        "en": "Check the power source, cable, and outlet, then verify the battery and charging circuit according to the manufacturer’s manual. Replace a faulty battery or component with an approved part. Isolate the device before servicing the power circuit."
+      }
     },
     {
       "ar": "أعطال برمجية في وحدة التحكم أو نظام تسجيل البيانات.",
-      "en": "Software faults in the control unit or data logging system."
+      "en": "Software faults in the control unit or data logging system.",
+      "solution": {
+        "ar": "أعد تشغيل الجهاز بالطريقة المحددة في دليل المستخدم بعد التأكد من عدم وجود خطر على التشغيل السريري. افحص التوصيلات وسجل رسائل الخطأ، ثم نفّذ الاختبارات التشخيصية وتحديث البرنامج أو إصلاح الشاشة بواسطة فني مؤهل إذا استمرت المشكلة.",
+        "en": "Restart the device as specified in the user manual after ensuring clinical operation is not at risk. Check connections and record error messages, then run diagnostic tests. A qualified technician should update the software or repair the display if the problem persists."
+      }
     },
     {
       "ar": "إنذارات كاذبة نتيجة اتساخ مستشعرات الحرارة أو خلل في المعايرة.",
-      "en": "False alarms due to dirty temperature sensors or calibration errors."
+      "en": "False alarms due to dirty temperature sensors or calibration errors.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     }
   ],
   "labels": {
@@ -303,6 +331,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص درجة الحرارة والإنذارات والباب وسجل البيانات.",
+        "en": "Inspect the Plasma Freezer condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "افحص الحشية والضاغط والمكثف والبطارية الاحتياطية ونظام الإنذار.",
+        "en": "Perform scheduled preventive maintenance on the Plasma Freezer according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "تحقق من دقة المجسات وتجانس الحرارة واستعادة درجة الحرارة بعد فتح الباب.",
+        "en": "Use the appropriate analyzer or simulator to verify Plasma Freezer performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "تعامل مع أي انحراف حراري وفق سياسة بنك الدم وسجّل زمنه ومداه.",
+        "en": "Before servicing, isolate the device when required and follow the exact manufacturer service manual and facility procedures. Specialized work must be performed by qualified, authorized personnel."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 

@@ -211,35 +211,67 @@
   "commonFaults": [
     {
       "ar": "عطل في الخادم المركزي أو انقطاع الشبكة يؤدي إلى فقدان الاتصال بقاعدة البيانات، مما يمنع تسجيل أو استرجاع البيانات.",
-      "en": "Central server failure or network interruption leads to loss of database connectivity, preventing data recording or retrieval."
+      "en": "Central server failure or network interruption leads to loss of database connectivity, preventing data recording or retrieval.",
+      "solution": {
+        "ar": "أوقف استخدام نظام تتبع التعقيم إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the نظام تتبع التعقيم from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "تلف أو عدم قراءة الباركود (بسبب التآكل، التلف، أو الطباعة الرديئة)، مما يعيق عملية التتبع ويؤدي إلى أخطاء يدوية.",
-      "en": "Damaged or unreadable barcode (due to wear, damage, or poor printing) hinders tracking and leads to manual errors."
+      "en": "Damaged or unreadable barcode (due to wear, damage, or poor printing) hinders tracking and leads to manual errors.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "تداخل أو ضعف إشارة RFID (بسبب المعادن أو السوائل)، مما يؤدي إلى قراءة خاطئة أو عدم قراءة العلامات.",
-      "en": "Interference or weak RFID signal (due to metals or liquids) causes incorrect reading or failure to read tags."
+      "en": "Interference or weak RFID signal (due to metals or liquids) causes incorrect reading or failure to read tags.",
+      "solution": {
+        "ar": "تحقق من تثبيت الحساسات والأقطاب وسلامة الكابلات ونظافة نقاط التلامس، واستبعد مصادر التداخل. قارن القراءة بجهاز مرجعي مناسب، ثم نفّذ المعايرة أو استبدل الحساس/الكابل التالف وفق تعليمات الشركة المصنعة.",
+        "en": "Check sensor/electrode placement, cable integrity, and clean contact points, and eliminate sources of interference. Compare the reading with an appropriate reference instrument, then calibrate or replace the faulty sensor/cable according to the manufacturer’s instructions."
+      }
     },
     {
       "ar": "تلف قاعدة البيانات أو فقدان البيانات (بسبب هجوم إلكتروني أو عطل في القرص الصلب)، مما يفقد السجلات التاريخية.",
-      "en": "Database corruption or data loss (due to cyberattack or hard disk failure) results in loss of historical records."
+      "en": "Database corruption or data loss (due to cyberattack or hard disk failure) results in loss of historical records.",
+      "solution": {
+        "ar": "أوقف استخدام نظام تتبع التعقيم إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the نظام تتبع التعقيم from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "أخطاء بشرية مثل مسح الباركود الخاطئ أو إدخال بيانات غير صحيحة (مثل رقم الدفعة أو تاريخ الانتهاء).",
-      "en": "Human errors such as scanning the wrong barcode or entering incorrect data (e.g., batch number or expiration date)."
+      "en": "Human errors such as scanning the wrong barcode or entering incorrect data (e.g., batch number or expiration date).",
+      "solution": {
+        "ar": "أعد تشغيل الجهاز بالطريقة المحددة في دليل المستخدم بعد التأكد من عدم وجود خطر على التشغيل السريري. افحص التوصيلات وسجل رسائل الخطأ، ثم نفّذ الاختبارات التشخيصية وتحديث البرنامج أو إصلاح الشاشة بواسطة فني مؤهل إذا استمرت المشكلة.",
+        "en": "Restart the device as specified in the user manual after ensuring clinical operation is not at risk. Check connections and record error messages, then run diagnostic tests. A qualified technician should update the software or repair the display if the problem persists."
+      }
     },
     {
       "ar": "عطل في طابعة الملصقات يؤدي إلى عدم طباعة ملصقات التعقيم، مما يمنع تتبع الحزم المعقمة.",
-      "en": "Label printer malfunction prevents sterilization labels from being printed, hindering sterile set tracking."
+      "en": "Label printer malfunction prevents sterilization labels from being printed, hindering sterile set tracking.",
+      "solution": {
+        "ar": "تحقق من نوع الورق واتجاه تركيبه وحالة الغطاء، ونظّف رأس الطباعة وفق تعليمات الشركة. استبدل الورق أو رأس الطباعة عند الحاجة، ثم اطبع عينة اختبار للتأكد من وضوح النتائج.",
+        "en": "Check the paper type, loading direction, and cover, and clean the print head according to the manufacturer’s instructions. Replace the paper or print head if necessary, then print a test sample to verify clarity."
+      }
     },
     {
       "ar": "فشل التكامل مع أجهزة التعقيم (الأوتوكلاف، أجهزة الغسيل) بسبب تغيير في البروتوكولات أو انقطاع الاتصال.",
-      "en": "Integration failure with sterilizers (autoclaves, washers) due to protocol changes or connection interruption."
+      "en": "Integration failure with sterilizers (autoclaves, washers) due to protocol changes or connection interruption.",
+      "solution": {
+        "ar": "أوقف استخدام نظام تتبع التعقيم إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the نظام تتبع التعقيم from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     },
     {
       "ar": "مشاكل في الاتصال بالسحابة (Cloud) أو النسخ الاحتياطي، مما يؤدي إلى فقدان النسخ الاحتياطية أو عدم إمكانية الوصول عن بعد.",
-      "en": "Cloud connectivity or backup issues lead to loss of backups or inability to access remotely."
+      "en": "Cloud connectivity or backup issues lead to loss of backups or inability to access remotely.",
+      "solution": {
+        "ar": "أوقف استخدام نظام تتبع التعقيم إذا كان الخلل قد يؤثر في السلامة أو دقة الأداء، وسجّل رسالة الخطأ وظروف حدوثه. افحص التوصيلات ومصدر الطاقة والملحقات وفق دليل الشركة المصنعة، ثم نفّذ اختبار الأداء والسلامة بعد الإصلاح بواسطة مهندس أجهزة طبية مؤهل قبل إعادة الجهاز للخدمة.",
+        "en": "Remove the نظام تتبع التعقيم from service if the fault may affect safety or performance, and record the error message and conditions. Inspect connections, power supply, and accessories according to the manufacturer’s manual. After repair, a qualified biomedical engineer must perform safety and performance tests before returning it to service."
+      }
     }
   ],
   "labels": {
@@ -279,6 +311,89 @@
       "ar": "صورة",
       "en": "Image"
     }
+  },
+  "engineeringGuide": {
+    "title": {
+      "ar": "دليل الصيانة والهندسة",
+      "en": "Engineering & Maintenance Guide"
+    },
+    "scopeNote": {
+      "ar": "إرشادات فنية عامة مخصصة لهذا النوع من الأجهزة. يجب اعتماد القيم وحدود القبول والفترات وأدوات الاختبار من دليل الشركة المصنعة والطراز الفعلي وسياسة المنشأة.",
+      "en": "General technical guidance for this device type. Values, acceptance limits, intervals, and test tools must be taken from the exact manufacturer/model manual and facility policy."
+    },
+    "routineChecks": [
+      {
+        "ar": "افحص قارئات الباركود والطابعات والاتصال وقاعدة البيانات.",
+        "en": "Inspect the Sterilization Tracking System (STS) condition, cables, accessories, consumables, and operating indicators before use."
+      },
+      {
+        "ar": "راجع سجل الأعطال والإنذارات السابقة، وتأكد من عدم وجود ملصق إخراج من الخدمة أو صيانة معلقة.",
+        "en": "Review previous fault/alarm logs and confirm there is no out-of-service or pending-maintenance tag."
+      },
+      {
+        "ar": "تحقق من نظافة الجهاز وملحقاته ومن اكتمال الملحقات المتوافقة مع الطراز.",
+        "en": "Check device and accessory cleanliness and confirm all model-compatible accessories are present."
+      }
+    ],
+    "preventiveMaintenance": [
+      {
+        "ar": "راجع النسخ الاحتياطي وصلاحيات المستخدمين وسجلات التدقيق وتحديثات النظام.",
+        "en": "Perform scheduled preventive maintenance on the Sterilization Tracking System (STS) according to the manufacturer’s service manual."
+      },
+      {
+        "ar": "افحص التوصيلات والموصلات والتثبيت والتهوية والبطارية أو مصدر الطاقة، واستبدل القطع الاستهلاكية المعتمدة عند الحاجة.",
+        "en": "Inspect connections, connectors, mounting, ventilation, and battery/power supply; replace approved consumables when required."
+      },
+      {
+        "ar": "وثّق تاريخ الصيانة والقطع المستبدلة وقراءات ما قبل/بعد الصيانة واسم الفني.",
+        "en": "Record maintenance date, replaced parts, pre/post-service readings, and technician."
+      }
+    ],
+    "performanceVerification": [
+      {
+        "ar": "اختبر تتبع دورة كاملة من التحضير حتى الاستخدام واسترجاع سجل الأدوات.",
+        "en": "Use the appropriate analyzer or simulator to verify Sterilization Tracking System (STS) performance against the manufacturer’s specifications."
+      },
+      {
+        "ar": "تحقق من عمل الإنذارات ومفاتيح التحكم ووظائف الإيقاف أو الحماية ذات الصلة بهذا الجهاز.",
+        "en": "Verify relevant alarms, controls, and applicable stop/protection functions."
+      },
+      {
+        "ar": "أجرِ اختباراً بعد الصيانة وقبل إعادة الاستخدام السريري، وسجّل النتيجة وحدود القبول ومصدرها.",
+        "en": "Perform a post-maintenance test before clinical use and record the result, acceptance limits, and their source."
+      }
+    ],
+    "safetyPrecautions": [
+      {
+        "ar": "احمِ بيانات التتبع ولا تسمح بتجاوز تسجيل دورة التعقيم.",
+        "en": "Before servicing, isolate the device when required and follow the exact manufacturer service manual and facility procedures. Specialized work must be performed by qualified, authorized personnel."
+      },
+      {
+        "ar": "يجب أن ينفذ أعمال الصيانة الداخلية والاختبارات المتخصصة مهندس/فني مؤهل ومصرح له، مع استخدام معدات الوقاية المناسبة.",
+        "en": "Internal servicing and specialized testing must be performed by an authorized, qualified technician using appropriate personal protective equipment."
+      },
+      {
+        "ar": "لا تُعد الجهاز للخدمة إذا بقي إنذار حرج أو فشل اختبار الأداء أو السلامة؛ وثّق العطل وصعّده للجهة المختصة.",
+        "en": "Do not return the device to service if a critical alarm remains or a performance or safety test fails. Document and escalate the fault."
+      }
+    ],
+    "troubleshootingWorkflow": [
+      {
+        "ar": "تأكيد البلاغ: سجّل الشركة والطراز والرقم التسلسلي ورمز الخطأ وظروف ظهور العطل، ولا تمسح السجل قبل توثيقه.",
+        "en": "Confirm the complaint: record manufacturer, model, serial number, error code, and conditions. Do not clear logs before documenting them."
+      },
+      {
+        "ar": "ابدأ بالفحص غير التدخلي: مصدر الطاقة والملحقات والكابلات والموصلات والمواد الاستهلاكية والبيئة المحيطة.",
+        "en": "Begin with non-invasive checks: power source, accessories, cables, connectors, consumables, and environment."
+      },
+      {
+        "ar": "استخدم محلل أو محاكي مناسباً لنوع الجهاز، وقارن النتائج بحدود دليل الشركة؛ لا تعتمد على التخمين أو القياس غير المناسب.",
+        "en": "Use an analyzer or simulator suitable for the device type and compare results with manufacturer limits; do not guess or use unsuitable test equipment."
+      },
+      {
+        "ar": "بعد الإصلاح، نفّذ اختبار الأداء والإنذارات والسلامة الكهربائية/الميكانيكية بحسب انطباقها، ووثّق النتائج قبل إعادة الجهاز للخدمة.",
+        "en": "After repair, perform applicable performance, alarm, and electrical/mechanical safety tests, and document results before returning the device to service."
+      }
+    ]
   }
 }
- 
